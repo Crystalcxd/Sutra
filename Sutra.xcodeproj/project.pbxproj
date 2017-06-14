@@ -19,6 +19,15 @@
 		A4A494B41EF10B0700B8435A /* xue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AA1EF10B0700B8435A /* xue@2x.png */; };
 		A4A494B51EF10B0700B8435A /* yue.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AB1EF10B0700B8435A /* yue.png */; };
 		A4A494B61EF10B0700B8435A /* yue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AC1EF10B0700B8435A /* yue@2x.png */; };
+		A4A494C11EF10E9F00B8435A /* 0.html in Resources */ = {isa = PBXBuildFile; fileRef = A4A494B81EF10E9F00B8435A /* 0.html */; };
+		A4A494C21EF10E9F00B8435A /* 阿弥陀经.htm in Resources */ = {isa = PBXBuildFile; fileRef = A4A494B91EF10E9F00B8435A /* 阿弥陀经.htm */; };
+		A4A494C31EF10E9F00B8435A /* 地藏菩萨本愿经.htm in Resources */ = {isa = PBXBuildFile; fileRef = A4A494BA1EF10E9F00B8435A /* 地藏菩萨本愿经.htm */; };
+		A4A494C41EF10E9F00B8435A /* 法华经.htm in Resources */ = {isa = PBXBuildFile; fileRef = A4A494BB1EF10E9F00B8435A /* 法华经.htm */; };
+		A4A494C51EF10E9F00B8435A /* 华严经卷一.htm in Resources */ = {isa = PBXBuildFile; fileRef = A4A494BC1EF10E9F00B8435A /* 华严经卷一.htm */; };
+		A4A494C61EF10E9F00B8435A /* 金刚经.htm in Resources */ = {isa = PBXBuildFile; fileRef = A4A494BD1EF10E9F00B8435A /* 金刚经.htm */; };
+		A4A494C71EF10E9F00B8435A /* 六祖坛经.htm in Resources */ = {isa = PBXBuildFile; fileRef = A4A494BE1EF10E9F00B8435A /* 六祖坛经.htm */; };
+		A4A494C81EF10E9F00B8435A /* 无量寿经.htm in Resources */ = {isa = PBXBuildFile; fileRef = A4A494BF1EF10E9F00B8435A /* 无量寿经.htm */; };
+		A4A494C91EF10E9F00B8435A /* 心经.htm in Resources */ = {isa = PBXBuildFile; fileRef = A4A494C01EF10E9F00B8435A /* 心经.htm */; };
 		A4C4094A1EF0CFDF0041F285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409491EF0CFDF0041F285 /* main.m */; };
 		A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */; };
 		A4C409501EF0CFDF0041F285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094F1EF0CFDF0041F285 /* ViewController.m */; };
@@ -60,6 +69,15 @@
 		A4A494AA1EF10B0700B8435A /* xue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue@2x.png"; sourceTree = "<group>"; };
 		A4A494AB1EF10B0700B8435A /* yue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yue.png; sourceTree = "<group>"; };
 		A4A494AC1EF10B0700B8435A /* yue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue@2x.png"; sourceTree = "<group>"; };
+		A4A494B81EF10E9F00B8435A /* 0.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 0.html; sourceTree = "<group>"; };
+		A4A494B91EF10E9F00B8435A /* 阿弥陀经.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "阿弥陀经.htm"; sourceTree = "<group>"; };
+		A4A494BA1EF10E9F00B8435A /* 地藏菩萨本愿经.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "地藏菩萨本愿经.htm"; sourceTree = "<group>"; };
+		A4A494BB1EF10E9F00B8435A /* 法华经.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "法华经.htm"; sourceTree = "<group>"; };
+		A4A494BC1EF10E9F00B8435A /* 华严经卷一.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "华严经卷一.htm"; sourceTree = "<group>"; };
+		A4A494BD1EF10E9F00B8435A /* 金刚经.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "金刚经.htm"; sourceTree = "<group>"; };
+		A4A494BE1EF10E9F00B8435A /* 六祖坛经.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "六祖坛经.htm"; sourceTree = "<group>"; };
+		A4A494BF1EF10E9F00B8435A /* 无量寿经.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "无量寿经.htm"; sourceTree = "<group>"; };
+		A4A494C01EF10E9F00B8435A /* 心经.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "心经.htm"; sourceTree = "<group>"; };
 		A4C409451EF0CFDF0041F285 /* Sutra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sutra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C409491EF0CFDF0041F285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -258,9 +276,9 @@
 		A4A4949E1EF10AE200B8435A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A4A494B71EF10E8800B8435A /* HTMLFile */,
 				A4A4949F1EF10AE200B8435A /* Icon */,
 				A4A494A01EF10AE200B8435A /* Launch */,
-				A4A494A11EF10AE200B8435A /* MTMLFile */,
 				A4A494A21EF10AE200B8435A /* Music */,
 			);
 			path = Resources;
@@ -290,18 +308,27 @@
 			path = Launch;
 			sourceTree = "<group>";
 		};
-		A4A494A11EF10AE200B8435A /* MTMLFile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MTMLFile;
-			sourceTree = "<group>";
-		};
 		A4A494A21EF10AE200B8435A /* Music */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		A4A494B71EF10E8800B8435A /* HTMLFile */ = {
+			isa = PBXGroup;
+			children = (
+				A4A494B81EF10E9F00B8435A /* 0.html */,
+				A4A494B91EF10E9F00B8435A /* 阿弥陀经.htm */,
+				A4A494BA1EF10E9F00B8435A /* 地藏菩萨本愿经.htm */,
+				A4A494BB1EF10E9F00B8435A /* 法华经.htm */,
+				A4A494BC1EF10E9F00B8435A /* 华严经卷一.htm */,
+				A4A494BD1EF10E9F00B8435A /* 金刚经.htm */,
+				A4A494BE1EF10E9F00B8435A /* 六祖坛经.htm */,
+				A4A494BF1EF10E9F00B8435A /* 无量寿经.htm */,
+				A4A494C01EF10E9F00B8435A /* 心经.htm */,
+			);
+			path = HTMLFile;
 			sourceTree = "<group>";
 		};
 		A4C4093C1EF0CFDF0041F285 = {
@@ -483,13 +510,22 @@
 			files = (
 				A4A494B21EF10B0700B8435A /* tu@2x.png in Resources */,
 				A4A494B11EF10B0700B8435A /* tu.png in Resources */,
+				A4A494C21EF10E9F00B8435A /* 阿弥陀经.htm in Resources */,
 				A4A494B41EF10B0700B8435A /* xue@2x.png in Resources */,
+				A4A494C61EF10E9F00B8435A /* 金刚经.htm in Resources */,
+				A4A494C31EF10E9F00B8435A /* 地藏菩萨本愿经.htm in Resources */,
 				A4A494AE1EF10B0700B8435A /* jing@2x.png in Resources */,
+				A4A494C41EF10E9F00B8435A /* 法华经.htm in Resources */,
+				A4A494C81EF10E9F00B8435A /* 无量寿经.htm in Resources */,
 				A4A494B01EF10B0700B8435A /* ke@2x.png in Resources */,
 				A4A494B61EF10B0700B8435A /* yue@2x.png in Resources */,
+				A4A494C51EF10E9F00B8435A /* 华严经卷一.htm in Resources */,
 				A4A494B31EF10B0700B8435A /* xue.png in Resources */,
+				A4A494C71EF10E9F00B8435A /* 六祖坛经.htm in Resources */,
 				A4A494AF1EF10B0700B8435A /* ke.png in Resources */,
+				A4A494C91EF10E9F00B8435A /* 心经.htm in Resources */,
 				A4A494B51EF10B0700B8435A /* yue.png in Resources */,
+				A4A494C11EF10E9F00B8435A /* 0.html in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
 				A4A494AD1EF10B0700B8435A /* jing.png in Resources */,
 			);
