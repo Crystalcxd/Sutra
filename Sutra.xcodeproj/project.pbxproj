@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4C4094A1EF0CFDF0041F285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409491EF0CFDF0041F285 /* main.m */; };
+		A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */; };
+		A4C409501EF0CFDF0041F285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094F1EF0CFDF0041F285 /* ViewController.m */; };
+		A4C409531EF0CFDF0041F285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C409511EF0CFDF0041F285 /* Main.storyboard */; };
+		A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C409541EF0CFDF0041F285 /* Assets.xcassets */; };
+		A4C409581EF0CFDF0041F285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C409561EF0CFDF0041F285 /* LaunchScreen.storyboard */; };
+		A4C409631EF0CFDF0041F285 /* SutraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409621EF0CFDF0041F285 /* SutraTests.m */; };
+		A4C4096E1EF0CFDF0041F285 /* SutraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4C4095F1EF0CFDF0041F285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4C4093D1EF0CFDF0041F285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C409441EF0CFDF0041F285;
+			remoteInfo = Sutra;
+		};
+		A4C4096A1EF0CFDF0041F285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4C4093D1EF0CFDF0041F285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4C409441EF0CFDF0041F285;
+			remoteInfo = Sutra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4C409451EF0CFDF0041F285 /* Sutra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sutra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C409491EF0CFDF0041F285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4C4094E1EF0CFDF0041F285 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4C4094F1EF0CFDF0041F285 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4C409521EF0CFDF0041F285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4C409541EF0CFDF0041F285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4C409571EF0CFDF0041F285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4C409591EF0CFDF0041F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C4095E1EF0CFDF0041F285 /* SutraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C409621EF0CFDF0041F285 /* SutraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SutraTests.m; sourceTree = "<group>"; };
+		A4C409641EF0CFDF0041F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C409691EF0CFDF0041F285 /* SutraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SutraUITests.m; sourceTree = "<group>"; };
+		A4C4096F1EF0CFDF0041F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4C409421EF0CFDF0041F285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C4095B1EF0CFDF0041F285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C409661EF0CFDF0041F285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4C4093C1EF0CFDF0041F285 = {
+			isa = PBXGroup;
+			children = (
+				A4C409471EF0CFDF0041F285 /* Sutra */,
+				A4C409611EF0CFDF0041F285 /* SutraTests */,
+				A4C4096C1EF0CFDF0041F285 /* SutraUITests */,
+				A4C409461EF0CFDF0041F285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4C409461EF0CFDF0041F285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4C409451EF0CFDF0041F285 /* Sutra.app */,
+				A4C4095E1EF0CFDF0041F285 /* SutraTests.xctest */,
+				A4C409691EF0CFDF0041F285 /* SutraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4C409471EF0CFDF0041F285 /* Sutra */ = {
+			isa = PBXGroup;
+			children = (
+				A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */,
+				A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */,
+				A4C4094E1EF0CFDF0041F285 /* ViewController.h */,
+				A4C4094F1EF0CFDF0041F285 /* ViewController.m */,
+				A4C409511EF0CFDF0041F285 /* Main.storyboard */,
+				A4C409541EF0CFDF0041F285 /* Assets.xcassets */,
+				A4C409561EF0CFDF0041F285 /* LaunchScreen.storyboard */,
+				A4C409591EF0CFDF0041F285 /* Info.plist */,
+				A4C409481EF0CFDF0041F285 /* Supporting Files */,
+			);
+			path = Sutra;
+			sourceTree = "<group>";
+		};
+		A4C409481EF0CFDF0041F285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4C409491EF0CFDF0041F285 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4C409611EF0CFDF0041F285 /* SutraTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4C409621EF0CFDF0041F285 /* SutraTests.m */,
+				A4C409641EF0CFDF0041F285 /* Info.plist */,
+			);
+			path = SutraTests;
+			sourceTree = "<group>";
+		};
+		A4C4096C1EF0CFDF0041F285 /* SutraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */,
+				A4C4096F1EF0CFDF0041F285 /* Info.plist */,
+			);
+			path = SutraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4C409441EF0CFDF0041F285 /* Sutra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C409721EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "Sutra" */;
+			buildPhases = (
+				A4C409411EF0CFDF0041F285 /* Sources */,
+				A4C409421EF0CFDF0041F285 /* Frameworks */,
+				A4C409431EF0CFDF0041F285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sutra;
+			productName = Sutra;
+			productReference = A4C409451EF0CFDF0041F285 /* Sutra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4C4095D1EF0CFDF0041F285 /* SutraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C409751EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "SutraTests" */;
+			buildPhases = (
+				A4C4095A1EF0CFDF0041F285 /* Sources */,
+				A4C4095B1EF0CFDF0041F285 /* Frameworks */,
+				A4C4095C1EF0CFDF0041F285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C409601EF0CFDF0041F285 /* PBXTargetDependency */,
+			);
+			name = SutraTests;
+			productName = SutraTests;
+			productReference = A4C4095E1EF0CFDF0041F285 /* SutraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4C409681EF0CFDF0041F285 /* SutraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C409781EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "SutraUITests" */;
+			buildPhases = (
+				A4C409651EF0CFDF0041F285 /* Sources */,
+				A4C409661EF0CFDF0041F285 /* Frameworks */,
+				A4C409671EF0CFDF0041F285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C4096B1EF0CFDF0041F285 /* PBXTargetDependency */,
+			);
+			name = SutraUITests;
+			productName = SutraUITests;
+			productReference = A4C409691EF0CFDF0041F285 /* SutraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4C4093D1EF0CFDF0041F285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.medica;
+				TargetAttributes = {
+					A4C409441EF0CFDF0041F285 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TGV2ER7UVL;
+						ProvisioningStyle = Automatic;
+					};
+					A4C4095D1EF0CFDF0041F285 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TGV2ER7UVL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4C409441EF0CFDF0041F285;
+					};
+					A4C409681EF0CFDF0041F285 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TGV2ER7UVL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4C409441EF0CFDF0041F285;
+					};
+				};
+			};
+			buildConfigurationList = A4C409401EF0CFDF0041F285 /* Build configuration list for PBXProject "Sutra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4C4093C1EF0CFDF0041F285;
+			productRefGroup = A4C409461EF0CFDF0041F285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4C409441EF0CFDF0041F285 /* Sutra */,
+				A4C4095D1EF0CFDF0041F285 /* SutraTests */,
+				A4C409681EF0CFDF0041F285 /* SutraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4C409431EF0CFDF0041F285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C409581EF0CFDF0041F285 /* LaunchScreen.storyboard in Resources */,
+				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
+				A4C409531EF0CFDF0041F285 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C4095C1EF0CFDF0041F285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C409671EF0CFDF0041F285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4C409411EF0CFDF0041F285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C409501EF0CFDF0041F285 /* ViewController.m in Sources */,
+				A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */,
+				A4C4094A1EF0CFDF0041F285 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C4095A1EF0CFDF0041F285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C409631EF0CFDF0041F285 /* SutraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C409651EF0CFDF0041F285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C4096E1EF0CFDF0041F285 /* SutraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4C409601EF0CFDF0041F285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4C409441EF0CFDF0041F285 /* Sutra */;
+			targetProxy = A4C4095F1EF0CFDF0041F285 /* PBXContainerItemProxy */;
+		};
+		A4C4096B1EF0CFDF0041F285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4C409441EF0CFDF0041F285 /* Sutra */;
+			targetProxy = A4C4096A1EF0CFDF0041F285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4C409511EF0CFDF0041F285 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C409521EF0CFDF0041F285 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4C409561EF0CFDF0041F285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C409571EF0CFDF0041F285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4C409701EF0CFDF0041F285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4C409711EF0CFDF0041F285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4C409731EF0CFDF0041F285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				INFOPLIST_FILE = Sutra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medica.Sutra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4C409741EF0CFDF0041F285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				INFOPLIST_FILE = Sutra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medica.Sutra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4C409761EF0CFDF0041F285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				INFOPLIST_FILE = SutraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medica.SutraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sutra.app/Sutra";
+			};
+			name = Debug;
+		};
+		A4C409771EF0CFDF0041F285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				INFOPLIST_FILE = SutraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medica.SutraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sutra.app/Sutra";
+			};
+			name = Release;
+		};
+		A4C409791EF0CFDF0041F285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				INFOPLIST_FILE = SutraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medica.SutraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sutra;
+			};
+			name = Debug;
+		};
+		A4C4097A1EF0CFDF0041F285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				INFOPLIST_FILE = SutraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = medica.SutraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sutra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4C409401EF0CFDF0041F285 /* Build configuration list for PBXProject "Sutra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C409701EF0CFDF0041F285 /* Debug */,
+				A4C409711EF0CFDF0041F285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C409721EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "Sutra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C409731EF0CFDF0041F285 /* Debug */,
+				A4C409741EF0CFDF0041F285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4C409751EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "SutraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C409761EF0CFDF0041F285 /* Debug */,
+				A4C409771EF0CFDF0041F285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4C409781EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "SutraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C409791EF0CFDF0041F285 /* Debug */,
+				A4C4097A1EF0CFDF0041F285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4C4093D1EF0CFDF0041F285 /* Project object */;
+}
