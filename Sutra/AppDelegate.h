@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import <RDVTabBarController/RDVTabBarController.h>
+#import <RDVTabBarController/RDVTabBarItem.h>
+#import <RDVTabBarController/RDVTabBar.h>
+#import "MLNavigationController.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
