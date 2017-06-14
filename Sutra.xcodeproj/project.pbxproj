@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1B154201BE1534E9D3B81EF6 /* libPods-Sutra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */; };
+		4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C361E061EF164520041B5E3 /* JingTitleCell.m */; };
+		4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C361E071EF164520041B5E3 /* JingTitleCell.xib */; };
 		A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A4948C1EF0D97300B8435A /* MLNavigationController.m */; };
 		A4A494AD1EF10B0700B8435A /* jing.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A31EF10B0700B8435A /* jing.png */; };
 		A4A494AE1EF10B0700B8435A /* jing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A41EF10B0700B8435A /* jing@2x.png */; };
@@ -58,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C361E051EF164520041B5E3 /* JingTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingTitleCell.h; sourceTree = "<group>"; };
+		4C361E061EF164520041B5E3 /* JingTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingTitleCell.m; sourceTree = "<group>"; };
+		4C361E071EF164520041B5E3 /* JingTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingTitleCell.xib; sourceTree = "<group>"; };
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
 		7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sutra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +135,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C361E041EF1641F0041B5E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C361E051EF164520041B5E3 /* JingTitleCell.h */,
+				4C361E061EF164520041B5E3 /* JingTitleCell.m */,
+				4C361E071EF164520041B5E3 /* JingTitleCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		634A7BEB070217EFDBE8FDB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,10 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				A4A4948F1EF10A2200B8435A /* Jing */,
-				A4A494921EF10A2200B8435A /* Ke */,
-				A4A494951EF10A2200B8435A /* Tu */,
-				A4A494981EF10A2200B8435A /* Xue */,
-				A4A4949B1EF10A2200B8435A /* Yue */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				A4A494901EF10A2200B8435A /* Controller */,
-				A4A494911EF10A2200B8435A /* View */,
+				4C361E041EF1641F0041B5E3 /* View */,
 			);
 			path = Jing;
 			sourceTree = "<group>";
@@ -188,105 +199,6 @@
 				A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		A4A494911EF10A2200B8435A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A4A494921EF10A2200B8435A /* Ke */ = {
-			isa = PBXGroup;
-			children = (
-				A4A494931EF10A2200B8435A /* Controller */,
-				A4A494941EF10A2200B8435A /* View */,
-			);
-			path = Ke;
-			sourceTree = "<group>";
-		};
-		A4A494931EF10A2200B8435A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A4A494941EF10A2200B8435A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A4A494951EF10A2200B8435A /* Tu */ = {
-			isa = PBXGroup;
-			children = (
-				A4A494961EF10A2200B8435A /* Controller */,
-				A4A494971EF10A2200B8435A /* View */,
-			);
-			path = Tu;
-			sourceTree = "<group>";
-		};
-		A4A494961EF10A2200B8435A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A4A494971EF10A2200B8435A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A4A494981EF10A2200B8435A /* Xue */ = {
-			isa = PBXGroup;
-			children = (
-				A4A494991EF10A2200B8435A /* Controller */,
-				A4A4949A1EF10A2200B8435A /* View */,
-			);
-			path = Xue;
-			sourceTree = "<group>";
-		};
-		A4A494991EF10A2200B8435A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A4A4949A1EF10A2200B8435A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A4A4949B1EF10A2200B8435A /* Yue */ = {
-			isa = PBXGroup;
-			children = (
-				A4A4949C1EF10A2200B8435A /* Controller */,
-				A4A4949D1EF10A2200B8435A /* View */,
-			);
-			path = Yue;
-			sourceTree = "<group>";
-		};
-		A4A4949C1EF10A2200B8435A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A4A4949D1EF10A2200B8435A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A4A4949E1EF10AE200B8435A /* Resources */ = {
@@ -536,6 +448,7 @@
 				A4A494F41EF11D9C00B8435A /* 华严经卷一.sutra in Resources */,
 				A4A494F51EF11D9C00B8435A /* 地藏菩萨本愿经.sutra in Resources */,
 				A4A494F31EF11D9C00B8435A /* 六祖坛经.sutra in Resources */,
+				4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */,
 				A4A494B11EF10B0700B8435A /* tu.png in Resources */,
 				A4A494B41EF10B0700B8435A /* xue@2x.png in Resources */,
 				A4A494AE1EF10B0700B8435A /* jing@2x.png in Resources */,
@@ -632,6 +545,7 @@
 				A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */,
 				A4C4094A1EF0CFDF0041F285 /* main.m in Sources */,
 				A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */,
+				4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
