@@ -490,7 +490,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = NV3296URNT;
+						DevelopmentTeam = TGV2ER7UVL;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -762,7 +762,7 @@
 			baseConfigurationReference = 67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NV3296URNT;
+				DEVELOPMENT_TEAM = TGV2ER7UVL;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -776,7 +776,7 @@
 			baseConfigurationReference = 6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NV3296URNT;
+				DEVELOPMENT_TEAM = TGV2ER7UVL;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
