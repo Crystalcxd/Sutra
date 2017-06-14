@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B154201BE1534E9D3B81EF6 /* libPods-Sutra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */; };
 		A4C4094A1EF0CFDF0041F285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409491EF0CFDF0041F285 /* main.m */; };
 		A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */; };
 		A4C409501EF0CFDF0041F285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094F1EF0CFDF0041F285 /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
+		7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sutra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C409451EF0CFDF0041F285 /* Sutra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sutra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C409491EF0CFDF0041F285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B154201BE1534E9D3B81EF6 /* libPods-Sutra.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		634A7BEB070217EFDBE8FDB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7798CF26E6CB827F16EE93CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */,
+				6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A4C4093C1EF0CFDF0041F285 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				A4C409611EF0CFDF0041F285 /* SutraTests */,
 				A4C4096C1EF0CFDF0041F285 /* SutraUITests */,
 				A4C409461EF0CFDF0041F285 /* Products */,
+				7798CF26E6CB827F16EE93CF /* Pods */,
+				634A7BEB070217EFDBE8FDB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4C409721EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "Sutra" */;
 			buildPhases = (
+				64240C6E42F7375DE176A081 /* [CP] Check Pods Manifest.lock */,
 				A4C409411EF0CFDF0041F285 /* Sources */,
 				A4C409421EF0CFDF0041F285 /* Frameworks */,
 				A4C409431EF0CFDF0041F285 /* Resources */,
+				3318DBEA20E01ECED21FC5A9 /* [CP] Embed Pods Frameworks */,
+				19141C40271A26A867DCB659 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +234,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = TGV2ER7UVL;
+						DevelopmentTeam = NV3296URNT;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19141C40271A26A867DCB659 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sutra/Pods-Sutra-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3318DBEA20E01ECED21FC5A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sutra/Pods-Sutra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64240C6E42F7375DE176A081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4C409411EF0CFDF0041F285 /* Sources */ = {
@@ -425,10 +500,12 @@
 		};
 		A4C409731EF0CFDF0041F285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				DEVELOPMENT_TEAM = NV3296URNT;
 				INFOPLIST_FILE = Sutra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = medica.Sutra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +514,12 @@
 		};
 		A4C409741EF0CFDF0041F285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				DEVELOPMENT_TEAM = NV3296URNT;
 				INFOPLIST_FILE = Sutra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = medica.Sutra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
