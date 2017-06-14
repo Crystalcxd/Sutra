@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1B154201BE1534E9D3B81EF6 /* libPods-Sutra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */; };
+		A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A4948C1EF0D97300B8435A /* MLNavigationController.m */; };
 		A4C4094A1EF0CFDF0041F285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409491EF0CFDF0041F285 /* main.m */; };
 		A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */; };
 		A4C409501EF0CFDF0041F285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094F1EF0CFDF0041F285 /* ViewController.m */; };
-		A4C409531EF0CFDF0041F285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C409511EF0CFDF0041F285 /* Main.storyboard */; };
 		A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C409541EF0CFDF0041F285 /* Assets.xcassets */; };
-		A4C409581EF0CFDF0041F285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C409561EF0CFDF0041F285 /* LaunchScreen.storyboard */; };
 		A4C409631EF0CFDF0041F285 /* SutraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409621EF0CFDF0041F285 /* SutraTests.m */; };
 		A4C4096E1EF0CFDF0041F285 /* SutraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */; };
 /* End PBXBuildFile section */
@@ -39,15 +38,15 @@
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
 		7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sutra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A4948B1EF0D97300B8435A /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
+		A4A4948C1EF0D97300B8435A /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
 		A4C409451EF0CFDF0041F285 /* Sutra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sutra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C409491EF0CFDF0041F285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A4C4094E1EF0CFDF0041F285 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A4C4094F1EF0CFDF0041F285 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A4C409521EF0CFDF0041F285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4C409541EF0CFDF0041F285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4C409571EF0CFDF0041F285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C409591EF0CFDF0041F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4C4095E1EF0CFDF0041F285 /* SutraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C409621EF0CFDF0041F285 /* SutraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SutraTests.m; sourceTree = "<group>"; };
@@ -100,6 +99,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A4A4948A1EF0D97300B8435A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4948B1EF0D97300B8435A /* MLNavigationController.h */,
+				A4A4948C1EF0D97300B8435A /* MLNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		A4C4093C1EF0CFDF0041F285 = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +135,10 @@
 			children = (
 				A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */,
 				A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */,
+				A4A4948A1EF0D97300B8435A /* Navigation */,
 				A4C4094E1EF0CFDF0041F285 /* ViewController.h */,
 				A4C4094F1EF0CFDF0041F285 /* ViewController.m */,
-				A4C409511EF0CFDF0041F285 /* Main.storyboard */,
 				A4C409541EF0CFDF0041F285 /* Assets.xcassets */,
-				A4C409561EF0CFDF0041F285 /* LaunchScreen.storyboard */,
 				A4C409591EF0CFDF0041F285 /* Info.plist */,
 				A4C409481EF0CFDF0041F285 /* Supporting Files */,
 			);
@@ -276,9 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C409581EF0CFDF0041F285 /* LaunchScreen.storyboard in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
-				A4C409531EF0CFDF0041F285 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */,
 				A4C409501EF0CFDF0041F285 /* ViewController.m in Sources */,
 				A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */,
 				A4C4094A1EF0CFDF0041F285 /* main.m in Sources */,
@@ -387,25 +393,6 @@
 			targetProxy = A4C4096A1EF0CFDF0041F285 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A4C409511EF0CFDF0041F285 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4C409521EF0CFDF0041F285 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4C409561EF0CFDF0041F285 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4C409571EF0CFDF0041F285 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A4C409701EF0CFDF0041F285 /* Debug */ = {
@@ -595,6 +582,7 @@
 				A4C409741EF0CFDF0041F285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C409751EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "SutraTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +591,7 @@
 				A4C409771EF0CFDF0041F285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C409781EF0CFDF0041F285 /* Build configuration list for PBXNativeTarget "SutraUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +600,7 @@
 				A4C4097A1EF0CFDF0041F285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
