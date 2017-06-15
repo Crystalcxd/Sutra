@@ -111,6 +111,14 @@
         UIImage *selectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@", [tabBarItemSelected objectAtIndex:index]]];
         UIImage *unselectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@", [tabBarItemNormal objectAtIndex:index]]];
         [item setFinishedSelectedImage:selectedimage withFinishedUnselectedImage:unselectedimage];
+        [item setSelectedTitleAttributes:@{
+                                           NSFontAttributeName: [UIFont systemFontOfSize:12],
+                                           NSForegroundColorAttributeName: [UIColor colorWithRed:0 green:0.5 blue:1 alpha:1],
+                                           }];
+        [item setUnselectedTitleAttributes:@{
+                                             NSFontAttributeName: [UIFont systemFontOfSize:12],
+                                             NSForegroundColorAttributeName: [UIColor lightGrayColor],
+                                             }];
         [item setTitle:[tabBarItemTitle objectAtIndex:index]];
         index++;
         NSLog(@"%ld", (long)index);

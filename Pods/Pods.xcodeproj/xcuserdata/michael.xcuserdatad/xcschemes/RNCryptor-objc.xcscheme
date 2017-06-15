@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0345BD487B20E40CB49F999521FFDEA"
-               BuildableName = "RDVTabBarController.framework"
-               BlueprintName = "RDVTabBarController"
+               BlueprintIdentifier = "C11C1C4DC61AE969FAE03915705F0524"
+               BuildableName = "RNCryptor_objc.framework"
+               BlueprintName = "RNCryptor-objc"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0345BD487B20E40CB49F999521FFDEA"
-            BuildableName = "RDVTabBarController.framework"
-            BlueprintName = "RDVTabBarController"
+            BlueprintIdentifier = "C11C1C4DC61AE969FAE03915705F0524"
+            BuildableName = "RNCryptor_objc.framework"
+            BlueprintName = "RNCryptor-objc"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0345BD487B20E40CB49F999521FFDEA"
-            BuildableName = "RDVTabBarController.framework"
-            BlueprintName = "RDVTabBarController"
+            BlueprintIdentifier = "C11C1C4DC61AE969FAE03915705F0524"
+            BuildableName = "RNCryptor_objc.framework"
+            BlueprintName = "RNCryptor-objc"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

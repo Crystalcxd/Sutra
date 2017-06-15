@@ -24,6 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"佛经";//@"阿弥陀经";
+
     [self createJingData];
     
     // Uncomment the following line to preserve selection between presentations.

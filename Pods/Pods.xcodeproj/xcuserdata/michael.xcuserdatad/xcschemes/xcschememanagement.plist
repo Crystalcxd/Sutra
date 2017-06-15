@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>RNCryptor-objc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>37A1CC03FCF08929CAD43E383B2CA93B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,6 +63,31 @@
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3F0D72347821D875F14360A343BCBFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0345BD487B20E40CB49F999521FFDEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C11C1C4DC61AE969FAE03915705F0524</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2076A0720BF1E19AD9B1DEA0E1B4699</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
