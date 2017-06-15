@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B154201BE1534E9D3B81EF6 /* libPods-Sutra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */; };
+		239598776FA72BE9118087C6 /* Pods_Sutra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */; };
 		4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C361E061EF164520041B5E3 /* JingTitleCell.m */; };
 		4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C361E071EF164520041B5E3 /* JingTitleCell.xib */; };
+		A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */; };
+		A49F0DDA1EF2618700D96CBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD71EF2618700D96CBD /* Default.png */; };
+		A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD81EF2618700D96CBD /* Default@2x.png */; };
+		A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DDC1EF2625D00D96CBD /* Default-2208.png */; };
+		A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49F0DDF1EF26B2400D96CBD /* JingListViewController.m */; };
+		A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DE01EF26B2400D96CBD /* JingListViewController.xib */; };
 		A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A4948C1EF0D97300B8435A /* MLNavigationController.m */; };
 		A4A494AD1EF10B0700B8435A /* jing.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A31EF10B0700B8435A /* jing.png */; };
 		A4A494AE1EF10B0700B8435A /* jing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A41EF10B0700B8435A /* jing@2x.png */; };
@@ -21,8 +27,6 @@
 		A4A494B41EF10B0700B8435A /* xue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AA1EF10B0700B8435A /* xue@2x.png */; };
 		A4A494B51EF10B0700B8435A /* yue.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AB1EF10B0700B8435A /* yue.png */; };
 		A4A494B61EF10B0700B8435A /* yue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AC1EF10B0700B8435A /* yue@2x.png */; };
-		A4A494CD1EF1103E00B8435A /* JingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A494CB1EF1103E00B8435A /* JingViewController.m */; };
-		A4A494CE1EF1103E00B8435A /* JingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A494CC1EF1103E00B8435A /* JingViewController.xib */; };
 		A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A494D01EF1113D00B8435A /* JingDetailCtrl.m */; };
 		A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */; };
 		A4A494F21EF11D9C00B8435A /* 0.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A494E91EF11D9C00B8435A /* 0.sutra */; };
@@ -65,7 +69,14 @@
 		4C361E071EF164520041B5E3 /* JingTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingTitleCell.xib; sourceTree = "<group>"; };
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
-		7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sutra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sutra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A49F0DD71EF2618700D96CBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A49F0DD81EF2618700D96CBD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A49F0DDC1EF2625D00D96CBD /* Default-2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-2208.png"; sourceTree = "<group>"; };
+		A49F0DDE1EF26B2400D96CBD /* JingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingListViewController.h; sourceTree = "<group>"; };
+		A49F0DDF1EF26B2400D96CBD /* JingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingListViewController.m; sourceTree = "<group>"; };
+		A49F0DE01EF26B2400D96CBD /* JingListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingListViewController.xib; sourceTree = "<group>"; };
 		A4A4948B1EF0D97300B8435A /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
 		A4A4948C1EF0D97300B8435A /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
 		A4A494A31EF10B0700B8435A /* jing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jing.png; sourceTree = "<group>"; };
@@ -78,9 +89,6 @@
 		A4A494AA1EF10B0700B8435A /* xue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue@2x.png"; sourceTree = "<group>"; };
 		A4A494AB1EF10B0700B8435A /* yue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yue.png; sourceTree = "<group>"; };
 		A4A494AC1EF10B0700B8435A /* yue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue@2x.png"; sourceTree = "<group>"; };
-		A4A494CA1EF1103E00B8435A /* JingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingViewController.h; sourceTree = "<group>"; };
-		A4A494CB1EF1103E00B8435A /* JingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingViewController.m; sourceTree = "<group>"; };
-		A4A494CC1EF1103E00B8435A /* JingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingViewController.xib; sourceTree = "<group>"; };
 		A4A494CF1EF1113D00B8435A /* JingDetailCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingDetailCtrl.h; sourceTree = "<group>"; };
 		A4A494D01EF1113D00B8435A /* JingDetailCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingDetailCtrl.m; sourceTree = "<group>"; };
 		A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingDetailCtrl.xib; sourceTree = "<group>"; };
@@ -114,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B154201BE1534E9D3B81EF6 /* libPods-Sutra.a in Frameworks */,
+				239598776FA72BE9118087C6 /* Pods_Sutra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +156,7 @@
 		634A7BEB070217EFDBE8FDB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F28A4A62A525E5FE8918795 /* libPods-Sutra.a */,
+				7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,9 +199,9 @@
 		A4A494901EF10A2200B8435A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A4A494CA1EF1103E00B8435A /* JingViewController.h */,
-				A4A494CB1EF1103E00B8435A /* JingViewController.m */,
-				A4A494CC1EF1103E00B8435A /* JingViewController.xib */,
+				A49F0DDE1EF26B2400D96CBD /* JingListViewController.h */,
+				A49F0DDF1EF26B2400D96CBD /* JingListViewController.m */,
+				A49F0DE01EF26B2400D96CBD /* JingListViewController.xib */,
 				A4A494CF1EF1113D00B8435A /* JingDetailCtrl.h */,
 				A4A494D01EF1113D00B8435A /* JingDetailCtrl.m */,
 				A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */,
@@ -232,6 +240,10 @@
 		A4A494A01EF10AE200B8435A /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				A49F0DDC1EF2625D00D96CBD /* Default-2208.png */,
+				A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */,
+				A49F0DD71EF2618700D96CBD /* Default.png */,
+				A49F0DD81EF2618700D96CBD /* Default@2x.png */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -402,7 +414,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = TGV2ER7UVL;
+						DevelopmentTeam = NV3296URNT;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -448,7 +460,10 @@
 				A4A494F41EF11D9C00B8435A /* 华严经卷一.sutra in Resources */,
 				A4A494F51EF11D9C00B8435A /* 地藏菩萨本愿经.sutra in Resources */,
 				A4A494F31EF11D9C00B8435A /* 六祖坛经.sutra in Resources */,
+				A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */,
+				A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */,
 				4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */,
+				A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */,
 				A4A494B11EF10B0700B8435A /* tu.png in Resources */,
 				A4A494B41EF10B0700B8435A /* xue@2x.png in Resources */,
 				A4A494AE1EF10B0700B8435A /* jing@2x.png in Resources */,
@@ -461,11 +476,12 @@
 				A4A494B61EF10B0700B8435A /* yue@2x.png in Resources */,
 				A4A494B31EF10B0700B8435A /* xue.png in Resources */,
 				A4A494F91EF11D9C00B8435A /* 金刚经.sutra in Resources */,
+				A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */,
 				A4A494AF1EF10B0700B8435A /* ke.png in Resources */,
+				A49F0DDA1EF2618700D96CBD /* Default.png in Resources */,
 				A4A494B51EF10B0700B8435A /* yue.png in Resources */,
 				A4A494F81EF11D9C00B8435A /* 法华经.sutra in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
-				A4A494CE1EF1103E00B8435A /* JingViewController.xib in Resources */,
 				A4A494AD1EF10B0700B8435A /* jing.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,12 +555,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A494CD1EF1103E00B8435A /* JingViewController.m in Sources */,
 				A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */,
 				A4C409501EF0CFDF0041F285 /* ViewController.m in Sources */,
 				A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */,
 				A4C4094A1EF0CFDF0041F285 /* main.m in Sources */,
 				A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */,
+				A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */,
 				4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -676,7 +692,8 @@
 			baseConfigurationReference = 67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = NV3296URNT;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -690,7 +707,8 @@
 			baseConfigurationReference = 6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = NV3296URNT;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

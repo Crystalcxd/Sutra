@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '37A1CC03FCF08929CAD43E383B2CA93B'
+               BlueprintIdentifier = '7AA110D6693C1D96CF8EE195A865504A'
                BlueprintName = 'Pods-Sutra'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-Sutra.a'>
+               BuildableName = 'Pods-Sutra.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

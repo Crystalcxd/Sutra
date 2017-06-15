@@ -10,4 +10,6 @@
 
 @interface JingTitleCell : UITableViewCell
 
+- (void)configureWith:(NSString *)titleStr;
+
 @end

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "JingListViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [self mainView];
     return YES;
 }
 
@@ -47,5 +53,68 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)mainView {
+    // Homepage
+    JingListViewController *jingVC = [[JingListViewController alloc] init];
+    jingVC.navigationController.navigationBar.translucent = NO;
+    MLNavigationController *navJingController = [[MLNavigationController alloc] initWithRootViewController:jingVC];
+    
+    //Discover
+    UIViewController *keVC = [[UIViewController alloc] init];
+    keVC.view.backgroundColor = [UIColor yellowColor];
+    keVC.navigationController.navigationBar.translucent = NO;
+    MLNavigationController *navKeController = [[MLNavigationController alloc] initWithRootViewController:keVC];
+    
+    //Discover
+    UIViewController *xueVC = [[UIViewController alloc] init];
+    xueVC.view.backgroundColor = [UIColor yellowColor];
+    xueVC.navigationController.navigationBar.translucent = NO;
+    MLNavigationController *navXueController = [[MLNavigationController alloc] initWithRootViewController:xueVC];
+    
+    //Discover
+    UIViewController *yueVC = [[UIViewController alloc] init];
+    yueVC.view.backgroundColor = [UIColor yellowColor];
+    yueVC.navigationController.navigationBar.translucent = NO;
+    MLNavigationController *navYueController = [[MLNavigationController alloc] initWithRootViewController:yueVC];
+
+    // News
+    UIViewController *tuVC = [[UIViewController alloc] init];
+    tuVC.view.backgroundColor = [UIColor blueColor];
+    tuVC.navigationController.navigationBar.translucent = NO;
+    MLNavigationController *navTuController = [[MLNavigationController alloc] initWithRootViewController:tuVC];
+    
+    RDVTabBarController *tabBarController = [[RDVTabBarController alloc] init];
+    [tabBarController.tabBar setHeight:60];
+    [tabBarController.tabBar setTranslucent:YES];
+    tabBarController.tabBar.backgroundColor = [UIColor whiteColor];
+    
+    [tabBarController setViewControllers:@[navJingController,navKeController,navXueController, navYueController, navTuController]];
+    
+    [self configurationTabBar:tabBarController.tabBar];
+    
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+}
+
+- (void)configurationTabBar:(RDVTabBar *)tabBar {
+    //设置  三个分类的  tabbaritem 选中和没选中下地背景图片 和  底图
+//    UIImage *finishedImageTofu = [UIImage imageNamed:@"bottom_selected"];
+//    UIImage *unfinishedImageTofu = [UIImage imageNamed:@"bottom"];
+    
+    NSArray *tabBarItemSelected = @[@"jing", @"ke",@"xue",@"yue",@"tu"];
+    NSArray *tabBarItemNormal = @[@"jing", @"ke",@"xue",@"yue",@"tu"];
+    NSArray *tabBarItemTitle = @[@"Jing", @"Ke",@"Xue",@"Yue",@"Tu"];
+    
+    NSInteger index = 0;
+    for (RDVTabBarItem *item in tabBar.items) {
+//        [item setBackgroundSelectedImage:finishedImageTofu withUnselectedImage:unfinishedImageTofu];
+        UIImage *selectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@", [tabBarItemSelected objectAtIndex:index]]];
+        UIImage *unselectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@", [tabBarItemNormal objectAtIndex:index]]];
+        [item setFinishedSelectedImage:selectedimage withFinishedUnselectedImage:unselectedimage];
+        [item setTitle:[tabBarItemTitle objectAtIndex:index]];
+        index++;
+        NSLog(@"%ld", (long)index);
+    }
+}
 
 @end

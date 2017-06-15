@@ -1,19 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17A264c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="JingTitleCell">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <frame key="frameInset" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxR-i4-iA9">
+                        <rect key="frame" x="15" y="58" width="290" height="1"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="4dB-Qg-lqa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOr-pB-eCM">
+                        <rect key="frame" x="20" y="0.0" width="236" height="60"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a2l-iF-MYK">
+                        <rect key="frame" x="256" y="8" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="1HE-Tc-s45"/>
+                            <constraint firstAttribute="height" constant="44" id="jpE-xc-OMG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rOr-pB-eCM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="33I-7D-Hen"/>
+                    <constraint firstItem="vxR-i4-iA9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="8z8-Iu-yD3"/>
+                    <constraint firstItem="rOr-pB-eCM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Bcb-CR-ov4"/>
+                    <constraint firstItem="a2l-iF-MYK" firstAttribute="leading" secondItem="rOr-pB-eCM" secondAttribute="trailing" id="Rsb-Jn-2g6"/>
+                    <constraint firstAttribute="bottom" secondItem="rOr-pB-eCM" secondAttribute="bottom" constant="-0.5" id="UXL-2R-Txj"/>
+                    <constraint firstAttribute="bottom" secondItem="vxR-i4-iA9" secondAttribute="bottom" constant="0.5" id="VGs-Ea-QsP"/>
+                    <constraint firstItem="a2l-iF-MYK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="odG-mI-wtN"/>
+                    <constraint firstAttribute="trailing" secondItem="vxR-i4-iA9" secondAttribute="trailing" constant="15" id="tJr-5G-Rv0"/>
+                    <constraint firstAttribute="trailing" secondItem="a2l-iF-MYK" secondAttribute="trailing" constant="20" id="xsv-N3-6dc"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="arrowImageView" destination="a2l-iF-MYK" id="NbM-qg-eme"/>
+                <outlet property="line" destination="vxR-i4-iA9" id="I9y-t8-5tF"/>
+                <outlet property="titleLabel" destination="rOr-pB-eCM" id="fRa-de-4VX"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>

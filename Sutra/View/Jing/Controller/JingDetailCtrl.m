@@ -8,6 +8,8 @@
 
 #import "JingDetailCtrl.h"
 
+#import <RNCryptor.h>
+
 @interface JingDetailCtrl ()
 
 - (void)configureView;
@@ -52,6 +54,9 @@
         NSString *htmlstring=[[NSString alloc] initWithContentsOfFile:filePath  encoding:NSUTF8StringEncoding error:nil];
         [_webView loadHTMLString:htmlstring  baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
         self.navigationItem.title = self.detailItem[@"name"];//@"阿弥陀经";
+        
+        
+        
     }
 }
 
