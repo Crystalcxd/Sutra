@@ -8,7 +8,7 @@
 
 #import "JingDetailCtrl.h"
 
-#import <RNCryptor.h>
+#import <RNCryptor_objc/RNDecryptor.h>
 
 @interface JingDetailCtrl ()
 
@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
     
     NSLog(@"ViewLoad configview %@",self.detailItem);
     [self configureView];
@@ -39,7 +40,7 @@
         // Update the view.
         NSLog(@"set Detail configview %@",self.detailItem);
         
-        [self configureView];
+//        [self configureView];
     }
 }
 
@@ -50,13 +51,20 @@
     if (self.detailItem) {
         NSString *resourcePath = [ [NSBundle mainBundle] resourcePath];
         NSString *jingName = self.detailItem[@"url"];
-        NSString *filePath = [resourcePath stringByAppendingPathComponent:jingName];//@"阿弥陀经.htm"
-        NSString *htmlstring=[[NSString alloc] initWithContentsOfFile:filePath  encoding:NSUTF8StringEncoding error:nil];
-        [_webView loadHTMLString:htmlstring  baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
+//        NSString *filePath = [resourcePath stringByAppendingPathComponent:jingName];//@"阿弥陀经.htm"
+//        NSString *htmlstring=[[NSString alloc] initWithContentsOfFile:filePath  encoding:NSUTF8StringEncoding error:nil];
+//        [_webView loadHTMLString:htmlstring  baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
         self.navigationItem.title = self.detailItem[@"name"];//@"阿弥陀经";
         
+        NSData *encryptedData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:jingName ofType:nil]];
         
-        
+        NSError *error;
+        NSData *decryptedData = [RNDecryptor decryptData:encryptedData
+                                            withPassword:@"boahankook0713"
+                                                   error:&error];
+        if (!error) {
+            [_webView loadData:decryptedData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
+        }
     }
 }
 
