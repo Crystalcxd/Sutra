@@ -6,6 +6,6 @@ pod 'MBProgressHUD'
 pod 'SDWebImage'
 pod 'AFNetworking'
 pod 'RDVTabBarController'
-pod 'RNCryptor', '~> 5.0'
+pod 'RNCryptor-objc'
 
 end

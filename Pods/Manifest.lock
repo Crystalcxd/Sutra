@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - MBProgressHUD (1.0.0)
   - RDVTabBarController (1.1.9)
-  - RNCryptor (5.0.1)
+  - RNCryptor-objc (3.0.2)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -25,16 +25,16 @@ DEPENDENCIES:
   - AFNetworking
   - MBProgressHUD
   - RDVTabBarController
-  - RNCryptor (~> 5.0)
+  - RNCryptor-objc
   - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
-  RNCryptor: 2e352a488779d1a9184ab629be22a7c5bc84acb5
+  RNCryptor-objc: 6d18b2e4297c8f4a71a295492366313a3245d0ae
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 3d09767c34d2f70ac9b87627b10404a3382aaa12
+PODFILE CHECKSUM: 90cd78964d3710f01fb560c0ee0eda0dc77ed448
 
 COCOAPODS: 1.3.0.beta.1

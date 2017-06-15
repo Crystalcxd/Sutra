@@ -101,14 +101,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD/MBProgressHUD.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RDVTabBarController/RDVTabBarController.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/RNCryptor/RNCryptor.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RNCryptor-objc/RNCryptor_objc.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD/MBProgressHUD.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RDVTabBarController/RDVTabBarController.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/RNCryptor/RNCryptor.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RNCryptor-objc/RNCryptor_objc.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
