@@ -10,6 +10,10 @@
 		239598776FA72BE9118087C6 /* Pods_Sutra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */; };
 		4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C361E061EF164520041B5E3 /* JingTitleCell.m */; };
 		4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C361E071EF164520041B5E3 /* JingTitleCell.xib */; };
+		4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A441EF2D35B0026A609 /* XueViewController.m */; };
+		4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A451EF2D35B0026A609 /* XueViewController.xib */; };
+		4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */; };
+		4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */; };
 		A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */; };
 		A49F0DDA1EF2618700D96CBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD71EF2618700D96CBD /* Default.png */; };
 		A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD81EF2618700D96CBD /* Default@2x.png */; };
@@ -67,6 +71,12 @@
 		4C361E051EF164520041B5E3 /* JingTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingTitleCell.h; sourceTree = "<group>"; };
 		4C361E061EF164520041B5E3 /* JingTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingTitleCell.m; sourceTree = "<group>"; };
 		4C361E071EF164520041B5E3 /* JingTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingTitleCell.xib; sourceTree = "<group>"; };
+		4CAD5A431EF2D35B0026A609 /* XueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueViewController.h; sourceTree = "<group>"; };
+		4CAD5A441EF2D35B0026A609 /* XueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueViewController.m; sourceTree = "<group>"; };
+		4CAD5A451EF2D35B0026A609 /* XueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XueViewController.xib; sourceTree = "<group>"; };
+		4CAD5A481EF2D5A20026A609 /* XueTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueTitleCell.h; sourceTree = "<group>"; };
+		4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueTitleCell.m; sourceTree = "<group>"; };
+		4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XueTitleCell.xib; sourceTree = "<group>"; };
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
 		7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sutra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +163,35 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		4CAD5A401EF2D3140026A609 /* Xue */ = {
+			isa = PBXGroup;
+			children = (
+				4CAD5A411EF2D3140026A609 /* Controller */,
+				4CAD5A421EF2D3140026A609 /* View */,
+			);
+			path = Xue;
+			sourceTree = "<group>";
+		};
+		4CAD5A411EF2D3140026A609 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CAD5A431EF2D35B0026A609 /* XueViewController.h */,
+				4CAD5A441EF2D35B0026A609 /* XueViewController.m */,
+				4CAD5A451EF2D35B0026A609 /* XueViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CAD5A421EF2D3140026A609 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CAD5A481EF2D5A20026A609 /* XueTitleCell.h */,
+				4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */,
+				4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		634A7BEB070217EFDBE8FDB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				A4A4948F1EF10A2200B8435A /* Jing */,
+				4CAD5A401EF2D3140026A609 /* Xue */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -470,6 +510,7 @@
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
 				A4A494F71EF11D9C00B8435A /* 无量寿经.sutra in Resources */,
 				A4A494B01EF10B0700B8435A /* ke@2x.png in Resources */,
+				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
 				A4A494F61EF11D9C00B8435A /* 心经.sutra in Resources */,
 				A4A494F21EF11D9C00B8435A /* 0.sutra in Resources */,
 				A4A494FA1EF11D9C00B8435A /* 阿弥陀经.sutra in Resources */,
@@ -479,6 +520,7 @@
 				A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */,
 				A4A494AF1EF10B0700B8435A /* ke.png in Resources */,
 				A49F0DDA1EF2618700D96CBD /* Default.png in Resources */,
+				4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */,
 				A4A494B51EF10B0700B8435A /* yue.png in Resources */,
 				A4A494F81EF11D9C00B8435A /* 法华经.sutra in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
@@ -558,10 +600,12 @@
 				A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */,
 				A4C409501EF0CFDF0041F285 /* ViewController.m in Sources */,
 				A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */,
+				4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */,
 				A4C4094A1EF0CFDF0041F285 /* main.m in Sources */,
 				A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */,
 				A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */,
 				4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */,
+				4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
