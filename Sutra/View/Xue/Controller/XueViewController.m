@@ -37,6 +37,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    self.navigationItem.title = @"佛学知识";//@"阿弥陀经";
+
     [self createXueData];
 }
 
@@ -91,6 +93,23 @@
     return cell;
     
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"%@",indexPath);
+    
+//    JingDetailCtrl *vc = [[JingDetailCtrl alloc] init];
+//    NSLog(@"didSelect Jing%@",_Jing[indexPath.row]);
+//    vc.detailItem = _Jing[indexPath.row];
+//    
+//    [self.navigationController pushViewController:vc animated:YES];
+}
+
 /*
 #pragma mark - Navigation
 
