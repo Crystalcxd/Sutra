@@ -7,5 +7,6 @@ pod 'SDWebImage'
 pod 'AFNetworking'
 pod 'RDVTabBarController'
 pod 'RNCryptor-objc'
+pod 'BaiduMapKit'
 
 end
