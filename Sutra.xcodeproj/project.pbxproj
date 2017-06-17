@@ -223,7 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				A44267441EF3CFB40012BC7F /* Controller */,
-				A44267451EF3CFB40012BC7F /* View */,
 			);
 			path = Tu;
 			sourceTree = "<group>";
@@ -238,18 +237,10 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A44267451EF3CFB40012BC7F /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		A442674B1EF3D01C0012BC7F /* Yue */ = {
 			isa = PBXGroup;
 			children = (
 				A442674C1EF3D01C0012BC7F /* Controller */,
-				A442674D1EF3D01C0012BC7F /* View */,
 			);
 			path = Yue;
 			sourceTree = "<group>";
@@ -262,13 +253,6 @@
 				A44267501EF3D0380012BC7F /* YueViewController.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		A442674D1EF3D01C0012BC7F /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A4A4948A1EF0D97300B8435A /* Navigation */ = {
@@ -319,7 +303,6 @@
 				A4A494E71EF11D9C00B8435A /* HTMLFile */,
 				A4A4949F1EF10AE200B8435A /* Icon */,
 				A4A494A01EF10AE200B8435A /* Launch */,
-				A4A494A21EF10AE200B8435A /* Music */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -350,13 +333,6 @@
 				A49F0DD81EF2618700D96CBD /* Default@2x.png */,
 			);
 			path = Launch;
-			sourceTree = "<group>";
-		};
-		A4A494A21EF10AE200B8435A /* Music */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Music;
 			sourceTree = "<group>";
 		};
 		A4A494E71EF11D9C00B8435A /* HTMLFile */ = {
