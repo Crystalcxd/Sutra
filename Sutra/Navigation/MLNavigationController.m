@@ -168,7 +168,6 @@
 {
     // If the viewControllers has only one vc or disable the interaction, then return.
     if (self.viewControllers.count <= 1 || !self.canDragBack) return;
-    UIViewController *viewController = [self.viewControllers lastObject];
 
     // we get the touch position by the window's coordinate
     CGPoint touchPoint = [recoginzer locationInView:KEY_WINDOW];
@@ -181,10 +180,6 @@
         
         NSLog(@"%@",self.viewControllers);
         
-        UIViewController *topViewController = [self.viewControllers lastObject];
-        if (topViewController != nil && [topViewController respondsToSelector:@selector(beginDissmiss)]) {
-            [topViewController performSelector:@selector(beginDissmiss)];
-        }
         if (!self.backgroundView)
         {
             CGRect frame = TOP_VIEW.frame;
