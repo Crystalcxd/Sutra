@@ -25,6 +25,8 @@
     
     NSLog(@"ViewLoad configview %@",self.detailItem);
     [self configureView];
+    
+    _webView.scrollView.pagingEnabled = YES;
 }
 
 - (void)didReceiveMemoryWarning {
