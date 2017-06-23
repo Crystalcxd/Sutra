@@ -102,7 +102,7 @@
 //    UIImage *unfinishedImageTofu = [UIImage imageNamed:@"bottom"];
     
     NSArray *tabBarItemSelected = @[@"jing", @"ke",@"xue",@"yue",@"tu"];
-    NSArray *tabBarItemNormal = @[@"jing", @"ke",@"xue",@"yue",@"tu"];
+    NSArray *tabBarItemNormal = @[@"jing_default", @"ke_default",@"xue_default",@"yue_default",@"tu_default"];
     NSArray *tabBarItemTitle = @[@"Jing", @"Ke",@"Xue",@"Yue",@"Tu"];
     
     NSInteger index = 0;

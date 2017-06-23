@@ -25,16 +25,6 @@
 		A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49F0DDF1EF26B2400D96CBD /* JingListViewController.m */; };
 		A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DE01EF26B2400D96CBD /* JingListViewController.xib */; };
 		A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A4948C1EF0D97300B8435A /* MLNavigationController.m */; };
-		A4A494AD1EF10B0700B8435A /* jing.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A31EF10B0700B8435A /* jing.png */; };
-		A4A494AE1EF10B0700B8435A /* jing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A41EF10B0700B8435A /* jing@2x.png */; };
-		A4A494AF1EF10B0700B8435A /* ke.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A51EF10B0700B8435A /* ke.png */; };
-		A4A494B01EF10B0700B8435A /* ke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A61EF10B0700B8435A /* ke@2x.png */; };
-		A4A494B11EF10B0700B8435A /* tu.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A71EF10B0700B8435A /* tu.png */; };
-		A4A494B21EF10B0700B8435A /* tu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A81EF10B0700B8435A /* tu@2x.png */; };
-		A4A494B31EF10B0700B8435A /* xue.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494A91EF10B0700B8435A /* xue.png */; };
-		A4A494B41EF10B0700B8435A /* xue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AA1EF10B0700B8435A /* xue@2x.png */; };
-		A4A494B51EF10B0700B8435A /* yue.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AB1EF10B0700B8435A /* yue.png */; };
-		A4A494B61EF10B0700B8435A /* yue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A494AC1EF10B0700B8435A /* yue@2x.png */; };
 		A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A494D01EF1113D00B8435A /* JingDetailCtrl.m */; };
 		A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */; };
 		A4A494F21EF11D9C00B8435A /* 0.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A494E91EF11D9C00B8435A /* 0.sutra */; };
@@ -51,6 +41,16 @@
 		A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C409541EF0CFDF0041F285 /* Assets.xcassets */; };
 		A4C409631EF0CFDF0041F285 /* SutraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409621EF0CFDF0041F285 /* SutraTests.m */; };
 		A4C4096E1EF0CFDF0041F285 /* SutraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */; };
+		A4E472291EFD019900588339 /* jing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E4721F1EFD019900588339 /* jing@2x.png */; };
+		A4E4722A1EFD019900588339 /* jing_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472201EFD019900588339 /* jing_default@2x.png */; };
+		A4E4722B1EFD019900588339 /* ke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472211EFD019900588339 /* ke@2x.png */; };
+		A4E4722C1EFD019900588339 /* ke_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472221EFD019900588339 /* ke_default@2x.png */; };
+		A4E4722D1EFD019900588339 /* tu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472231EFD019900588339 /* tu@2x.png */; };
+		A4E4722E1EFD019900588339 /* tu_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472241EFD019900588339 /* tu_default@2x.png */; };
+		A4E4722F1EFD019900588339 /* xue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472251EFD019900588339 /* xue@2x.png */; };
+		A4E472301EFD019900588339 /* xue_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472261EFD019900588339 /* xue_default@2x.png */; };
+		A4E472311EFD019900588339 /* yue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472271EFD019900588339 /* yue@2x.png */; };
+		A4E472321EFD019900588339 /* yue_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472281EFD019900588339 /* yue_default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,16 +98,6 @@
 		A49F0DE01EF26B2400D96CBD /* JingListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingListViewController.xib; sourceTree = "<group>"; };
 		A4A4948B1EF0D97300B8435A /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
 		A4A4948C1EF0D97300B8435A /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
-		A4A494A31EF10B0700B8435A /* jing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jing.png; sourceTree = "<group>"; };
-		A4A494A41EF10B0700B8435A /* jing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing@2x.png"; sourceTree = "<group>"; };
-		A4A494A51EF10B0700B8435A /* ke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ke.png; sourceTree = "<group>"; };
-		A4A494A61EF10B0700B8435A /* ke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ke@2x.png"; sourceTree = "<group>"; };
-		A4A494A71EF10B0700B8435A /* tu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu.png; sourceTree = "<group>"; };
-		A4A494A81EF10B0700B8435A /* tu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu@2x.png"; sourceTree = "<group>"; };
-		A4A494A91EF10B0700B8435A /* xue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xue.png; sourceTree = "<group>"; };
-		A4A494AA1EF10B0700B8435A /* xue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue@2x.png"; sourceTree = "<group>"; };
-		A4A494AB1EF10B0700B8435A /* yue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yue.png; sourceTree = "<group>"; };
-		A4A494AC1EF10B0700B8435A /* yue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue@2x.png"; sourceTree = "<group>"; };
 		A4A494CF1EF1113D00B8435A /* JingDetailCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingDetailCtrl.h; sourceTree = "<group>"; };
 		A4A494D01EF1113D00B8435A /* JingDetailCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingDetailCtrl.m; sourceTree = "<group>"; };
 		A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingDetailCtrl.xib; sourceTree = "<group>"; };
@@ -132,6 +122,16 @@
 		A4C409691EF0CFDF0041F285 /* SutraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SutraUITests.m; sourceTree = "<group>"; };
 		A4C4096F1EF0CFDF0041F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E4721F1EFD019900588339 /* jing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing@2x.png"; sourceTree = "<group>"; };
+		A4E472201EFD019900588339 /* jing_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing_default@2x.png"; sourceTree = "<group>"; };
+		A4E472211EFD019900588339 /* ke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ke@2x.png"; sourceTree = "<group>"; };
+		A4E472221EFD019900588339 /* ke_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ke_default@2x.png"; sourceTree = "<group>"; };
+		A4E472231EFD019900588339 /* tu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu@2x.png"; sourceTree = "<group>"; };
+		A4E472241EFD019900588339 /* tu_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_default@2x.png"; sourceTree = "<group>"; };
+		A4E472251EFD019900588339 /* xue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue@2x.png"; sourceTree = "<group>"; };
+		A4E472261EFD019900588339 /* xue_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue_default@2x.png"; sourceTree = "<group>"; };
+		A4E472271EFD019900588339 /* yue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue@2x.png"; sourceTree = "<group>"; };
+		A4E472281EFD019900588339 /* yue_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue_default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,27 +298,10 @@
 			isa = PBXGroup;
 			children = (
 				A4A494E71EF11D9C00B8435A /* HTMLFile */,
-				A4A4949F1EF10AE200B8435A /* Icon */,
+				A4E4721E1EFD019900588339 /* Icon */,
 				A4A494A01EF10AE200B8435A /* Launch */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		A4A4949F1EF10AE200B8435A /* Icon */ = {
-			isa = PBXGroup;
-			children = (
-				A4A494A31EF10B0700B8435A /* jing.png */,
-				A4A494A41EF10B0700B8435A /* jing@2x.png */,
-				A4A494A51EF10B0700B8435A /* ke.png */,
-				A4A494A61EF10B0700B8435A /* ke@2x.png */,
-				A4A494A71EF10B0700B8435A /* tu.png */,
-				A4A494A81EF10B0700B8435A /* tu@2x.png */,
-				A4A494A91EF10B0700B8435A /* xue.png */,
-				A4A494AA1EF10B0700B8435A /* xue@2x.png */,
-				A4A494AB1EF10B0700B8435A /* yue.png */,
-				A4A494AC1EF10B0700B8435A /* yue@2x.png */,
-			);
-			path = Icon;
 			sourceTree = "<group>";
 		};
 		A4A494A01EF10AE200B8435A /* Launch */ = {
@@ -419,6 +402,23 @@
 			path = SutraUITests;
 			sourceTree = "<group>";
 		};
+		A4E4721E1EFD019900588339 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				A4E4721F1EFD019900588339 /* jing@2x.png */,
+				A4E472201EFD019900588339 /* jing_default@2x.png */,
+				A4E472211EFD019900588339 /* ke@2x.png */,
+				A4E472221EFD019900588339 /* ke_default@2x.png */,
+				A4E472231EFD019900588339 /* tu@2x.png */,
+				A4E472241EFD019900588339 /* tu_default@2x.png */,
+				A4E472251EFD019900588339 /* xue@2x.png */,
+				A4E472261EFD019900588339 /* xue_default@2x.png */,
+				A4E472271EFD019900588339 /* yue@2x.png */,
+				A4E472281EFD019900588339 /* yue_default@2x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -489,7 +489,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = TGV2ER7UVL;
+						DevelopmentTeam = NV3296URNT;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -531,37 +531,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A494B21EF10B0700B8435A /* tu@2x.png in Resources */,
 				A4A494F41EF11D9C00B8435A /* 华严经卷一.sutra in Resources */,
+				A4E4722F1EFD019900588339 /* xue@2x.png in Resources */,
+				A4E4722A1EFD019900588339 /* jing_default@2x.png in Resources */,
 				A4A494F51EF11D9C00B8435A /* 地藏菩萨本愿经.sutra in Resources */,
 				A4A494F31EF11D9C00B8435A /* 六祖坛经.sutra in Resources */,
 				A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */,
 				A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */,
 				4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */,
+				A4E4722E1EFD019900588339 /* tu_default@2x.png in Resources */,
+				A4E4722C1EFD019900588339 /* ke_default@2x.png in Resources */,
 				A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */,
-				A4A494B11EF10B0700B8435A /* tu.png in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
-				A4A494B41EF10B0700B8435A /* xue@2x.png in Resources */,
-				A4A494AE1EF10B0700B8435A /* jing@2x.png in Resources */,
+				A4E472291EFD019900588339 /* jing@2x.png in Resources */,
+				A4E4722D1EFD019900588339 /* tu@2x.png in Resources */,
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
 				A4A494F71EF11D9C00B8435A /* 无量寿经.sutra in Resources */,
-				A4A494B01EF10B0700B8435A /* ke@2x.png in Resources */,
 				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
 				A4A494F61EF11D9C00B8435A /* 心经.sutra in Resources */,
 				A4A494F21EF11D9C00B8435A /* 0.sutra in Resources */,
 				A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */,
 				A4A494FA1EF11D9C00B8435A /* 阿弥陀经.sutra in Resources */,
-				A4A494B61EF10B0700B8435A /* yue@2x.png in Resources */,
-				A4A494B31EF10B0700B8435A /* xue.png in Resources */,
 				A4A494F91EF11D9C00B8435A /* 金刚经.sutra in Resources */,
 				A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */,
-				A4A494AF1EF10B0700B8435A /* ke.png in Resources */,
 				A49F0DDA1EF2618700D96CBD /* Default.png in Resources */,
 				4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */,
-				A4A494B51EF10B0700B8435A /* yue.png in Resources */,
 				A4A494F81EF11D9C00B8435A /* 法华经.sutra in Resources */,
+				A4E472311EFD019900588339 /* yue@2x.png in Resources */,
+				A4E4722B1EFD019900588339 /* ke@2x.png in Resources */,
+				A4E472301EFD019900588339 /* xue_default@2x.png in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
-				A4A494AD1EF10B0700B8435A /* jing.png in Resources */,
+				A4E472321EFD019900588339 /* yue_default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,7 +775,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				DEVELOPMENT_TEAM = NV3296URNT;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -790,7 +790,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = TGV2ER7UVL;
+				DEVELOPMENT_TEAM = NV3296URNT;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
