@@ -45,6 +45,11 @@
 		A44084751F03A821006A0F97 /* 心经old.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A44084561F03A821006A0F97 /* 心经old.sutra */; };
 		A44084761F03A821006A0F97 /* 赞佛偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A44084571F03A821006A0F97 /* 赞佛偈.sutra */; };
 		A44084771F03A821006A0F97 /* 赞观音文.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A44084581F03A821006A0F97 /* 赞观音文.sutra */; };
+		A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440847D1F03A9E8006A0F97 /* KeViewController.m */; };
+		A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A440847E1F03A9E8006A0F97 /* KeViewController.xib */; };
+		A44084831F03AA44006A0F97 /* KeAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = A44084821F03AA44006A0F97 /* KeAlbum.m */; };
+		A44084871F03ACAF006A0F97 /* KeTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A44084851F03ACAF006A0F97 /* KeTitleCell.m */; };
+		A44084881F03ACAF006A0F97 /* KeTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44084861F03ACAF006A0F97 /* KeTitleCell.xib */; };
 		A44267491EF3CFFD0012BC7F /* TuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44267471EF3CFFC0012BC7F /* TuViewController.m */; };
 		A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44267481EF3CFFC0012BC7F /* TuViewController.xib */; };
 		A44267511EF3D0380012BC7F /* YueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A442674F1EF3D0380012BC7F /* YueViewController.m */; };
@@ -136,6 +141,14 @@
 		A44084561F03A821006A0F97 /* 心经old.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "心经old.sutra"; sourceTree = "<group>"; };
 		A44084571F03A821006A0F97 /* 赞佛偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "赞佛偈.sutra"; sourceTree = "<group>"; };
 		A44084581F03A821006A0F97 /* 赞观音文.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "赞观音文.sutra"; sourceTree = "<group>"; };
+		A440847C1F03A9E8006A0F97 /* KeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeViewController.h; sourceTree = "<group>"; };
+		A440847D1F03A9E8006A0F97 /* KeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeViewController.m; sourceTree = "<group>"; };
+		A440847E1F03A9E8006A0F97 /* KeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeViewController.xib; sourceTree = "<group>"; };
+		A44084811F03AA44006A0F97 /* KeAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeAlbum.h; sourceTree = "<group>"; };
+		A44084821F03AA44006A0F97 /* KeAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeAlbum.m; sourceTree = "<group>"; };
+		A44084841F03ACAF006A0F97 /* KeTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeTitleCell.h; sourceTree = "<group>"; };
+		A44084851F03ACAF006A0F97 /* KeTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeTitleCell.m; sourceTree = "<group>"; };
+		A44084861F03ACAF006A0F97 /* KeTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeTitleCell.xib; sourceTree = "<group>"; };
 		A44267461EF3CFFC0012BC7F /* TuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuViewController.h; sourceTree = "<group>"; };
 		A44267471EF3CFFC0012BC7F /* TuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuViewController.m; sourceTree = "<group>"; };
 		A44267481EF3CFFC0012BC7F /* TuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuViewController.xib; sourceTree = "<group>"; };
@@ -260,6 +273,45 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A44084781F03A9C1006A0F97 /* Ke */ = {
+			isa = PBXGroup;
+			children = (
+				A44084791F03A9C1006A0F97 /* Controller */,
+				A440847A1F03A9C1006A0F97 /* Model */,
+				A440847B1F03A9C1006A0F97 /* View */,
+			);
+			path = Ke;
+			sourceTree = "<group>";
+		};
+		A44084791F03A9C1006A0F97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A440847C1F03A9E8006A0F97 /* KeViewController.h */,
+				A440847D1F03A9E8006A0F97 /* KeViewController.m */,
+				A440847E1F03A9E8006A0F97 /* KeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A440847A1F03A9C1006A0F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A44084811F03AA44006A0F97 /* KeAlbum.h */,
+				A44084821F03AA44006A0F97 /* KeAlbum.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A440847B1F03A9C1006A0F97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A44084841F03ACAF006A0F97 /* KeTitleCell.h */,
+				A44084851F03ACAF006A0F97 /* KeTitleCell.m */,
+				A44084861F03ACAF006A0F97 /* KeTitleCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A44267431EF3CFB40012BC7F /* Tu */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				A4A4948F1EF10A2200B8435A /* Jing */,
+				A44084781F03A9C1006A0F97 /* Ke */,
 				4CAD5A401EF2D3140026A609 /* Xue */,
 				A442674B1EF3D01C0012BC7F /* Yue */,
 				A44267431EF3CFB40012BC7F /* Tu */,
@@ -608,6 +661,7 @@
 				A4E4722C1EFD019900588339 /* ke_default@2x.png in Resources */,
 				A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */,
 				A440846C1F03A821006A0F97 /* 念圣号.sutra in Resources */,
+				A44084881F03ACAF006A0F97 /* KeTitleCell.xib in Resources */,
 				A44084731F03A821006A0F97 /* 香赞.sutra in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
 				A4E472291EFD019900588339 /* jing@2x.png in Resources */,
@@ -641,6 +695,7 @@
 				A4E472321EFD019900588339 /* yue_default@2x.png in Resources */,
 				A440845F1F03A821006A0F97 /* 发愿文普贤十大愿王.sutra in Resources */,
 				A44084751F03A821006A0F97 /* 心经old.sutra in Resources */,
+				A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */,
 				A440846B1F03A821006A0F97 /* 蒙山施食.sutra in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,11 +774,14 @@
 				A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */,
 				4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */,
 				A4C4094A1EF0CFDF0041F285 /* main.m in Sources */,
+				A44084831F03AA44006A0F97 /* KeAlbum.m in Sources */,
 				A44267491EF3CFFD0012BC7F /* TuViewController.m in Sources */,
 				A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */,
 				A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */,
 				4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */,
 				4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */,
+				A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */,
+				A44084871F03ACAF006A0F97 /* KeTitleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
