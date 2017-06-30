@@ -21,49 +21,49 @@
 		A4240C221F05F059007A25A7 /* a05fhj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BEC1F05F059007A25A7 /* a05fhj.sutra */; };
 		A4240C231F05F059007A25A7 /* a02jgj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BED1F05F059007A25A7 /* a02jgj.sutra */; };
 		A4240C241F05F059007A25A7 /* a01amtj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BEE1F05F059007A25A7 /* a01amtj.sutra */; };
-		A4240C251F05F059007A25A7 /* 三皈依.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BF21F05F059007A25A7 /* 三皈依.sutra */; };
-		A4240C261F05F059007A25A7 /* 伽蓝赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BF31F05F059007A25A7 /* 伽蓝赞.sutra */; };
-		A4240C271F05F059007A25A7 /* 十小咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BF41F05F059007A25A7 /* 十小咒.sutra */; };
-		A4240C281F05F059007A25A7 /* 发愿文慈云净土.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BF51F05F059007A25A7 /* 发愿文慈云净土.sutra */; };
-		A4240C291F05F059007A25A7 /* 发愿文普贤十大愿王.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BF61F05F059007A25A7 /* 发愿文普贤十大愿王.sutra */; };
-		A4240C2A1F05F059007A25A7 /* 回向偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BF71F05F059007A25A7 /* 回向偈.sutra */; };
-		A4240C2B1F05F059007A25A7 /* 大悲咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BF81F05F059007A25A7 /* 大悲咒.sutra */; };
-		A4240C2C1F05F059007A25A7 /* 宝鼎赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BF91F05F059007A25A7 /* 宝鼎赞.sutra */; };
-		A4240C2D1F05F059007A25A7 /* 往生咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BFA1F05F059007A25A7 /* 往生咒.sutra */; };
-		A4240C2E1F05F059007A25A7 /* 念圣号.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BFB1F05F059007A25A7 /* 念圣号.sutra */; };
-		A4240C2F1F05F059007A25A7 /* 普贤菩萨警众偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BFC1F05F059007A25A7 /* 普贤菩萨警众偈.sutra */; };
-		A4240C301F05F059007A25A7 /* 楞严咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BFD1F05F059007A25A7 /* 楞严咒.sutra */; };
-		A4240C311F05F059007A25A7 /* 礼佛大忏悔文.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BFE1F05F059007A25A7 /* 礼佛大忏悔文.sutra */; };
-		A4240C321F05F059007A25A7 /* 蒙山施食.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BFF1F05F059007A25A7 /* 蒙山施食.sutra */; };
-		A4240C331F05F059007A25A7 /* 观闻圣号.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C001F05F059007A25A7 /* 观闻圣号.sutra */; };
-		A4240C341F05F059007A25A7 /* 课心经.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C011F05F059007A25A7 /* 课心经.sutra */; };
-		A4240C351F05F059007A25A7 /* 课阿弥陀经.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C021F05F059007A25A7 /* 课阿弥陀经.sutra */; };
-		A4240C361F05F059007A25A7 /* 赞佛偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C031F05F059007A25A7 /* 赞佛偈.sutra */; };
-		A4240C371F05F059007A25A7 /* 赞观音文.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C041F05F059007A25A7 /* 赞观音文.sutra */; };
-		A4240C381F05F059007A25A7 /* 韦天赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C051F05F059007A25A7 /* 韦天赞.sutra */; };
-		A4240C391F05F059007A25A7 /* 香赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C061F05F059007A25A7 /* 香赞.sutra */; };
-		A4240C3A1F05F059007A25A7 /* 午斋.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C081F05F059007A25A7 /* 午斋.sutra */; };
-		A4240C3B1F05F059007A25A7 /* 变食真言.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C091F05F059007A25A7 /* 变食真言.sutra */; };
-		A4240C3C1F05F059007A25A7 /* 同生极乐立誓顶礼.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C0A1F05F059007A25A7 /* 同生极乐立誓顶礼.sutra */; };
-		A4240C3D1F05F059007A25A7 /* 回向偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C0B1F05F059007A25A7 /* 回向偈.sutra */; };
-		A4240C3E1F05F059007A25A7 /* 回向赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C0C1F05F059007A25A7 /* 回向赞.sutra */; };
-		A4240C3F1F05F059007A25A7 /* 地藏菩萨圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C0D1F05F059007A25A7 /* 地藏菩萨圣诞祝仪.sutra */; };
-		A4240C401F05F059007A25A7 /* 大势至菩萨圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C0E1F05F059007A25A7 /* 大势至菩萨圣诞祝仪.sutra */; };
-		A4240C411F05F059007A25A7 /* 大回向.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C0F1F05F059007A25A7 /* 大回向.sutra */; };
-		A4240C421F05F059007A25A7 /* 弥勒佛圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C101F05F059007A25A7 /* 弥勒佛圣诞祝仪.sutra */; };
-		A4240C431F05F059007A25A7 /* 往生位前回向.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C111F05F059007A25A7 /* 往生位前回向.sutra */; };
-		A4240C441F05F059007A25A7 /* 念圣号.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C121F05F059007A25A7 /* 念圣号.sutra */; };
-		A4240C451F05F059007A25A7 /* 文殊菩萨圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C131F05F059007A25A7 /* 文殊菩萨圣诞祝仪.sutra */; };
-		A4240C461F05F059007A25A7 /* 早斋.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C141F05F059007A25A7 /* 早斋.sutra */; };
-		A4240C471F05F059007A25A7 /* 普贤菩萨圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C151F05F059007A25A7 /* 普贤菩萨圣诞祝仪.sutra */; };
-		A4240C481F05F059007A25A7 /* 杨枝净水赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C161F05F059007A25A7 /* 杨枝净水赞.sutra */; };
-		A4240C491F05F059007A25A7 /* 药师佛圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C171F05F059007A25A7 /* 药师佛圣诞祝仪.sutra */; };
-		A4240C4A1F05F059007A25A7 /* 补缺真言.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C181F05F059007A25A7 /* 补缺真言.sutra */; };
-		A4240C4B1F05F059007A25A7 /* 观音大士赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C191F05F059007A25A7 /* 观音大士赞.sutra */; };
-		A4240C4C1F05F059007A25A7 /* 观音菩萨圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C1A1F05F059007A25A7 /* 观音菩萨圣诞祝仪.sutra */; };
-		A4240C4D1F05F059007A25A7 /* 诸佛菩萨圣诞日.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C1B1F05F059007A25A7 /* 诸佛菩萨圣诞日.sutra */; };
-		A4240C4E1F05F059007A25A7 /* 释迦牟尼佛圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C1C1F05F059007A25A7 /* 释迦牟尼佛圣诞祝仪.sutra */; };
-		A4240C4F1F05F059007A25A7 /* 阿弥陀佛圣诞祝仪.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C1D1F05F059007A25A7 /* 阿弥陀佛圣诞祝仪.sutra */; };
+		A4240C671F062E15007A25A7 /* b22zz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C511F062E15007A25A7 /* b22zz.sutra */; };
+		A4240C681F062E15007A25A7 /* b23wz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C521F062E15007A25A7 /* b23wz.sutra */; };
+		A4240C691F062E15007A25A7 /* b24yzjsz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C531F062E15007A25A7 /* b24yzjsz.sutra */; };
+		A4240C6A1F062E15007A25A7 /* b25hxz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C541F062E15007A25A7 /* b25hxz.sutra */; };
+		A4240C6B1F062E15007A25A7 /* b26nsh.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C551F062E15007A25A7 /* b26nsh.sutra */; };
+		A4240C6C1F062E15007A25A7 /* b28wswqhx.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C561F062E15007A25A7 /* b28wswqhx.sutra */; };
+		A4240C6D1F062E15007A25A7 /* b29dhx.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C571F062E15007A25A7 /* b29dhx.sutra */; };
+		A4240C6E1F062E15007A25A7 /* b30lsdl.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C581F062E15007A25A7 /* b30lsdl.sutra */; };
+		A4240C6F1F062E15007A25A7 /* b31sjmnzy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C591F062E15007A25A7 /* b31sjmnzy.sutra */; };
+		A4240C701F062E15007A25A7 /* b32ysfzy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C5A1F062E15007A25A7 /* b32ysfzy.sutra */; };
+		A4240C711F062E15007A25A7 /* b33amtfzy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C5B1F062E15007A25A7 /* b33amtfzy.sutra */; };
+		A4240C721F062E15007A25A7 /* b34mlfzy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C5C1F062E15007A25A7 /* b34mlfzy.sutra */; };
+		A4240C731F062E15007A25A7 /* b35gypszy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C5D1F062E15007A25A7 /* b35gypszy.sutra */; };
+		A4240C741F062E15007A25A7 /* b36pxpszy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C5E1F062E15007A25A7 /* b36pxpszy.sutra */; };
+		A4240C751F062E15007A25A7 /* b37wspszy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C5F1F062E15007A25A7 /* b37wspszy.sutra */; };
+		A4240C761F062E15007A25A7 /* b38dszpszy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C601F062E15007A25A7 /* b38dszpszy.sutra */; };
+		A4240C771F062E15007A25A7 /* b39dzpszy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C611F062E15007A25A7 /* b39dzpszy.sutra */; };
+		A4240C781F062E15007A25A7 /* b40gydsz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C621F062E15007A25A7 /* b40gydsz.sutra */; };
+		A4240C791F062E15007A25A7 /* b41bqzy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C631F062E15007A25A7 /* b41bqzy.sutra */; };
+		A4240C7A1F062E15007A25A7 /* b42hxj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C641F062E15007A25A7 /* b42hxj.sutra */; };
+		A4240C7B1F062E15007A25A7 /* b43zfpsdate.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C651F062E15007A25A7 /* b43zfpsdate.sutra */; };
+		A4240C7C1F062E15007A25A7 /* b44bszy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C661F062E15007A25A7 /* b44bszy.sutra */; };
+		A4240C941F063273007A25A7 /* b01xz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C7F1F063273007A25A7 /* b01xz.sutra */; };
+		A4240C951F063273007A25A7 /* b02bdz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C801F063273007A25A7 /* b02bdz.sutra */; };
+		A4240C961F063273007A25A7 /* b03lyz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C811F063273007A25A7 /* b03lyz.sutra */; };
+		A4240C971F063273007A25A7 /* b04dbz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C821F063273007A25A7 /* b04dbz.sutra */; };
+		A4240C981F063273007A25A7 /* b05sxz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C831F063273007A25A7 /* b05sxz.sutra */; };
+		A4240C991F063273007A25A7 /* b06xj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C841F063273007A25A7 /* b06xj.sutra */; };
+		A4240C9A1F063273007A25A7 /* b07hxj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C851F063273007A25A7 /* b07hxj.sutra */; };
+		A4240C9B1F063273007A25A7 /* b08zfj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C861F063273007A25A7 /* b08zfj.sutra */; };
+		A4240C9C1F063273007A25A7 /* b09nsh.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C871F063273007A25A7 /* b09nsh.sutra */; };
+		A4240C9D1F063273007A25A7 /* b10fyws.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C881F063273007A25A7 /* b10fyws.sutra */; };
+		A4240C9E1F063273007A25A7 /* b11sgy.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C891F063273007A25A7 /* b11sgy.sutra */; };
+		A4240C9F1F063273007A25A7 /* b12zgyw.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C8A1F063273007A25A7 /* b12zgyw.sutra */; };
+		A4240CA01F063273007A25A7 /* b13amtj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C8B1F063273007A25A7 /* b13amtj.sutra */; };
+		A4240CA11F063273007A25A7 /* b14dchw.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C8C1F063273007A25A7 /* b14dchw.sutra */; };
+		A4240CA21F063273007A25A7 /* b15msss.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C8D1F063273007A25A7 /* b15msss.sutra */; };
+		A4240CA31F063273007A25A7 /* b16wsz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C8E1F063273007A25A7 /* b16wsz.sutra */; };
+		A4240CA41F063273007A25A7 /* b17gwsh.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C8F1F063273007A25A7 /* b17gwsh.sutra */; };
+		A4240CA51F063273007A25A7 /* b18fywj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C901F063273007A25A7 /* b18fywj.sutra */; };
+		A4240CA61F063273007A25A7 /* b19qlz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C911F063273007A25A7 /* b19qlz.sutra */; };
+		A4240CA71F063273007A25A7 /* b20jzj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C921F063273007A25A7 /* b20jzj.sutra */; };
+		A4240CA81F063273007A25A7 /* b21wtz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C931F063273007A25A7 /* b21wtz.sutra */; };
 		A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440847D1F03A9E8006A0F97 /* KeViewController.m */; };
 		A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A440847E1F03A9E8006A0F97 /* KeViewController.xib */; };
 		A44084831F03AA44006A0F97 /* KeAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = A44084821F03AA44006A0F97 /* KeAlbum.m */; };
@@ -136,49 +136,49 @@
 		A4240BEC1F05F059007A25A7 /* a05fhj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a05fhj.sutra; sourceTree = "<group>"; };
 		A4240BED1F05F059007A25A7 /* a02jgj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a02jgj.sutra; sourceTree = "<group>"; };
 		A4240BEE1F05F059007A25A7 /* a01amtj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a01amtj.sutra; sourceTree = "<group>"; };
-		A4240BF21F05F059007A25A7 /* 三皈依.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "三皈依.sutra"; sourceTree = "<group>"; };
-		A4240BF31F05F059007A25A7 /* 伽蓝赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "伽蓝赞.sutra"; sourceTree = "<group>"; };
-		A4240BF41F05F059007A25A7 /* 十小咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "十小咒.sutra"; sourceTree = "<group>"; };
-		A4240BF51F05F059007A25A7 /* 发愿文慈云净土.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "发愿文慈云净土.sutra"; sourceTree = "<group>"; };
-		A4240BF61F05F059007A25A7 /* 发愿文普贤十大愿王.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "发愿文普贤十大愿王.sutra"; sourceTree = "<group>"; };
-		A4240BF71F05F059007A25A7 /* 回向偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "回向偈.sutra"; sourceTree = "<group>"; };
-		A4240BF81F05F059007A25A7 /* 大悲咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大悲咒.sutra"; sourceTree = "<group>"; };
-		A4240BF91F05F059007A25A7 /* 宝鼎赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "宝鼎赞.sutra"; sourceTree = "<group>"; };
-		A4240BFA1F05F059007A25A7 /* 往生咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "往生咒.sutra"; sourceTree = "<group>"; };
-		A4240BFB1F05F059007A25A7 /* 念圣号.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "念圣号.sutra"; sourceTree = "<group>"; };
-		A4240BFC1F05F059007A25A7 /* 普贤菩萨警众偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "普贤菩萨警众偈.sutra"; sourceTree = "<group>"; };
-		A4240BFD1F05F059007A25A7 /* 楞严咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "楞严咒.sutra"; sourceTree = "<group>"; };
-		A4240BFE1F05F059007A25A7 /* 礼佛大忏悔文.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "礼佛大忏悔文.sutra"; sourceTree = "<group>"; };
-		A4240BFF1F05F059007A25A7 /* 蒙山施食.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "蒙山施食.sutra"; sourceTree = "<group>"; };
-		A4240C001F05F059007A25A7 /* 观闻圣号.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "观闻圣号.sutra"; sourceTree = "<group>"; };
-		A4240C011F05F059007A25A7 /* 课心经.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "课心经.sutra"; sourceTree = "<group>"; };
-		A4240C021F05F059007A25A7 /* 课阿弥陀经.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "课阿弥陀经.sutra"; sourceTree = "<group>"; };
-		A4240C031F05F059007A25A7 /* 赞佛偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "赞佛偈.sutra"; sourceTree = "<group>"; };
-		A4240C041F05F059007A25A7 /* 赞观音文.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "赞观音文.sutra"; sourceTree = "<group>"; };
-		A4240C051F05F059007A25A7 /* 韦天赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "韦天赞.sutra"; sourceTree = "<group>"; };
-		A4240C061F05F059007A25A7 /* 香赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "香赞.sutra"; sourceTree = "<group>"; };
-		A4240C081F05F059007A25A7 /* 午斋.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "午斋.sutra"; sourceTree = "<group>"; };
-		A4240C091F05F059007A25A7 /* 变食真言.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "变食真言.sutra"; sourceTree = "<group>"; };
-		A4240C0A1F05F059007A25A7 /* 同生极乐立誓顶礼.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "同生极乐立誓顶礼.sutra"; sourceTree = "<group>"; };
-		A4240C0B1F05F059007A25A7 /* 回向偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "回向偈.sutra"; sourceTree = "<group>"; };
-		A4240C0C1F05F059007A25A7 /* 回向赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "回向赞.sutra"; sourceTree = "<group>"; };
-		A4240C0D1F05F059007A25A7 /* 地藏菩萨圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "地藏菩萨圣诞祝仪.sutra"; sourceTree = "<group>"; };
-		A4240C0E1F05F059007A25A7 /* 大势至菩萨圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大势至菩萨圣诞祝仪.sutra"; sourceTree = "<group>"; };
-		A4240C0F1F05F059007A25A7 /* 大回向.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大回向.sutra"; sourceTree = "<group>"; };
-		A4240C101F05F059007A25A7 /* 弥勒佛圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "弥勒佛圣诞祝仪.sutra"; sourceTree = "<group>"; };
-		A4240C111F05F059007A25A7 /* 往生位前回向.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "往生位前回向.sutra"; sourceTree = "<group>"; };
-		A4240C121F05F059007A25A7 /* 念圣号.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "念圣号.sutra"; sourceTree = "<group>"; };
-		A4240C131F05F059007A25A7 /* 文殊菩萨圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "文殊菩萨圣诞祝仪.sutra"; sourceTree = "<group>"; };
-		A4240C141F05F059007A25A7 /* 早斋.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "早斋.sutra"; sourceTree = "<group>"; };
-		A4240C151F05F059007A25A7 /* 普贤菩萨圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "普贤菩萨圣诞祝仪.sutra"; sourceTree = "<group>"; };
-		A4240C161F05F059007A25A7 /* 杨枝净水赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "杨枝净水赞.sutra"; sourceTree = "<group>"; };
-		A4240C171F05F059007A25A7 /* 药师佛圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "药师佛圣诞祝仪.sutra"; sourceTree = "<group>"; };
-		A4240C181F05F059007A25A7 /* 补缺真言.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "补缺真言.sutra"; sourceTree = "<group>"; };
-		A4240C191F05F059007A25A7 /* 观音大士赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "观音大士赞.sutra"; sourceTree = "<group>"; };
-		A4240C1A1F05F059007A25A7 /* 观音菩萨圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "观音菩萨圣诞祝仪.sutra"; sourceTree = "<group>"; };
-		A4240C1B1F05F059007A25A7 /* 诸佛菩萨圣诞日.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "诸佛菩萨圣诞日.sutra"; sourceTree = "<group>"; };
-		A4240C1C1F05F059007A25A7 /* 释迦牟尼佛圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "释迦牟尼佛圣诞祝仪.sutra"; sourceTree = "<group>"; };
-		A4240C1D1F05F059007A25A7 /* 阿弥陀佛圣诞祝仪.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "阿弥陀佛圣诞祝仪.sutra"; sourceTree = "<group>"; };
+		A4240C511F062E15007A25A7 /* b22zz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b22zz.sutra; sourceTree = "<group>"; };
+		A4240C521F062E15007A25A7 /* b23wz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b23wz.sutra; sourceTree = "<group>"; };
+		A4240C531F062E15007A25A7 /* b24yzjsz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b24yzjsz.sutra; sourceTree = "<group>"; };
+		A4240C541F062E15007A25A7 /* b25hxz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b25hxz.sutra; sourceTree = "<group>"; };
+		A4240C551F062E15007A25A7 /* b26nsh.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b26nsh.sutra; sourceTree = "<group>"; };
+		A4240C561F062E15007A25A7 /* b28wswqhx.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b28wswqhx.sutra; sourceTree = "<group>"; };
+		A4240C571F062E15007A25A7 /* b29dhx.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b29dhx.sutra; sourceTree = "<group>"; };
+		A4240C581F062E15007A25A7 /* b30lsdl.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b30lsdl.sutra; sourceTree = "<group>"; };
+		A4240C591F062E15007A25A7 /* b31sjmnzy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b31sjmnzy.sutra; sourceTree = "<group>"; };
+		A4240C5A1F062E15007A25A7 /* b32ysfzy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b32ysfzy.sutra; sourceTree = "<group>"; };
+		A4240C5B1F062E15007A25A7 /* b33amtfzy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b33amtfzy.sutra; sourceTree = "<group>"; };
+		A4240C5C1F062E15007A25A7 /* b34mlfzy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b34mlfzy.sutra; sourceTree = "<group>"; };
+		A4240C5D1F062E15007A25A7 /* b35gypszy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b35gypszy.sutra; sourceTree = "<group>"; };
+		A4240C5E1F062E15007A25A7 /* b36pxpszy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b36pxpszy.sutra; sourceTree = "<group>"; };
+		A4240C5F1F062E15007A25A7 /* b37wspszy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b37wspszy.sutra; sourceTree = "<group>"; };
+		A4240C601F062E15007A25A7 /* b38dszpszy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b38dszpszy.sutra; sourceTree = "<group>"; };
+		A4240C611F062E15007A25A7 /* b39dzpszy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b39dzpszy.sutra; sourceTree = "<group>"; };
+		A4240C621F062E15007A25A7 /* b40gydsz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b40gydsz.sutra; sourceTree = "<group>"; };
+		A4240C631F062E15007A25A7 /* b41bqzy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b41bqzy.sutra; sourceTree = "<group>"; };
+		A4240C641F062E15007A25A7 /* b42hxj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b42hxj.sutra; sourceTree = "<group>"; };
+		A4240C651F062E15007A25A7 /* b43zfpsdate.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b43zfpsdate.sutra; sourceTree = "<group>"; };
+		A4240C661F062E15007A25A7 /* b44bszy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b44bszy.sutra; sourceTree = "<group>"; };
+		A4240C7F1F063273007A25A7 /* b01xz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b01xz.sutra; sourceTree = "<group>"; };
+		A4240C801F063273007A25A7 /* b02bdz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b02bdz.sutra; sourceTree = "<group>"; };
+		A4240C811F063273007A25A7 /* b03lyz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b03lyz.sutra; sourceTree = "<group>"; };
+		A4240C821F063273007A25A7 /* b04dbz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b04dbz.sutra; sourceTree = "<group>"; };
+		A4240C831F063273007A25A7 /* b05sxz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b05sxz.sutra; sourceTree = "<group>"; };
+		A4240C841F063273007A25A7 /* b06xj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b06xj.sutra; sourceTree = "<group>"; };
+		A4240C851F063273007A25A7 /* b07hxj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b07hxj.sutra; sourceTree = "<group>"; };
+		A4240C861F063273007A25A7 /* b08zfj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b08zfj.sutra; sourceTree = "<group>"; };
+		A4240C871F063273007A25A7 /* b09nsh.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b09nsh.sutra; sourceTree = "<group>"; };
+		A4240C881F063273007A25A7 /* b10fyws.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b10fyws.sutra; sourceTree = "<group>"; };
+		A4240C891F063273007A25A7 /* b11sgy.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b11sgy.sutra; sourceTree = "<group>"; };
+		A4240C8A1F063273007A25A7 /* b12zgyw.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b12zgyw.sutra; sourceTree = "<group>"; };
+		A4240C8B1F063273007A25A7 /* b13amtj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b13amtj.sutra; sourceTree = "<group>"; };
+		A4240C8C1F063273007A25A7 /* b14dchw.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b14dchw.sutra; sourceTree = "<group>"; };
+		A4240C8D1F063273007A25A7 /* b15msss.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b15msss.sutra; sourceTree = "<group>"; };
+		A4240C8E1F063273007A25A7 /* b16wsz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b16wsz.sutra; sourceTree = "<group>"; };
+		A4240C8F1F063273007A25A7 /* b17gwsh.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b17gwsh.sutra; sourceTree = "<group>"; };
+		A4240C901F063273007A25A7 /* b18fywj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b18fywj.sutra; sourceTree = "<group>"; };
+		A4240C911F063273007A25A7 /* b19qlz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b19qlz.sutra; sourceTree = "<group>"; };
+		A4240C921F063273007A25A7 /* b20jzj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b20jzj.sutra; sourceTree = "<group>"; };
+		A4240C931F063273007A25A7 /* b21wtz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b21wtz.sutra; sourceTree = "<group>"; };
 		A440847C1F03A9E8006A0F97 /* KeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeViewController.h; sourceTree = "<group>"; };
 		A440847D1F03A9E8006A0F97 /* KeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeViewController.m; sourceTree = "<group>"; };
 		A440847E1F03A9E8006A0F97 /* KeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeViewController.xib; sourceTree = "<group>"; };
@@ -328,75 +328,75 @@
 		A4240BEF1F05F059007A25A7 /* Ke */ = {
 			isa = PBXGroup;
 			children = (
-				A4240BF01F05F059007A25A7 /* Album */,
-				A4240C071F05F059007A25A7 /* Single */,
+				A4240C7D1F063273007A25A7 /* Album */,
+				A4240C501F062E15007A25A7 /* Single */,
 			);
 			path = Ke;
 			sourceTree = "<group>";
 		};
-		A4240BF01F05F059007A25A7 /* Album */ = {
+		A4240C501F062E15007A25A7 /* Single */ = {
 			isa = PBXGroup;
 			children = (
-				A4240BF11F05F059007A25A7 /* BuddhistSong */,
+				A4240C511F062E15007A25A7 /* b22zz.sutra */,
+				A4240C521F062E15007A25A7 /* b23wz.sutra */,
+				A4240C531F062E15007A25A7 /* b24yzjsz.sutra */,
+				A4240C541F062E15007A25A7 /* b25hxz.sutra */,
+				A4240C551F062E15007A25A7 /* b26nsh.sutra */,
+				A4240C561F062E15007A25A7 /* b28wswqhx.sutra */,
+				A4240C571F062E15007A25A7 /* b29dhx.sutra */,
+				A4240C581F062E15007A25A7 /* b30lsdl.sutra */,
+				A4240C591F062E15007A25A7 /* b31sjmnzy.sutra */,
+				A4240C5A1F062E15007A25A7 /* b32ysfzy.sutra */,
+				A4240C5B1F062E15007A25A7 /* b33amtfzy.sutra */,
+				A4240C5C1F062E15007A25A7 /* b34mlfzy.sutra */,
+				A4240C5D1F062E15007A25A7 /* b35gypszy.sutra */,
+				A4240C5E1F062E15007A25A7 /* b36pxpszy.sutra */,
+				A4240C5F1F062E15007A25A7 /* b37wspszy.sutra */,
+				A4240C601F062E15007A25A7 /* b38dszpszy.sutra */,
+				A4240C611F062E15007A25A7 /* b39dzpszy.sutra */,
+				A4240C621F062E15007A25A7 /* b40gydsz.sutra */,
+				A4240C631F062E15007A25A7 /* b41bqzy.sutra */,
+				A4240C641F062E15007A25A7 /* b42hxj.sutra */,
+				A4240C651F062E15007A25A7 /* b43zfpsdate.sutra */,
+				A4240C661F062E15007A25A7 /* b44bszy.sutra */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		A4240C7D1F063273007A25A7 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				A4240C7E1F063273007A25A7 /* BuddhistSong */,
 			);
 			path = Album;
 			sourceTree = "<group>";
 		};
-		A4240BF11F05F059007A25A7 /* BuddhistSong */ = {
+		A4240C7E1F063273007A25A7 /* BuddhistSong */ = {
 			isa = PBXGroup;
 			children = (
-				A4240BF21F05F059007A25A7 /* 三皈依.sutra */,
-				A4240BF31F05F059007A25A7 /* 伽蓝赞.sutra */,
-				A4240BF41F05F059007A25A7 /* 十小咒.sutra */,
-				A4240BF51F05F059007A25A7 /* 发愿文慈云净土.sutra */,
-				A4240BF61F05F059007A25A7 /* 发愿文普贤十大愿王.sutra */,
-				A4240BF71F05F059007A25A7 /* 回向偈.sutra */,
-				A4240BF81F05F059007A25A7 /* 大悲咒.sutra */,
-				A4240BF91F05F059007A25A7 /* 宝鼎赞.sutra */,
-				A4240BFA1F05F059007A25A7 /* 往生咒.sutra */,
-				A4240BFB1F05F059007A25A7 /* 念圣号.sutra */,
-				A4240BFC1F05F059007A25A7 /* 普贤菩萨警众偈.sutra */,
-				A4240BFD1F05F059007A25A7 /* 楞严咒.sutra */,
-				A4240BFE1F05F059007A25A7 /* 礼佛大忏悔文.sutra */,
-				A4240BFF1F05F059007A25A7 /* 蒙山施食.sutra */,
-				A4240C001F05F059007A25A7 /* 观闻圣号.sutra */,
-				A4240C011F05F059007A25A7 /* 课心经.sutra */,
-				A4240C021F05F059007A25A7 /* 课阿弥陀经.sutra */,
-				A4240C031F05F059007A25A7 /* 赞佛偈.sutra */,
-				A4240C041F05F059007A25A7 /* 赞观音文.sutra */,
-				A4240C051F05F059007A25A7 /* 韦天赞.sutra */,
-				A4240C061F05F059007A25A7 /* 香赞.sutra */,
+				A4240C7F1F063273007A25A7 /* b01xz.sutra */,
+				A4240C801F063273007A25A7 /* b02bdz.sutra */,
+				A4240C811F063273007A25A7 /* b03lyz.sutra */,
+				A4240C821F063273007A25A7 /* b04dbz.sutra */,
+				A4240C831F063273007A25A7 /* b05sxz.sutra */,
+				A4240C841F063273007A25A7 /* b06xj.sutra */,
+				A4240C851F063273007A25A7 /* b07hxj.sutra */,
+				A4240C861F063273007A25A7 /* b08zfj.sutra */,
+				A4240C871F063273007A25A7 /* b09nsh.sutra */,
+				A4240C881F063273007A25A7 /* b10fyws.sutra */,
+				A4240C891F063273007A25A7 /* b11sgy.sutra */,
+				A4240C8A1F063273007A25A7 /* b12zgyw.sutra */,
+				A4240C8B1F063273007A25A7 /* b13amtj.sutra */,
+				A4240C8C1F063273007A25A7 /* b14dchw.sutra */,
+				A4240C8D1F063273007A25A7 /* b15msss.sutra */,
+				A4240C8E1F063273007A25A7 /* b16wsz.sutra */,
+				A4240C8F1F063273007A25A7 /* b17gwsh.sutra */,
+				A4240C901F063273007A25A7 /* b18fywj.sutra */,
+				A4240C911F063273007A25A7 /* b19qlz.sutra */,
+				A4240C921F063273007A25A7 /* b20jzj.sutra */,
+				A4240C931F063273007A25A7 /* b21wtz.sutra */,
 			);
 			path = BuddhistSong;
-			sourceTree = "<group>";
-		};
-		A4240C071F05F059007A25A7 /* Single */ = {
-			isa = PBXGroup;
-			children = (
-				A4240C081F05F059007A25A7 /* 午斋.sutra */,
-				A4240C091F05F059007A25A7 /* 变食真言.sutra */,
-				A4240C0A1F05F059007A25A7 /* 同生极乐立誓顶礼.sutra */,
-				A4240C0B1F05F059007A25A7 /* 回向偈.sutra */,
-				A4240C0C1F05F059007A25A7 /* 回向赞.sutra */,
-				A4240C0D1F05F059007A25A7 /* 地藏菩萨圣诞祝仪.sutra */,
-				A4240C0E1F05F059007A25A7 /* 大势至菩萨圣诞祝仪.sutra */,
-				A4240C0F1F05F059007A25A7 /* 大回向.sutra */,
-				A4240C101F05F059007A25A7 /* 弥勒佛圣诞祝仪.sutra */,
-				A4240C111F05F059007A25A7 /* 往生位前回向.sutra */,
-				A4240C121F05F059007A25A7 /* 念圣号.sutra */,
-				A4240C131F05F059007A25A7 /* 文殊菩萨圣诞祝仪.sutra */,
-				A4240C141F05F059007A25A7 /* 早斋.sutra */,
-				A4240C151F05F059007A25A7 /* 普贤菩萨圣诞祝仪.sutra */,
-				A4240C161F05F059007A25A7 /* 杨枝净水赞.sutra */,
-				A4240C171F05F059007A25A7 /* 药师佛圣诞祝仪.sutra */,
-				A4240C181F05F059007A25A7 /* 补缺真言.sutra */,
-				A4240C191F05F059007A25A7 /* 观音大士赞.sutra */,
-				A4240C1A1F05F059007A25A7 /* 观音菩萨圣诞祝仪.sutra */,
-				A4240C1B1F05F059007A25A7 /* 诸佛菩萨圣诞日.sutra */,
-				A4240C1C1F05F059007A25A7 /* 释迦牟尼佛圣诞祝仪.sutra */,
-				A4240C1D1F05F059007A25A7 /* 阿弥陀佛圣诞祝仪.sutra */,
-			);
-			path = Single;
 			sourceTree = "<group>";
 		};
 		A44084781F03A9C1006A0F97 /* Ke */ = {
@@ -739,80 +739,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4240C9E1F063273007A25A7 /* b11sgy.sutra in Resources */,
+				A4240C771F062E15007A25A7 /* b39dzpszy.sutra in Resources */,
 				A4E4722F1EFD019900588339 /* xue@2x.png in Resources */,
+				A4240CA51F063273007A25A7 /* b18fywj.sutra in Resources */,
+				A4240CA61F063273007A25A7 /* b19qlz.sutra in Resources */,
 				A4240C1F1F05F059007A25A7 /* a06hyj1.sutra in Resources */,
+				A4240C6D1F062E15007A25A7 /* b29dhx.sutra in Resources */,
 				A4240C231F05F059007A25A7 /* a02jgj.sutra in Resources */,
-				A4240C381F05F059007A25A7 /* 韦天赞.sutra in Resources */,
-				A4240C411F05F059007A25A7 /* 大回向.sutra in Resources */,
+				A4240C691F062E15007A25A7 /* b24yzjsz.sutra in Resources */,
 				A4E4722A1EFD019900588339 /* jing_default@2x.png in Resources */,
-				A4240C2E1F05F059007A25A7 /* 念圣号.sutra in Resources */,
 				A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */,
-				A4240C3E1F05F059007A25A7 /* 回向赞.sutra in Resources */,
+				A4240C6F1F062E15007A25A7 /* b31sjmnzy.sutra in Resources */,
 				A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */,
-				A4240C3F1F05F059007A25A7 /* 地藏菩萨圣诞祝仪.sutra in Resources */,
-				A4240C371F05F059007A25A7 /* 赞观音文.sutra in Resources */,
 				4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */,
-				A4240C321F05F059007A25A7 /* 蒙山施食.sutra in Resources */,
-				A4240C2D1F05F059007A25A7 /* 往生咒.sutra in Resources */,
-				A4240C2A1F05F059007A25A7 /* 回向偈.sutra in Resources */,
-				A4240C301F05F059007A25A7 /* 楞严咒.sutra in Resources */,
+				A4240C701F062E15007A25A7 /* b32ysfzy.sutra in Resources */,
+				A4240C7A1F062E15007A25A7 /* b42hxj.sutra in Resources */,
 				A4E4722E1EFD019900588339 /* tu_default@2x.png in Resources */,
+				A4240C671F062E15007A25A7 /* b22zz.sutra in Resources */,
+				A4240C991F063273007A25A7 /* b06xj.sutra in Resources */,
+				A4240CA41F063273007A25A7 /* b17gwsh.sutra in Resources */,
+				A4240CA11F063273007A25A7 /* b14dchw.sutra in Resources */,
+				A4240C9D1F063273007A25A7 /* b10fyws.sutra in Resources */,
+				A4240CA01F063273007A25A7 /* b13amtj.sutra in Resources */,
 				A4E4722C1EFD019900588339 /* ke_default@2x.png in Resources */,
-				A4240C311F05F059007A25A7 /* 礼佛大忏悔文.sutra in Resources */,
-				A4240C4D1F05F059007A25A7 /* 诸佛菩萨圣诞日.sutra in Resources */,
 				A4240C221F05F059007A25A7 /* a05fhj.sutra in Resources */,
-				A4240C451F05F059007A25A7 /* 文殊菩萨圣诞祝仪.sutra in Resources */,
+				A4240C941F063273007A25A7 /* b01xz.sutra in Resources */,
+				A4240C6B1F062E15007A25A7 /* b26nsh.sutra in Resources */,
 				A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */,
-				A4240C4F1F05F059007A25A7 /* 阿弥陀佛圣诞祝仪.sutra in Resources */,
-				A4240C461F05F059007A25A7 /* 早斋.sutra in Resources */,
+				A4240C761F062E15007A25A7 /* b38dszpszy.sutra in Resources */,
 				A4240C241F05F059007A25A7 /* a01amtj.sutra in Resources */,
 				A44084881F03ACAF006A0F97 /* KeTitleCell.xib in Resources */,
-				A4240C3D1F05F059007A25A7 /* 回向偈.sutra in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
-				A4240C491F05F059007A25A7 /* 药师佛圣诞祝仪.sutra in Resources */,
 				A4E472291EFD019900588339 /* jing@2x.png in Resources */,
 				A4E4722D1EFD019900588339 /* tu@2x.png in Resources */,
-				A4240C361F05F059007A25A7 /* 赞佛偈.sutra in Resources */,
+				A4240C9F1F063273007A25A7 /* b12zgyw.sutra in Resources */,
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
+				A4240C6A1F062E15007A25A7 /* b25hxz.sutra in Resources */,
+				A4240C7C1F062E15007A25A7 /* b44bszy.sutra in Resources */,
 				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
-				A4240C431F05F059007A25A7 /* 往生位前回向.sutra in Resources */,
-				A4240C471F05F059007A25A7 /* 普贤菩萨圣诞祝仪.sutra in Resources */,
-				A4240C2B1F05F059007A25A7 /* 大悲咒.sutra in Resources */,
-				A4240C351F05F059007A25A7 /* 课阿弥陀经.sutra in Resources */,
-				A4240C2F1F05F059007A25A7 /* 普贤菩萨警众偈.sutra in Resources */,
-				A4240C271F05F059007A25A7 /* 十小咒.sutra in Resources */,
-				A4240C291F05F059007A25A7 /* 发愿文普贤十大愿王.sutra in Resources */,
-				A4240C391F05F059007A25A7 /* 香赞.sutra in Resources */,
-				A4240C4C1F05F059007A25A7 /* 观音菩萨圣诞祝仪.sutra in Resources */,
-				A4240C4E1F05F059007A25A7 /* 释迦牟尼佛圣诞祝仪.sutra in Resources */,
-				A4240C3B1F05F059007A25A7 /* 变食真言.sutra in Resources */,
+				A4240CA81F063273007A25A7 /* b21wtz.sutra in Resources */,
+				A4240C781F062E15007A25A7 /* b40gydsz.sutra in Resources */,
+				A4240C6E1F062E15007A25A7 /* b30lsdl.sutra in Resources */,
+				A4240C741F062E15007A25A7 /* b36pxpszy.sutra in Resources */,
+				A4240C721F062E15007A25A7 /* b34mlfzy.sutra in Resources */,
 				A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */,
+				A4240C711F062E15007A25A7 /* b33amtfzy.sutra in Resources */,
 				A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */,
-				A4240C401F05F059007A25A7 /* 大势至菩萨圣诞祝仪.sutra in Resources */,
-				A4240C251F05F059007A25A7 /* 三皈依.sutra in Resources */,
 				A49F0DDA1EF2618700D96CBD /* Default.png in Resources */,
 				A4240C201F05F059007A25A7 /* a03xj.sutra in Resources */,
 				4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */,
-				A4240C341F05F059007A25A7 /* 课心经.sutra in Resources */,
-				A4240C261F05F059007A25A7 /* 伽蓝赞.sutra in Resources */,
+				A4240C9B1F063273007A25A7 /* b08zfj.sutra in Resources */,
 				A4E472311EFD019900588339 /* yue@2x.png in Resources */,
-				A4240C3A1F05F059007A25A7 /* 午斋.sutra in Resources */,
-				A4240C2C1F05F059007A25A7 /* 宝鼎赞.sutra in Resources */,
+				A4240C6C1F062E15007A25A7 /* b28wswqhx.sutra in Resources */,
+				A4240C731F062E15007A25A7 /* b35gypszy.sutra in Resources */,
+				A4240C9C1F063273007A25A7 /* b09nsh.sutra in Resources */,
+				A4240C751F062E15007A25A7 /* b37wspszy.sutra in Resources */,
 				A4E4722B1EFD019900588339 /* ke@2x.png in Resources */,
-				A4240C481F05F059007A25A7 /* 杨枝净水赞.sutra in Resources */,
-				A4240C4B1F05F059007A25A7 /* 观音大士赞.sutra in Resources */,
-				A4240C4A1F05F059007A25A7 /* 补缺真言.sutra in Resources */,
-				A4240C281F05F059007A25A7 /* 发愿文慈云净土.sutra in Resources */,
 				A4E472301EFD019900588339 /* xue_default@2x.png in Resources */,
-				A4240C331F05F059007A25A7 /* 观闻圣号.sutra in Resources */,
-				A4240C441F05F059007A25A7 /* 念圣号.sutra in Resources */,
+				A4240CA71F063273007A25A7 /* b20jzj.sutra in Resources */,
+				A4240C7B1F062E15007A25A7 /* b43zfpsdate.sutra in Resources */,
+				A4240C9A1F063273007A25A7 /* b07hxj.sutra in Resources */,
 				A4240C1E1F05F059007A25A7 /* a04lztj.sutra in Resources */,
-				A4240C421F05F059007A25A7 /* 弥勒佛圣诞祝仪.sutra in Resources */,
+				A4240C971F063273007A25A7 /* b04dbz.sutra in Resources */,
 				A4240C211F05F059007A25A7 /* a07wlsj.sutra in Resources */,
+				A4240C681F062E15007A25A7 /* b23wz.sutra in Resources */,
+				A4240C981F063273007A25A7 /* b05sxz.sutra in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
-				A4240C3C1F05F059007A25A7 /* 同生极乐立誓顶礼.sutra in Resources */,
 				A4E472321EFD019900588339 /* yue_default@2x.png in Resources */,
 				A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */,
+				A4240CA21F063273007A25A7 /* b15msss.sutra in Resources */,
+				A4240C961F063273007A25A7 /* b03lyz.sutra in Resources */,
+				A4240C791F062E15007A25A7 /* b41bqzy.sutra in Resources */,
+				A4240C951F063273007A25A7 /* b02bdz.sutra in Resources */,
+				A4240CA31F063273007A25A7 /* b16wsz.sutra in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
