@@ -41,7 +41,6 @@
     [_Jing addObject:@{@"name":@"金刚经",       @"url":@"a02jgj.sutra"}];
     [_Jing addObject:@{@"name":@"心经",         @"url":@"a03xj.sutra"}];
     [_Jing addObject:@{@"name":@"六祖坛经",     @"url":@"a04lztj.sutra"}];
-//    [_Jing addObject:@{@"name":@"地藏菩萨本愿经",@"url":@"地藏菩萨本愿经.sutra"}];
     [_Jing addObject:@{@"name":@"法华经",       @"url":@"a05fhj.sutra"}];
     [_Jing addObject:@{@"name":@"华严经卷一",       @"url":@"a06hyj1.sutra"}];
     [_Jing addObject:@{@"name":@"无量寿经",     @"url":@"a07wlsj.sutra"}];
