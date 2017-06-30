@@ -43,7 +43,7 @@
     [_Jing addObject:@{@"name":@"无量寿经",     @"url":@"无量寿经.sutra"}];
 //    [_Jing addObject:@{@"name":@"地藏菩萨本愿经",@"url":@"地藏菩萨本愿经.sutra"}];
     [_Jing addObject:@{@"name":@"六祖坛经",     @"url":@"六祖坛经.sutra"}];
-//    [_Jing addObject:@{@"name":@"法华经",       @"url":@"法华经.sutra"}];
+    [_Jing addObject:@{@"name":@"法华经",       @"url":@"法华经.sutra"}];
     [_Jing addObject:@{@"name":@"华严经卷一",       @"url":@"华严经卷一.sutra"}];
 }
 
