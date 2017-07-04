@@ -79,6 +79,32 @@
 		A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DDC1EF2625D00D96CBD /* Default-2208.png */; };
 		A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49F0DDF1EF26B2400D96CBD /* JingListViewController.m */; };
 		A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DE01EF26B2400D96CBD /* JingListViewController.xib */; };
+		A4A325201F0B9B710062DB41 /* 01-香赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325051F0B9B710062DB41 /* 01-香赞.sutra */; };
+		A4A325211F0B9B710062DB41 /* 02-阿弥陀经.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325061F0B9B710062DB41 /* 02-阿弥陀经.sutra */; };
+		A4A325221F0B9B710062DB41 /* 03-往生咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325071F0B9B710062DB41 /* 03-往生咒.sutra */; };
+		A4A325231F0B9B710062DB41 /* 04-大忏悔文.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325081F0B9B710062DB41 /* 04-大忏悔文.sutra */; };
+		A4A325241F0B9B710062DB41 /* 05-蒙山施食.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325091F0B9B710062DB41 /* 05-蒙山施食.sutra */; };
+		A4A325251F0B9B710062DB41 /* 06-心经.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3250A1F0B9B710062DB41 /* 06-心经.sutra */; };
+		A4A325261F0B9B710062DB41 /* 07-往生咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3250B1F0B9B710062DB41 /* 07-往生咒.sutra */; };
+		A4A325271F0B9B710062DB41 /* 08-回向偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3250C1F0B9B710062DB41 /* 08-回向偈.sutra */; };
+		A4A325281F0B9B710062DB41 /* 09-赞佛偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3250D1F0B9B710062DB41 /* 09-赞佛偈.sutra */; };
+		A4A325291F0B9B710062DB41 /* 10-观闻圣号.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3250E1F0B9B710062DB41 /* 10-观闻圣号.sutra */; };
+		A4A3252A1F0B9B710062DB41 /* 11-发愿文.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3250F1F0B9B710062DB41 /* 11-发愿文.sutra */; };
+		A4A3252B1F0B9B710062DB41 /* 12-三皈依.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325101F0B9B710062DB41 /* 12-三皈依.sutra */; };
+		A4A3252C1F0B9B710062DB41 /* 13-大悲咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325111F0B9B710062DB41 /* 13-大悲咒.sutra */; };
+		A4A3252D1F0B9B710062DB41 /* 14-伽蓝赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325121F0B9B710062DB41 /* 14-伽蓝赞.sutra */; };
+		A4A3252E1F0B9B710062DB41 /* 01-宝鼎赞.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325141F0B9B710062DB41 /* 01-宝鼎赞.sutra */; };
+		A4A3252F1F0B9B710062DB41 /* 02-楞严咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325151F0B9B710062DB41 /* 02-楞严咒.sutra */; };
+		A4A325301F0B9B710062DB41 /* 08-大悲咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325161F0B9B710062DB41 /* 08-大悲咒.sutra */; };
+		A4A325311F0B9B710062DB41 /* 09-十小咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325171F0B9B710062DB41 /* 09-十小咒.sutra */; };
+		A4A325321F0B9B710062DB41 /* 10-心经.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325181F0B9B710062DB41 /* 10-心经.sutra */; };
+		A4A325331F0B9B710062DB41 /* 11-三称佛号.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A325191F0B9B710062DB41 /* 11-三称佛号.sutra */; };
+		A4A325341F0B9B710062DB41 /* 12-回向偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3251A1F0B9B710062DB41 /* 12-回向偈.sutra */; };
+		A4A325351F0B9B710062DB41 /* 13-赞佛偈.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3251B1F0B9B710062DB41 /* 13-赞佛偈.sutra */; };
+		A4A325361F0B9B710062DB41 /* 14-念圣号.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3251C1F0B9B710062DB41 /* 14-念圣号.sutra */; };
+		A4A325371F0B9B710062DB41 /* 15-发愿文.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3251D1F0B9B710062DB41 /* 15-发愿文.sutra */; };
+		A4A325381F0B9B710062DB41 /* 16-三皈依.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3251E1F0B9B710062DB41 /* 16-三皈依.sutra */; };
+		A4A325391F0B9B710062DB41 /* 17-大吉祥天女咒.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4A3251F1F0B9B710062DB41 /* 17-大吉祥天女咒.sutra */; };
 		A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A4948C1EF0D97300B8435A /* MLNavigationController.m */; };
 		A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A494D01EF1113D00B8435A /* JingDetailCtrl.m */; };
 		A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */; };
@@ -200,6 +226,32 @@
 		A49F0DDE1EF26B2400D96CBD /* JingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingListViewController.h; sourceTree = "<group>"; };
 		A49F0DDF1EF26B2400D96CBD /* JingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingListViewController.m; sourceTree = "<group>"; };
 		A49F0DE01EF26B2400D96CBD /* JingListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingListViewController.xib; sourceTree = "<group>"; };
+		A4A325051F0B9B710062DB41 /* 01-香赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01-香赞.sutra"; sourceTree = "<group>"; };
+		A4A325061F0B9B710062DB41 /* 02-阿弥陀经.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02-阿弥陀经.sutra"; sourceTree = "<group>"; };
+		A4A325071F0B9B710062DB41 /* 03-往生咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "03-往生咒.sutra"; sourceTree = "<group>"; };
+		A4A325081F0B9B710062DB41 /* 04-大忏悔文.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "04-大忏悔文.sutra"; sourceTree = "<group>"; };
+		A4A325091F0B9B710062DB41 /* 05-蒙山施食.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "05-蒙山施食.sutra"; sourceTree = "<group>"; };
+		A4A3250A1F0B9B710062DB41 /* 06-心经.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06-心经.sutra"; sourceTree = "<group>"; };
+		A4A3250B1F0B9B710062DB41 /* 07-往生咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "07-往生咒.sutra"; sourceTree = "<group>"; };
+		A4A3250C1F0B9B710062DB41 /* 08-回向偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08-回向偈.sutra"; sourceTree = "<group>"; };
+		A4A3250D1F0B9B710062DB41 /* 09-赞佛偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "09-赞佛偈.sutra"; sourceTree = "<group>"; };
+		A4A3250E1F0B9B710062DB41 /* 10-观闻圣号.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "10-观闻圣号.sutra"; sourceTree = "<group>"; };
+		A4A3250F1F0B9B710062DB41 /* 11-发愿文.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "11-发愿文.sutra"; sourceTree = "<group>"; };
+		A4A325101F0B9B710062DB41 /* 12-三皈依.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "12-三皈依.sutra"; sourceTree = "<group>"; };
+		A4A325111F0B9B710062DB41 /* 13-大悲咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "13-大悲咒.sutra"; sourceTree = "<group>"; };
+		A4A325121F0B9B710062DB41 /* 14-伽蓝赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "14-伽蓝赞.sutra"; sourceTree = "<group>"; };
+		A4A325141F0B9B710062DB41 /* 01-宝鼎赞.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01-宝鼎赞.sutra"; sourceTree = "<group>"; };
+		A4A325151F0B9B710062DB41 /* 02-楞严咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02-楞严咒.sutra"; sourceTree = "<group>"; };
+		A4A325161F0B9B710062DB41 /* 08-大悲咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08-大悲咒.sutra"; sourceTree = "<group>"; };
+		A4A325171F0B9B710062DB41 /* 09-十小咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "09-十小咒.sutra"; sourceTree = "<group>"; };
+		A4A325181F0B9B710062DB41 /* 10-心经.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "10-心经.sutra"; sourceTree = "<group>"; };
+		A4A325191F0B9B710062DB41 /* 11-三称佛号.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "11-三称佛号.sutra"; sourceTree = "<group>"; };
+		A4A3251A1F0B9B710062DB41 /* 12-回向偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "12-回向偈.sutra"; sourceTree = "<group>"; };
+		A4A3251B1F0B9B710062DB41 /* 13-赞佛偈.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "13-赞佛偈.sutra"; sourceTree = "<group>"; };
+		A4A3251C1F0B9B710062DB41 /* 14-念圣号.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "14-念圣号.sutra"; sourceTree = "<group>"; };
+		A4A3251D1F0B9B710062DB41 /* 15-发愿文.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "15-发愿文.sutra"; sourceTree = "<group>"; };
+		A4A3251E1F0B9B710062DB41 /* 16-三皈依.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "16-三皈依.sutra"; sourceTree = "<group>"; };
+		A4A3251F1F0B9B710062DB41 /* 17-大吉祥天女咒.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = "17-大吉祥天女咒.sutra"; sourceTree = "<group>"; };
 		A4A4948B1EF0D97300B8435A /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
 		A4A4948C1EF0D97300B8435A /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
 		A4A494CF1EF1113D00B8435A /* JingDetailCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingDetailCtrl.h; sourceTree = "<group>"; };
@@ -474,6 +526,55 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		A4A325031F0B9B710062DB41 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A4A325041F0B9B710062DB41 /* evening */,
+				A4A325131F0B9B710062DB41 /* morning */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		A4A325041F0B9B710062DB41 /* evening */ = {
+			isa = PBXGroup;
+			children = (
+				A4A325051F0B9B710062DB41 /* 01-香赞.sutra */,
+				A4A325061F0B9B710062DB41 /* 02-阿弥陀经.sutra */,
+				A4A325071F0B9B710062DB41 /* 03-往生咒.sutra */,
+				A4A325081F0B9B710062DB41 /* 04-大忏悔文.sutra */,
+				A4A325091F0B9B710062DB41 /* 05-蒙山施食.sutra */,
+				A4A3250A1F0B9B710062DB41 /* 06-心经.sutra */,
+				A4A3250B1F0B9B710062DB41 /* 07-往生咒.sutra */,
+				A4A3250C1F0B9B710062DB41 /* 08-回向偈.sutra */,
+				A4A3250D1F0B9B710062DB41 /* 09-赞佛偈.sutra */,
+				A4A3250E1F0B9B710062DB41 /* 10-观闻圣号.sutra */,
+				A4A3250F1F0B9B710062DB41 /* 11-发愿文.sutra */,
+				A4A325101F0B9B710062DB41 /* 12-三皈依.sutra */,
+				A4A325111F0B9B710062DB41 /* 13-大悲咒.sutra */,
+				A4A325121F0B9B710062DB41 /* 14-伽蓝赞.sutra */,
+			);
+			path = evening;
+			sourceTree = "<group>";
+		};
+		A4A325131F0B9B710062DB41 /* morning */ = {
+			isa = PBXGroup;
+			children = (
+				A4A325141F0B9B710062DB41 /* 01-宝鼎赞.sutra */,
+				A4A325151F0B9B710062DB41 /* 02-楞严咒.sutra */,
+				A4A325161F0B9B710062DB41 /* 08-大悲咒.sutra */,
+				A4A325171F0B9B710062DB41 /* 09-十小咒.sutra */,
+				A4A325181F0B9B710062DB41 /* 10-心经.sutra */,
+				A4A325191F0B9B710062DB41 /* 11-三称佛号.sutra */,
+				A4A3251A1F0B9B710062DB41 /* 12-回向偈.sutra */,
+				A4A3251B1F0B9B710062DB41 /* 13-赞佛偈.sutra */,
+				A4A3251C1F0B9B710062DB41 /* 14-念圣号.sutra */,
+				A4A3251D1F0B9B710062DB41 /* 15-发愿文.sutra */,
+				A4A3251E1F0B9B710062DB41 /* 16-三皈依.sutra */,
+				A4A3251F1F0B9B710062DB41 /* 17-大吉祥天女咒.sutra */,
+			);
+			path = morning;
+			sourceTree = "<group>";
+		};
 		A4A4948A1EF0D97300B8435A /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -520,6 +621,7 @@
 		A4A4949E1EF10AE200B8435A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A4A325031F0B9B710062DB41 /* Music */,
 				A4A494E71EF11D9C00B8435A /* HTMLFile */,
 				A4E4721E1EFD019900588339 /* Icon */,
 				A4A494A01EF10AE200B8435A /* Launch */,
@@ -739,6 +841,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A325211F0B9B710062DB41 /* 02-阿弥陀经.sutra in Resources */,
+				A4A325221F0B9B710062DB41 /* 03-往生咒.sutra in Resources */,
 				A4240C9E1F063273007A25A7 /* b11sgy.sutra in Resources */,
 				A4240C771F062E15007A25A7 /* b39dzpszy.sutra in Resources */,
 				A4E4722F1EFD019900588339 /* xue@2x.png in Resources */,
@@ -749,34 +853,47 @@
 				A4240C231F05F059007A25A7 /* a02jgj.sutra in Resources */,
 				A4240C691F062E15007A25A7 /* b24yzjsz.sutra in Resources */,
 				A4E4722A1EFD019900588339 /* jing_default@2x.png in Resources */,
+				A4A325301F0B9B710062DB41 /* 08-大悲咒.sutra in Resources */,
 				A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */,
 				A4240C6F1F062E15007A25A7 /* b31sjmnzy.sutra in Resources */,
 				A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */,
 				4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */,
 				A4240C701F062E15007A25A7 /* b32ysfzy.sutra in Resources */,
+				A4A325321F0B9B710062DB41 /* 10-心经.sutra in Resources */,
 				A4240C7A1F062E15007A25A7 /* b42hxj.sutra in Resources */,
 				A4E4722E1EFD019900588339 /* tu_default@2x.png in Resources */,
 				A4240C671F062E15007A25A7 /* b22zz.sutra in Resources */,
 				A4240C991F063273007A25A7 /* b06xj.sutra in Resources */,
 				A4240CA41F063273007A25A7 /* b17gwsh.sutra in Resources */,
+				A4A3252A1F0B9B710062DB41 /* 11-发愿文.sutra in Resources */,
 				A4240CA11F063273007A25A7 /* b14dchw.sutra in Resources */,
 				A4240C9D1F063273007A25A7 /* b10fyws.sutra in Resources */,
 				A4240CA01F063273007A25A7 /* b13amtj.sutra in Resources */,
 				A4E4722C1EFD019900588339 /* ke_default@2x.png in Resources */,
 				A4240C221F05F059007A25A7 /* a05fhj.sutra in Resources */,
+				A4A325361F0B9B710062DB41 /* 14-念圣号.sutra in Resources */,
 				A4240C941F063273007A25A7 /* b01xz.sutra in Resources */,
 				A4240C6B1F062E15007A25A7 /* b26nsh.sutra in Resources */,
+				A4A325251F0B9B710062DB41 /* 06-心经.sutra in Resources */,
 				A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */,
 				A4240C761F062E15007A25A7 /* b38dszpszy.sutra in Resources */,
 				A4240C241F05F059007A25A7 /* a01amtj.sutra in Resources */,
 				A44084881F03ACAF006A0F97 /* KeTitleCell.xib in Resources */,
+				A4A325381F0B9B710062DB41 /* 16-三皈依.sutra in Resources */,
+				A4A3252B1F0B9B710062DB41 /* 12-三皈依.sutra in Resources */,
+				A4A3252C1F0B9B710062DB41 /* 13-大悲咒.sutra in Resources */,
+				A4A325201F0B9B710062DB41 /* 01-香赞.sutra in Resources */,
+				A4A325291F0B9B710062DB41 /* 10-观闻圣号.sutra in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
 				A4E472291EFD019900588339 /* jing@2x.png in Resources */,
 				A4E4722D1EFD019900588339 /* tu@2x.png in Resources */,
 				A4240C9F1F063273007A25A7 /* b12zgyw.sutra in Resources */,
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
+				A4A325261F0B9B710062DB41 /* 07-往生咒.sutra in Resources */,
 				A4240C6A1F062E15007A25A7 /* b25hxz.sutra in Resources */,
+				A4A325281F0B9B710062DB41 /* 09-赞佛偈.sutra in Resources */,
 				A4240C7C1F062E15007A25A7 /* b44bszy.sutra in Resources */,
+				A4A325341F0B9B710062DB41 /* 12-回向偈.sutra in Resources */,
 				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
 				A4240CA81F063273007A25A7 /* b21wtz.sutra in Resources */,
 				A4240C781F062E15007A25A7 /* b40gydsz.sutra in Resources */,
@@ -785,28 +902,39 @@
 				A4240C721F062E15007A25A7 /* b34mlfzy.sutra in Resources */,
 				A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */,
 				A4240C711F062E15007A25A7 /* b33amtfzy.sutra in Resources */,
+				A4A325351F0B9B710062DB41 /* 13-赞佛偈.sutra in Resources */,
 				A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */,
 				A49F0DDA1EF2618700D96CBD /* Default.png in Resources */,
+				A4A325271F0B9B710062DB41 /* 08-回向偈.sutra in Resources */,
 				A4240C201F05F059007A25A7 /* a03xj.sutra in Resources */,
+				A4A325331F0B9B710062DB41 /* 11-三称佛号.sutra in Resources */,
 				4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */,
 				A4240C9B1F063273007A25A7 /* b08zfj.sutra in Resources */,
 				A4E472311EFD019900588339 /* yue@2x.png in Resources */,
+				A4A325371F0B9B710062DB41 /* 15-发愿文.sutra in Resources */,
 				A4240C6C1F062E15007A25A7 /* b28wswqhx.sutra in Resources */,
 				A4240C731F062E15007A25A7 /* b35gypszy.sutra in Resources */,
 				A4240C9C1F063273007A25A7 /* b09nsh.sutra in Resources */,
 				A4240C751F062E15007A25A7 /* b37wspszy.sutra in Resources */,
 				A4E4722B1EFD019900588339 /* ke@2x.png in Resources */,
+				A4A325391F0B9B710062DB41 /* 17-大吉祥天女咒.sutra in Resources */,
+				A4A325231F0B9B710062DB41 /* 04-大忏悔文.sutra in Resources */,
 				A4E472301EFD019900588339 /* xue_default@2x.png in Resources */,
+				A4A325241F0B9B710062DB41 /* 05-蒙山施食.sutra in Resources */,
 				A4240CA71F063273007A25A7 /* b20jzj.sutra in Resources */,
 				A4240C7B1F062E15007A25A7 /* b43zfpsdate.sutra in Resources */,
 				A4240C9A1F063273007A25A7 /* b07hxj.sutra in Resources */,
 				A4240C1E1F05F059007A25A7 /* a04lztj.sutra in Resources */,
+				A4A3252E1F0B9B710062DB41 /* 01-宝鼎赞.sutra in Resources */,
+				A4A3252D1F0B9B710062DB41 /* 14-伽蓝赞.sutra in Resources */,
+				A4A3252F1F0B9B710062DB41 /* 02-楞严咒.sutra in Resources */,
 				A4240C971F063273007A25A7 /* b04dbz.sutra in Resources */,
 				A4240C211F05F059007A25A7 /* a07wlsj.sutra in Resources */,
 				A4240C681F062E15007A25A7 /* b23wz.sutra in Resources */,
 				A4240C981F063273007A25A7 /* b05sxz.sutra in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
 				A4E472321EFD019900588339 /* yue_default@2x.png in Resources */,
+				A4A325311F0B9B710062DB41 /* 09-十小咒.sutra in Resources */,
 				A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */,
 				A4240CA21F063273007A25A7 /* b15msss.sutra in Resources */,
 				A4240C961F063273007A25A7 /* b03lyz.sutra in Resources */,
