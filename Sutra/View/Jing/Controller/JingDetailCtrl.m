@@ -48,7 +48,7 @@
     // Update the user interface for the detail item.
     NSLog(@"configureView%@",self.detailItem);
     if (self.detailItem) {
-        NSString *resourcePath = [ [NSBundle mainBundle] resourcePath];
+//        NSString *resourcePath = [ [NSBundle mainBundle] resourcePath];
         NSString *jingName = self.detailItem[@"url"];
 
         self.navigationItem.title = self.detailItem[@"name"];//@"阿弥陀经";

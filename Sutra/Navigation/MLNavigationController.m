@@ -241,10 +241,10 @@
             _isMoving = NO;
             self.backgroundView.hidden = YES;
         }];
-        UIViewController *topViewController = [self.viewControllers lastObject];
-        if (topViewController != nil && [topViewController respondsToSelector:@selector(beginFirst)]) {
-            [topViewController performSelector:@selector(beginFirst)];
-        }
+//        UIViewController *topViewController = [self.viewControllers lastObject];
+//        if (topViewController != nil && [topViewController respondsToSelector:@selector(beginFirst)]) {
+//            [topViewController performSelector:@selector(beginFirst)];
+//        }
 
         return;
     }
