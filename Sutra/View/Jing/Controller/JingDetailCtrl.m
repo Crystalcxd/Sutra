@@ -26,6 +26,8 @@
     [self configureView];
     
     _webView.scrollView.pagingEnabled = YES;
+    
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {
