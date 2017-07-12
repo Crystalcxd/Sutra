@@ -8,9 +8,11 @@
 
 #import "JingDetailCtrl.h"
 
+#import <MBProgressHUD/MBProgressHUD.h>
+
 #import <RNCryptor_objc/RNDecryptor.h>
 
-@interface JingDetailCtrl ()
+@interface JingDetailCtrl ()<UIWebViewDelegate>
 
 - (void)configureView;
 
@@ -26,6 +28,7 @@
     [self configureView];
     
     _webView.scrollView.pagingEnabled = YES;
+    _webView.delegate = self;
     
     self.navigationController.navigationBarHidden = YES;
 }
@@ -57,14 +60,31 @@
         
         NSData *encryptedData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:jingName ofType:nil]];
         
-        NSError *error;
-        NSData *decryptedData = [RNDecryptor decryptData:encryptedData
-                                            withPassword:@"boahankook0713"
-                                                   error:&error];
-        if (!error) {
-            [_webView loadData:decryptedData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
-        }
+        [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSError *error;
+            NSData *decryptedData = [RNDecryptor decryptData:encryptedData
+                                                withPassword:@"boahankook0713"
+                                                       error:&error];
+            if (!error) {
+                [_webView loadData:decryptedData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
+            }else{
+                [MBProgressHUD hideHUDForView:self.view animated:YES];
+            }
+        });
     }
+}
+
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
 }
 
 /*
