@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		239598776FA72BE9118087C6 /* Pods_Sutra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */; };
+		4C1FB79D1F166BDA002212EF /* Default-1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FB79C1F166BDA002212EF /* Default-1334.png */; };
 		4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C361E061EF164520041B5E3 /* JingTitleCell.m */; };
 		4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C361E071EF164520041B5E3 /* JingTitleCell.xib */; };
 		4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A441EF2D35B0026A609 /* XueViewController.m */; };
@@ -143,6 +144,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C1FB79C1F166BDA002212EF /* Default-1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-1334.png"; sourceTree = "<group>"; };
 		4C361E051EF164520041B5E3 /* JingTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingTitleCell.h; sourceTree = "<group>"; };
 		4C361E061EF164520041B5E3 /* JingTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingTitleCell.m; sourceTree = "<group>"; };
 		4C361E071EF164520041B5E3 /* JingTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingTitleCell.xib; sourceTree = "<group>"; };
@@ -632,6 +634,7 @@
 		A4A494A01EF10AE200B8435A /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				4C1FB79C1F166BDA002212EF /* Default-1334.png */,
 				A49F0DDC1EF2625D00D96CBD /* Default-2208.png */,
 				A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */,
 				A49F0DD71EF2618700D96CBD /* Default.png */,
@@ -799,7 +802,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = NV3296URNT;
+						DevelopmentTeam = YS99UV54C6;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -918,6 +921,7 @@
 				A4240C751F062E15007A25A7 /* b37wspszy.sutra in Resources */,
 				A4E4722B1EFD019900588339 /* ke@2x.png in Resources */,
 				A4A325391F0B9B710062DB41 /* 17-大吉祥天女咒.sutra in Resources */,
+				4C1FB79D1F166BDA002212EF /* Default-1334.png in Resources */,
 				A4A325231F0B9B710062DB41 /* 04-大忏悔文.sutra in Resources */,
 				A4E472301EFD019900588339 /* xue_default@2x.png in Resources */,
 				A4A325241F0B9B710062DB41 /* 05-蒙山施食.sutra in Resources */,
@@ -1174,7 +1178,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = NV3296URNT;
+				DEVELOPMENT_TEAM = YS99UV54C6;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1189,7 +1193,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = NV3296URNT;
+				DEVELOPMENT_TEAM = YS99UV54C6;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
