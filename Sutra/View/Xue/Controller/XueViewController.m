@@ -23,14 +23,64 @@
 
 - (void)createXueData{
     
-    NSArray *lishi;
+    NSArray *licheng;
+    NSArray *fazhan;
+    NSArray *paibie;
     NSArray *jiaoyi;
+    NSArray *yigui;
+
+    _XueSections=@[@"佛教的创立历程",@"佛教的发展与传播",@"佛教宗派派别",@"简述佛学教义与佛经",@"佛教仪轨入门知识"];
     
-    _XueSections=@[@"发展历史",@"仪轨教义"];
+    licheng  = @[@{@"name":@"佛学概述",@"url":@"c001.sutra"}
+                 ,@{@"name":@"佛教创立背景",@"url":@"c002.sutra"}
+                 ,@{@"name":@"释迦牟尼成佛之前",@"url":@"c003.sutra"}
+                 ,@{@"name":@"释迦牟尼佛的成佛过程",@"url":@"c004.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子摩诃迦叶",@"url":@"c005.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子目犍连",@"url":@"c006.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子富楼那",@"url":@"c007.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子须菩提",@"url":@"c008.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子舍利弗",@"url":@"c009.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子摩罗睺罗",@"url":@"c010.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子阿难陀",@"url":@"c011.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子优婆离",@"url":@"c012.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子阿那律",@"url":@"c013.sutra"}
+                 ,@{@"name":@"释迦牟尼弟子迦旃延",@"url":@"c014.sutra"}
+                 ,@{@"name":@"印度佛教发展的原始佛教时期",@"url":@"c015.sutra"}
+                 ,@{@"name":@"印度佛教发展的部派佛教时期",@"url":@"c016.sutra"}
+                 ,@{@"name":@"印度佛教发展的大乘佛教时期",@"url":@"c017.sutra"}
+                 ,@{@"name":@"印度佛教发展的密宗佛教时期",@"url":@"c018.sutra"}
+                 ,@{@"name":@"阿育王对佛教的发展贡献",@"url":@"c019.sutra"}
+                 ,@{@"name":@"佛教在印度的衰落",@"url":@"c020.sutra"}];
     
-    lishi  = @[@"创立过程",@"佛传东土",@"佛教宗派",@"世界分布"];
+    fazhan  = @[@{@"name":@"佛教东传阶段",@"url":@"c021.sutra"}
+                ,@{@"name":@"中国佛教之初-永明求法",@"url":@"c022.sutra"}
+                ,@{@"name":@"中国第一座寺庙",@"url":@"c023.sutra"}
+                ,@{@"name":@"中国佛教之魏晋阶段",@"url":@"c024.sutra"}
+                ,@{@"name":@"达摩祖师一苇渡江的传奇故事",@"url":@"c025.sutra"}
+                ,@{@"name":@"中国佛教之隋唐阶段",@"url":@"c026.sutra"}
+                ,@{@"name":@"隋文帝对佛教的贡献",@"url":@"c027.sutra"}
+                ,@{@"name":@"唐代武则天对佛教发展的贡献",@"url":@"c028.sutra"}
+                ,@{@"name":@"中国佛教之宋元阶段",@"url":@"c029.sutra"}
+                ,@{@"name":@"中国佛教之明清阶段",@"url":@"c030.sutra"}
+                ,@{@"name":@"中国名寺之灵隐寺",@"url":@"c031.sutra"}
+                ,@{@"name":@"中国名寺之少林寺",@"url":@"c032.sutra"}
+                ,@{@"name":@"中国名寺之寒山寺",@"url":@"c033.sutra"}
+                ,@{@"name":@"中国名寺之龙华寺",@"url":@"c034.sutra"}
+                ,@{@"name":@"中国名寺之相国寺",@"url":@"c035.sutra"}
+                ,@{@"name":@"中国名寺之大悲禅院",@"url":@"c036.sutra"}
+                ,@{@"name":@"中国名寺之大昭寺",@"url":@"c037.sutra"}
+                ,@{@"name":@"中国名寺之大明寺",@"url":@"c038.sutra"}
+                ,@{@"name":@"中国名寺之慈恩寺",@"url":@"c039.sutra"}
+                ,@{@"name":@"藏传佛教概述",@"url":@"c040.sutra"}
+                ,@{@"name":@"藏传佛教之宁玛派",@"url":@"c041.sutra"}
+                ,@{@"name":@"藏传佛教之噶举派",@"url":@"c042.sutra"}
+                ,@{@"name":@"藏传佛教之萨迦派",@"url":@"c043.sutra"}
+                ,@{@"name":@"藏传佛教之觉囊派",@"url":@"c044.sutra"}
+                ,@{@"name":@"藏传佛教之蒙古喇嘛教",@"url":@"c045.sutra"}
+                ,@{@"name":@"佛教在其他地区的分布",@"url":@"c046.sutra"}];
+    
     jiaoyi  = @[@"教义简介",@"清规节律"];
-    _XueData = @[lishi,jiaoyi];
+    _XueData = @[licheng,jiaoyi];
 }
 
 - (void)viewDidLoad {
