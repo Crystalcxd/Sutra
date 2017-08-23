@@ -13,16 +13,16 @@
 - (id)init
 {
     if (self = [super init]) {
-        self.sutralist = [NSMutableArray array];
+        self.sutraList = [NSMutableArray array];
     }
     
     return self;
 }
 
-- (id)initWithNmae:(NSString *)name array:(NSMutableArray *)array
+- (id)initWithName:(NSString *)name array:(NSMutableArray *)array
 {
     if (self = [super init]) {
-        self.sutralist = [NSMutableArray arrayWithArray:array];
+        self.sutraList = [NSMutableArray arrayWithArray:array];
         self.albumName = name;
     }
     

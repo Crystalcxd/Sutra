@@ -25,12 +25,16 @@
     // Do any additional setup after loading the view from its nib.
     
     NSLog(@"ViewLoad configview %@",self.detailItem);
+    [self setUI];
     [self configureView];
+}
+
+- (void)setUI {
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
+    _webView.backgroundColor = [UIColor whiteColor];
     _webView.scrollView.pagingEnabled = YES;
     _webView.delegate = self;
-    
-    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {

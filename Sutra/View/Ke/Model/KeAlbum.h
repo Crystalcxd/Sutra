@@ -11,8 +11,8 @@
 @interface KeAlbum : NSObject
 
 @property (nonatomic , strong) NSString *albumName;
-@property (nonatomic , strong) NSMutableArray *sutralist;
+@property (nonatomic , strong) NSMutableArray *sutraList;
 
-- (id)initWithNmae:(NSString *)name array:(NSMutableArray *)array;
+- (id)initWithName:(NSString *)name array:(NSMutableArray *)array;
 
 @end
