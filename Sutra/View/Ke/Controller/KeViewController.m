@@ -16,6 +16,9 @@
 @interface KeViewController (){
     NSMutableArray *_Ke;
     NSMutableArray *_KeAlbum;
+    
+    KeAlbum *morningSong;
+    KeAlbum *eveningSong;
 }
 
 @end
