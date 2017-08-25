@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 typedef enum : NSUInteger {
-    KeSectionSingle,
     KeSectionAlbum,
+    KeSectionSingle,
 } KeSectionType;
 
 @interface KeViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>

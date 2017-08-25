@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17A344b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeAlbumDetailCtrl">
+            <connections>
+                <outlet property="jumpBtn" destination="uts-eD-Uim" id="hfL-hj-AMD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="TC8-kH-m3D" id="kmA-wT-AsZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TC8-kH-m3D">
+                    <rect key="frame" x="0.0" y="64" width="320" height="396"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uts-eD-Uim">
+                    <rect key="frame" x="0.0" y="460" width="320" height="68"/>
+                    <state key="normal" title="下一篇"/>
+                    <connections>
+                        <action selector="jumpBtnTapped:" destination="-1" eventType="touchUpInside" id="rCD-YZ-f4I"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TC8-kH-m3D" secondAttribute="bottom" constant="108" id="JFJ-Vx-Ed4"/>
+                <constraint firstAttribute="trailing" secondItem="uts-eD-Uim" secondAttribute="trailing" id="P1J-IW-c8n"/>
+                <constraint firstItem="TC8-kH-m3D" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="UZL-Zd-00V"/>
+                <constraint firstItem="uts-eD-Uim" firstAttribute="top" secondItem="TC8-kH-m3D" secondAttribute="bottom" id="dhx-14-zBa"/>
+                <constraint firstItem="uts-eD-Uim" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="j9G-Np-3fF"/>
+                <constraint firstAttribute="bottom" secondItem="uts-eD-Uim" secondAttribute="bottom" constant="40" id="k5E-3d-x1Y"/>
+                <constraint firstItem="TC8-kH-m3D" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="q1l-ae-6Ka"/>
+                <constraint firstAttribute="trailing" secondItem="TC8-kH-m3D" secondAttribute="trailing" id="xbd-1z-DBl"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "JingListViewController.h"
+#import "KeViewController.h"
 #import "XueViewController.h"
 
 @interface AppDelegate ()
@@ -61,8 +62,7 @@
     MLNavigationController *navJingController = [[MLNavigationController alloc] initWithRootViewController:jingVC];
     
     //Discover
-    UIViewController *keVC = [[UIViewController alloc] init];
-    keVC.view.backgroundColor = [UIColor yellowColor];
+    KeViewController *keVC = [[KeViewController alloc] init];
     keVC.navigationController.navigationBar.translucent = NO;
     MLNavigationController *navKeController = [[MLNavigationController alloc] initWithRootViewController:keVC];
     

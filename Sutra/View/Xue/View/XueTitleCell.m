@@ -26,6 +26,8 @@
     
     [self.titleLabel setFont:[UIFont systemFontOfSize:16]];
     [self.titleLabel setTextColor:[UIColor blackColor]];
+    
+    self.arrowImageView.image = [UIImage imageNamed:@"common_list_icon_leftarrow"];
 }
 
 - (void)configureWith:(NSString *)titleStr {

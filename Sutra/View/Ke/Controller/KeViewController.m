@@ -7,7 +7,9 @@
 //
 
 #import "KeViewController.h"
+
 #import "JingDetailCtrl.h"
+#import "KeAlbumDetailCtrl.h"
 
 #import "KeTitleCell.h"
 
@@ -17,8 +19,6 @@
     NSMutableArray *_Ke;
     NSMutableArray *_KeAlbum;
     
-    KeAlbum *morningSong;
-    KeAlbum *eveningSong;
 }
 
 @end
@@ -30,41 +30,34 @@
     // Do any additional setup after loading the view from its nib.
     
     [self creatKeData];
+    [self setUI];
 }
 
 - (void)creatKeData {
     _KeAlbum= [[NSMutableArray alloc] init];
-
-    NSMutableArray *albumSutraList=  [[NSMutableArray alloc] init];
-    [albumSutraList addObject:@{@"name":@"香赞",@"url":@"b01xz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"宝鼎赞",@"url":@"b02bdz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"楞严咒",@"url":@"b03lyz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"大悲咒",@"url":@"b04dbz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"十小咒",@"url":@"b05sxz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"心经",@"url":@"b06xj.sutra"}];
-    [albumSutraList addObject:@{@"name":@"回向偈",@"url":@"b07hxj.sutra"}];
-    [albumSutraList addObject:@{@"name":@"赞佛偈",@"url":@"b08zfj.sutra"}];
-    [albumSutraList addObject:@{@"name":@"念圣号",@"url":@"b09nsh.sutra"}];
-    [albumSutraList addObject:@{@"name":@"发愿文普贤十大愿王",@"url":@"b10fyws.sutra"}];
-    [albumSutraList addObject:@{@"name":@"三皈依",@"url":@"b11sgy.sutra"}];
-    [albumSutraList addObject:@{@"name":@"赞观音文",@"url":@"b12zgyw.sutra"}];
-    [albumSutraList addObject:@{@"name":@"阿弥陀经",@"url":@"b13amtj.sutra"}];
-    [albumSutraList addObject:@{@"name":@"礼佛大忏悔文",@"url":@"b14dchw.sutra"}];
-    [albumSutraList addObject:@{@"name":@"蒙山施食",@"url":@"b15msss.sutra"}];
-    [albumSutraList addObject:@{@"name":@"往生咒",@"url":@"b16wsz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"观闻圣号",@"url":@"b17gwsh.sutra"}];
-    [albumSutraList addObject:@{@"name":@"发愿文慈云净土",@"url":@"b18fywj.sutra"}];
-    [albumSutraList addObject:@{@"name":@"伽蓝赞",@"url":@"b19qlz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"普贤菩萨警众偈",@"url":@"b20jzj.sutra"}];
-    [albumSutraList addObject:@{@"name":@"韦天赞",@"url":@"b21wtz.sutra"}];
-
-    KeAlbum *morningSong = [[KeAlbum alloc] initWithName:@"早课" array:albumSutraList];
-    KeAlbum *eveningSong = [[KeAlbum alloc] initWithName:@"晚课" array:albumSutraList];
-    
-    [_KeAlbum addObject:morningSong];
-    [_KeAlbum addObject:eveningSong];
-    
     _Ke=[[NSMutableArray alloc] init];
+
+    [_KeAlbum addObject:@{@"name":@"香赞",@"url":@"b01xz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"宝鼎赞",@"url":@"b02bdz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"楞严咒",@"url":@"b03lyz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"大悲咒",@"url":@"b04dbz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"十小咒",@"url":@"b05sxz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"心经",@"url":@"b06xj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"回向偈",@"url":@"b07hxj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"赞佛偈",@"url":@"b08zfj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"念圣号",@"url":@"b09nsh.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"发愿文普贤十大愿王",@"url":@"b10fyws.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"三皈依",@"url":@"b11sgy.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"赞观音文",@"url":@"b12zgyw.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"阿弥陀经",@"url":@"b13amtj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"礼佛大忏悔文",@"url":@"b14dchw.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"蒙山施食",@"url":@"b15msss.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"往生咒",@"url":@"b16wsz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"观闻圣号",@"url":@"b17gwsh.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"发愿文慈云净土",@"url":@"b18fywj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"伽蓝赞",@"url":@"b19qlz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"普贤菩萨警众偈",@"url":@"b20jzj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"韦天赞",@"url":@"b21wtz.sutra"}];
     
     [_Ke addObject:@{@"name":@"早斋",@"url":@"b22zz.sutra"}];
     [_Ke addObject:@{@"name":@"午斋",@"url":@"b23wz.sutra"}];
@@ -90,6 +83,10 @@
     [_Ke addObject:@{@"name":@"诸佛菩萨圣诞日",@"url":@"b43zfpsdate.sutra"}];
 }
 
+- (void)setUI {
+    self.navigationItem.title = @"功课";//@"阿弥陀经";
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -99,6 +96,27 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 2;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 30;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    switch (section) {
+        case KeSectionSingle:
+            return @"其他";
+            break;
+        case KeSectionAlbum:
+            return @"早晚课";
+            break;
+        default:
+            break;
+    }
+    
+    return @"";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -155,7 +173,7 @@
                 return cell;
             }
             
-            KeAlbum *album = [_KeAlbum objectAtIndex:indexPath.row];
+            NSDictionary *jingDic = [_KeAlbum objectAtIndex:indexPath.row];
             
             KeTitleCell *cell = [tableView dequeueReusableCellWithIdentifier:albumIdentifier];
             if (cell == nil) {
@@ -163,7 +181,7 @@
                 cell.selectionStyle = UITableViewCellSelectionStyleNone;
             }
             
-            [cell configureWith:album.albumName];
+            [cell configureWith:jingDic[@"name"]];
             
             return cell;
         }
@@ -195,7 +213,11 @@
             break;
         case KeSectionAlbum:
         {
-            KeAlbum *album = [_KeAlbum objectAtIndex:indexPath.row];
+            KeAlbumDetailCtrl *vc = [[KeAlbumDetailCtrl alloc] init];
+            NSLog(@"didSelect Jing%@",_KeAlbum[indexPath.row]);
+            vc.detailItem = _KeAlbum[indexPath.row];
+
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         default:

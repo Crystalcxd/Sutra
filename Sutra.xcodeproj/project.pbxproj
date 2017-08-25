@@ -74,6 +74,15 @@
 		A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44267481EF3CFFC0012BC7F /* TuViewController.xib */; };
 		A44267511EF3D0380012BC7F /* YueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A442674F1EF3D0380012BC7F /* YueViewController.m */; };
 		A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44267501EF3D0380012BC7F /* YueViewController.xib */; };
+		A46D4ECF1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A46D4ECD1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png */; };
+		A46D4ED01F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A46D4ECE1F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png */; };
+		A46D4ED41F5002AC00046F9A /* KeAlbumDetailCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */; };
+		A46D4ED51F5002AC00046F9A /* KeAlbumDetailCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */; };
+		A46D4EDF1F5017A000046F9A /* SLPUpShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4EDA1F5017A000046F9A /* SLPUpShowView.m */; };
+		A46D4EE51F50184500046F9A /* SLPJumpAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4EE31F50184500046F9A /* SLPJumpAlbumView.m */; };
+		A46D4EE61F50184500046F9A /* SLPJumpAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46D4EE41F50184500046F9A /* SLPJumpAlbumView.xib */; };
+		A46D4EEA1F50186B00046F9A /* SLPCenterTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4EE81F50186B00046F9A /* SLPCenterTitleCell.m */; };
+		A46D4EEB1F50186B00046F9A /* SLPCenterTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46D4EE91F50186B00046F9A /* SLPCenterTitleCell.xib */; };
 		A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */; };
 		A49F0DDA1EF2618700D96CBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD71EF2618700D96CBD /* Default.png */; };
 		A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD81EF2618700D96CBD /* Default@2x.png */; };
@@ -353,6 +362,19 @@
 		A442674E1EF3D0380012BC7F /* YueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YueViewController.h; sourceTree = "<group>"; };
 		A442674F1EF3D0380012BC7F /* YueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YueViewController.m; sourceTree = "<group>"; };
 		A44267501EF3D0380012BC7F /* YueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YueViewController.xib; sourceTree = "<group>"; };
+		A46D4ECD1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@2x.png"; sourceTree = "<group>"; };
+		A46D4ECE1F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@3x.png"; sourceTree = "<group>"; };
+		A46D4ED11F5002AC00046F9A /* KeAlbumDetailCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeAlbumDetailCtrl.h; sourceTree = "<group>"; };
+		A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeAlbumDetailCtrl.m; sourceTree = "<group>"; };
+		A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeAlbumDetailCtrl.xib; sourceTree = "<group>"; };
+		A46D4ED91F5017A000046F9A /* SLPUpShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPUpShowView.h; sourceTree = "<group>"; };
+		A46D4EDA1F5017A000046F9A /* SLPUpShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPUpShowView.m; sourceTree = "<group>"; };
+		A46D4EE21F50184500046F9A /* SLPJumpAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPJumpAlbumView.h; sourceTree = "<group>"; };
+		A46D4EE31F50184500046F9A /* SLPJumpAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPJumpAlbumView.m; sourceTree = "<group>"; };
+		A46D4EE41F50184500046F9A /* SLPJumpAlbumView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPJumpAlbumView.xib; sourceTree = "<group>"; };
+		A46D4EE71F50186B00046F9A /* SLPCenterTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPCenterTitleCell.h; sourceTree = "<group>"; };
+		A46D4EE81F50186B00046F9A /* SLPCenterTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPCenterTitleCell.m; sourceTree = "<group>"; };
+		A46D4EE91F50186B00046F9A /* SLPCenterTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPCenterTitleCell.xib; sourceTree = "<group>"; };
 		A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A49F0DD71EF2618700D96CBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A49F0DD81EF2618700D96CBD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -733,6 +755,9 @@
 				A440847C1F03A9E8006A0F97 /* KeViewController.h */,
 				A440847D1F03A9E8006A0F97 /* KeViewController.m */,
 				A440847E1F03A9E8006A0F97 /* KeViewController.xib */,
+				A46D4ED11F5002AC00046F9A /* KeAlbumDetailCtrl.h */,
+				A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */,
+				A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -749,9 +774,15 @@
 		A440847B1F03A9C1006A0F97 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A46D4EE21F50184500046F9A /* SLPJumpAlbumView.h */,
+				A46D4EE31F50184500046F9A /* SLPJumpAlbumView.m */,
+				A46D4EE41F50184500046F9A /* SLPJumpAlbumView.xib */,
 				A44084841F03ACAF006A0F97 /* KeTitleCell.h */,
 				A44084851F03ACAF006A0F97 /* KeTitleCell.m */,
 				A44084861F03ACAF006A0F97 /* KeTitleCell.xib */,
+				A46D4EE71F50186B00046F9A /* SLPCenterTitleCell.h */,
+				A46D4EE81F50186B00046F9A /* SLPCenterTitleCell.m */,
+				A46D4EE91F50186B00046F9A /* SLPCenterTitleCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -790,6 +821,31 @@
 				A44267501EF3D0380012BC7F /* YueViewController.xib */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46D4ED61F5017A000046F9A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A46D4ED71F5017A000046F9A /* UI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A46D4ED71F5017A000046F9A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A46D4ED81F5017A000046F9A /* BaseUI */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A46D4ED81F5017A000046F9A /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				A46D4ED91F5017A000046F9A /* SLPUpShowView.h */,
+				A46D4EDA1F5017A000046F9A /* SLPUpShowView.m */,
+			);
+			path = BaseUI;
 			sourceTree = "<group>";
 		};
 		A4A325031F0B9B710062DB41 /* Music */ = {
@@ -853,6 +909,7 @@
 		A4A4948E1EF10A2200B8435A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A46D4ED61F5017A000046F9A /* Common */,
 				A4A4948F1EF10A2200B8435A /* Jing */,
 				A44084781F03A9C1006A0F97 /* Ke */,
 				4CAD5A401EF2D3140026A609 /* Xue */,
@@ -1162,6 +1219,8 @@
 		A4E4721E1EFD019900588339 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				A46D4ECD1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png */,
+				A46D4ECE1F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png */,
 				A4E4721F1EFD019900588339 /* jing@2x.png */,
 				A4E472201EFD019900588339 /* jing_default@2x.png */,
 				A4E472211EFD019900588339 /* ke@2x.png */,
@@ -1337,6 +1396,7 @@
 				A4B9CF261F4D8250005F078C /* c038.sutra in Resources */,
 				A4A325321F0B9B710062DB41 /* 10-心经.sutra in Resources */,
 				A4B9CEEF1F4D824F005F078C /* c093.sutra in Resources */,
+				A46D4EE61F50184500046F9A /* SLPJumpAlbumView.xib in Resources */,
 				A4B9CF291F4D8250005F078C /* c041.sutra in Resources */,
 				A4B9CEDC1F4D824F005F078C /* c074.sutra in Resources */,
 				A4B9CEFC1F4D8250005F078C /* c011.sutra in Resources */,
@@ -1347,6 +1407,7 @@
 				A4240C671F062E15007A25A7 /* b22zz.sutra in Resources */,
 				A4B9CEE61F4D824F005F078C /* c084.sutra in Resources */,
 				A4B9CEC31F4D824F005F078C /* c120.sutra in Resources */,
+				A46D4ED51F5002AC00046F9A /* KeAlbumDetailCtrl.xib in Resources */,
 				A4240C991F063273007A25A7 /* b06xj.sutra in Resources */,
 				A4240CA41F063273007A25A7 /* b17gwsh.sutra in Resources */,
 				A4A3252A1F0B9B710062DB41 /* 11-发愿文.sutra in Resources */,
@@ -1355,6 +1416,7 @@
 				A4B9CF001F4D8250005F078C /* c015.sutra in Resources */,
 				A4B9CEEE1F4D824F005F078C /* c092.sutra in Resources */,
 				A4240C9D1F063273007A25A7 /* b10fyws.sutra in Resources */,
+				A46D4ECF1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png in Resources */,
 				A4240CA01F063273007A25A7 /* b13amtj.sutra in Resources */,
 				A4B9CF231F4D8250005F078C /* c035.sutra in Resources */,
 				A4B9CF171F4D8250005F078C /* c023.sutra in Resources */,
@@ -1390,6 +1452,7 @@
 				A4A325291F0B9B710062DB41 /* 10-观闻圣号.sutra in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
 				A4E472291EFD019900588339 /* jing@2x.png in Resources */,
+				A46D4EEB1F50186B00046F9A /* SLPCenterTitleCell.xib in Resources */,
 				A4B9CF061F4D8250005F078C /* c047.sutra in Resources */,
 				A4B9CF1A1F4D8250005F078C /* c026.sutra in Resources */,
 				A4B9CF1C1F4D8250005F078C /* c028.sutra in Resources */,
@@ -1413,6 +1476,7 @@
 				A4240C6A1F062E15007A25A7 /* b25hxz.sutra in Resources */,
 				A4A325281F0B9B710062DB41 /* 09-赞佛偈.sutra in Resources */,
 				A4240C7C1F062E15007A25A7 /* b44bszy.sutra in Resources */,
+				A46D4ED01F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png in Resources */,
 				A4A325341F0B9B710062DB41 /* 12-回向偈.sutra in Resources */,
 				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
 				A4B9CED51F4D824F005F078C /* c067.sutra in Resources */,
@@ -1618,8 +1682,12 @@
 				A44084831F03AA44006A0F97 /* KeAlbum.m in Sources */,
 				A44267491EF3CFFD0012BC7F /* TuViewController.m in Sources */,
 				A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */,
+				A46D4EDF1F5017A000046F9A /* SLPUpShowView.m in Sources */,
 				A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */,
+				A46D4EEA1F50186B00046F9A /* SLPCenterTitleCell.m in Sources */,
+				A46D4ED41F5002AC00046F9A /* KeAlbumDetailCtrl.m in Sources */,
 				4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */,
+				A46D4EE51F50184500046F9A /* SLPJumpAlbumView.m in Sources */,
 				4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */,
 				A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */,
 				A44084871F03ACAF006A0F97 /* KeTitleCell.m in Sources */,

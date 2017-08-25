@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G12b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17A344b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -29,16 +29,16 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZn-EM-jW8">
-                        <rect key="frame" x="20" y="0.0" width="236" height="59"/>
+                        <rect key="frame" x="20" y="0.0" width="273" height="59"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mdV-i8-8AJ">
-                        <rect key="frame" x="256" y="8" width="44" height="44"/>
+                        <rect key="frame" x="293" y="23.5" width="7" height="13"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="44" id="8im-ZM-kkF"/>
-                            <constraint firstAttribute="width" constant="44" id="eEp-30-uLg"/>
+                            <constraint firstAttribute="height" constant="13" id="8im-ZM-kkF"/>
+                            <constraint firstAttribute="width" constant="7" id="eEp-30-uLg"/>
                         </constraints>
                     </imageView>
                 </subviews>
