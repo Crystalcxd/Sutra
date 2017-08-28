@@ -10,7 +10,7 @@
 
 #import <MediaPlayer/MediaPlayer.h>
 
-@interface YueViewController ()
+@interface YueViewController ()<UIActionSheetDelegate>
 
 @end
 
@@ -35,7 +35,8 @@
 }
 
 - (void)addMediaAction:(id)sender {
-    
+    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"音频文件",@"视频文件", nil];
+    [sheet showInView:self.view];
 }
 
 - (void)didReceiveMemoryWarning {
