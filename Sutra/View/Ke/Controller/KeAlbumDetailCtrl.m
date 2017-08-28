@@ -12,9 +12,14 @@
 
 #import "KeAlbum.h"
 
-#import <MBProgressHUD/MBProgressHUD.h>
+#import "AppDelegate.h"
 
+#import <MBProgressHUD/MBProgressHUD.h>
 #import <RNCryptor_objc/RNDecryptor.h>
+
+#import <RDVTabBarController/RDVTabBarController.h>
+#import <RDVTabBarController/RDVTabBarItem.h>
+#import <RDVTabBarController/RDVTabBar.h>
 
 @interface KeAlbumDetailCtrl ()<UIWebViewDelegate>{
     KeAlbum *morningSong;
@@ -35,6 +40,24 @@
     [self setUI];
     [self configureView];
     [self configureJumpBtn];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    RDVTabBarController *vc = (RDVTabBarController *)appDelegate.window.rootViewController;
+    [vc setTabBarHidden:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    RDVTabBarController *vc = (RDVTabBarController *)appDelegate.window.rootViewController;
+    [vc setTabBarHidden:NO];
 }
 
 - (void)setDetailItem:(id)newDetailItem

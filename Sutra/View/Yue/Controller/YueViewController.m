@@ -8,6 +8,8 @@
 
 #import "YueViewController.h"
 
+#import <MediaPlayer/MediaPlayer.h>
+
 @interface YueViewController ()
 
 @end
@@ -18,7 +20,22 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    [self setUI];
+}
+
+- (void)setUI {
     self.navigationItem.title = @"佛乐于心";//@"阿弥陀经";
+    
+    UIButton *addBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [addBtn setFrame:CGRectMake(0, 0, 44, 44)];
+    [addBtn setImage:[UIImage imageNamed:@"device_btn_add_nor.png"] forState:UIControlStateNormal];
+    [addBtn addTarget:self action:@selector(addMediaAction:) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:addBtn];
+}
+
+- (void)addMediaAction:(id)sender {
+    
 }
 
 - (void)didReceiveMemoryWarning {

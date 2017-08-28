@@ -15,6 +15,20 @@
 		4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A451EF2D35B0026A609 /* XueViewController.xib */; };
 		4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */; };
 		4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */; };
+		A41D94AB1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */; };
+		A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */; };
+		A41D94AD1F5406AA00FB2E0F /* jing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A11F5406AA00FB2E0F /* jing@2x.png */; };
+		A41D94AE1F5406AA00FB2E0F /* jing_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A21F5406AA00FB2E0F /* jing_default@2x.png */; };
+		A41D94AF1F5406AA00FB2E0F /* ke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A31F5406AA00FB2E0F /* ke@2x.png */; };
+		A41D94B01F5406AA00FB2E0F /* ke_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A41F5406AA00FB2E0F /* ke_default@2x.png */; };
+		A41D94B11F5406AA00FB2E0F /* tu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A51F5406AA00FB2E0F /* tu@2x.png */; };
+		A41D94B21F5406AA00FB2E0F /* tu_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A61F5406AA00FB2E0F /* tu_default@2x.png */; };
+		A41D94B31F5406AA00FB2E0F /* xue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A71F5406AA00FB2E0F /* xue@2x.png */; };
+		A41D94B41F5406AA00FB2E0F /* xue_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A81F5406AA00FB2E0F /* xue_default@2x.png */; };
+		A41D94B51F5406AA00FB2E0F /* yue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A91F5406AA00FB2E0F /* yue@2x.png */; };
+		A41D94B61F5406AA00FB2E0F /* yue_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94AA1F5406AA00FB2E0F /* yue_default@2x.png */; };
+		A41D94BA1F5406E100FB2E0F /* device_btn_add_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94B81F5406E100FB2E0F /* device_btn_add_nor@2x.png */; };
+		A41D94BB1F5406E100FB2E0F /* device_btn_add_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94B91F5406E100FB2E0F /* device_btn_add_nor@3x.png */; };
 		A4240C1E1F05F059007A25A7 /* a04lztj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BE81F05F059007A25A7 /* a04lztj.sutra */; };
 		A4240C1F1F05F059007A25A7 /* a06hyj1.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BE91F05F059007A25A7 /* a06hyj1.sutra */; };
 		A4240C201F05F059007A25A7 /* a03xj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240BEA1F05F059007A25A7 /* a03xj.sutra */; };
@@ -74,8 +88,6 @@
 		A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44267481EF3CFFC0012BC7F /* TuViewController.xib */; };
 		A44267511EF3D0380012BC7F /* YueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A442674F1EF3D0380012BC7F /* YueViewController.m */; };
 		A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44267501EF3D0380012BC7F /* YueViewController.xib */; };
-		A46D4ECF1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A46D4ECD1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png */; };
-		A46D4ED01F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A46D4ECE1F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png */; };
 		A46D4ED41F5002AC00046F9A /* KeAlbumDetailCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */; };
 		A46D4ED51F5002AC00046F9A /* KeAlbumDetailCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */; };
 		A46D4EDF1F5017A000046F9A /* SLPUpShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4EDA1F5017A000046F9A /* SLPUpShowView.m */; };
@@ -255,16 +267,6 @@
 		A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C409541EF0CFDF0041F285 /* Assets.xcassets */; };
 		A4C409631EF0CFDF0041F285 /* SutraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409621EF0CFDF0041F285 /* SutraTests.m */; };
 		A4C4096E1EF0CFDF0041F285 /* SutraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */; };
-		A4E472291EFD019900588339 /* jing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E4721F1EFD019900588339 /* jing@2x.png */; };
-		A4E4722A1EFD019900588339 /* jing_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472201EFD019900588339 /* jing_default@2x.png */; };
-		A4E4722B1EFD019900588339 /* ke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472211EFD019900588339 /* ke@2x.png */; };
-		A4E4722C1EFD019900588339 /* ke_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472221EFD019900588339 /* ke_default@2x.png */; };
-		A4E4722D1EFD019900588339 /* tu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472231EFD019900588339 /* tu@2x.png */; };
-		A4E4722E1EFD019900588339 /* tu_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472241EFD019900588339 /* tu_default@2x.png */; };
-		A4E4722F1EFD019900588339 /* xue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472251EFD019900588339 /* xue@2x.png */; };
-		A4E472301EFD019900588339 /* xue_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472261EFD019900588339 /* xue_default@2x.png */; };
-		A4E472311EFD019900588339 /* yue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472271EFD019900588339 /* yue@2x.png */; };
-		A4E472321EFD019900588339 /* yue_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E472281EFD019900588339 /* yue_default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -298,6 +300,20 @@
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
 		7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sutra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@2x.png"; sourceTree = "<group>"; };
+		A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@3x.png"; sourceTree = "<group>"; };
+		A41D94A11F5406AA00FB2E0F /* jing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing@2x.png"; sourceTree = "<group>"; };
+		A41D94A21F5406AA00FB2E0F /* jing_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing_default@2x.png"; sourceTree = "<group>"; };
+		A41D94A31F5406AA00FB2E0F /* ke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ke@2x.png"; sourceTree = "<group>"; };
+		A41D94A41F5406AA00FB2E0F /* ke_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ke_default@2x.png"; sourceTree = "<group>"; };
+		A41D94A51F5406AA00FB2E0F /* tu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu@2x.png"; sourceTree = "<group>"; };
+		A41D94A61F5406AA00FB2E0F /* tu_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_default@2x.png"; sourceTree = "<group>"; };
+		A41D94A71F5406AA00FB2E0F /* xue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue@2x.png"; sourceTree = "<group>"; };
+		A41D94A81F5406AA00FB2E0F /* xue_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue_default@2x.png"; sourceTree = "<group>"; };
+		A41D94A91F5406AA00FB2E0F /* yue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue@2x.png"; sourceTree = "<group>"; };
+		A41D94AA1F5406AA00FB2E0F /* yue_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue_default@2x.png"; sourceTree = "<group>"; };
+		A41D94B81F5406E100FB2E0F /* device_btn_add_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_btn_add_nor@2x.png"; sourceTree = "<group>"; };
+		A41D94B91F5406E100FB2E0F /* device_btn_add_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_btn_add_nor@3x.png"; sourceTree = "<group>"; };
 		A4240BE81F05F059007A25A7 /* a04lztj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a04lztj.sutra; sourceTree = "<group>"; };
 		A4240BE91F05F059007A25A7 /* a06hyj1.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a06hyj1.sutra; sourceTree = "<group>"; };
 		A4240BEA1F05F059007A25A7 /* a03xj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a03xj.sutra; sourceTree = "<group>"; };
@@ -362,8 +378,6 @@
 		A442674E1EF3D0380012BC7F /* YueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YueViewController.h; sourceTree = "<group>"; };
 		A442674F1EF3D0380012BC7F /* YueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YueViewController.m; sourceTree = "<group>"; };
 		A44267501EF3D0380012BC7F /* YueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YueViewController.xib; sourceTree = "<group>"; };
-		A46D4ECD1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@2x.png"; sourceTree = "<group>"; };
-		A46D4ECE1F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@3x.png"; sourceTree = "<group>"; };
 		A46D4ED11F5002AC00046F9A /* KeAlbumDetailCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeAlbumDetailCtrl.h; sourceTree = "<group>"; };
 		A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeAlbumDetailCtrl.m; sourceTree = "<group>"; };
 		A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeAlbumDetailCtrl.xib; sourceTree = "<group>"; };
@@ -557,16 +571,6 @@
 		A4C409691EF0CFDF0041F285 /* SutraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SutraUITests.m; sourceTree = "<group>"; };
 		A4C4096F1EF0CFDF0041F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4E4721F1EFD019900588339 /* jing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing@2x.png"; sourceTree = "<group>"; };
-		A4E472201EFD019900588339 /* jing_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing_default@2x.png"; sourceTree = "<group>"; };
-		A4E472211EFD019900588339 /* ke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ke@2x.png"; sourceTree = "<group>"; };
-		A4E472221EFD019900588339 /* ke_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ke_default@2x.png"; sourceTree = "<group>"; };
-		A4E472231EFD019900588339 /* tu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu@2x.png"; sourceTree = "<group>"; };
-		A4E472241EFD019900588339 /* tu_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_default@2x.png"; sourceTree = "<group>"; };
-		A4E472251EFD019900588339 /* xue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue@2x.png"; sourceTree = "<group>"; };
-		A4E472261EFD019900588339 /* xue_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xue_default@2x.png"; sourceTree = "<group>"; };
-		A4E472271EFD019900588339 /* yue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue@2x.png"; sourceTree = "<group>"; };
-		A4E472281EFD019900588339 /* yue_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yue_default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -649,6 +653,41 @@
 				6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A41D949D1F5406AA00FB2E0F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */,
+				A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A41D94A01F5406AA00FB2E0F /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A41D94A11F5406AA00FB2E0F /* jing@2x.png */,
+				A41D94A21F5406AA00FB2E0F /* jing_default@2x.png */,
+				A41D94A31F5406AA00FB2E0F /* ke@2x.png */,
+				A41D94A41F5406AA00FB2E0F /* ke_default@2x.png */,
+				A41D94A51F5406AA00FB2E0F /* tu@2x.png */,
+				A41D94A61F5406AA00FB2E0F /* tu_default@2x.png */,
+				A41D94A71F5406AA00FB2E0F /* xue@2x.png */,
+				A41D94A81F5406AA00FB2E0F /* xue_default@2x.png */,
+				A41D94A91F5406AA00FB2E0F /* yue@2x.png */,
+				A41D94AA1F5406AA00FB2E0F /* yue_default@2x.png */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		A41D94B71F5406CD00FB2E0F /* Yue */ = {
+			isa = PBXGroup;
+			children = (
+				A41D94B81F5406E100FB2E0F /* device_btn_add_nor@2x.png */,
+				A41D94B91F5406E100FB2E0F /* device_btn_add_nor@3x.png */,
+			);
+			path = Yue;
 			sourceTree = "<group>";
 		};
 		A4240BE71F05F059007A25A7 /* Jing */ = {
@@ -1219,18 +1258,9 @@
 		A4E4721E1EFD019900588339 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
-				A46D4ECD1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png */,
-				A46D4ECE1F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png */,
-				A4E4721F1EFD019900588339 /* jing@2x.png */,
-				A4E472201EFD019900588339 /* jing_default@2x.png */,
-				A4E472211EFD019900588339 /* ke@2x.png */,
-				A4E472221EFD019900588339 /* ke_default@2x.png */,
-				A4E472231EFD019900588339 /* tu@2x.png */,
-				A4E472241EFD019900588339 /* tu_default@2x.png */,
-				A4E472251EFD019900588339 /* xue@2x.png */,
-				A4E472261EFD019900588339 /* xue_default@2x.png */,
-				A4E472271EFD019900588339 /* yue@2x.png */,
-				A4E472281EFD019900588339 /* yue_default@2x.png */,
+				A41D94B71F5406CD00FB2E0F /* Yue */,
+				A41D949D1F5406AA00FB2E0F /* Common */,
+				A41D94A01F5406AA00FB2E0F /* Tabbar */,
 			);
 			path = Icon;
 			sourceTree = "<group>";
@@ -1358,6 +1388,7 @@
 				A4B9CF0E1F4D8250005F078C /* c055.sutra in Resources */,
 				A4B9CF241F4D8250005F078C /* c036.sutra in Resources */,
 				A4A325221F0B9B710062DB41 /* 03-往生咒.sutra in Resources */,
+				A41D94BA1F5406E100FB2E0F /* device_btn_add_nor@2x.png in Resources */,
 				A4B9CECA1F4D824F005F078C /* c127.sutra in Resources */,
 				A4240C9E1F063273007A25A7 /* b11sgy.sutra in Resources */,
 				A4B9CEB91F4D824F005F078C /* c110.sutra in Resources */,
@@ -1367,13 +1398,14 @@
 				A4B9CEE81F4D824F005F078C /* c086.sutra in Resources */,
 				A4B9CEC61F4D824F005F078C /* c123.sutra in Resources */,
 				A4B9CEB21F4D824F005F078C /* c103.sutra in Resources */,
-				A4E4722F1EFD019900588339 /* xue@2x.png in Resources */,
 				A4240CA51F063273007A25A7 /* b18fywj.sutra in Resources */,
 				A4B9CEC01F4D824F005F078C /* c117.sutra in Resources */,
 				A4B9CEEC1F4D824F005F078C /* c090.sutra in Resources */,
 				A4B9CF0D1F4D8250005F078C /* c054.sutra in Resources */,
 				A4240CA61F063273007A25A7 /* b19qlz.sutra in Resources */,
+				A41D94B41F5406AA00FB2E0F /* xue_default@2x.png in Resources */,
 				A4240C1F1F05F059007A25A7 /* a06hyj1.sutra in Resources */,
+				A41D94AD1F5406AA00FB2E0F /* jing@2x.png in Resources */,
 				A4B9CEF41F4D8250005F078C /* c003.sutra in Resources */,
 				A4B9CEE71F4D824F005F078C /* c085.sutra in Resources */,
 				A4B9CEC21F4D824F005F078C /* c119.sutra in Resources */,
@@ -1381,7 +1413,6 @@
 				A4240C231F05F059007A25A7 /* a02jgj.sutra in Resources */,
 				A4240C691F062E15007A25A7 /* b24yzjsz.sutra in Resources */,
 				A4B9CEC11F4D824F005F078C /* c118.sutra in Resources */,
-				A4E4722A1EFD019900588339 /* jing_default@2x.png in Resources */,
 				A4B9CF2E1F4D8250005F078C /* c046.sutra in Resources */,
 				A4B9CF2D1F4D8250005F078C /* c045.sutra in Resources */,
 				A4A325301F0B9B710062DB41 /* 08-大悲咒.sutra in Resources */,
@@ -1402,8 +1433,8 @@
 				A4B9CEFC1F4D8250005F078C /* c011.sutra in Resources */,
 				A4B9CF0A1F4D8250005F078C /* c051.sutra in Resources */,
 				A4240C7A1F062E15007A25A7 /* b42hxj.sutra in Resources */,
-				A4E4722E1EFD019900588339 /* tu_default@2x.png in Resources */,
 				A4B9CEAF1F4D824F005F078C /* c100.sutra in Resources */,
+				A41D94AF1F5406AA00FB2E0F /* ke@2x.png in Resources */,
 				A4240C671F062E15007A25A7 /* b22zz.sutra in Resources */,
 				A4B9CEE61F4D824F005F078C /* c084.sutra in Resources */,
 				A4B9CEC31F4D824F005F078C /* c120.sutra in Resources */,
@@ -1416,17 +1447,17 @@
 				A4B9CF001F4D8250005F078C /* c015.sutra in Resources */,
 				A4B9CEEE1F4D824F005F078C /* c092.sutra in Resources */,
 				A4240C9D1F063273007A25A7 /* b10fyws.sutra in Resources */,
-				A46D4ECF1F4FFCD300046F9A /* common_list_icon_leftarrow@2x.png in Resources */,
 				A4240CA01F063273007A25A7 /* b13amtj.sutra in Resources */,
 				A4B9CF231F4D8250005F078C /* c035.sutra in Resources */,
 				A4B9CF171F4D8250005F078C /* c023.sutra in Resources */,
+				A41D94AE1F5406AA00FB2E0F /* jing_default@2x.png in Resources */,
 				A4B9CEFD1F4D8250005F078C /* c012.sutra in Resources */,
 				A4B9CF131F4D8250005F078C /* c060.sutra in Resources */,
 				A4B9CF151F4D8250005F078C /* c021.sutra in Resources */,
 				A4B9CECF1F4D824F005F078C /* c132.sutra in Resources */,
-				A4E4722C1EFD019900588339 /* ke_default@2x.png in Resources */,
 				A4B9CEDB1F4D824F005F078C /* c073.sutra in Resources */,
 				A4240C221F05F059007A25A7 /* a05fhj.sutra in Resources */,
+				A41D94AB1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png in Resources */,
 				A4B9CED61F4D824F005F078C /* c068.sutra in Resources */,
 				A4B9CEAC1F4D824F005F078C /* c097.sutra in Resources */,
 				A4A325361F0B9B710062DB41 /* 14-念圣号.sutra in Resources */,
@@ -1439,6 +1470,7 @@
 				A4B9CEEA1F4D824F005F078C /* c088.sutra in Resources */,
 				A4B9CF271F4D8250005F078C /* c039.sutra in Resources */,
 				A4B9CF2A1F4D8250005F078C /* c042.sutra in Resources */,
+				A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */,
 				A4B9CF071F4D8250005F078C /* c048.sutra in Resources */,
 				A4240C241F05F059007A25A7 /* a01amtj.sutra in Resources */,
 				A44084881F03ACAF006A0F97 /* KeTitleCell.xib in Resources */,
@@ -1451,12 +1483,10 @@
 				A4A325201F0B9B710062DB41 /* 01-香赞.sutra in Resources */,
 				A4A325291F0B9B710062DB41 /* 10-观闻圣号.sutra in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
-				A4E472291EFD019900588339 /* jing@2x.png in Resources */,
 				A46D4EEB1F50186B00046F9A /* SLPCenterTitleCell.xib in Resources */,
 				A4B9CF061F4D8250005F078C /* c047.sutra in Resources */,
 				A4B9CF1A1F4D8250005F078C /* c026.sutra in Resources */,
 				A4B9CF1C1F4D8250005F078C /* c028.sutra in Resources */,
-				A4E4722D1EFD019900588339 /* tu@2x.png in Resources */,
 				A4B9CF141F4D8250005F078C /* c061.sutra in Resources */,
 				A4240C9F1F063273007A25A7 /* b12zgyw.sutra in Resources */,
 				A4B9CEF11F4D8250005F078C /* c095.sutra in Resources */,
@@ -1471,16 +1501,18 @@
 				A4B9CF0C1F4D8250005F078C /* c053.sutra in Resources */,
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
 				A4B9CF051F4D8250005F078C /* c020.sutra in Resources */,
+				A41D94B01F5406AA00FB2E0F /* ke_default@2x.png in Resources */,
 				A4B9CEE01F4D824F005F078C /* c078.sutra in Resources */,
 				A4A325261F0B9B710062DB41 /* 07-往生咒.sutra in Resources */,
 				A4240C6A1F062E15007A25A7 /* b25hxz.sutra in Resources */,
 				A4A325281F0B9B710062DB41 /* 09-赞佛偈.sutra in Resources */,
 				A4240C7C1F062E15007A25A7 /* b44bszy.sutra in Resources */,
-				A46D4ED01F4FFCD300046F9A /* common_list_icon_leftarrow@3x.png in Resources */,
 				A4A325341F0B9B710062DB41 /* 12-回向偈.sutra in Resources */,
 				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
 				A4B9CED51F4D824F005F078C /* c067.sutra in Resources */,
 				A4240CA81F063273007A25A7 /* b21wtz.sutra in Resources */,
+				A41D94B11F5406AA00FB2E0F /* tu@2x.png in Resources */,
+				A41D94B21F5406AA00FB2E0F /* tu_default@2x.png in Resources */,
 				A4240C781F062E15007A25A7 /* b40gydsz.sutra in Resources */,
 				A4B9CEBF1F4D824F005F078C /* c116.sutra in Resources */,
 				A4B9CF0B1F4D8250005F078C /* c052.sutra in Resources */,
@@ -1505,6 +1537,7 @@
 				A4A325271F0B9B710062DB41 /* 08-回向偈.sutra in Resources */,
 				A4240C201F05F059007A25A7 /* a03xj.sutra in Resources */,
 				A4B9CF0F1F4D8250005F078C /* c056.sutra in Resources */,
+				A41D94BB1F5406E100FB2E0F /* device_btn_add_nor@3x.png in Resources */,
 				A4B9CEC41F4D824F005F078C /* c121.sutra in Resources */,
 				A4B9CF211F4D8250005F078C /* c033.sutra in Resources */,
 				A4A325331F0B9B710062DB41 /* 11-三称佛号.sutra in Resources */,
@@ -1512,7 +1545,6 @@
 				A4B9CEE11F4D824F005F078C /* c079.sutra in Resources */,
 				A4240C9B1F063273007A25A7 /* b08zfj.sutra in Resources */,
 				A4B9CEDF1F4D824F005F078C /* c077.sutra in Resources */,
-				A4E472311EFD019900588339 /* yue@2x.png in Resources */,
 				A4B9CF021F4D8250005F078C /* c017.sutra in Resources */,
 				A4A325371F0B9B710062DB41 /* 15-发愿文.sutra in Resources */,
 				A4B9CEB61F4D824F005F078C /* c107.sutra in Resources */,
@@ -1525,17 +1557,16 @@
 				A4240C731F062E15007A25A7 /* b35gypszy.sutra in Resources */,
 				A4240C9C1F063273007A25A7 /* b09nsh.sutra in Resources */,
 				A4240C751F062E15007A25A7 /* b37wspszy.sutra in Resources */,
-				A4E4722B1EFD019900588339 /* ke@2x.png in Resources */,
 				A4A325391F0B9B710062DB41 /* 17-大吉祥天女咒.sutra in Resources */,
 				4C1FB79D1F166BDA002212EF /* Default-1334.png in Resources */,
 				A4B9CEBD1F4D824F005F078C /* c114.sutra in Resources */,
 				A4B9CEC51F4D824F005F078C /* c122.sutra in Resources */,
+				A41D94B51F5406AA00FB2E0F /* yue@2x.png in Resources */,
 				A4A325231F0B9B710062DB41 /* 04-大忏悔文.sutra in Resources */,
 				A4B9CEF91F4D8250005F078C /* c008.sutra in Resources */,
 				A4B9CF161F4D8250005F078C /* c022.sutra in Resources */,
 				A4B9CEE21F4D824F005F078C /* c080.sutra in Resources */,
 				A4B9CECB1F4D824F005F078C /* c128.sutra in Resources */,
-				A4E472301EFD019900588339 /* xue_default@2x.png in Resources */,
 				A4B9CECC1F4D824F005F078C /* c129.sutra in Resources */,
 				A4A325241F0B9B710062DB41 /* 05-蒙山施食.sutra in Resources */,
 				A4240CA71F063273007A25A7 /* b20jzj.sutra in Resources */,
@@ -1556,6 +1587,7 @@
 				A4240C681F062E15007A25A7 /* b23wz.sutra in Resources */,
 				A4240C981F063273007A25A7 /* b05sxz.sutra in Resources */,
 				A4B9CECD1F4D824F005F078C /* c130.sutra in Resources */,
+				A41D94B31F5406AA00FB2E0F /* xue@2x.png in Resources */,
 				A4B9CEC71F4D824F005F078C /* c124.sutra in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
 				A4B9CEB01F4D824F005F078C /* c101.sutra in Resources */,
@@ -1563,8 +1595,8 @@
 				A4B9CEBB1F4D824F005F078C /* c112.sutra in Resources */,
 				A4B9CF121F4D8250005F078C /* c059.sutra in Resources */,
 				A4B9CEBC1F4D824F005F078C /* c113.sutra in Resources */,
+				A41D94B61F5406AA00FB2E0F /* yue_default@2x.png in Resources */,
 				A4B9CF1F1F4D8250005F078C /* c031.sutra in Resources */,
-				A4E472321EFD019900588339 /* yue_default@2x.png in Resources */,
 				A4A325311F0B9B710062DB41 /* 09-十小咒.sutra in Resources */,
 				A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */,
 				A4240CA21F063273007A25A7 /* b15msss.sutra in Resources */,

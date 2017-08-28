@@ -11,6 +11,8 @@
 #import "JingListViewController.h"
 #import "KeViewController.h"
 #import "XueViewController.h"
+#import "YueViewController.h"
+#import "TuViewController.h"
 
 @interface AppDelegate ()
 
@@ -56,30 +58,23 @@
 }
 
 - (void)mainView {
-    // Homepage
     JingListViewController *jingVC = [[JingListViewController alloc] init];
     jingVC.navigationController.navigationBar.translucent = NO;
     MLNavigationController *navJingController = [[MLNavigationController alloc] initWithRootViewController:jingVC];
     
-    //Discover
     KeViewController *keVC = [[KeViewController alloc] init];
     keVC.navigationController.navigationBar.translucent = NO;
     MLNavigationController *navKeController = [[MLNavigationController alloc] initWithRootViewController:keVC];
     
-    //Discover
     XueViewController *xueVC = [[XueViewController alloc] init];
     xueVC.navigationController.navigationBar.translucent = NO;
     MLNavigationController *navXueController = [[MLNavigationController alloc] initWithRootViewController:xueVC];
     
-    //Discover
-    UIViewController *yueVC = [[UIViewController alloc] init];
-    yueVC.view.backgroundColor = [UIColor yellowColor];
+    YueViewController *yueVC = [[YueViewController alloc] init];
     yueVC.navigationController.navigationBar.translucent = NO;
     MLNavigationController *navYueController = [[MLNavigationController alloc] initWithRootViewController:yueVC];
 
-    // News
-    UIViewController *tuVC = [[UIViewController alloc] init];
-    tuVC.view.backgroundColor = [UIColor blueColor];
+    TuViewController *tuVC = [[TuViewController alloc] init];
     tuVC.navigationController.navigationBar.translucent = NO;
     MLNavigationController *navTuController = [[MLNavigationController alloc] initWithRootViewController:tuVC];
     
