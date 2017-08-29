@@ -88,6 +88,9 @@
 		A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44267481EF3CFFC0012BC7F /* TuViewController.xib */; };
 		A44267511EF3D0380012BC7F /* YueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A442674F1EF3D0380012BC7F /* YueViewController.m */; };
 		A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44267501EF3D0380012BC7F /* YueViewController.xib */; };
+		A4522CE51F554915008222F8 /* YueMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = A4522CE41F554915008222F8 /* YueMedia.m */; };
+		A4522CEA1F554F34008222F8 /* YueTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4522CE81F554F34008222F8 /* YueTitleCell.m */; };
+		A4522CEB1F554F34008222F8 /* YueTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4522CE91F554F34008222F8 /* YueTitleCell.xib */; };
 		A46D4ED41F5002AC00046F9A /* KeAlbumDetailCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */; };
 		A46D4ED51F5002AC00046F9A /* KeAlbumDetailCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */; };
 		A46D4EDF1F5017A000046F9A /* SLPUpShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4EDA1F5017A000046F9A /* SLPUpShowView.m */; };
@@ -378,6 +381,11 @@
 		A442674E1EF3D0380012BC7F /* YueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YueViewController.h; sourceTree = "<group>"; };
 		A442674F1EF3D0380012BC7F /* YueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YueViewController.m; sourceTree = "<group>"; };
 		A44267501EF3D0380012BC7F /* YueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YueViewController.xib; sourceTree = "<group>"; };
+		A4522CE31F554915008222F8 /* YueMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YueMedia.h; sourceTree = "<group>"; };
+		A4522CE41F554915008222F8 /* YueMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YueMedia.m; sourceTree = "<group>"; };
+		A4522CE71F554F34008222F8 /* YueTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YueTitleCell.h; sourceTree = "<group>"; };
+		A4522CE81F554F34008222F8 /* YueTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YueTitleCell.m; sourceTree = "<group>"; };
+		A4522CE91F554F34008222F8 /* YueTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YueTitleCell.xib; sourceTree = "<group>"; };
 		A46D4ED11F5002AC00046F9A /* KeAlbumDetailCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeAlbumDetailCtrl.h; sourceTree = "<group>"; };
 		A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeAlbumDetailCtrl.m; sourceTree = "<group>"; };
 		A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeAlbumDetailCtrl.xib; sourceTree = "<group>"; };
@@ -848,6 +856,8 @@
 			isa = PBXGroup;
 			children = (
 				A442674C1EF3D01C0012BC7F /* Controller */,
+				A4522CE61F554F0B008222F8 /* View */,
+				A4522CE21F5548E4008222F8 /* Model */,
 			);
 			path = Yue;
 			sourceTree = "<group>";
@@ -860,6 +870,25 @@
 				A44267501EF3D0380012BC7F /* YueViewController.xib */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4522CE21F5548E4008222F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4522CE31F554915008222F8 /* YueMedia.h */,
+				A4522CE41F554915008222F8 /* YueMedia.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4522CE61F554F0B008222F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4522CE71F554F34008222F8 /* YueTitleCell.h */,
+				A4522CE81F554F34008222F8 /* YueTitleCell.m */,
+				A4522CE91F554F34008222F8 /* YueTitleCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A46D4ED61F5017A000046F9A /* Common */ = {
@@ -1484,6 +1513,7 @@
 				A4A325291F0B9B710062DB41 /* 10-观闻圣号.sutra in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
 				A46D4EEB1F50186B00046F9A /* SLPCenterTitleCell.xib in Resources */,
+				A4522CEB1F554F34008222F8 /* YueTitleCell.xib in Resources */,
 				A4B9CF061F4D8250005F078C /* c047.sutra in Resources */,
 				A4B9CF1A1F4D8250005F078C /* c026.sutra in Resources */,
 				A4B9CF1C1F4D8250005F078C /* c028.sutra in Resources */,
@@ -1714,6 +1744,7 @@
 				A44084831F03AA44006A0F97 /* KeAlbum.m in Sources */,
 				A44267491EF3CFFD0012BC7F /* TuViewController.m in Sources */,
 				A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */,
+				A4522CE51F554915008222F8 /* YueMedia.m in Sources */,
 				A46D4EDF1F5017A000046F9A /* SLPUpShowView.m in Sources */,
 				A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */,
 				A46D4EEA1F50186B00046F9A /* SLPCenterTitleCell.m in Sources */,
@@ -1723,6 +1754,7 @@
 				4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */,
 				A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */,
 				A44084871F03ACAF006A0F97 /* KeTitleCell.m in Sources */,
+				A4522CEA1F554F34008222F8 /* YueTitleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
