@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - BaiduMapKit (3.3.4)
+  - BaiduMapKit (3.4.0)
   - MBProgressHUD (1.0.0)
   - RDVTabBarController (1.1.9)
   - RNCryptor-objc (3.0.5)
@@ -32,7 +32,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  BaiduMapKit: 6f2d76a04b72e9af938afb5ca0f97d4417bbf9c0
+  BaiduMapKit: 0a5e5e0b1e3fd8dc5aceb40ab9b89e52e1d13df9
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   RNCryptor-objc: a65b15493de05dda4af0f392c70372b7a5625aab
