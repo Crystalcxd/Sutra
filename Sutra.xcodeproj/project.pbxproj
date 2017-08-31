@@ -1312,7 +1312,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = NV3296URNT;
+						DevelopmentTeam = 958NCYMT3F;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -1825,7 +1825,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = NV3296URNT;
+				DEVELOPMENT_TEAM = 958NCYMT3F;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1840,7 +1840,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = NV3296URNT;
+				DEVELOPMENT_TEAM = 958NCYMT3F;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

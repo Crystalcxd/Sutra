@@ -107,8 +107,24 @@
 #pragma mark -MPMediaPickerControllerDelegate
 - (void)mediaPicker:(MPMediaPickerController *)mediaPicker didPickMediaItems:(MPMediaItemCollection *)mediaItemCollection
 {
+    
+    self.myMusicPlayer = nil;
+    self.myMusicPlayer = [[MPMusicPlayerController alloc] init];
+    [self.myMusicPlayer beginGeneratingPlaybackNotifications];
+    
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(musicPlayerStatedChanged:) name:MPMusicPlayerControllerPlaybackStateDidChangeNotification object:self.myMusicPlayer];
+//
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nowPlayingItemIsChanged:) name:MPMusicPlayerControllerNowPlayingItemDidChangeNotification object:self.myMusicPlayer];
+//
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(volumeIsChanged:) name:MPMusicPlayerControllerVolumeDidChangeNotification object:self.myMusicPlayer];
+    
+    [self.myMusicPlayer setQueueWithItemCollection:mediaItemCollection];
+    
+    [self.myMusicPlayer play];
     [mediaPicker dismissViewControllerAnimated:YES completion:nil];
-
+    
+    return;
+    
     NSArray *items = mediaItemCollection.items;
     MPMediaItem *item = [items firstObject];
 
@@ -199,7 +215,6 @@
     media.filePath = resultPath;
     
     [self.audioList addObject:media];
-    
     
     [WMUserDefault setArray:self.audioList forKey:@"audio"];
     
