@@ -6,6 +6,7 @@
 //  Copyright © 2017年 com.medica. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 typedef enum : NSUInteger {
@@ -23,7 +24,7 @@ typedef enum : NSUInteger {
 
 @property (nonatomic , strong) NSURL *assetUrl;
 
-@property (nonatomic , strong) NSString *imageUrl;
+@property (nonatomic , strong) UIImage *image;
 
 @property (nonatomic , strong) id mediaDetail;
 

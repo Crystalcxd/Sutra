@@ -13,6 +13,7 @@
 @property (nonatomic , weak) IBOutlet UIView *line;
 @property (nonatomic , weak) IBOutlet UILabel *titleLabel;
 @property (nonatomic , weak) IBOutlet UIImageView *arrowImageView;
+@property (nonatomic , weak) IBOutlet UIImageView *videoImageView;
 
 @end
 
@@ -30,8 +31,18 @@
     self.arrowImageView.image = [UIImage imageNamed:@"common_list_icon_leftarrow"];
 }
 
-- (void)configureWith:(NSString *)titleStr {
-    [self.titleLabel setText:titleStr];
+- (void)configureWith:(YueMedia *)media {
+    switch (media.mediaType) {
+        case YueMediaAudio:
+            [self.titleLabel setText:media.mediaName];
+            break;
+        case YueMediaVideo:
+            [self.videoImageView setImage:media.image];
+            [self.titleLabel setText:[NSString stringWithFormat:@"视频%ld",(long)self.indexPath.row]];
+            break;
+        default:
+            break;
+    }
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

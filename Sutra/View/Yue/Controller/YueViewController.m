@@ -10,6 +10,7 @@
 
 #import "YueTitleCell.h"
 
+#import "WMUserDefault.h"
 #import "YueMedia.h"
 
 #import <MediaPlayer/MediaPlayer.h>
@@ -41,13 +42,13 @@
     self.audioList = [NSMutableArray array];
     self.videoList = [NSMutableArray array];
     
-    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"audio"] != nil) {
-        NSArray *array = [[NSUserDefaults standardUserDefaults] objectForKey:@"audio"];
+    if ([WMUserDefault arrayForKey:@"audio"] != nil) {
+        NSArray *array = [WMUserDefault arrayForKey:@"audio"];
         [self.audioList addObjectsFromArray:array];
     }
     
-    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"video"] != nil) {
-        NSArray *array = [[NSUserDefaults standardUserDefaults] objectForKey:@"video"];
+    if ([WMUserDefault arrayForKey:@"video"] != nil) {
+        NSArray *array = [WMUserDefault arrayForKey:@"video"];
         [self.audioList addObjectsFromArray:array];
     }
 }
@@ -72,7 +73,7 @@
     switch (buttonIndex) {
         case 0:
         {
-            MPMediaPickerController *picker = [[MPMediaPickerController alloc] initWithMediaTypes:MPMediaTypeMovie];
+            MPMediaPickerController *picker = [[MPMediaPickerController alloc] initWithMediaTypes:MPMediaTypeAny];
             picker.prompt = @"请选择您需要上传的歌曲";
             picker.showsCloudItems = YES;           //是否显示下载项
             picker.allowsPickingMultipleItems = NO; //是否多选
@@ -118,6 +119,8 @@
     
     [self.audioList addObject:media];
     
+    [WMUserDefault setArray:self.audioList forKey:@"audio"];
+    
     [self.tableView reloadData];
 }
 
@@ -132,6 +135,29 @@
 {
     
     [picker dismissViewControllerAnimated:YES completion:nil];
+    
+    NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];
+    if([mediaType isEqualToString:@"public.movie"])
+    {
+        NSURL *videoURL = [info objectForKey:UIImagePickerControllerMediaURL];
+        NSLog(@"found a video");
+        //获取视频的thumbnail
+        MPMoviePlayerController *player = [[MPMoviePlayerController alloc]initWithContentURL:videoURL];
+        UIImage  *thumbnail = [player thumbnailImageAtTime:1.0 timeOption:MPMovieTimeOptionNearestKeyFrame];
+        
+        YueMedia *media = [[YueMedia alloc] init];
+        media.mediaType = YueMediaVideo;
+//        media.mediaName = item.title;
+        media.assetUrl = videoURL;
+//        media.mediaDetail = item;
+        media.image = thumbnail;
+        
+        [self.videoList addObject:media];
+        
+        [WMUserDefault setArray:self.videoList forKey:@"video"];
+        
+        [self.tableView reloadData];
+    }
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
@@ -256,7 +282,8 @@
         yueCell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     
-    [yueCell configureWith:media.mediaName];
+    yueCell.indexPath = indexPath;
+    [yueCell configureWith:media];
     
     return yueCell;
 }

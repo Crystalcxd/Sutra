@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#import "YueMedia.h"
+
 @interface YueTitleCell : UITableViewCell
 
-- (void)configureWith:(NSString *)titleStr;
+@property (nonatomic , strong) NSIndexPath *indexPath;
+
+- (void)configureWith:(YueMedia *)media;
 
 @end

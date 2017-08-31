@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17A344b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -38,23 +38,33 @@
                             <constraint firstAttribute="width" constant="7" id="R7s-kQ-5UN"/>
                         </constraints>
                     </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="504-6W-MSO">
+                        <rect key="frame" x="20" y="10" width="60" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="STo-qq-12D"/>
+                            <constraint firstAttribute="width" constant="60" id="kwn-bm-FoE"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="ac8-a9-GEk" secondAttribute="bottom" id="7Bi-LO-jiO"/>
                     <constraint firstItem="ltz-lT-Rh4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CJ5-SQ-vEs"/>
                     <constraint firstItem="ac8-a9-GEk" firstAttribute="top" secondItem="ltz-lT-Rh4" secondAttribute="bottom" id="KSH-MA-Qx6"/>
                     <constraint firstItem="3fs-76-FfR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="NRk-lX-PS4"/>
+                    <constraint firstItem="504-6W-MSO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="PUe-eT-vem"/>
                     <constraint firstItem="ltz-lT-Rh4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="SrN-4c-9Q0"/>
                     <constraint firstAttribute="trailing" secondItem="3fs-76-FfR" secondAttribute="trailing" constant="20" id="YdM-6b-6XG"/>
                     <constraint firstItem="ac8-a9-GEk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="epc-fc-wrP"/>
                     <constraint firstAttribute="trailing" secondItem="ac8-a9-GEk" secondAttribute="trailing" constant="15" id="h37-QW-Kac"/>
                     <constraint firstItem="3fs-76-FfR" firstAttribute="leading" secondItem="ltz-lT-Rh4" secondAttribute="trailing" id="mLq-X9-WIw"/>
+                    <constraint firstItem="504-6W-MSO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="sDn-tV-41d"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="arrowImageView" destination="3fs-76-FfR" id="XEL-RQ-3HQ"/>
                 <outlet property="line" destination="ac8-a9-GEk" id="vyP-h5-2IT"/>
                 <outlet property="titleLabel" destination="ltz-lT-Rh4" id="JvY-1M-aNk"/>
+                <outlet property="videoImageView" destination="504-6W-MSO" id="ooj-VT-jQr"/>
             </connections>
         </tableViewCell>
     </objects>
