@@ -140,7 +140,7 @@ enum HomeOPType{
 
 @interface Utility : NSObject
 
-NSUInteger DeviceSystemMajorVersion();
+NSUInteger DeviceSystemMajorVersion(void);
 
 +(NSString *)convertToString:(NSTimeInterval)timeInterval formatter:(NSDateFormatter *)dateFormatter;
 //时间距离

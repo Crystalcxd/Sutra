@@ -34,11 +34,12 @@
 - (void)configureWith:(YueMedia *)media {
     switch (media.mediaType) {
         case YueMediaAudio:
+            [self.videoImageView setImage:media.image];
             [self.titleLabel setText:media.mediaName];
             break;
         case YueMediaVideo:
             [self.videoImageView setImage:media.image];
-            [self.titleLabel setText:[NSString stringWithFormat:@"视频%ld",(long)self.indexPath.row]];
+            [self.titleLabel setText:[NSString stringWithFormat:@"视频%ld",(long)self.indexPath.row + 1]];
             break;
         default:
             break;

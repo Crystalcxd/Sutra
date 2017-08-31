@@ -7,14 +7,19 @@
 //
 
 #import "YueViewController.h"
+#import "DirectionMPMoviePlayerViewController.h"
 
 #import "YueTitleCell.h"
 
 #import "WMUserDefault.h"
 #import "YueMedia.h"
 
+#import "AudioTask.h"
+
 #import <MediaPlayer/MediaPlayer.h>
 #import <MobileCoreServices/MobileCoreServices.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface YueViewController ()<UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,MPMediaPickerControllerDelegate,UITableViewDelegate,UITableViewDataSource>
 
@@ -24,6 +29,8 @@
 @property (nonatomic , weak) IBOutlet UITableView *tableView;
 
 @property (nonatomic , strong)MPMusicPlayerController *myMusicPlayer;
+
+@property (nonatomic , strong) MPMoviePlayerController *moviePlayer;//视频播放控制器
 
 @end
 
@@ -49,7 +56,7 @@
     
     if ([WMUserDefault arrayForKey:@"video"] != nil) {
         NSArray *array = [WMUserDefault arrayForKey:@"video"];
-        [self.audioList addObjectsFromArray:array];
+        [self.videoList addObjectsFromArray:array];
     }
 }
 
@@ -107,7 +114,7 @@
 
     for (YueMedia *media in self.audioList) {
         if ([media.mediaDetail isEqual:item]) {
-            return;
+//            return;
         }
     }
     
@@ -116,8 +123,83 @@
     media.mediaName = item.title;
     media.assetUrl = [item valueForProperty:MPMediaItemPropertyAssetURL];
     media.mediaDetail = item;
+    MPMediaItemArtwork *artWork = [item valueForProperty:MPMediaItemPropertyArtwork];
+    media.image = [artWork imageWithSize:CGSizeMake(180, 120)];
+    
+    
+    AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:[item valueForProperty:MPMediaItemPropertyAssetURL] options:nil];
+    
+    NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
+    
+    NSLog(@"%@",compatiblePresets);
+    
+    NSString * resultPath = @"";
+    if ([compatiblePresets containsObject:AVAssetExportPresetHighestQuality]) {
+        
+        AVAssetExportSession *exportSession = [[AVAssetExportSession alloc] initWithAsset:avAsset presetName:AVAssetExportPresetMediumQuality];
+        
+        NSDateFormatter *formater = [[NSDateFormatter alloc] init];//用时间给文件全名，以免重复
+        
+        [formater setDateFormat:@"yyyy-MM-dd-HH:mm:ss"];
+        
+        NSString * documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+        
+        resultPath = [documentPath stringByAppendingFormat:@"/output-%@.mp3", [formater stringFromDate:[NSDate date]]];
+        
+        NSLog(@"resultPath = %@",resultPath);
+        
+        exportSession.outputURL = [NSURL fileURLWithPath:resultPath];
+        
+        exportSession.outputFileType = AVFileTypeMPEG4;
+        
+        exportSession.shouldOptimizeForNetworkUse = YES;
+        
+        [exportSession exportAsynchronouslyWithCompletionHandler:^(void)
+         
+         {
+             
+             switch (exportSession.status) {
+                     
+                 case AVAssetExportSessionStatusUnknown:
+                     
+                     NSLog(@"AVAssetExportSessionStatusUnknown");
+                     
+                     break;
+                     
+                 case AVAssetExportSessionStatusWaiting:
+                     
+                     NSLog(@"AVAssetExportSessionStatusWaiting");
+                     
+                     break;
+                     
+                 case AVAssetExportSessionStatusExporting:
+                     
+                     NSLog(@"AVAssetExportSessionStatusExporting");
+                     
+                     break;
+                     
+                 case AVAssetExportSessionStatusCompleted:
+                     
+                     NSLog(@"AVAssetExportSessionStatusCompleted");
+                     
+                     break;
+                     
+                 case AVAssetExportSessionStatusFailed:
+                     
+                     NSLog(@"AVAssetExportSessionStatusFailed");
+                     
+                     break;
+                     
+             }
+             
+         }];
+        
+    }
+    
+    media.filePath = resultPath;
     
     [self.audioList addObject:media];
+    
     
     [WMUserDefault setArray:self.audioList forKey:@"audio"];
     
@@ -141,6 +223,85 @@
     {
         NSURL *videoURL = [info objectForKey:UIImagePickerControllerMediaURL];
         NSLog(@"found a video");
+        
+        AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:videoURL options:nil];
+        
+        NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
+        
+        NSLog(@"%@",compatiblePresets);
+        
+        NSString * resultPath = @"";
+        if ([compatiblePresets containsObject:AVAssetExportPresetHighestQuality]) {
+            
+            AVAssetExportSession *exportSession = [[AVAssetExportSession alloc] initWithAsset:avAsset presetName:AVAssetExportPresetMediumQuality];
+            
+            NSDateFormatter *formater = [[NSDateFormatter alloc] init];//用时间给文件全名，以免重复
+            
+            [formater setDateFormat:@"yyyy-MM-dd-HH:mm:ss"];
+            
+            NSString * documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+            
+            resultPath = [documentPath stringByAppendingFormat:@"/output-%@.mp4", [formater stringFromDate:[NSDate date]]];
+            
+            NSLog(@"resultPath = %@",resultPath);
+            
+            exportSession.outputURL = [NSURL fileURLWithPath:resultPath];
+            
+            exportSession.outputFileType = AVFileTypeMPEG4;
+            
+            exportSession.shouldOptimizeForNetworkUse = YES;
+            
+            [exportSession exportAsynchronouslyWithCompletionHandler:^(void)
+             
+             {
+                 
+                 switch (exportSession.status) {
+                         
+                     case AVAssetExportSessionStatusUnknown:
+                         
+                         NSLog(@"AVAssetExportSessionStatusUnknown");
+                         
+                         break;
+                         
+                     case AVAssetExportSessionStatusWaiting:
+                         
+                         NSLog(@"AVAssetExportSessionStatusWaiting");
+                         
+                         break;
+                         
+                     case AVAssetExportSessionStatusExporting:
+                         
+                         NSLog(@"AVAssetExportSessionStatusExporting");
+                         
+                         break;
+                         
+                     case AVAssetExportSessionStatusCompleted:
+                         
+                         NSLog(@"AVAssetExportSessionStatusCompleted");
+                         
+                         break;
+                         
+                     case AVAssetExportSessionStatusFailed:
+                         
+                         NSLog(@"AVAssetExportSessionStatusFailed");
+                         
+                         break;
+                         
+                 }
+                 
+             }];
+            
+        }
+//        NSData *webData = [NSData dataWithContentsOfURL:videoURL];
+//
+////        [webData writeToFile:[self findUniqueMoviePath] atomically:YES];
+//
+//        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//        NSString *documentsPath = [paths objectAtIndex:0];
+//
+//        [webData writeToFile:[NSString stringWithFormat:@"%@/%@.jpg", documentsPath, @"video"] atomically:YES];
+//
+        
         //获取视频的thumbnail
         MPMoviePlayerController *player = [[MPMoviePlayerController alloc]initWithContentURL:videoURL];
         UIImage  *thumbnail = [player thumbnailImageAtTime:1.0 timeOption:MPMovieTimeOptionNearestKeyFrame];
@@ -151,6 +312,7 @@
         media.assetUrl = videoURL;
 //        media.mediaDetail = item;
         media.image = thumbnail;
+        media.filePath = resultPath;
         
         [self.videoList addObject:media];
         
@@ -297,6 +459,68 @@
 {
     NSLog(@"%@",indexPath);
     
+    switch (indexPath.section) {
+            case YueMediaAudio:
+        {
+            YueMedia *media = self.audioList[indexPath.row];
+            NSURL *videoURL = [NSURL fileURLWithPath:media.filePath];
+            
+            [[AudioTask shareAudioTask] setUrl:videoURL];
+            [[AudioTask shareAudioTask] startTaskWithTyep:backgroundTask];
+        }
+            break;
+        case YueMediaVideo:
+        {
+            YueMedia *media = self.videoList[indexPath.row];
+            
+            NSURL *videoURL = [NSURL fileURLWithPath:media.filePath];
+            
+//            AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+            
+//            AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
+//
+//            playerLayer.frame = self.view.bounds;
+//
+//            [self.view.layer addSublayer:playerLayer];
+//
+//            [player play];
+            
+            self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL fileURLWithPath:media.filePath]];
+            // 开始播放
+            [self.moviePlayer prepareToPlay];
+            // 位置
+            [self.view addSubview:self.moviePlayer.view];
+            // frame
+            self.moviePlayer.view.frame = self.tableView.frame;
+            // 自动播放
+            self.moviePlayer.shouldAutoplay = YES;
+            // 返回键、暂停键、进度条等样式
+            self.moviePlayer.controlStyle = MPMovieControlStyleFullscreen;
+            // 全屏
+            self.moviePlayer.fullscreen = NO;
+            // 适应屏幕大小，宽高比不变
+            self.moviePlayer.scalingMode = MPMovieScalingModeAspectFit;
+            
+//            if (media.assetUrl) {
+//                AVAsset *movieAsset = [AVURLAsset URLAssetWithURL:media.assetUrl options:nil];
+//                AVPlayerItem *playerItem = [AVPlayerItem playerItemWithAsset:movieAsset];
+//                AVPlayer *player = [AVPlayer playerWithPlayerItem:playerItem];
+//                AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
+//                playerLayer.frame = self.view.bounds;
+//
+//                playerLayer.videoGravity = AVLayerVideoGravityResizeAspect;
+//                [self.view.layer addSublayer:playerLayer];
+//                playerLayer.backgroundColor = [UIColor blueColor].CGColor;
+//                [player play];
+////                [[self moviePlayerWith:media.assetUrl] play];
+////                [self playMovieAtURL:media.assetUrl];
+//            }
+        }
+            break;
+            
+        default:
+            break;
+    }
 //    JingDetailCtrl *vc = [[JingDetailCtrl alloc] init];
 //    NSLog(@"didSelect Jing%@",_XueData[indexPath.section][indexPath.row]);
 //    vc.detailItem = _XueData[indexPath.section][indexPath.row];
@@ -309,6 +533,107 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)playMovieAtURL:(NSURL*)theURL
+{
+    DirectionMPMoviePlayerViewController *playerView = [[DirectionMPMoviePlayerViewController alloc] initWithContentURL:theURL];
+    playerView.view.frame = self.view.frame;//全屏播放（全屏播放不可缺）
+    playerView.moviePlayer.scalingMode = MPMovieScalingModeAspectFill;//全屏播放（全屏播放不可缺）
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(myMovieFinishedCallback:)
+                                                 name:MPMoviePlayerPlaybackDidFinishNotification
+                                               object:playerView];
+    [playerView.moviePlayer play];
+    [self presentMoviePlayerViewControllerAnimated:playerView];
+}
+
+// When the movie is done, release the controller.
+-(void)myMovieFinishedCallback:(NSNotification*)aNotification
+{
+    DirectionMPMoviePlayerViewController* theMovie = [aNotification object];
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:MPMoviePlayerPlaybackDidFinishNotification
+                                                  object:theMovie];
+}
+
+#pragma mark - 私有方法
+/**
+ *  取得本地文件路径
+ *
+ *  @return 文件路径
+ */
+-(NSURL *)getFileUrl{
+    NSString *urlStr=[[NSBundle mainBundle] pathForResource:@"The New Look of OS X Yosemite.mp4" ofType:nil];
+    NSURL *url=[NSURL fileURLWithPath:urlStr];
+    return url;
+}
+
+/**
+ *  取得网络文件路径
+ *
+ *  @return 文件路径
+ */
+-(NSURL *)getNetworkUrl{
+    NSString *urlStr=@"http://192.168.1.161/The New Look of OS X Yosemite.mp4";
+    urlStr=[urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSURL *url=[NSURL URLWithString:urlStr];
+    return url;
+}
+
+/**
+ *  创建媒体播放控制器
+ *
+ *  @return 媒体播放控制器
+ */
+-(MPMoviePlayerController *)moviePlayerWith:(NSURL *)url{
+    if (!_moviePlayer) {
+        _moviePlayer=[[MPMoviePlayerController alloc]initWithContentURL:url];
+        _moviePlayer.view.frame=self.view.bounds;
+        _moviePlayer.view.autoresizingMask=UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
+        [self.view addSubview:_moviePlayer.view];
+    }
+    return _moviePlayer;
+}
+
+/**
+ *  添加通知监控媒体播放控制器状态
+ */
+-(void)addNotification{
+    NSNotificationCenter *notificationCenter=[NSNotificationCenter defaultCenter];
+    [notificationCenter addObserver:self selector:@selector(mediaPlayerPlaybackStateChange:) name:MPMoviePlayerPlaybackStateDidChangeNotification object:self.moviePlayer];
+    [notificationCenter addObserver:self selector:@selector(mediaPlayerPlaybackFinished:) name:MPMoviePlayerPlaybackDidFinishNotification object:self.moviePlayer];
+    
+}
+
+/**
+ *  播放状态改变，注意播放完成时的状态是暂停
+ *
+ *  @param notification 通知对象
+ */
+-(void)mediaPlayerPlaybackStateChange:(NSNotification *)notification{
+    switch (self.moviePlayer.playbackState) {
+        case MPMoviePlaybackStatePlaying:
+            NSLog(@"正在播放...");
+            break;
+        case MPMoviePlaybackStatePaused:
+            NSLog(@"暂停播放.");
+            break;
+        case MPMoviePlaybackStateStopped:
+            NSLog(@"停止播放.");
+            break;
+        default:
+            NSLog(@"播放状态:%li",self.moviePlayer.playbackState);
+            break;
+    }
+}
+
+/**
+ *  播放完成
+ *
+ *  @param notification 通知对象
+ */
+-(void)mediaPlayerPlaybackFinished:(NSNotification *)notification{
+    NSLog(@"播放完成.%li",self.moviePlayer.playbackState);
+}
 /*
 #pragma mark - Navigation
 

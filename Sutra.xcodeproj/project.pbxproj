@@ -98,6 +98,7 @@
 		A46D4EE61F50184500046F9A /* SLPJumpAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46D4EE41F50184500046F9A /* SLPJumpAlbumView.xib */; };
 		A46D4EEA1F50186B00046F9A /* SLPCenterTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4EE81F50186B00046F9A /* SLPCenterTitleCell.m */; };
 		A46D4EEB1F50186B00046F9A /* SLPCenterTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46D4EE91F50186B00046F9A /* SLPCenterTitleCell.xib */; };
+		A47640D51F581C2A00E65E1C /* AudioTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A47640D41F581C2A00E65E1C /* AudioTask.m */; };
 		A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */; };
 		A49F0DDA1EF2618700D96CBD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD71EF2618700D96CBD /* Default.png */; };
 		A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49F0DD81EF2618700D96CBD /* Default@2x.png */; };
@@ -246,6 +247,8 @@
 		A4C4096E1EF0CFDF0041F285 /* SutraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */; };
 		A4F4701A1F57DA2C00D069EB /* WMUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF96C71F57BE4200C3CD53 /* WMUserDefault.m */; };
 		A4F4701B1F57DA3600D069EB /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF96C41F57BE4200C3CD53 /* Utility.m */; };
+		A4F4701F1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */; };
+		A4F470201F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -373,6 +376,8 @@
 		A46D4EE71F50186B00046F9A /* SLPCenterTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPCenterTitleCell.h; sourceTree = "<group>"; };
 		A46D4EE81F50186B00046F9A /* SLPCenterTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPCenterTitleCell.m; sourceTree = "<group>"; };
 		A46D4EE91F50186B00046F9A /* SLPCenterTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPCenterTitleCell.xib; sourceTree = "<group>"; };
+		A47640D31F581C2A00E65E1C /* AudioTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTask.h; sourceTree = "<group>"; };
+		A47640D41F581C2A00E65E1C /* AudioTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTask.m; sourceTree = "<group>"; };
 		A49F0DD61EF2618700D96CBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A49F0DD71EF2618700D96CBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A49F0DD81EF2618700D96CBD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -529,6 +534,9 @@
 		A4C409691EF0CFDF0041F285 /* SutraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SutraUITests.m; sourceTree = "<group>"; };
 		A4C4096F1EF0CFDF0041F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F4701C1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectionMPMoviePlayerViewController.h; sourceTree = "<group>"; };
+		A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionMPMoviePlayerViewController.m; sourceTree = "<group>"; };
+		A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DirectionMPMoviePlayerViewController.xib; sourceTree = "<group>"; };
 		A4FF96C31F57BE4200C3CD53 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		A4FF96C41F57BE4200C3CD53 /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		A4FF96C51F57BE4200C3CD53 /* WMMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMacro.h; sourceTree = "<group>"; };
@@ -823,6 +831,9 @@
 				A442674E1EF3D0380012BC7F /* YueViewController.h */,
 				A442674F1EF3D0380012BC7F /* YueViewController.m */,
 				A44267501EF3D0380012BC7F /* YueViewController.xib */,
+				A4F4701C1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.h */,
+				A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */,
+				A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -869,6 +880,16 @@
 				A46D4EDA1F5017A000046F9A /* SLPUpShowView.m */,
 			);
 			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		A47640D21F581C2A00E65E1C /* MusicHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A47640D31F581C2A00E65E1C /* AudioTask.h */,
+				A47640D41F581C2A00E65E1C /* AudioTask.m */,
+			);
+			name = MusicHelper;
+			path = ../../BabySleep/BabySleep/MusicHelper;
 			sourceTree = "<group>";
 		};
 		A4A325031F0B9B710062DB41 /* Music */ = {
@@ -1161,6 +1182,7 @@
 			children = (
 				A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */,
 				A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */,
+				A47640D21F581C2A00E65E1C /* MusicHelper */,
 				A4FF96C21F57BE4200C3CD53 /* Utility */,
 				A4A4948E1EF10A2200B8435A /* View */,
 				A4A4948A1EF0D97300B8435A /* Navigation */,
@@ -1455,6 +1477,7 @@
 				A41D94B11F5406AA00FB2E0F /* tu@2x.png in Resources */,
 				A41D94B21F5406AA00FB2E0F /* tu_default@2x.png in Resources */,
 				A4240C781F062E15007A25A7 /* b40gydsz.sutra in Resources */,
+				A4F470201F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib in Resources */,
 				A4B9CEBF1F4D824F005F078C /* c116.sutra in Resources */,
 				A4B9CF0B1F4D8250005F078C /* c052.sutra in Resources */,
 				A4240C6E1F062E15007A25A7 /* b30lsdl.sutra in Resources */,
@@ -1642,6 +1665,7 @@
 				A44267511EF3D0380012BC7F /* YueViewController.m in Sources */,
 				A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */,
 				4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */,
+				A47640D51F581C2A00E65E1C /* AudioTask.m in Sources */,
 				A4C4094A1EF0CFDF0041F285 /* main.m in Sources */,
 				A44084831F03AA44006A0F97 /* KeAlbum.m in Sources */,
 				A44267491EF3CFFD0012BC7F /* TuViewController.m in Sources */,
@@ -1655,6 +1679,7 @@
 				A46D4EE51F50184500046F9A /* SLPJumpAlbumView.m in Sources */,
 				4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */,
 				A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */,
+				A4F4701F1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m in Sources */,
 				A44084871F03ACAF006A0F97 /* KeTitleCell.m in Sources */,
 				A4522CEA1F554F34008222F8 /* YueTitleCell.m in Sources */,
 			);
