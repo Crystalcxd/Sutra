@@ -8,9 +8,11 @@
 
 #import "YueViewController.h"
 #import "DirectionMPMoviePlayerViewController.h"
+#import "LibraryVideoViewController.h"
 
 #import "YueTitleCell.h"
 
+#import "Utility.h"
 #import "WMUserDefault.h"
 #import "YueMedia.h"
 
@@ -18,6 +20,8 @@
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <AVFoundation/AVFoundation.h>
+
+#define MOVIE_PLAYER_TAG 3000
 
 @interface YueViewController ()<UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,MPMediaPickerControllerDelegate,UITableViewDelegate,UITableViewDataSource>
 
@@ -40,6 +44,13 @@
     
     [self setUI];
     [self installData];
+    [self addObserver];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self.tableView reloadData];
 }
 
 - (void)installData
@@ -56,6 +67,17 @@
         NSArray *array = [WMUserDefault arrayForKey:@"video"];
         [self.videoList addObjectsFromArray:array];
     }
+}
+
+- (void)addObserver {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playDidChangeNotification:) name:MPMoviePlayerPlaybackStateDidChangeNotification object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(playMovieFinishedCallback:)
+                                                 name:MPMoviePlayerPlaybackDidFinishNotification
+                                               object:nil];
+    //MPMoviePlayerController fullscreen 模式下，点击左上角的done按钮，会调用exitFullScreen通知。
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(exitFullScreen:) name: MPMoviePlayerDidExitFullscreenNotification object:nil];
 }
 
 - (void)setUI {
@@ -88,13 +110,28 @@
             break;
         case 1:
         {
-            UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-            picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-            picker.mediaTypes = @[(NSString *)kUTTypeMovie];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                LibraryVideoViewController *vc = [[LibraryVideoViewController alloc] initWithNibName:@"LibraryVideoViewController" bundle:nil];
+                
+                __weak typeof(self) weakSelf = self;
+                
+                vc.selectAction = ^(YueMedia *media) {
+                    [weakSelf.videoList addObject:media];
+                    [WMUserDefault setArray:weakSelf.videoList forKey:@"video"];
+                };
+                
+                [self.navigationController pushViewController:vc animated:YES];
+//                return;
+            });
             
-            picker.delegate = self;
-            [self presentViewController:picker animated:YES completion:nil];
-
+            
+//            UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+//            picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+//            picker.mediaTypes = @[(NSString *)kUTTypeMovie];
+//
+//            picker.delegate = self;
+//            [self presentViewController:picker animated:YES completion:nil];
+            
         }
             break;
         default:
@@ -404,8 +441,24 @@
         {
             YueMedia *media = self.videoList[indexPath.row];
             
-            NSURL *videoURL = [NSURL fileURLWithPath:media.filePath];
+//            NSURL *videoURL = [NSURL fileURLWithPath:media.filePath];
             
+            if (!_moviePlayer) {
+                _moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:media.assetUrl];
+            }else{
+                [_moviePlayer setContentURL:media.assetUrl];
+            }
+            _moviePlayer.view.frame = CGRectMake(0, 64, 320, 200);
+            _moviePlayer.backgroundView.backgroundColor = [UIColor clearColor];
+            _moviePlayer.view.tag = MOVIE_PLAYER_TAG;
+            [self.view addSubview:_moviePlayer.view];
+            
+            _moviePlayer.controlStyle = MPMovieControlStyleFullscreen;
+            _moviePlayer.shouldAutoplay = YES;
+            _moviePlayer.repeatMode = MPMovieRepeatModeOne;
+            [_moviePlayer setFullscreen:YES animated:YES];
+            _moviePlayer.scalingMode = MPMovieScalingModeAspectFit;
+            [_moviePlayer play];
 //            AVPlayer *player = [AVPlayer playerWithURL:videoURL];
             
 //            AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
@@ -416,21 +469,21 @@
 //
 //            [player play];
             
-            self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL fileURLWithPath:media.filePath]];
-            // 开始播放
-            [self.moviePlayer prepareToPlay];
-            // 位置
-            [self.view addSubview:self.moviePlayer.view];
-            // frame
-            self.moviePlayer.view.frame = self.tableView.frame;
-            // 自动播放
-            self.moviePlayer.shouldAutoplay = YES;
-            // 返回键、暂停键、进度条等样式
-            self.moviePlayer.controlStyle = MPMovieControlStyleFullscreen;
-            // 全屏
-            self.moviePlayer.fullscreen = NO;
-            // 适应屏幕大小，宽高比不变
-            self.moviePlayer.scalingMode = MPMovieScalingModeAspectFit;
+//            self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL fileURLWithPath:media.filePath]];
+//            // 开始播放
+//            [self.moviePlayer prepareToPlay];
+//            // 位置
+//            [self.view addSubview:self.moviePlayer.view];
+//            // frame
+//            self.moviePlayer.view.frame = self.tableView.frame;
+//            // 自动播放
+//            self.moviePlayer.shouldAutoplay = YES;
+//            // 返回键、暂停键、进度条等样式
+//            self.moviePlayer.controlStyle = MPMovieControlStyleFullscreen;
+//            // 全屏
+//            self.moviePlayer.fullscreen = NO;
+//            // 适应屏幕大小，宽高比不变
+//            self.moviePlayer.scalingMode = MPMovieScalingModeAspectFit;
             
 //            if (media.assetUrl) {
 //                AVAsset *movieAsset = [AVURLAsset URLAssetWithURL:media.assetUrl options:nil];
@@ -486,6 +539,38 @@
                                                   object:theMovie];
 }
 
+#pragma mark - handle notification
+
+- (void)playDidChangeNotification:(NSNotification *)notification {
+    MPMoviePlayerController *moviePlayer = notification.object;
+    MPMoviePlaybackState playState = moviePlayer.playbackState;
+    if (playState == MPMoviePlaybackStateStopped) {
+        NSLog(@"停止");
+    } else if(playState == MPMoviePlaybackStatePlaying) {
+        NSLog(@"播放");
+    } else if(playState == MPMoviePlaybackStatePaused) {
+        NSLog(@"暂停");
+    }
+}
+
+- (void)playMovieFinishedCallback:(NSNotification *)notification{
+    
+    NSLog(@"finish");
+}
+
+- (void)exitFullScreen:(NSNotification *)notification{
+    
+    NSLog(@"exitFullScreen");
+    [_moviePlayer stop];
+    [_moviePlayer.view removeFromSuperview];
+    
+    for (UIView *view in self.view.subviews) {
+        if (view.tag == MOVIE_PLAYER_TAG) {
+            [view removeFromSuperview];
+            break;
+        }
+    }
+}
 #pragma mark - 私有方法
 /**
  *  取得本地文件路径

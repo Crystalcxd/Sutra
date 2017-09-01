@@ -248,6 +248,8 @@
 		A4F4701B1F57DA3600D069EB /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF96C41F57BE4200C3CD53 /* Utility.m */; };
 		A4F4701F1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */; };
 		A4F470201F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */; };
+		A4F578C21F5937E700EDE8A9 /* LibraryVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */; };
+		A4F578C31F5937E700EDE8A9 /* LibraryVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -534,6 +536,9 @@
 		A4F4701C1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectionMPMoviePlayerViewController.h; sourceTree = "<group>"; };
 		A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionMPMoviePlayerViewController.m; sourceTree = "<group>"; };
 		A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DirectionMPMoviePlayerViewController.xib; sourceTree = "<group>"; };
+		A4F578BF1F5937E700EDE8A9 /* LibraryVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryVideoViewController.h; sourceTree = "<group>"; };
+		A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryVideoViewController.m; sourceTree = "<group>"; };
+		A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryVideoViewController.xib; sourceTree = "<group>"; };
 		A4FF96C31F57BE4200C3CD53 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		A4FF96C41F57BE4200C3CD53 /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		A4FF96C51F57BE4200C3CD53 /* WMMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMacro.h; sourceTree = "<group>"; };
@@ -828,6 +833,9 @@
 				A442674E1EF3D0380012BC7F /* YueViewController.h */,
 				A442674F1EF3D0380012BC7F /* YueViewController.m */,
 				A44267501EF3D0380012BC7F /* YueViewController.xib */,
+				A4F578BF1F5937E700EDE8A9 /* LibraryVideoViewController.h */,
+				A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */,
+				A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */,
 				A4F4701C1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.h */,
 				A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */,
 				A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */,
@@ -1450,6 +1458,7 @@
 				A4B9CEF71F4D8250005F078C /* c006.sutra in Resources */,
 				A4B9CEE41F4D824F005F078C /* c082.sutra in Resources */,
 				A4B9CEE51F4D824F005F078C /* c083.sutra in Resources */,
+				A4F578C31F5937E700EDE8A9 /* LibraryVideoViewController.xib in Resources */,
 				A4B9CF0C1F4D8250005F078C /* c053.sutra in Resources */,
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
 				A4B9CF051F4D8250005F078C /* c020.sutra in Resources */,
@@ -1650,6 +1659,7 @@
 				A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */,
 				A44267511EF3D0380012BC7F /* YueViewController.m in Sources */,
 				A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */,
+				A4F578C21F5937E700EDE8A9 /* LibraryVideoViewController.m in Sources */,
 				4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */,
 				A4C4094A1EF0CFDF0041F285 /* main.m in Sources */,
 				A44084831F03AA44006A0F97 /* KeAlbum.m in Sources */,
