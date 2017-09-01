@@ -14,8 +14,6 @@
 #import "WMUserDefault.h"
 #import "YueMedia.h"
 
-#import "AudioTask.h"
-
 #import <MediaPlayer/MediaPlayer.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <AssetsLibrary/AssetsLibrary.h>
@@ -126,7 +124,6 @@
     MPMediaItemArtwork *artWork = [item valueForProperty:MPMediaItemPropertyArtwork];
     media.image = [artWork imageWithSize:CGSizeMake(180, 120)];
     
-    
     [self.audioList addObject:media];
     
     [WMUserDefault setArray:self.audioList forKey:@"audio"];
@@ -143,7 +140,6 @@
 #pragma mark -UIImagePickerControllerDelegate
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
 {
-    
     [picker dismissViewControllerAnimated:YES completion:nil];
     
     NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];
@@ -399,19 +395,9 @@
             self.myMusicPlayer = [[MPMusicPlayerController alloc] init];
             [self.myMusicPlayer beginGeneratingPlaybackNotifications];
             
-            //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(musicPlayerStatedChanged:) name:MPMusicPlayerControllerPlaybackStateDidChangeNotification object:self.myMusicPlayer];
-            //
-            //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nowPlayingItemIsChanged:) name:MPMusicPlayerControllerNowPlayingItemDidChangeNotification object:self.myMusicPlayer];
-            //
-            //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(volumeIsChanged:) name:MPMusicPlayerControllerVolumeDidChangeNotification object:self.myMusicPlayer];
-            
             [self.myMusicPlayer setQueueWithItemCollection:media.mediaDetail];
             
             [self.myMusicPlayer play];
-//            NSURL *videoURL = [NSURL fileURLWithPath:media.filePath];
-//
-//            [[AudioTask shareAudioTask] setUrl:videoURL];
-//            [[AudioTask shareAudioTask] startTaskWithTyep:backgroundTask];
         }
             break;
         case YueMediaVideo:
