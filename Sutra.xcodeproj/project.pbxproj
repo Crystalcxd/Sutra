@@ -246,8 +246,6 @@
 		A4C4096E1EF0CFDF0041F285 /* SutraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */; };
 		A4F4701A1F57DA2C00D069EB /* WMUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF96C71F57BE4200C3CD53 /* WMUserDefault.m */; };
 		A4F4701B1F57DA3600D069EB /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF96C41F57BE4200C3CD53 /* Utility.m */; };
-		A4F4701F1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */; };
-		A4F470201F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */; };
 		A4F578C21F5937E700EDE8A9 /* LibraryVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */; };
 		A4F578C31F5937E700EDE8A9 /* LibraryVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */; };
 /* End PBXBuildFile section */
@@ -533,9 +531,6 @@
 		A4C409691EF0CFDF0041F285 /* SutraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C4096D1EF0CFDF0041F285 /* SutraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SutraUITests.m; sourceTree = "<group>"; };
 		A4C4096F1EF0CFDF0041F285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4F4701C1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectionMPMoviePlayerViewController.h; sourceTree = "<group>"; };
-		A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionMPMoviePlayerViewController.m; sourceTree = "<group>"; };
-		A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DirectionMPMoviePlayerViewController.xib; sourceTree = "<group>"; };
 		A4F578BF1F5937E700EDE8A9 /* LibraryVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryVideoViewController.h; sourceTree = "<group>"; };
 		A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryVideoViewController.m; sourceTree = "<group>"; };
 		A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryVideoViewController.xib; sourceTree = "<group>"; };
@@ -836,9 +831,6 @@
 				A4F578BF1F5937E700EDE8A9 /* LibraryVideoViewController.h */,
 				A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */,
 				A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */,
-				A4F4701C1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.h */,
-				A4F4701D1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m */,
-				A4F4701E1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1306,7 +1298,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = NV3296URNT;
+						DevelopmentTeam = YS99UV54C6;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -1472,7 +1464,6 @@
 				A41D94B11F5406AA00FB2E0F /* tu@2x.png in Resources */,
 				A41D94B21F5406AA00FB2E0F /* tu_default@2x.png in Resources */,
 				A4240C781F062E15007A25A7 /* b40gydsz.sutra in Resources */,
-				A4F470201F57FD9300D069EB /* DirectionMPMoviePlayerViewController.xib in Resources */,
 				A4B9CEBF1F4D824F005F078C /* c116.sutra in Resources */,
 				A4B9CF0B1F4D8250005F078C /* c052.sutra in Resources */,
 				A4240C6E1F062E15007A25A7 /* b30lsdl.sutra in Resources */,
@@ -1674,7 +1665,6 @@
 				A46D4EE51F50184500046F9A /* SLPJumpAlbumView.m in Sources */,
 				4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */,
 				A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */,
-				A4F4701F1F57FD9300D069EB /* DirectionMPMoviePlayerViewController.m in Sources */,
 				A44084871F03ACAF006A0F97 /* KeTitleCell.m in Sources */,
 				A4522CEA1F554F34008222F8 /* YueTitleCell.m in Sources */,
 			);
@@ -1820,7 +1810,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = NV3296URNT;
+				DEVELOPMENT_TEAM = YS99UV54C6;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1835,7 +1825,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = NV3296URNT;
+				DEVELOPMENT_TEAM = YS99UV54C6;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
