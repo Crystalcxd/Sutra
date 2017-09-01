@@ -107,30 +107,14 @@
 #pragma mark -MPMediaPickerControllerDelegate
 - (void)mediaPicker:(MPMediaPickerController *)mediaPicker didPickMediaItems:(MPMediaItemCollection *)mediaItemCollection
 {
-    
-    self.myMusicPlayer = nil;
-    self.myMusicPlayer = [[MPMusicPlayerController alloc] init];
-    [self.myMusicPlayer beginGeneratingPlaybackNotifications];
-    
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(musicPlayerStatedChanged:) name:MPMusicPlayerControllerPlaybackStateDidChangeNotification object:self.myMusicPlayer];
-//
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nowPlayingItemIsChanged:) name:MPMusicPlayerControllerNowPlayingItemDidChangeNotification object:self.myMusicPlayer];
-//
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(volumeIsChanged:) name:MPMusicPlayerControllerVolumeDidChangeNotification object:self.myMusicPlayer];
-    
-    [self.myMusicPlayer setQueueWithItemCollection:mediaItemCollection];
-    
-    [self.myMusicPlayer play];
     [mediaPicker dismissViewControllerAnimated:YES completion:nil];
-    
-    return;
     
     NSArray *items = mediaItemCollection.items;
     MPMediaItem *item = [items firstObject];
 
     for (YueMedia *media in self.audioList) {
         if ([media.mediaDetail isEqual:item]) {
-//            return;
+            return;
         }
     }
     
@@ -138,81 +122,10 @@
     media.mediaType = YueMediaAudio;
     media.mediaName = item.title;
     media.assetUrl = [item valueForProperty:MPMediaItemPropertyAssetURL];
-    media.mediaDetail = item;
+    media.mediaDetail = mediaItemCollection;
     MPMediaItemArtwork *artWork = [item valueForProperty:MPMediaItemPropertyArtwork];
     media.image = [artWork imageWithSize:CGSizeMake(180, 120)];
     
-    
-    AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:[item valueForProperty:MPMediaItemPropertyAssetURL] options:nil];
-    
-    NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
-    
-    NSLog(@"%@",compatiblePresets);
-    
-    NSString * resultPath = @"";
-    if ([compatiblePresets containsObject:AVAssetExportPresetHighestQuality]) {
-        
-        AVAssetExportSession *exportSession = [[AVAssetExportSession alloc] initWithAsset:avAsset presetName:AVAssetExportPresetMediumQuality];
-        
-        NSDateFormatter *formater = [[NSDateFormatter alloc] init];//用时间给文件全名，以免重复
-        
-        [formater setDateFormat:@"yyyy-MM-dd-HH:mm:ss"];
-        
-        NSString * documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
-        
-        resultPath = [documentPath stringByAppendingFormat:@"/output-%@.mp3", [formater stringFromDate:[NSDate date]]];
-        
-        NSLog(@"resultPath = %@",resultPath);
-        
-        exportSession.outputURL = [NSURL fileURLWithPath:resultPath];
-        
-        exportSession.outputFileType = AVFileTypeMPEG4;
-        
-        exportSession.shouldOptimizeForNetworkUse = YES;
-        
-        [exportSession exportAsynchronouslyWithCompletionHandler:^(void)
-         
-         {
-             
-             switch (exportSession.status) {
-                     
-                 case AVAssetExportSessionStatusUnknown:
-                     
-                     NSLog(@"AVAssetExportSessionStatusUnknown");
-                     
-                     break;
-                     
-                 case AVAssetExportSessionStatusWaiting:
-                     
-                     NSLog(@"AVAssetExportSessionStatusWaiting");
-                     
-                     break;
-                     
-                 case AVAssetExportSessionStatusExporting:
-                     
-                     NSLog(@"AVAssetExportSessionStatusExporting");
-                     
-                     break;
-                     
-                 case AVAssetExportSessionStatusCompleted:
-                     
-                     NSLog(@"AVAssetExportSessionStatusCompleted");
-                     
-                     break;
-                     
-                 case AVAssetExportSessionStatusFailed:
-                     
-                     NSLog(@"AVAssetExportSessionStatusFailed");
-                     
-                     break;
-                     
-             }
-             
-         }];
-        
-    }
-    
-    media.filePath = resultPath;
     
     [self.audioList addObject:media];
     
@@ -302,6 +215,9 @@
                          
                          break;
                          
+                     case AVAssetExportSessionStatusCancelled:
+                         
+                         break;
                  }
                  
              }];
@@ -478,10 +394,24 @@
             case YueMediaAudio:
         {
             YueMedia *media = self.audioList[indexPath.row];
-            NSURL *videoURL = [NSURL fileURLWithPath:media.filePath];
             
-            [[AudioTask shareAudioTask] setUrl:videoURL];
-            [[AudioTask shareAudioTask] startTaskWithTyep:backgroundTask];
+            self.myMusicPlayer = nil;
+            self.myMusicPlayer = [[MPMusicPlayerController alloc] init];
+            [self.myMusicPlayer beginGeneratingPlaybackNotifications];
+            
+            //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(musicPlayerStatedChanged:) name:MPMusicPlayerControllerPlaybackStateDidChangeNotification object:self.myMusicPlayer];
+            //
+            //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nowPlayingItemIsChanged:) name:MPMusicPlayerControllerNowPlayingItemDidChangeNotification object:self.myMusicPlayer];
+            //
+            //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(volumeIsChanged:) name:MPMusicPlayerControllerVolumeDidChangeNotification object:self.myMusicPlayer];
+            
+            [self.myMusicPlayer setQueueWithItemCollection:media.mediaDetail];
+            
+            [self.myMusicPlayer play];
+//            NSURL *videoURL = [NSURL fileURLWithPath:media.filePath];
+//
+//            [[AudioTask shareAudioTask] setUrl:videoURL];
+//            [[AudioTask shareAudioTask] startTaskWithTyep:backgroundTask];
         }
             break;
         case YueMediaVideo:
