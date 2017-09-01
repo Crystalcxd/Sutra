@@ -7,7 +7,6 @@
 //
 
 #import "YueViewController.h"
-#import "DirectionMPMoviePlayerViewController.h"
 #import "LibraryVideoViewController.h"
 
 #import "YueTitleCell.h"
@@ -121,17 +120,7 @@
                 };
                 
                 [self.navigationController pushViewController:vc animated:YES];
-//                return;
             });
-            
-            
-//            UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-//            picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-//            picker.mediaTypes = @[(NSString *)kUTTypeMovie];
-//
-//            picker.delegate = self;
-//            [self presentViewController:picker animated:YES completion:nil];
-            
         }
             break;
         default:
@@ -172,123 +161,6 @@
 {
     NSLog(@"Media Picker was cancelled");
     [mediaPicker dismissViewControllerAnimated:YES completion:nil];
-}
-
-#pragma mark -UIImagePickerControllerDelegate
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
-{
-    [picker dismissViewControllerAnimated:YES completion:nil];
-    
-    NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];
-    if([mediaType isEqualToString:@"public.movie"])
-    {
-        NSURL *videoURL = [info objectForKey:UIImagePickerControllerMediaURL];
-        NSLog(@"found a video");
-        
-        AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:videoURL options:nil];
-        
-        NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
-        
-        NSLog(@"%@",compatiblePresets);
-        
-        NSString * resultPath = @"";
-        if ([compatiblePresets containsObject:AVAssetExportPresetHighestQuality]) {
-            
-            AVAssetExportSession *exportSession = [[AVAssetExportSession alloc] initWithAsset:avAsset presetName:AVAssetExportPresetMediumQuality];
-            
-            NSDateFormatter *formater = [[NSDateFormatter alloc] init];//用时间给文件全名，以免重复
-            
-            [formater setDateFormat:@"yyyy-MM-dd-HH:mm:ss"];
-            
-            NSString * documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
-            
-            resultPath = [documentPath stringByAppendingFormat:@"/output-%@.mp4", [formater stringFromDate:[NSDate date]]];
-            
-            NSLog(@"resultPath = %@",resultPath);
-            
-            exportSession.outputURL = [NSURL fileURLWithPath:resultPath];
-            
-            exportSession.outputFileType = AVFileTypeMPEG4;
-            
-            exportSession.shouldOptimizeForNetworkUse = YES;
-            
-            [exportSession exportAsynchronouslyWithCompletionHandler:^(void)
-             
-             {
-                 
-                 switch (exportSession.status) {
-                         
-                     case AVAssetExportSessionStatusUnknown:
-                         
-                         NSLog(@"AVAssetExportSessionStatusUnknown");
-                         
-                         break;
-                         
-                     case AVAssetExportSessionStatusWaiting:
-                         
-                         NSLog(@"AVAssetExportSessionStatusWaiting");
-                         
-                         break;
-                         
-                     case AVAssetExportSessionStatusExporting:
-                         
-                         NSLog(@"AVAssetExportSessionStatusExporting");
-                         
-                         break;
-                         
-                     case AVAssetExportSessionStatusCompleted:
-                         
-                         NSLog(@"AVAssetExportSessionStatusCompleted");
-                         
-                         break;
-                         
-                     case AVAssetExportSessionStatusFailed:
-                         
-                         NSLog(@"AVAssetExportSessionStatusFailed");
-                         
-                         break;
-                         
-                     case AVAssetExportSessionStatusCancelled:
-                         
-                         break;
-                 }
-                 
-             }];
-            
-        }
-//        NSData *webData = [NSData dataWithContentsOfURL:videoURL];
-//
-////        [webData writeToFile:[self findUniqueMoviePath] atomically:YES];
-//
-//        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-//        NSString *documentsPath = [paths objectAtIndex:0];
-//
-//        [webData writeToFile:[NSString stringWithFormat:@"%@/%@.jpg", documentsPath, @"video"] atomically:YES];
-//
-        
-        //获取视频的thumbnail
-        MPMoviePlayerController *player = [[MPMoviePlayerController alloc]initWithContentURL:videoURL];
-        UIImage  *thumbnail = [player thumbnailImageAtTime:1.0 timeOption:MPMovieTimeOptionNearestKeyFrame];
-        
-        YueMedia *media = [[YueMedia alloc] init];
-        media.mediaType = YueMediaVideo;
-//        media.mediaName = item.title;
-        media.assetUrl = videoURL;
-//        media.mediaDetail = item;
-        media.image = thumbnail;
-        media.filePath = resultPath;
-        
-        [self.videoList addObject:media];
-        
-        [WMUserDefault setArray:self.videoList forKey:@"video"];
-        
-        [self.tableView reloadData];
-    }
-}
-
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
-{
-    [picker dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - Table view data source
@@ -441,8 +313,6 @@
         {
             YueMedia *media = self.videoList[indexPath.row];
             
-//            NSURL *videoURL = [NSURL fileURLWithPath:media.filePath];
-            
             if (!_moviePlayer) {
                 _moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:media.assetUrl];
             }else{
@@ -459,84 +329,17 @@
             [_moviePlayer setFullscreen:YES animated:YES];
             _moviePlayer.scalingMode = MPMovieScalingModeAspectFit;
             [_moviePlayer play];
-//            AVPlayer *player = [AVPlayer playerWithURL:videoURL];
-            
-//            AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
-//
-//            playerLayer.frame = self.view.bounds;
-//
-//            [self.view.layer addSublayer:playerLayer];
-//
-//            [player play];
-            
-//            self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL fileURLWithPath:media.filePath]];
-//            // 开始播放
-//            [self.moviePlayer prepareToPlay];
-//            // 位置
-//            [self.view addSubview:self.moviePlayer.view];
-//            // frame
-//            self.moviePlayer.view.frame = self.tableView.frame;
-//            // 自动播放
-//            self.moviePlayer.shouldAutoplay = YES;
-//            // 返回键、暂停键、进度条等样式
-//            self.moviePlayer.controlStyle = MPMovieControlStyleFullscreen;
-//            // 全屏
-//            self.moviePlayer.fullscreen = NO;
-//            // 适应屏幕大小，宽高比不变
-//            self.moviePlayer.scalingMode = MPMovieScalingModeAspectFit;
-            
-//            if (media.assetUrl) {
-//                AVAsset *movieAsset = [AVURLAsset URLAssetWithURL:media.assetUrl options:nil];
-//                AVPlayerItem *playerItem = [AVPlayerItem playerItemWithAsset:movieAsset];
-//                AVPlayer *player = [AVPlayer playerWithPlayerItem:playerItem];
-//                AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
-//                playerLayer.frame = self.view.bounds;
-//
-//                playerLayer.videoGravity = AVLayerVideoGravityResizeAspect;
-//                [self.view.layer addSublayer:playerLayer];
-//                playerLayer.backgroundColor = [UIColor blueColor].CGColor;
-//                [player play];
-////                [[self moviePlayerWith:media.assetUrl] play];
-////                [self playMovieAtURL:media.assetUrl];
-//            }
         }
             break;
             
         default:
             break;
     }
-//    JingDetailCtrl *vc = [[JingDetailCtrl alloc] init];
-//    NSLog(@"didSelect Jing%@",_XueData[indexPath.section][indexPath.row]);
-//    vc.detailItem = _XueData[indexPath.section][indexPath.row];
-//    
-//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void)playMovieAtURL:(NSURL*)theURL
-{
-    DirectionMPMoviePlayerViewController *playerView = [[DirectionMPMoviePlayerViewController alloc] initWithContentURL:theURL];
-    playerView.view.frame = self.view.frame;//全屏播放（全屏播放不可缺）
-    playerView.moviePlayer.scalingMode = MPMovieScalingModeAspectFill;//全屏播放（全屏播放不可缺）
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(myMovieFinishedCallback:)
-                                                 name:MPMoviePlayerPlaybackDidFinishNotification
-                                               object:playerView];
-    [playerView.moviePlayer play];
-    [self presentMoviePlayerViewControllerAnimated:playerView];
-}
-
-// When the movie is done, release the controller.
--(void)myMovieFinishedCallback:(NSNotification*)aNotification
-{
-    DirectionMPMoviePlayerViewController* theMovie = [aNotification object];
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:MPMoviePlayerPlaybackDidFinishNotification
-                                                  object:theMovie];
 }
 
 #pragma mark - handle notification
