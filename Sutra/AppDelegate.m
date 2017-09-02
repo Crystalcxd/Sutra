@@ -14,7 +14,14 @@
 #import "YueViewController.h"
 #import "TuViewController.h"
 
-@interface AppDelegate ()
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
+
+#define kBMKAPPKey @"xde7bFTdIXPU5iAkDhtrgnysry15uDkv"
+
+@interface AppDelegate ()<BMKGeneralDelegate>
+{
+    BMKMapManager* _mapManager;
+}
 
 @end
 
@@ -26,6 +33,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    [self installBaiduMapServe];
     [self mainView];
     return YES;
 }
@@ -55,6 +63,16 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)installBaiduMapServe {
+    // 要使用百度地图，请先启动BaiduMapManager
+    _mapManager = [[BMKMapManager alloc]init];
+    // 如果要关注网络及授权验证事件，请设定     generalDelegate参数
+    BOOL ret = [_mapManager start:kBMKAPPKey  generalDelegate:self];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
 }
 
 - (void)mainView {
@@ -118,6 +136,13 @@
         index++;
         NSLog(@"%ld", (long)index);
     }
+}
+
+#pragma mark -BMKGeneralDelegate
+
+- (void)onGetNetworkState:(int)iError
+{
+    NSLog(@"ierror ====%d====",iError);
 }
 
 @end
