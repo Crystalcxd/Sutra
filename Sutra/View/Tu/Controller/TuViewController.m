@@ -8,7 +8,9 @@
 
 #import "TuViewController.h"
 
-@interface TuViewController ()
+@interface TuViewController (){
+    NSArray *_TuData;
+}
 
 @end
 
@@ -19,6 +21,11 @@
     // Do any additional setup after loading the view from its nib.
     
     self.navigationItem.title = @"法像";//@"阿弥陀经";
+    [self createTuData];
+}
+
+- (void)createTuData {
+    _TuData = [DataPrepare installTuData];
 }
 
 - (void)didReceiveMemoryWarning {
