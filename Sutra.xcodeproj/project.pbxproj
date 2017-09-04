@@ -15,6 +15,7 @@
 		4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A451EF2D35B0026A609 /* XueViewController.xib */; };
 		4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */; };
 		4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */; };
+		A41D12E01F5D33F500321F21 /* DataPrepare.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D12DF1F5D33F500321F21 /* DataPrepare.m */; };
 		A41D94AB1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */; };
 		A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */; };
 		A41D94AD1F5406AA00FB2E0F /* jing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D94A11F5406AA00FB2E0F /* jing@2x.png */; };
@@ -91,6 +92,80 @@
 		A4522CE51F554915008222F8 /* YueMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = A4522CE41F554915008222F8 /* YueMedia.m */; };
 		A4522CEA1F554F34008222F8 /* YueTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4522CE81F554F34008222F8 /* YueTitleCell.m */; };
 		A4522CEB1F554F34008222F8 /* YueTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4522CE91F554F34008222F8 /* YueTitleCell.xib */; };
+		A46BB55E1F5D45EF0033C987 /* Temple.m in Sources */ = {isa = PBXBuildFile; fileRef = A46BB55D1F5D45EF0033C987 /* Temple.m */; };
+		A46BB5A91F5D519C0033C987 /* e01.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5601F5D519C0033C987 /* e01.sutra */; };
+		A46BB5AA1F5D519C0033C987 /* e02.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5611F5D519C0033C987 /* e02.sutra */; };
+		A46BB5AB1F5D519C0033C987 /* e03.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5621F5D519C0033C987 /* e03.sutra */; };
+		A46BB5AC1F5D519C0033C987 /* e04.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5631F5D519C0033C987 /* e04.sutra */; };
+		A46BB5AD1F5D519C0033C987 /* e05.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5641F5D519C0033C987 /* e05.sutra */; };
+		A46BB5AE1F5D519C0033C987 /* e06.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5651F5D519C0033C987 /* e06.sutra */; };
+		A46BB5AF1F5D519C0033C987 /* e07.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5661F5D519C0033C987 /* e07.sutra */; };
+		A46BB5B01F5D519C0033C987 /* e08.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5671F5D519C0033C987 /* e08.sutra */; };
+		A46BB5B11F5D519C0033C987 /* e09.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5681F5D519C0033C987 /* e09.sutra */; };
+		A46BB5B21F5D519C0033C987 /* e10.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5691F5D519C0033C987 /* e10.sutra */; };
+		A46BB5B31F5D519C0033C987 /* e11.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB56A1F5D519C0033C987 /* e11.sutra */; };
+		A46BB5B41F5D519C0033C987 /* e12.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB56B1F5D519C0033C987 /* e12.sutra */; };
+		A46BB5B51F5D519C0033C987 /* e13.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB56C1F5D519C0033C987 /* e13.sutra */; };
+		A46BB5B61F5D519C0033C987 /* e14.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB56D1F5D519C0033C987 /* e14.sutra */; };
+		A46BB5B71F5D519C0033C987 /* e15.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB56E1F5D519C0033C987 /* e15.sutra */; };
+		A46BB5B81F5D519C0033C987 /* e16.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB56F1F5D519C0033C987 /* e16.sutra */; };
+		A46BB5B91F5D519C0033C987 /* e17.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5701F5D519C0033C987 /* e17.sutra */; };
+		A46BB5BA1F5D519C0033C987 /* e18.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5711F5D519C0033C987 /* e18.sutra */; };
+		A46BB5BB1F5D519C0033C987 /* e19.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5721F5D519C0033C987 /* e19.sutra */; };
+		A46BB5BC1F5D519C0033C987 /* e20.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5731F5D519C0033C987 /* e20.sutra */; };
+		A46BB5BD1F5D519C0033C987 /* e21.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5741F5D519C0033C987 /* e21.sutra */; };
+		A46BB5BE1F5D519C0033C987 /* e22.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5751F5D519C0033C987 /* e22.sutra */; };
+		A46BB5BF1F5D519C0033C987 /* e23.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5761F5D519C0033C987 /* e23.sutra */; };
+		A46BB5C01F5D519C0033C987 /* e24.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5771F5D519C0033C987 /* e24.sutra */; };
+		A46BB5C11F5D519C0033C987 /* e25.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5781F5D519C0033C987 /* e25.sutra */; };
+		A46BB5C21F5D519C0033C987 /* e26.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5791F5D519C0033C987 /* e26.sutra */; };
+		A46BB5C31F5D519C0033C987 /* e27.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB57A1F5D519C0033C987 /* e27.sutra */; };
+		A46BB5C41F5D519C0033C987 /* e28.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB57B1F5D519C0033C987 /* e28.sutra */; };
+		A46BB5C51F5D519C0033C987 /* e29.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB57C1F5D519C0033C987 /* e29.sutra */; };
+		A46BB5C61F5D519C0033C987 /* e30.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB57D1F5D519C0033C987 /* e30.sutra */; };
+		A46BB5C71F5D519C0033C987 /* e31.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB57E1F5D519C0033C987 /* e31.sutra */; };
+		A46BB5C81F5D519C0033C987 /* e32.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB57F1F5D519C0033C987 /* e32.sutra */; };
+		A46BB5C91F5D519C0033C987 /* e33.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5801F5D519C0033C987 /* e33.sutra */; };
+		A46BB5CA1F5D519C0033C987 /* e34.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5811F5D519C0033C987 /* e34.sutra */; };
+		A46BB5CB1F5D519C0033C987 /* e35.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5821F5D519C0033C987 /* e35.sutra */; };
+		A46BB5CC1F5D519C0033C987 /* e36.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5831F5D519C0033C987 /* e36.sutra */; };
+		A46BB5CD1F5D519C0033C987 /* e37.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5841F5D519C0033C987 /* e37.sutra */; };
+		A46BB5CE1F5D519C0033C987 /* e38.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5851F5D519C0033C987 /* e38.sutra */; };
+		A46BB5CF1F5D519C0033C987 /* e39.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5861F5D519C0033C987 /* e39.sutra */; };
+		A46BB5D01F5D519C0033C987 /* e40.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5871F5D519C0033C987 /* e40.sutra */; };
+		A46BB5D11F5D519C0033C987 /* e41.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5881F5D519C0033C987 /* e41.sutra */; };
+		A46BB5D21F5D519C0033C987 /* e42.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5891F5D519C0033C987 /* e42.sutra */; };
+		A46BB5D31F5D519C0033C987 /* e43.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB58A1F5D519C0033C987 /* e43.sutra */; };
+		A46BB5D41F5D519C0033C987 /* e44.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB58B1F5D519C0033C987 /* e44.sutra */; };
+		A46BB5D51F5D519C0033C987 /* e45.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB58C1F5D519C0033C987 /* e45.sutra */; };
+		A46BB5D61F5D519C0033C987 /* e46.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB58D1F5D519C0033C987 /* e46.sutra */; };
+		A46BB5D71F5D519C0033C987 /* e47.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB58E1F5D519C0033C987 /* e47.sutra */; };
+		A46BB5D81F5D519C0033C987 /* e48.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB58F1F5D519C0033C987 /* e48.sutra */; };
+		A46BB5D91F5D519C0033C987 /* e49.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5901F5D519C0033C987 /* e49.sutra */; };
+		A46BB5DA1F5D519C0033C987 /* e50.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5911F5D519C0033C987 /* e50.sutra */; };
+		A46BB5DB1F5D519C0033C987 /* e51.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5921F5D519C0033C987 /* e51.sutra */; };
+		A46BB5DC1F5D519C0033C987 /* e52.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5931F5D519C0033C987 /* e52.sutra */; };
+		A46BB5DD1F5D519C0033C987 /* e53.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5941F5D519C0033C987 /* e53.sutra */; };
+		A46BB5DE1F5D519C0033C987 /* e54.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5951F5D519C0033C987 /* e54.sutra */; };
+		A46BB5DF1F5D519C0033C987 /* e55.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5961F5D519C0033C987 /* e55.sutra */; };
+		A46BB5E01F5D519C0033C987 /* e56.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5971F5D519C0033C987 /* e56.sutra */; };
+		A46BB5E11F5D519C0033C987 /* e57.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5981F5D519C0033C987 /* e57.sutra */; };
+		A46BB5E21F5D519C0033C987 /* e58.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5991F5D519C0033C987 /* e58.sutra */; };
+		A46BB5E31F5D519C0033C987 /* e59.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB59A1F5D519C0033C987 /* e59.sutra */; };
+		A46BB5E41F5D519C0033C987 /* e60.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB59B1F5D519C0033C987 /* e60.sutra */; };
+		A46BB5E51F5D519C0033C987 /* e61.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB59C1F5D519C0033C987 /* e61.sutra */; };
+		A46BB5E61F5D519C0033C987 /* e62.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB59D1F5D519C0033C987 /* e62.sutra */; };
+		A46BB5E71F5D519C0033C987 /* e63.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB59E1F5D519C0033C987 /* e63.sutra */; };
+		A46BB5E81F5D519C0033C987 /* e64.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB59F1F5D519C0033C987 /* e64.sutra */; };
+		A46BB5E91F5D519C0033C987 /* e65.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A01F5D519C0033C987 /* e65.sutra */; };
+		A46BB5EA1F5D519C0033C987 /* e66.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A11F5D519C0033C987 /* e66.sutra */; };
+		A46BB5EB1F5D519C0033C987 /* e67.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A21F5D519C0033C987 /* e67.sutra */; };
+		A46BB5EC1F5D519C0033C987 /* e68.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A31F5D519C0033C987 /* e68.sutra */; };
+		A46BB5ED1F5D519C0033C987 /* e69.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A41F5D519C0033C987 /* e69.sutra */; };
+		A46BB5EE1F5D519C0033C987 /* e70.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A51F5D519C0033C987 /* e70.sutra */; };
+		A46BB5EF1F5D519C0033C987 /* e71.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A61F5D519C0033C987 /* e71.sutra */; };
+		A46BB5F01F5D519C0033C987 /* e72.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A71F5D519C0033C987 /* e72.sutra */; };
+		A46BB5F11F5D519C0033C987 /* e73.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A46BB5A81F5D519C0033C987 /* e73.sutra */; };
 		A46D4ED41F5002AC00046F9A /* KeAlbumDetailCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */; };
 		A46D4ED51F5002AC00046F9A /* KeAlbumDetailCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */; };
 		A46D4EDF1F5017A000046F9A /* SLPUpShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46D4EDA1F5017A000046F9A /* SLPUpShowView.m */; };
@@ -281,6 +356,9 @@
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
 		7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sutra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41D12DE1F5D33F500321F21 /* DataPrepare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPrepare.h; sourceTree = "<group>"; };
+		A41D12DF1F5D33F500321F21 /* DataPrepare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPrepare.m; sourceTree = "<group>"; };
+		A41D12E11F5D3D8B00321F21 /* Sutra.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sutra.pch; path = Resources/Sutra.pch; sourceTree = "<group>"; };
 		A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@2x.png"; sourceTree = "<group>"; };
 		A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@3x.png"; sourceTree = "<group>"; };
 		A41D94A11F5406AA00FB2E0F /* jing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing@2x.png"; sourceTree = "<group>"; };
@@ -364,6 +442,81 @@
 		A4522CE71F554F34008222F8 /* YueTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YueTitleCell.h; sourceTree = "<group>"; };
 		A4522CE81F554F34008222F8 /* YueTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YueTitleCell.m; sourceTree = "<group>"; };
 		A4522CE91F554F34008222F8 /* YueTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YueTitleCell.xib; sourceTree = "<group>"; };
+		A46BB55C1F5D45EF0033C987 /* Temple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temple.h; sourceTree = "<group>"; };
+		A46BB55D1F5D45EF0033C987 /* Temple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temple.m; sourceTree = "<group>"; };
+		A46BB5601F5D519C0033C987 /* e01.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e01.sutra; sourceTree = "<group>"; };
+		A46BB5611F5D519C0033C987 /* e02.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e02.sutra; sourceTree = "<group>"; };
+		A46BB5621F5D519C0033C987 /* e03.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e03.sutra; sourceTree = "<group>"; };
+		A46BB5631F5D519C0033C987 /* e04.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e04.sutra; sourceTree = "<group>"; };
+		A46BB5641F5D519C0033C987 /* e05.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e05.sutra; sourceTree = "<group>"; };
+		A46BB5651F5D519C0033C987 /* e06.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e06.sutra; sourceTree = "<group>"; };
+		A46BB5661F5D519C0033C987 /* e07.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e07.sutra; sourceTree = "<group>"; };
+		A46BB5671F5D519C0033C987 /* e08.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e08.sutra; sourceTree = "<group>"; };
+		A46BB5681F5D519C0033C987 /* e09.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e09.sutra; sourceTree = "<group>"; };
+		A46BB5691F5D519C0033C987 /* e10.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e10.sutra; sourceTree = "<group>"; };
+		A46BB56A1F5D519C0033C987 /* e11.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e11.sutra; sourceTree = "<group>"; };
+		A46BB56B1F5D519C0033C987 /* e12.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e12.sutra; sourceTree = "<group>"; };
+		A46BB56C1F5D519C0033C987 /* e13.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e13.sutra; sourceTree = "<group>"; };
+		A46BB56D1F5D519C0033C987 /* e14.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e14.sutra; sourceTree = "<group>"; };
+		A46BB56E1F5D519C0033C987 /* e15.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e15.sutra; sourceTree = "<group>"; };
+		A46BB56F1F5D519C0033C987 /* e16.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e16.sutra; sourceTree = "<group>"; };
+		A46BB5701F5D519C0033C987 /* e17.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e17.sutra; sourceTree = "<group>"; };
+		A46BB5711F5D519C0033C987 /* e18.sutra */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = e18.sutra; sourceTree = "<group>"; };
+		A46BB5721F5D519C0033C987 /* e19.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e19.sutra; sourceTree = "<group>"; };
+		A46BB5731F5D519C0033C987 /* e20.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e20.sutra; sourceTree = "<group>"; };
+		A46BB5741F5D519C0033C987 /* e21.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e21.sutra; sourceTree = "<group>"; };
+		A46BB5751F5D519C0033C987 /* e22.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e22.sutra; sourceTree = "<group>"; };
+		A46BB5761F5D519C0033C987 /* e23.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e23.sutra; sourceTree = "<group>"; };
+		A46BB5771F5D519C0033C987 /* e24.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e24.sutra; sourceTree = "<group>"; };
+		A46BB5781F5D519C0033C987 /* e25.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e25.sutra; sourceTree = "<group>"; };
+		A46BB5791F5D519C0033C987 /* e26.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e26.sutra; sourceTree = "<group>"; };
+		A46BB57A1F5D519C0033C987 /* e27.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e27.sutra; sourceTree = "<group>"; };
+		A46BB57B1F5D519C0033C987 /* e28.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e28.sutra; sourceTree = "<group>"; };
+		A46BB57C1F5D519C0033C987 /* e29.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e29.sutra; sourceTree = "<group>"; };
+		A46BB57D1F5D519C0033C987 /* e30.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e30.sutra; sourceTree = "<group>"; };
+		A46BB57E1F5D519C0033C987 /* e31.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e31.sutra; sourceTree = "<group>"; };
+		A46BB57F1F5D519C0033C987 /* e32.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e32.sutra; sourceTree = "<group>"; };
+		A46BB5801F5D519C0033C987 /* e33.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e33.sutra; sourceTree = "<group>"; };
+		A46BB5811F5D519C0033C987 /* e34.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e34.sutra; sourceTree = "<group>"; };
+		A46BB5821F5D519C0033C987 /* e35.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e35.sutra; sourceTree = "<group>"; };
+		A46BB5831F5D519C0033C987 /* e36.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e36.sutra; sourceTree = "<group>"; };
+		A46BB5841F5D519C0033C987 /* e37.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e37.sutra; sourceTree = "<group>"; };
+		A46BB5851F5D519C0033C987 /* e38.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e38.sutra; sourceTree = "<group>"; };
+		A46BB5861F5D519C0033C987 /* e39.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e39.sutra; sourceTree = "<group>"; };
+		A46BB5871F5D519C0033C987 /* e40.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e40.sutra; sourceTree = "<group>"; };
+		A46BB5881F5D519C0033C987 /* e41.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e41.sutra; sourceTree = "<group>"; };
+		A46BB5891F5D519C0033C987 /* e42.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e42.sutra; sourceTree = "<group>"; };
+		A46BB58A1F5D519C0033C987 /* e43.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e43.sutra; sourceTree = "<group>"; };
+		A46BB58B1F5D519C0033C987 /* e44.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e44.sutra; sourceTree = "<group>"; };
+		A46BB58C1F5D519C0033C987 /* e45.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e45.sutra; sourceTree = "<group>"; };
+		A46BB58D1F5D519C0033C987 /* e46.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e46.sutra; sourceTree = "<group>"; };
+		A46BB58E1F5D519C0033C987 /* e47.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e47.sutra; sourceTree = "<group>"; };
+		A46BB58F1F5D519C0033C987 /* e48.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e48.sutra; sourceTree = "<group>"; };
+		A46BB5901F5D519C0033C987 /* e49.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e49.sutra; sourceTree = "<group>"; };
+		A46BB5911F5D519C0033C987 /* e50.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e50.sutra; sourceTree = "<group>"; };
+		A46BB5921F5D519C0033C987 /* e51.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e51.sutra; sourceTree = "<group>"; };
+		A46BB5931F5D519C0033C987 /* e52.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e52.sutra; sourceTree = "<group>"; };
+		A46BB5941F5D519C0033C987 /* e53.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e53.sutra; sourceTree = "<group>"; };
+		A46BB5951F5D519C0033C987 /* e54.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e54.sutra; sourceTree = "<group>"; };
+		A46BB5961F5D519C0033C987 /* e55.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e55.sutra; sourceTree = "<group>"; };
+		A46BB5971F5D519C0033C987 /* e56.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e56.sutra; sourceTree = "<group>"; };
+		A46BB5981F5D519C0033C987 /* e57.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e57.sutra; sourceTree = "<group>"; };
+		A46BB5991F5D519C0033C987 /* e58.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e58.sutra; sourceTree = "<group>"; };
+		A46BB59A1F5D519C0033C987 /* e59.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e59.sutra; sourceTree = "<group>"; };
+		A46BB59B1F5D519C0033C987 /* e60.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e60.sutra; sourceTree = "<group>"; };
+		A46BB59C1F5D519C0033C987 /* e61.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e61.sutra; sourceTree = "<group>"; };
+		A46BB59D1F5D519C0033C987 /* e62.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e62.sutra; sourceTree = "<group>"; };
+		A46BB59E1F5D519C0033C987 /* e63.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e63.sutra; sourceTree = "<group>"; };
+		A46BB59F1F5D519C0033C987 /* e64.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e64.sutra; sourceTree = "<group>"; };
+		A46BB5A01F5D519C0033C987 /* e65.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e65.sutra; sourceTree = "<group>"; };
+		A46BB5A11F5D519C0033C987 /* e66.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e66.sutra; sourceTree = "<group>"; };
+		A46BB5A21F5D519C0033C987 /* e67.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e67.sutra; sourceTree = "<group>"; };
+		A46BB5A31F5D519C0033C987 /* e68.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e68.sutra; sourceTree = "<group>"; };
+		A46BB5A41F5D519C0033C987 /* e69.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e69.sutra; sourceTree = "<group>"; };
+		A46BB5A51F5D519C0033C987 /* e70.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e70.sutra; sourceTree = "<group>"; };
+		A46BB5A61F5D519C0033C987 /* e71.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e71.sutra; sourceTree = "<group>"; };
+		A46BB5A71F5D519C0033C987 /* e72.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e72.sutra; sourceTree = "<group>"; };
+		A46BB5A81F5D519C0033C987 /* e73.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e73.sutra; sourceTree = "<group>"; };
 		A46D4ED11F5002AC00046F9A /* KeAlbumDetailCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeAlbumDetailCtrl.h; sourceTree = "<group>"; };
 		A46D4ED21F5002AC00046F9A /* KeAlbumDetailCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeAlbumDetailCtrl.m; sourceTree = "<group>"; };
 		A46D4ED31F5002AC00046F9A /* KeAlbumDetailCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeAlbumDetailCtrl.xib; sourceTree = "<group>"; };
@@ -798,6 +951,7 @@
 			isa = PBXGroup;
 			children = (
 				A44267441EF3CFB40012BC7F /* Controller */,
+				A46BB55B1F5D45990033C987 /* Model */,
 			);
 			path = Tu;
 			sourceTree = "<group>";
@@ -852,6 +1006,95 @@
 				A4522CE91F554F34008222F8 /* YueTitleCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A46BB55B1F5D45990033C987 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A46BB55C1F5D45EF0033C987 /* Temple.h */,
+				A46BB55D1F5D45EF0033C987 /* Temple.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A46BB55F1F5D517F0033C987 /* Tu */ = {
+			isa = PBXGroup;
+			children = (
+				A46BB5601F5D519C0033C987 /* e01.sutra */,
+				A46BB5611F5D519C0033C987 /* e02.sutra */,
+				A46BB5621F5D519C0033C987 /* e03.sutra */,
+				A46BB5631F5D519C0033C987 /* e04.sutra */,
+				A46BB5641F5D519C0033C987 /* e05.sutra */,
+				A46BB5651F5D519C0033C987 /* e06.sutra */,
+				A46BB5661F5D519C0033C987 /* e07.sutra */,
+				A46BB5671F5D519C0033C987 /* e08.sutra */,
+				A46BB5681F5D519C0033C987 /* e09.sutra */,
+				A46BB5691F5D519C0033C987 /* e10.sutra */,
+				A46BB56A1F5D519C0033C987 /* e11.sutra */,
+				A46BB56B1F5D519C0033C987 /* e12.sutra */,
+				A46BB56C1F5D519C0033C987 /* e13.sutra */,
+				A46BB56D1F5D519C0033C987 /* e14.sutra */,
+				A46BB56E1F5D519C0033C987 /* e15.sutra */,
+				A46BB56F1F5D519C0033C987 /* e16.sutra */,
+				A46BB5701F5D519C0033C987 /* e17.sutra */,
+				A46BB5711F5D519C0033C987 /* e18.sutra */,
+				A46BB5721F5D519C0033C987 /* e19.sutra */,
+				A46BB5731F5D519C0033C987 /* e20.sutra */,
+				A46BB5741F5D519C0033C987 /* e21.sutra */,
+				A46BB5751F5D519C0033C987 /* e22.sutra */,
+				A46BB5761F5D519C0033C987 /* e23.sutra */,
+				A46BB5771F5D519C0033C987 /* e24.sutra */,
+				A46BB5781F5D519C0033C987 /* e25.sutra */,
+				A46BB5791F5D519C0033C987 /* e26.sutra */,
+				A46BB57A1F5D519C0033C987 /* e27.sutra */,
+				A46BB57B1F5D519C0033C987 /* e28.sutra */,
+				A46BB57C1F5D519C0033C987 /* e29.sutra */,
+				A46BB57D1F5D519C0033C987 /* e30.sutra */,
+				A46BB57E1F5D519C0033C987 /* e31.sutra */,
+				A46BB57F1F5D519C0033C987 /* e32.sutra */,
+				A46BB5801F5D519C0033C987 /* e33.sutra */,
+				A46BB5811F5D519C0033C987 /* e34.sutra */,
+				A46BB5821F5D519C0033C987 /* e35.sutra */,
+				A46BB5831F5D519C0033C987 /* e36.sutra */,
+				A46BB5841F5D519C0033C987 /* e37.sutra */,
+				A46BB5851F5D519C0033C987 /* e38.sutra */,
+				A46BB5861F5D519C0033C987 /* e39.sutra */,
+				A46BB5871F5D519C0033C987 /* e40.sutra */,
+				A46BB5881F5D519C0033C987 /* e41.sutra */,
+				A46BB5891F5D519C0033C987 /* e42.sutra */,
+				A46BB58A1F5D519C0033C987 /* e43.sutra */,
+				A46BB58B1F5D519C0033C987 /* e44.sutra */,
+				A46BB58C1F5D519C0033C987 /* e45.sutra */,
+				A46BB58D1F5D519C0033C987 /* e46.sutra */,
+				A46BB58E1F5D519C0033C987 /* e47.sutra */,
+				A46BB58F1F5D519C0033C987 /* e48.sutra */,
+				A46BB5901F5D519C0033C987 /* e49.sutra */,
+				A46BB5911F5D519C0033C987 /* e50.sutra */,
+				A46BB5921F5D519C0033C987 /* e51.sutra */,
+				A46BB5931F5D519C0033C987 /* e52.sutra */,
+				A46BB5941F5D519C0033C987 /* e53.sutra */,
+				A46BB5951F5D519C0033C987 /* e54.sutra */,
+				A46BB5961F5D519C0033C987 /* e55.sutra */,
+				A46BB5971F5D519C0033C987 /* e56.sutra */,
+				A46BB5981F5D519C0033C987 /* e57.sutra */,
+				A46BB5991F5D519C0033C987 /* e58.sutra */,
+				A46BB59A1F5D519C0033C987 /* e59.sutra */,
+				A46BB59B1F5D519C0033C987 /* e60.sutra */,
+				A46BB59C1F5D519C0033C987 /* e61.sutra */,
+				A46BB59D1F5D519C0033C987 /* e62.sutra */,
+				A46BB59E1F5D519C0033C987 /* e63.sutra */,
+				A46BB59F1F5D519C0033C987 /* e64.sutra */,
+				A46BB5A01F5D519C0033C987 /* e65.sutra */,
+				A46BB5A11F5D519C0033C987 /* e66.sutra */,
+				A46BB5A21F5D519C0033C987 /* e67.sutra */,
+				A46BB5A31F5D519C0033C987 /* e68.sutra */,
+				A46BB5A41F5D519C0033C987 /* e69.sutra */,
+				A46BB5A51F5D519C0033C987 /* e70.sutra */,
+				A46BB5A61F5D519C0033C987 /* e71.sutra */,
+				A46BB5A71F5D519C0033C987 /* e72.sutra */,
+				A46BB5A81F5D519C0033C987 /* e73.sutra */,
+			);
+			path = Tu;
 			sourceTree = "<group>";
 		};
 		A46D4ED61F5017A000046F9A /* Common */ = {
@@ -959,6 +1202,7 @@
 				A4240BE71F05F059007A25A7 /* Jing */,
 				A4240BEF1F05F059007A25A7 /* Ke */,
 				A4B9CE211F4D824F005F078C /* Xue */,
+				A46BB55F1F5D517F0033C987 /* Tu */,
 			);
 			path = HTMLFile;
 			sourceTree = "<group>";
@@ -1167,6 +1411,7 @@
 		A4C409471EF0CFDF0041F285 /* Sutra */ = {
 			isa = PBXGroup;
 			children = (
+				A41D12E11F5D3D8B00321F21 /* Sutra.pch */,
 				A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */,
 				A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */,
 				A4FF96C21F57BE4200C3CD53 /* Utility */,
@@ -1224,6 +1469,8 @@
 				A4FF96C51F57BE4200C3CD53 /* WMMacro.h */,
 				A4FF96C61F57BE4200C3CD53 /* WMUserDefault.h */,
 				A4FF96C71F57BE4200C3CD53 /* WMUserDefault.m */,
+				A41D12DE1F5D33F500321F21 /* DataPrepare.h */,
+				A41D12DF1F5D33F500321F21 /* DataPrepare.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -1298,7 +1545,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = YS99UV54C6;
+						DevelopmentTeam = NV3296URNT;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -1350,18 +1597,26 @@
 				A4B9CF0E1F4D8250005F078C /* c055.sutra in Resources */,
 				A4B9CF241F4D8250005F078C /* c036.sutra in Resources */,
 				A41D94BA1F5406E100FB2E0F /* device_btn_add_nor@2x.png in Resources */,
+				A46BB5BA1F5D519C0033C987 /* e18.sutra in Resources */,
 				A4B9CECA1F4D824F005F078C /* c127.sutra in Resources */,
 				A4240C9E1F063273007A25A7 /* b11sgy.sutra in Resources */,
 				A4B9CEB91F4D824F005F078C /* c110.sutra in Resources */,
 				A4B9CF031F4D8250005F078C /* c018.sutra in Resources */,
 				A4B9CEB31F4D824F005F078C /* c104.sutra in Resources */,
 				A4240C771F062E15007A25A7 /* b39dzpszy.sutra in Resources */,
+				A46BB5D61F5D519C0033C987 /* e46.sutra in Resources */,
 				A4B9CEE81F4D824F005F078C /* c086.sutra in Resources */,
+				A46BB5ED1F5D519C0033C987 /* e69.sutra in Resources */,
+				A46BB5E71F5D519C0033C987 /* e63.sutra in Resources */,
 				A4B9CEC61F4D824F005F078C /* c123.sutra in Resources */,
 				A4B9CEB21F4D824F005F078C /* c103.sutra in Resources */,
+				A46BB5AC1F5D519C0033C987 /* e04.sutra in Resources */,
+				A46BB5DC1F5D519C0033C987 /* e52.sutra in Resources */,
 				A4240CA51F063273007A25A7 /* b18fywj.sutra in Resources */,
 				A4B9CEC01F4D824F005F078C /* c117.sutra in Resources */,
+				A46BB5D91F5D519C0033C987 /* e49.sutra in Resources */,
 				A4B9CEEC1F4D824F005F078C /* c090.sutra in Resources */,
+				A46BB5CA1F5D519C0033C987 /* e34.sutra in Resources */,
 				A4B9CF0D1F4D8250005F078C /* c054.sutra in Resources */,
 				A4240CA61F063273007A25A7 /* b19qlz.sutra in Resources */,
 				A41D94B41F5406AA00FB2E0F /* xue_default@2x.png in Resources */,
@@ -1383,16 +1638,24 @@
 				4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */,
 				A4B9CF1E1F4D8250005F078C /* c030.sutra in Resources */,
 				A4240C701F062E15007A25A7 /* b32ysfzy.sutra in Resources */,
+				A46BB5E41F5D519C0033C987 /* e60.sutra in Resources */,
 				A4B9CEBA1F4D824F005F078C /* c111.sutra in Resources */,
+				A46BB5D01F5D519C0033C987 /* e40.sutra in Resources */,
+				A46BB5C61F5D519C0033C987 /* e30.sutra in Resources */,
 				A4B9CF261F4D8250005F078C /* c038.sutra in Resources */,
 				A4B9CEEF1F4D824F005F078C /* c093.sutra in Resources */,
+				A46BB5E01F5D519C0033C987 /* e56.sutra in Resources */,
 				A46D4EE61F50184500046F9A /* SLPJumpAlbumView.xib in Resources */,
+				A46BB5C01F5D519C0033C987 /* e24.sutra in Resources */,
 				A4B9CF291F4D8250005F078C /* c041.sutra in Resources */,
 				A4B9CEDC1F4D824F005F078C /* c074.sutra in Resources */,
+				A46BB5D51F5D519C0033C987 /* e45.sutra in Resources */,
 				A4B9CEFC1F4D8250005F078C /* c011.sutra in Resources */,
 				A4B9CF0A1F4D8250005F078C /* c051.sutra in Resources */,
 				A4240C7A1F062E15007A25A7 /* b42hxj.sutra in Resources */,
 				A4B9CEAF1F4D824F005F078C /* c100.sutra in Resources */,
+				A46BB5B61F5D519C0033C987 /* e14.sutra in Resources */,
+				A46BB5E91F5D519C0033C987 /* e65.sutra in Resources */,
 				A41D94AF1F5406AA00FB2E0F /* ke@2x.png in Resources */,
 				A4240C671F062E15007A25A7 /* b22zz.sutra in Resources */,
 				A4B9CEE61F4D824F005F078C /* c084.sutra in Resources */,
@@ -1400,15 +1663,20 @@
 				A46D4ED51F5002AC00046F9A /* KeAlbumDetailCtrl.xib in Resources */,
 				A4240C991F063273007A25A7 /* b06xj.sutra in Resources */,
 				A4240CA41F063273007A25A7 /* b17gwsh.sutra in Resources */,
+				A46BB5D11F5D519C0033C987 /* e41.sutra in Resources */,
 				A4B9CEED1F4D824F005F078C /* c091.sutra in Resources */,
+				A46BB5C21F5D519C0033C987 /* e26.sutra in Resources */,
 				A4240CA11F063273007A25A7 /* b14dchw.sutra in Resources */,
 				A4B9CF001F4D8250005F078C /* c015.sutra in Resources */,
+				A46BB5B11F5D519C0033C987 /* e09.sutra in Resources */,
 				A4B9CEEE1F4D824F005F078C /* c092.sutra in Resources */,
 				A4240C9D1F063273007A25A7 /* b10fyws.sutra in Resources */,
 				A4240CA01F063273007A25A7 /* b13amtj.sutra in Resources */,
+				A46BB5C91F5D519C0033C987 /* e33.sutra in Resources */,
 				A4B9CF231F4D8250005F078C /* c035.sutra in Resources */,
 				A4B9CF171F4D8250005F078C /* c023.sutra in Resources */,
 				A41D94AE1F5406AA00FB2E0F /* jing_default@2x.png in Resources */,
+				A46BB5BC1F5D519C0033C987 /* e20.sutra in Resources */,
 				A4B9CEFD1F4D8250005F078C /* c012.sutra in Resources */,
 				A4B9CF131F4D8250005F078C /* c060.sutra in Resources */,
 				A4B9CF151F4D8250005F078C /* c021.sutra in Resources */,
@@ -1419,22 +1687,28 @@
 				A4B9CED61F4D824F005F078C /* c068.sutra in Resources */,
 				A4B9CEAC1F4D824F005F078C /* c097.sutra in Resources */,
 				A4240C941F063273007A25A7 /* b01xz.sutra in Resources */,
+				A46BB5D21F5D519C0033C987 /* e42.sutra in Resources */,
 				A4B9CED01F4D824F005F078C /* c062.sutra in Resources */,
 				A4240C6B1F062E15007A25A7 /* b26nsh.sutra in Resources */,
+				A46BB5C11F5D519C0033C987 /* e25.sutra in Resources */,
 				A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */,
 				A4240C761F062E15007A25A7 /* b38dszpszy.sutra in Resources */,
+				A46BB5D31F5D519C0033C987 /* e43.sutra in Resources */,
 				A4B9CEEA1F4D824F005F078C /* c088.sutra in Resources */,
 				A4B9CF271F4D8250005F078C /* c039.sutra in Resources */,
 				A4B9CF2A1F4D8250005F078C /* c042.sutra in Resources */,
 				A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */,
 				A4B9CF071F4D8250005F078C /* c048.sutra in Resources */,
 				A4240C241F05F059007A25A7 /* a01amtj.sutra in Resources */,
+				A46BB5B51F5D519C0033C987 /* e13.sutra in Resources */,
+				A46BB5EE1F5D519C0033C987 /* e70.sutra in Resources */,
 				A44084881F03ACAF006A0F97 /* KeTitleCell.xib in Resources */,
 				A4B9CEE91F4D824F005F078C /* c087.sutra in Resources */,
 				A4B9CEFB1F4D8250005F078C /* c010.sutra in Resources */,
 				A4B9CF181F4D8250005F078C /* c024.sutra in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
 				A46D4EEB1F50186B00046F9A /* SLPCenterTitleCell.xib in Resources */,
+				A46BB5DA1F5D519C0033C987 /* e50.sutra in Resources */,
 				A4522CEB1F554F34008222F8 /* YueTitleCell.xib in Resources */,
 				A4B9CF061F4D8250005F078C /* c047.sutra in Resources */,
 				A4B9CF1A1F4D8250005F078C /* c026.sutra in Resources */,
@@ -1444,22 +1718,39 @@
 				A4B9CEF11F4D8250005F078C /* c095.sutra in Resources */,
 				A4B9CF221F4D8250005F078C /* c034.sutra in Resources */,
 				A4B9CEF51F4D8250005F078C /* c004.sutra in Resources */,
+				A46BB5EB1F5D519C0033C987 /* e67.sutra in Resources */,
+				A46BB5F11F5D519C0033C987 /* e73.sutra in Resources */,
+				A46BB5C71F5D519C0033C987 /* e31.sutra in Resources */,
+				A46BB5B21F5D519C0033C987 /* e10.sutra in Resources */,
 				A4B9CEFF1F4D8250005F078C /* c014.sutra in Resources */,
 				A4B9CEB11F4D824F005F078C /* c102.sutra in Resources */,
+				A46BB5AB1F5D519C0033C987 /* e03.sutra in Resources */,
+				A46BB5CD1F5D519C0033C987 /* e37.sutra in Resources */,
 				A4B9CEFE1F4D8250005F078C /* c013.sutra in Resources */,
 				A4B9CEF71F4D8250005F078C /* c006.sutra in Resources */,
+				A46BB5C51F5D519C0033C987 /* e29.sutra in Resources */,
 				A4B9CEE41F4D824F005F078C /* c082.sutra in Resources */,
 				A4B9CEE51F4D824F005F078C /* c083.sutra in Resources */,
 				A4F578C31F5937E700EDE8A9 /* LibraryVideoViewController.xib in Resources */,
 				A4B9CF0C1F4D8250005F078C /* c053.sutra in Resources */,
+				A46BB5AD1F5D519C0033C987 /* e05.sutra in Resources */,
+				A46BB5AE1F5D519C0033C987 /* e06.sutra in Resources */,
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
+				A46BB5DF1F5D519C0033C987 /* e55.sutra in Resources */,
 				A4B9CF051F4D8250005F078C /* c020.sutra in Resources */,
 				A41D94B01F5406AA00FB2E0F /* ke_default@2x.png in Resources */,
 				A4B9CEE01F4D824F005F078C /* c078.sutra in Resources */,
 				A4240C6A1F062E15007A25A7 /* b25hxz.sutra in Resources */,
 				A4240C7C1F062E15007A25A7 /* b44bszy.sutra in Resources */,
+				A46BB5CC1F5D519C0033C987 /* e36.sutra in Resources */,
 				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
 				A4B9CED51F4D824F005F078C /* c067.sutra in Resources */,
+				A46BB5BB1F5D519C0033C987 /* e19.sutra in Resources */,
+				A46BB5A91F5D519C0033C987 /* e01.sutra in Resources */,
+				A46BB5AF1F5D519C0033C987 /* e07.sutra in Resources */,
+				A46BB5B81F5D519C0033C987 /* e16.sutra in Resources */,
+				A46BB5B71F5D519C0033C987 /* e15.sutra in Resources */,
+				A46BB5E21F5D519C0033C987 /* e58.sutra in Resources */,
 				A4240CA81F063273007A25A7 /* b21wtz.sutra in Resources */,
 				A41D94B11F5406AA00FB2E0F /* tu@2x.png in Resources */,
 				A41D94B21F5406AA00FB2E0F /* tu_default@2x.png in Resources */,
@@ -1467,6 +1758,7 @@
 				A4B9CEBF1F4D824F005F078C /* c116.sutra in Resources */,
 				A4B9CF0B1F4D8250005F078C /* c052.sutra in Resources */,
 				A4240C6E1F062E15007A25A7 /* b30lsdl.sutra in Resources */,
+				A46BB5C41F5D519C0033C987 /* e28.sutra in Resources */,
 				A4B9CF091F4D8250005F078C /* c050.sutra in Resources */,
 				A4B9CEF81F4D8250005F078C /* c007.sutra in Resources */,
 				A4B9CF101F4D8250005F078C /* c057.sutra in Resources */,
@@ -1474,7 +1766,9 @@
 				A4240C741F062E15007A25A7 /* b36pxpszy.sutra in Resources */,
 				A4B9CED91F4D824F005F078C /* c071.sutra in Resources */,
 				A4240C721F062E15007A25A7 /* b34mlfzy.sutra in Resources */,
+				A46BB5E51F5D519C0033C987 /* e61.sutra in Resources */,
 				A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */,
+				A46BB5DD1F5D519C0033C987 /* e53.sutra in Resources */,
 				A4240C711F062E15007A25A7 /* b33amtfzy.sutra in Resources */,
 				A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */,
 				A4B9CED71F4D824F005F078C /* c069.sutra in Resources */,
@@ -1484,10 +1778,13 @@
 				A49F0DDA1EF2618700D96CBD /* Default.png in Resources */,
 				A4B9CEC91F4D824F005F078C /* c126.sutra in Resources */,
 				A4240C201F05F059007A25A7 /* a03xj.sutra in Resources */,
+				A46BB5CE1F5D519C0033C987 /* e38.sutra in Resources */,
 				A4B9CF0F1F4D8250005F078C /* c056.sutra in Resources */,
 				A41D94BB1F5406E100FB2E0F /* device_btn_add_nor@3x.png in Resources */,
 				A4B9CEC41F4D824F005F078C /* c121.sutra in Resources */,
 				A4B9CF211F4D8250005F078C /* c033.sutra in Resources */,
+				A46BB5D41F5D519C0033C987 /* e44.sutra in Resources */,
+				A46BB5E31F5D519C0033C987 /* e59.sutra in Resources */,
 				4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */,
 				A4B9CEE11F4D824F005F078C /* c079.sutra in Resources */,
 				A4240C9B1F063273007A25A7 /* b08zfj.sutra in Resources */,
@@ -1500,33 +1797,46 @@
 				A4240C6C1F062E15007A25A7 /* b28wswqhx.sutra in Resources */,
 				A4B9CEB71F4D824F005F078C /* c108.sutra in Resources */,
 				A4B9CED21F4D824F005F078C /* c064.sutra in Resources */,
+				A46BB5BE1F5D519C0033C987 /* e22.sutra in Resources */,
 				A4240C731F062E15007A25A7 /* b35gypszy.sutra in Resources */,
 				A4240C9C1F063273007A25A7 /* b09nsh.sutra in Resources */,
 				A4240C751F062E15007A25A7 /* b37wspszy.sutra in Resources */,
 				4C1FB79D1F166BDA002212EF /* Default-1334.png in Resources */,
+				A46BB5E11F5D519C0033C987 /* e57.sutra in Resources */,
+				A46BB5D81F5D519C0033C987 /* e48.sutra in Resources */,
 				A4B9CEBD1F4D824F005F078C /* c114.sutra in Resources */,
+				A46BB5D71F5D519C0033C987 /* e47.sutra in Resources */,
 				A4B9CEC51F4D824F005F078C /* c122.sutra in Resources */,
+				A46BB5CB1F5D519C0033C987 /* e35.sutra in Resources */,
+				A46BB5BF1F5D519C0033C987 /* e23.sutra in Resources */,
 				A41D94B51F5406AA00FB2E0F /* yue@2x.png in Resources */,
 				A4B9CEF91F4D8250005F078C /* c008.sutra in Resources */,
 				A4B9CF161F4D8250005F078C /* c022.sutra in Resources */,
+				A46BB5BD1F5D519C0033C987 /* e21.sutra in Resources */,
 				A4B9CEE21F4D824F005F078C /* c080.sutra in Resources */,
 				A4B9CECB1F4D824F005F078C /* c128.sutra in Resources */,
 				A4B9CECC1F4D824F005F078C /* c129.sutra in Resources */,
 				A4240CA71F063273007A25A7 /* b20jzj.sutra in Resources */,
+				A46BB5B31F5D519C0033C987 /* e11.sutra in Resources */,
 				A4B9CEAD1F4D824F005F078C /* c098.sutra in Resources */,
 				A4240C7B1F062E15007A25A7 /* b43zfpsdate.sutra in Resources */,
 				A4B9CEF61F4D8250005F078C /* c005.sutra in Resources */,
+				A46BB5E81F5D519C0033C987 /* e64.sutra in Resources */,
 				A4240C9A1F063273007A25A7 /* b07hxj.sutra in Resources */,
 				A4B9CF2B1F4D8250005F078C /* c043.sutra in Resources */,
 				A4240C1E1F05F059007A25A7 /* a04lztj.sutra in Resources */,
 				A4B9CEF21F4D8250005F078C /* c001.sutra in Resources */,
 				A4B9CEB41F4D824F005F078C /* c105.sutra in Resources */,
+				A46BB5B41F5D519C0033C987 /* e12.sutra in Resources */,
+				A46BB5CF1F5D519C0033C987 /* e39.sutra in Resources */,
 				A4B9CEDE1F4D824F005F078C /* c076.sutra in Resources */,
 				A4240C971F063273007A25A7 /* b04dbz.sutra in Resources */,
 				A4240C211F05F059007A25A7 /* a07wlsj.sutra in Resources */,
+				A46BB5F01F5D519C0033C987 /* e72.sutra in Resources */,
 				A4240C681F062E15007A25A7 /* b23wz.sutra in Resources */,
 				A4240C981F063273007A25A7 /* b05sxz.sutra in Resources */,
 				A4B9CECD1F4D824F005F078C /* c130.sutra in Resources */,
+				A46BB5DB1F5D519C0033C987 /* e51.sutra in Resources */,
 				A41D94B31F5406AA00FB2E0F /* xue@2x.png in Resources */,
 				A4B9CEC71F4D824F005F078C /* c124.sutra in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
@@ -1534,28 +1844,38 @@
 				A4B9CF281F4D8250005F078C /* c040.sutra in Resources */,
 				A4B9CEBB1F4D824F005F078C /* c112.sutra in Resources */,
 				A4B9CF121F4D8250005F078C /* c059.sutra in Resources */,
+				A46BB5EC1F5D519C0033C987 /* e68.sutra in Resources */,
+				A46BB5C31F5D519C0033C987 /* e27.sutra in Resources */,
+				A46BB5EA1F5D519C0033C987 /* e66.sutra in Resources */,
 				A4B9CEBC1F4D824F005F078C /* c113.sutra in Resources */,
+				A46BB5DE1F5D519C0033C987 /* e54.sutra in Resources */,
+				A46BB5EF1F5D519C0033C987 /* e71.sutra in Resources */,
 				A41D94B61F5406AA00FB2E0F /* yue_default@2x.png in Resources */,
 				A4B9CF1F1F4D8250005F078C /* c031.sutra in Resources */,
 				A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */,
 				A4240CA21F063273007A25A7 /* b15msss.sutra in Resources */,
 				A4B9CEB81F4D824F005F078C /* c109.sutra in Resources */,
 				A4B9CF2C1F4D8250005F078C /* c044.sutra in Resources */,
+				A46BB5B91F5D519C0033C987 /* e17.sutra in Resources */,
 				A4240C961F063273007A25A7 /* b03lyz.sutra in Resources */,
 				A4B9CEDD1F4D824F005F078C /* c075.sutra in Resources */,
 				A4240C791F062E15007A25A7 /* b41bqzy.sutra in Resources */,
 				A4B9CEF01F4D8250005F078C /* c094.sutra in Resources */,
+				A46BB5B01F5D519C0033C987 /* e08.sutra in Resources */,
 				A4240C951F063273007A25A7 /* b02bdz.sutra in Resources */,
+				A46BB5E61F5D519C0033C987 /* e62.sutra in Resources */,
 				A4B9CED81F4D824F005F078C /* c070.sutra in Resources */,
 				A4B9CEE31F4D824F005F078C /* c081.sutra in Resources */,
 				A4B9CED41F4D824F005F078C /* c066.sutra in Resources */,
 				A4240CA31F063273007A25A7 /* b16wsz.sutra in Resources */,
+				A46BB5C81F5D519C0033C987 /* e32.sutra in Resources */,
 				A4B9CEBE1F4D824F005F078C /* c115.sutra in Resources */,
 				A4B9CEAB1F4D824F005F078C /* c096.sutra in Resources */,
 				A4B9CF201F4D8250005F078C /* c032.sutra in Resources */,
 				A4B9CF011F4D8250005F078C /* c016.sutra in Resources */,
 				A4B9CEAE1F4D824F005F078C /* c099.sutra in Resources */,
 				A4B9CED11F4D824F005F078C /* c063.sutra in Resources */,
+				A46BB5AA1F5D519C0033C987 /* e02.sutra in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1660,8 +1980,10 @@
 				A46D4EDF1F5017A000046F9A /* SLPUpShowView.m in Sources */,
 				A49F0DE11EF26B2400D96CBD /* JingListViewController.m in Sources */,
 				A46D4EEA1F50186B00046F9A /* SLPCenterTitleCell.m in Sources */,
+				A41D12E01F5D33F500321F21 /* DataPrepare.m in Sources */,
 				A46D4ED41F5002AC00046F9A /* KeAlbumDetailCtrl.m in Sources */,
 				4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */,
+				A46BB55E1F5D45EF0033C987 /* Temple.m in Sources */,
 				A46D4EE51F50184500046F9A /* SLPJumpAlbumView.m in Sources */,
 				4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */,
 				A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */,
@@ -1810,7 +2132,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = YS99UV54C6;
+				DEVELOPMENT_TEAM = NV3296URNT;
+				GCC_PREFIX_HEADER = /Users/medica/Downloads/Sutra/Sutra/Resources/Sutra.pch;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1825,7 +2148,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = YS99UV54C6;
+				DEVELOPMENT_TEAM = NV3296URNT;
+				GCC_PREFIX_HEADER = /Users/medica/Downloads/Sutra/Sutra/Resources/Sutra.pch;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
