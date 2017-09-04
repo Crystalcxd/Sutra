@@ -15,8 +15,11 @@
 #import "TuViewController.h"
 
 #import <BaiduMapAPI_Base/BMKBaseComponent.h>
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 #define kBMKAPPKey @"xde7bFTdIXPU5iAkDhtrgnysry15uDkv"
+#define kAMapAPPKey @"e83fa7fa9c5b733986185cac1b3a2354"
 
 @interface AppDelegate ()<BMKGeneralDelegate>
 {
@@ -33,7 +36,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    [self installBaiduMapServe];
+//    [self installBaiduMapServe];
     [self mainView];
     return YES;
 }
@@ -63,6 +66,11 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)installAMapServe {
+    [[AMapServices sharedServices] setEnableHTTPS:YES];
+    [AMapServices sharedServices].apiKey = kAMapAPPKey;
 }
 
 - (void)installBaiduMapServe {

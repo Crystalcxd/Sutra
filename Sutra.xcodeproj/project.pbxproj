@@ -347,6 +347,7 @@
 		4C361E051EF164520041B5E3 /* JingTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingTitleCell.h; sourceTree = "<group>"; };
 		4C361E061EF164520041B5E3 /* JingTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingTitleCell.m; sourceTree = "<group>"; };
 		4C361E071EF164520041B5E3 /* JingTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingTitleCell.xib; sourceTree = "<group>"; };
+		4C3C4CBF1F5D79910085060C /* Sutra.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sutra.pch; sourceTree = "<group>"; };
 		4CAD5A431EF2D35B0026A609 /* XueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueViewController.h; sourceTree = "<group>"; };
 		4CAD5A441EF2D35B0026A609 /* XueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueViewController.m; sourceTree = "<group>"; };
 		4CAD5A451EF2D35B0026A609 /* XueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XueViewController.xib; sourceTree = "<group>"; };
@@ -358,7 +359,6 @@
 		7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sutra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41D12DE1F5D33F500321F21 /* DataPrepare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPrepare.h; sourceTree = "<group>"; };
 		A41D12DF1F5D33F500321F21 /* DataPrepare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPrepare.m; sourceTree = "<group>"; };
-		A41D12E11F5D3D8B00321F21 /* Sutra.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sutra.pch; path = Resources/Sutra.pch; sourceTree = "<group>"; };
 		A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@2x.png"; sourceTree = "<group>"; };
 		A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@3x.png"; sourceTree = "<group>"; };
 		A41D94A11F5406AA00FB2E0F /* jing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jing@2x.png"; sourceTree = "<group>"; };
@@ -1122,13 +1122,6 @@
 			path = BaseUI;
 			sourceTree = "<group>";
 		};
-		A4A325031F0B9B710062DB41 /* Music */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Music;
-			sourceTree = "<group>";
-		};
 		A4A4948A1EF0D97300B8435A /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1176,7 +1169,7 @@
 		A4A4949E1EF10AE200B8435A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A4A325031F0B9B710062DB41 /* Music */,
+				4C3C4CBF1F5D79910085060C /* Sutra.pch */,
 				A4A494E71EF11D9C00B8435A /* HTMLFile */,
 				A4E4721E1EFD019900588339 /* Icon */,
 				A4A494A01EF10AE200B8435A /* Launch */,
@@ -1411,7 +1404,6 @@
 		A4C409471EF0CFDF0041F285 /* Sutra */ = {
 			isa = PBXGroup;
 			children = (
-				A41D12E11F5D3D8B00321F21 /* Sutra.pch */,
 				A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */,
 				A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */,
 				A4FF96C21F57BE4200C3CD53 /* Utility */,
@@ -1545,7 +1537,7 @@
 				TargetAttributes = {
 					A4C409441EF0CFDF0041F285 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = NV3296URNT;
+						DevelopmentTeam = YS99UV54C6;
 						ProvisioningStyle = Automatic;
 					};
 					A4C4095D1EF0CFDF0041F285 = {
@@ -1903,6 +1895,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Sutra/Pods-Sutra-resources.sh",
+				"${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -2132,12 +2125,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = NV3296URNT;
-				GCC_PREFIX_HEADER = /Users/medica/Downloads/Sutra/Sutra/Resources/Sutra.pch;
+				DEVELOPMENT_TEAM = YS99UV54C6;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sutra/Resources/Sutra.pch;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = medica.Sutra;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teywa.sutra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2148,12 +2143,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = NV3296URNT;
-				GCC_PREFIX_HEADER = /Users/medica/Downloads/Sutra/Sutra/Resources/Sutra.pch;
+				DEVELOPMENT_TEAM = YS99UV54C6;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sutra/Resources/Sutra.pch;
 				INFOPLIST_FILE = Sutra/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = medica.Sutra;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teywa.sutra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
