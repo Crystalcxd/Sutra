@@ -327,7 +327,7 @@
 		A4DC08F31F5E99AC0027450F /* image004.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DC07FA1F5E99AC0027450F /* image004.png */; };
 		A4DC08F41F5E99AC0027450F /* image005.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DC07FB1F5E99AC0027450F /* image005.png */; };
 		A4DC08F51F5E99AC0027450F /* image006.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DC07FC1F5E99AC0027450F /* image006.png */; };
-		A4DC08F61F5E99AC0027450F /* e73.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4DC07FD1F5E99AC0027450F /* e73.sutra */; };
+		A4DC08FC1F5EA6050027450F /* e73.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4DC08FB1F5EA6050027450F /* e73.sutra */; };
 		A4F4701A1F57DA2C00D069EB /* WMUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF96C71F57BE4200C3CD53 /* WMUserDefault.m */; };
 		A4F4701B1F57DA3600D069EB /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF96C41F57BE4200C3CD53 /* Utility.m */; };
 		A4F578C21F5937E700EDE8A9 /* LibraryVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */; };
@@ -703,7 +703,7 @@
 		A4DC07FA1F5E99AC0027450F /* image004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image004.png; sourceTree = "<group>"; };
 		A4DC07FB1F5E99AC0027450F /* image005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image005.png; sourceTree = "<group>"; };
 		A4DC07FC1F5E99AC0027450F /* image006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image006.png; sourceTree = "<group>"; };
-		A4DC07FD1F5E99AC0027450F /* e73.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e73.sutra; sourceTree = "<group>"; };
+		A4DC08FB1F5EA6050027450F /* e73.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = e73.sutra; sourceTree = "<group>"; };
 		A4F578BF1F5937E700EDE8A9 /* LibraryVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryVideoViewController.h; sourceTree = "<group>"; };
 		A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryVideoViewController.m; sourceTree = "<group>"; };
 		A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryVideoViewController.xib; sourceTree = "<group>"; };
@@ -1479,7 +1479,6 @@
 				A4DC07F01F5E99AC0027450F /* e71.sutra */,
 				A4DC07F51F5E99AC0027450F /* e72.sutra */,
 				A4DC07F61F5E99AC0027450F /* e73.files */,
-				A4DC07FD1F5E99AC0027450F /* e73.sutra */,
 			);
 			path = Tu;
 			sourceTree = "<group>";
@@ -1487,6 +1486,7 @@
 		A4DC07F61F5E99AC0027450F /* e73.files */ = {
 			isa = PBXGroup;
 			children = (
+				A4DC08FB1F5EA6050027450F /* e73.sutra */,
 				A4DC07F71F5E99AC0027450F /* image001.png */,
 				A4DC07F81F5E99AC0027450F /* image002.png */,
 				A4DC07F91F5E99AC0027450F /* image003.png */,
@@ -1698,7 +1698,6 @@
 				A4DC08521F5E99AC0027450F /* e26.sutra in Resources */,
 				A4240C701F062E15007A25A7 /* b32ysfzy.sutra in Resources */,
 				A4B9CEBA1F4D824F005F078C /* c111.sutra in Resources */,
-				A4DC08F61F5E99AC0027450F /* e73.sutra in Resources */,
 				A4B9CF261F4D8250005F078C /* c038.sutra in Resources */,
 				A4B9CEEF1F4D824F005F078C /* c093.sutra in Resources */,
 				A46D4EE61F50184500046F9A /* SLPJumpAlbumView.xib in Resources */,
@@ -1797,6 +1796,7 @@
 				A4240C7C1F062E15007A25A7 /* b44bszy.sutra in Resources */,
 				A4DC08A31F5E99AC0027450F /* e50.sutra in Resources */,
 				A4DC08C81F5E99AC0027450F /* e61.sutra in Resources */,
+				A4DC08FC1F5EA6050027450F /* e73.sutra in Resources */,
 				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
 				A4B9CED51F4D824F005F078C /* c067.sutra in Resources */,
 				A4240CA81F063273007A25A7 /* b21wtz.sutra in Resources */,
