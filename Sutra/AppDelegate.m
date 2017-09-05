@@ -37,6 +37,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
 //    [self installBaiduMapServe];
+    [self installAMapServe];
     [self mainView];
     return YES;
 }
