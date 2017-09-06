@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSInteger {
+    AudioPlayModelSingle,
+    AudioPlayModelList,
+} AudioPlayModel;
+
 @interface YueViewController : UIViewController
 
 @end

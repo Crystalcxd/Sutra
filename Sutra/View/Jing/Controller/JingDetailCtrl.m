@@ -82,6 +82,7 @@
     if (self.detailItem) {
 //        NSString *resourcePath = [ [NSBundle mainBundle] resourcePath];
         NSString *jingName = self.detailItem[@"url"];
+//        jingName = @"e70.sutra";
 
         self.navigationItem.title = self.detailItem[@"name"];//@"阿弥陀经";
         
@@ -107,6 +108,18 @@
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
     [MBProgressHUD hideHUDForView:self.view animated:YES];
+    
+    // 1、只对本地html资源的图片有效果
+    NSString *js = @"function imgAutoFit() { \
+    var imgs = document.getElementsByTagName('img'); \
+    for (var i = 0; i < imgs.length; ++i) {\
+    var img = imgs[i];   \
+    img.style.maxWidth = %f;   \
+    } \
+    }";
+    js = [NSString stringWithFormat:js, [UIScreen mainScreen].bounds.size.width - 20];
+    [webView stringByEvaluatingJavaScriptFromString:js];
+    [webView stringByEvaluatingJavaScriptFromString:@"imgAutoFit()"];
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error

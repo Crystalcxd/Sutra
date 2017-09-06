@@ -31,7 +31,13 @@
 
 @property (nonatomic , strong)MPMusicPlayerController *myMusicPlayer;
 
-@property (nonatomic , strong) MPMoviePlayerController *moviePlayer;//视频播放控制器
+@property (nonatomic , strong)MPMoviePlayerController *moviePlayer;//视频播放控制器
+
+@property (nonatomic , strong)NSIndexPath *selectAudioIndexPath;
+
+@property (nonatomic , assign)AudioPlayModel playModel;
+
+@property (nonatomic , assign)MPMusicPlaybackState playState;
 
 @end
 
@@ -43,17 +49,25 @@
     
     [self setUI];
     [self installData];
-    [self addObserver];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
+    [self addObserver];
     [self.tableView reloadData];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)installData
 {
+    self.playState = MPMusicPlaybackStateStopped;
+    
     self.audioList = [NSMutableArray array];
     self.videoList = [NSMutableArray array];
     
@@ -66,6 +80,10 @@
         NSArray *array = [WMUserDefault arrayForKey:@"video"];
         [self.videoList addObjectsFromArray:array];
     }
+    
+    if ([WMUserDefault intValueForKey:@"audioplaymodel"] != 0) {
+        self.playModel = [WMUserDefault intValueForKey:@"audioplaymodel"];
+    }
 }
 
 - (void)addObserver {
@@ -77,6 +95,12 @@
                                                object:nil];
     //MPMoviePlayerController fullscreen 模式下，点击左上角的done按钮，会调用exitFullScreen通知。
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(exitFullScreen:) name: MPMoviePlayerDidExitFullscreenNotification object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(musicPlayerStatedChanged:) name:MPMusicPlayerControllerPlaybackStateDidChangeNotification object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nowPlayingItemIsChanged:) name:MPMusicPlayerControllerNowPlayingItemDidChangeNotification object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(volumeIsChanged:) name:MPMusicPlayerControllerVolumeDidChangeNotification object:nil];
 }
 
 - (void)setUI {
@@ -193,12 +217,12 @@
     switch (section) {
         case YueMediaAudio:
             if (self.audioList.count != 0) {
-                return 30;
+                return 40;
             }
             break;
         case YueMediaVideo:
             if (self.videoList.count != 0) {
-                return 30;
+                return 40;
             }
             break;
             
@@ -212,6 +236,48 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
     return 0;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 40)];
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(15, 0, 200, 40)];
+    label.font = [UIFont systemFontOfSize:14];
+    
+    switch (section) {
+        case YueMediaAudio:
+            if (self.audioList.count == 0) {
+                return nil;
+            }
+            if (self.playModel == AudioPlayModelSingle) {
+                label.text = @"音频(单曲循环)";
+            }else{
+                label.text = @"音频(列表播放)";
+            }
+            
+            break;
+        case YueMediaVideo:
+            if (self.videoList.count == 0) {
+                return nil;
+            }
+            label.text = @"视频";
+            break;
+
+        default:
+            break;
+    }
+    
+    [view addSubview:label];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = view.bounds;
+    [btn addTarget:self action:@selector(changeOrder) forControlEvents:UIControlEventTouchUpInside];
+    [view addSubview:btn];
+    
+    view.backgroundColor = [UIColor whiteColor];
+    
+    return view;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
@@ -281,7 +347,7 @@
     }
     
     yueCell.indexPath = indexPath;
-    [yueCell configureWith:media];
+    [yueCell configureWith:media selectIndex:self.selectAudioIndexPath];
     
     return yueCell;
 }
@@ -298,15 +364,7 @@
     switch (indexPath.section) {
             case YueMediaAudio:
         {
-            YueMedia *media = self.audioList[indexPath.row];
-            
-            self.myMusicPlayer = nil;
-            self.myMusicPlayer = [[MPMusicPlayerController alloc] init];
-            [self.myMusicPlayer beginGeneratingPlaybackNotifications];
-            
-            [self.myMusicPlayer setQueueWithItemCollection:media.mediaDetail];
-            
-            [self.myMusicPlayer play];
+            [self playAudioWithIndex:indexPath];
         }
             break;
         case YueMediaVideo:
@@ -337,9 +395,48 @@
     }
 }
 
+- (void)playAudioWithIndex:(NSIndexPath *)indexPath
+{
+    if (self.selectAudioIndexPath == indexPath) {
+        self.selectAudioIndexPath = nil;
+        [self.tableView reloadData];
+        [self.myMusicPlayer stop];
+        return;
+    }
+    
+    if (indexPath != nil) {
+        self.selectAudioIndexPath = indexPath;
+    }
+    
+    [self.tableView reloadData];
+    
+    NSInteger row = self.selectAudioIndexPath.row;
+    
+    YueMedia *media = self.audioList[row];
+    
+    if (!self.myMusicPlayer) {
+        self.myMusicPlayer = [[MPMusicPlayerController alloc] init];
+        [self.myMusicPlayer beginGeneratingPlaybackNotifications];
+    }
+    [self.myMusicPlayer setQueueWithItemCollection:media.mediaDetail];
+    
+    self.playState = MPMusicPlaybackStatePlaying;
+    
+    [self.myMusicPlayer play];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Button Action
+- (void)changeOrder
+{
+    self.playModel = labs(self.playModel - AudioPlayModelList);
+    [self.tableView reloadData];
+    
+    [WMUserDefault setIntValue:self.playModel forKey:@"audioplaymodel"];
 }
 
 #pragma mark - handle notification
@@ -374,7 +471,64 @@
         }
     }
 }
+
+-(void)musicPlayerStatedChanged:(NSNotification *)paramNotification
+{
+    NSLog(@"Player State Changed");
+    NSNumber * stateAsObject = [paramNotification.userInfo objectForKey:@"MPMusicPlayerControllerPlaybackStateKey"];
+    NSInteger state = [stateAsObject integerValue];
+    switch (state) {
+        case MPMusicPlaybackStateStopped:
+            if (self.playState == MPMusicPlaybackStatePlaying) {
+                self.playState = MPMusicPlaybackStateStopped;
+                
+                if (self.playModel == AudioPlayModelSingle) {
+                    [self playAudioWithIndex:nil];
+                }else{
+                    [self playAudioWithIndex:[self nextIndexPath]];
+                }
+            }
+            break;
+        case MPMusicPlaybackStatePlaying:
+            break;
+            
+        case MPMusicPlaybackStatePaused:
+            break;
+        case MPMusicPlaybackStateInterrupted:
+            break;
+        case MPMusicPlaybackStateSeekingForward:
+            break;
+        case MPMusicPlaybackStateSeekingBackward:
+            break;
+            
+        default:
+            break;
+    }
+}
+
+-(void)nowPlayingItemIsChanged:(NSNotification *)paramNotification
+{
+    NSLog(@"Playing Item is Changed");
+    NSString * persistentID = [paramNotification.userInfo objectForKey:@"MPMusicPlayerControllerNowPlayingItemPersistentIDKey"];
+    NSLog(@"Persistent ID = %@",persistentID);
+    
+}
+
+-(void)volumeIsChanged:(NSNotification *)paramNotification
+{
+    NSLog(@"Volume Is Changed");
+}
 #pragma mark - 私有方法
+
+- (NSIndexPath *)nextIndexPath
+{
+    if (self.selectAudioIndexPath.row == self.audioList.count - 1) {
+        return [NSIndexPath indexPathForRow:0 inSection:self.selectAudioIndexPath.section];
+    }else{
+        return [NSIndexPath indexPathForRow:self.selectAudioIndexPath.row + 1 inSection:self.selectAudioIndexPath.section];
+    }
+}
+
 /**
  *  取得本地文件路径
  *

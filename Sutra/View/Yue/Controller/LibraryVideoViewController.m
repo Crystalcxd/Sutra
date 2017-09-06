@@ -144,7 +144,7 @@
     }
     
     yueCell.indexPath = indexPath;
-    [yueCell configureWith:media];
+    [yueCell configureWith:media selectIndex:nil];
     
     return yueCell;
 }

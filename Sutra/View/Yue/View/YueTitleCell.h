@@ -14,6 +14,6 @@
 
 @property (nonatomic , strong) NSIndexPath *indexPath;
 
-- (void)configureWith:(YueMedia *)media;
+- (void)configureWith:(YueMedia *)media selectIndex:(NSIndexPath *)indexPath;
 
 @end
