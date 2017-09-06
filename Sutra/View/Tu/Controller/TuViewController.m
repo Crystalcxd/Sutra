@@ -21,7 +21,7 @@
     NSArray *_TuData;
 }
 
-@property (nonatomic , strong) BMKMapView *mapView;
+//@property (nonatomic , strong) BMKMapView *mapView;
 @property (nonatomic , strong) MAMapView *maMapView;
 @property (nonatomic , weak) IBOutlet UIView *contentView;
 
@@ -39,10 +39,6 @@
 }
 
 - (void)setUI {
-//    self.mapView = [[BMKMapView alloc]initWithFrame:CGRectMake(0, 64, 320, 320)];
-//    self.mapView.showsUserLocation = YES;
-//    [self.view addSubview:self.mapView];
-    
     ///地图需要v4.5.0及以上版本才必须要打开此选项（v4.5.0以下版本，需要手动配置info.plist）
     [AMapServices sharedServices].enableHTTPS = YES;
     
@@ -76,21 +72,14 @@
         
         [_maMapView addAnnotation:pointAnnotation];
     }
-    
-//    NSDictionary *dict = [_TuData lastObject];
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-//    self.mapView.delegate = self;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    
-//    self.mapView.delegate = nil;
 }
 
 - (void)createTuData {
@@ -124,7 +113,6 @@
         
         // 设置为NO，用以调用自定义的calloutView
         annotationView.canShowCallout = NO;
-//        [mapView selectAnnotation:annotation animated:YES];
         
         // 设置中心点偏移，使得标注底部中间点成为经纬度对应点
         annotationView.centerOffset = CGPointMake(0, -18);

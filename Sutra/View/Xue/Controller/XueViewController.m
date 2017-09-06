@@ -105,10 +105,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"%@",indexPath);
-    
     JingDetailCtrl *vc = [[JingDetailCtrl alloc] init];
-    NSLog(@"didSelect Jing%@",_XueData[indexPath.section][indexPath.row]);
     vc.detailItem = _XueData[indexPath.section][indexPath.row];
     
     [self.navigationController pushViewController:vc animated:YES];

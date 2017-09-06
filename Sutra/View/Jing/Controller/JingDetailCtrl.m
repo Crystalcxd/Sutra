@@ -29,7 +29,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    NSLog(@"ViewLoad configview %@",self.detailItem);
     [self setUI];
     [self configureView];
 }
@@ -78,11 +77,8 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-    NSLog(@"configureView%@",self.detailItem);
     if (self.detailItem) {
-//        NSString *resourcePath = [ [NSBundle mainBundle] resourcePath];
         NSString *jingName = self.detailItem[@"url"];
-//        jingName = @"e70.sutra";
 
         self.navigationItem.title = self.detailItem[@"name"];//@"阿弥陀经";
         

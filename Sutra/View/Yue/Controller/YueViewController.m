@@ -359,8 +359,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"%@",indexPath);
-    
     switch (indexPath.section) {
             case YueMediaAudio:
         {
@@ -511,7 +509,6 @@
     NSLog(@"Playing Item is Changed");
     NSString * persistentID = [paramNotification.userInfo objectForKey:@"MPMusicPlayerControllerNowPlayingItemPersistentIDKey"];
     NSLog(@"Persistent ID = %@",persistentID);
-    
 }
 
 -(void)volumeIsChanged:(NSNotification *)paramNotification

@@ -155,9 +155,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSLog(@"%@",indexPath);
-    
+{    
     if (self.libraryVideoList.count <= indexPath.row) {
         return;
     }

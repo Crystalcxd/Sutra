@@ -153,14 +153,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSLog(@"%@",indexPath);
-    
+{    
     switch (indexPath.section) {
         case KeSectionSingle:
         {
             JingDetailCtrl *vc = [[JingDetailCtrl alloc] init];
-            NSLog(@"didSelect Jing%@",_Ke[indexPath.row]);
             vc.detailItem = _Ke[indexPath.row];
             
             [self.navigationController pushViewController:vc animated:YES];
@@ -169,7 +166,6 @@
         case KeSectionAlbum:
         {
             KeAlbumDetailCtrl *vc = [[KeAlbumDetailCtrl alloc] init];
-            NSLog(@"didSelect Jing%@",_KeAlbum[indexPath.row]);
             vc.detailItem = _KeAlbum[indexPath.row];
 
             [self.navigationController pushViewController:vc animated:YES];

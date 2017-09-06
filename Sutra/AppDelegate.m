@@ -143,7 +143,6 @@
                                              }];
         [item setTitle:[tabBarItemTitle objectAtIndex:index]];
         index++;
-        NSLog(@"%ld", (long)index);
     }
 }
 

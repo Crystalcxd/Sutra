@@ -34,7 +34,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    NSLog(@"ViewLoad configview %@",self.detailItem);
     [self creatKeAlbumData];
     
     [self setUI];
@@ -64,9 +63,6 @@
 {
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
-        
-        // Update the view.
-        NSLog(@"set Detail configview %@",self.detailItem);
     }
 }
 

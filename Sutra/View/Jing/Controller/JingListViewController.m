@@ -87,11 +87,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSLog(@"%@",indexPath);
-    
+{    
     JingDetailCtrl *vc = [[JingDetailCtrl alloc] init];
-    NSLog(@"didSelect Jing%@",_Jing[indexPath.row]);
     vc.detailItem = _Jing[indexPath.row];
     
     [self.navigationController pushViewController:vc animated:YES];
