@@ -18,6 +18,8 @@
 #import <BaiduMapAPI_Map/BMKMapComponent.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
 
+#import <AVFoundation/AVFoundation.h>
+
 #define kBMKAPPKey @"xde7bFTdIXPU5iAkDhtrgnysry15uDkv"
 #define kAMapAPPKey @"e83fa7fa9c5b733986185cac1b3a2354"
 
@@ -46,6 +48,12 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    //开启后台处理多媒体事件
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+    AVAudioSession *session=[AVAudioSession sharedInstance];
+    [session setActive:YES error:nil];
+    //后台播放
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
 }
 
 

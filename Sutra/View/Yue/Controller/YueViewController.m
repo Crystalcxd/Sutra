@@ -22,7 +22,7 @@
 
 #define MOVIE_PLAYER_TAG 3000
 
-@interface YueViewController ()<UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,MPMediaPickerControllerDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface YueViewController ()<UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,MPMediaPickerControllerDelegate,UITableViewDelegate,UITableViewDataSource,AVAudioPlayerDelegate>
 
 @property (nonatomic , strong)NSMutableArray *audioList;
 @property (nonatomic , strong)NSMutableArray *videoList;
@@ -32,6 +32,8 @@
 @property (nonatomic , strong)MPMusicPlayerController *myMusicPlayer;
 
 @property (nonatomic , strong)MPMoviePlayerController *moviePlayer;//视频播放控制器
+
+@property (nonatomic , strong)AVAudioPlayer *audioPlayer;
 
 @property (nonatomic , strong)NSIndexPath *selectAudioIndexPath;
 
@@ -398,10 +400,10 @@
     if (self.selectAudioIndexPath == indexPath) {
         self.selectAudioIndexPath = nil;
         [self.tableView reloadData];
-        [self.myMusicPlayer stop];
+        [self.audioPlayer stop];
         return;
     }
-    
+
     if (indexPath != nil) {
         self.selectAudioIndexPath = indexPath;
     }
@@ -409,18 +411,24 @@
     [self.tableView reloadData];
     
     NSInteger row = self.selectAudioIndexPath.row;
-    
     YueMedia *media = self.audioList[row];
     
-    if (!self.myMusicPlayer) {
-        self.myMusicPlayer = [[MPMusicPlayerController alloc] init];
-        [self.myMusicPlayer beginGeneratingPlaybackNotifications];
+    NSError *error = nil;
+    self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:media.assetUrl error:&error];
+    [self.audioPlayer setDelegate:self];
+    if (error){
+        NSLog(@"player create failed %@", error);
     }
-    [self.myMusicPlayer setQueueWithItemCollection:media.mediaDetail];
     
-    self.playState = MPMusicPlaybackStatePlaying;
-    
-    [self.myMusicPlayer play];
+    BOOL ret = [self.audioPlayer prepareToPlay];
+    if (ret){
+        ret = [self.audioPlayer play];
+        if (!ret){
+            NSLog(@"play failed");
+        }
+    }else{
+        NSLog(@"prepare to play failed");
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -515,6 +523,16 @@
 {
     NSLog(@"Volume Is Changed");
 }
+
+#pragma mark AVAudioPlayerDelegate
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag{
+    if (self.playModel == AudioPlayModelSingle) {
+        [self playAudioWithIndex:nil];
+    }else{
+        [self playAudioWithIndex:[self nextIndexPath]];
+    }
+}
+
 #pragma mark - 私有方法
 
 - (NSIndexPath *)nextIndexPath
