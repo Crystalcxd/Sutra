@@ -97,12 +97,6 @@
                                                object:nil];
     //MPMoviePlayerController fullscreen 模式下，点击左上角的done按钮，会调用exitFullScreen通知。
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(exitFullScreen:) name: MPMoviePlayerDidExitFullscreenNotification object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(musicPlayerStatedChanged:) name:MPMusicPlayerControllerPlaybackStateDidChangeNotification object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nowPlayingItemIsChanged:) name:MPMusicPlayerControllerNowPlayingItemDidChangeNotification object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(volumeIsChanged:) name:MPMusicPlayerControllerVolumeDidChangeNotification object:nil];
 }
 
 - (void)setUI {
@@ -478,52 +472,6 @@
     }
 }
 
--(void)musicPlayerStatedChanged:(NSNotification *)paramNotification
-{
-    NSLog(@"Player State Changed");
-    NSNumber * stateAsObject = [paramNotification.userInfo objectForKey:@"MPMusicPlayerControllerPlaybackStateKey"];
-    NSInteger state = [stateAsObject integerValue];
-    switch (state) {
-        case MPMusicPlaybackStateStopped:
-            if (self.playState == MPMusicPlaybackStatePlaying) {
-                self.playState = MPMusicPlaybackStateStopped;
-                
-                if (self.playModel == AudioPlayModelSingle) {
-                    [self playAudioWithIndex:nil];
-                }else{
-                    [self playAudioWithIndex:[self nextIndexPath]];
-                }
-            }
-            break;
-        case MPMusicPlaybackStatePlaying:
-            break;
-            
-        case MPMusicPlaybackStatePaused:
-            break;
-        case MPMusicPlaybackStateInterrupted:
-            break;
-        case MPMusicPlaybackStateSeekingForward:
-            break;
-        case MPMusicPlaybackStateSeekingBackward:
-            break;
-            
-        default:
-            break;
-    }
-}
-
--(void)nowPlayingItemIsChanged:(NSNotification *)paramNotification
-{
-    NSLog(@"Playing Item is Changed");
-    NSString * persistentID = [paramNotification.userInfo objectForKey:@"MPMusicPlayerControllerNowPlayingItemPersistentIDKey"];
-    NSLog(@"Persistent ID = %@",persistentID);
-}
-
--(void)volumeIsChanged:(NSNotification *)paramNotification
-{
-    NSLog(@"Volume Is Changed");
-}
-
 #pragma mark AVAudioPlayerDelegate
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag{
     if (self.playModel == AudioPlayModelSingle) {
@@ -543,93 +491,5 @@
         return [NSIndexPath indexPathForRow:self.selectAudioIndexPath.row + 1 inSection:self.selectAudioIndexPath.section];
     }
 }
-
-/**
- *  取得本地文件路径
- *
- *  @return 文件路径
- */
--(NSURL *)getFileUrl{
-    NSString *urlStr=[[NSBundle mainBundle] pathForResource:@"The New Look of OS X Yosemite.mp4" ofType:nil];
-    NSURL *url=[NSURL fileURLWithPath:urlStr];
-    return url;
-}
-
-/**
- *  取得网络文件路径
- *
- *  @return 文件路径
- */
--(NSURL *)getNetworkUrl{
-    NSString *urlStr=@"http://192.168.1.161/The New Look of OS X Yosemite.mp4";
-    urlStr=[urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSURL *url=[NSURL URLWithString:urlStr];
-    return url;
-}
-
-/**
- *  创建媒体播放控制器
- *
- *  @return 媒体播放控制器
- */
--(MPMoviePlayerController *)moviePlayerWith:(NSURL *)url{
-    if (!_moviePlayer) {
-        _moviePlayer=[[MPMoviePlayerController alloc]initWithContentURL:url];
-        _moviePlayer.view.frame=self.view.bounds;
-        _moviePlayer.view.autoresizingMask=UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
-        [self.view addSubview:_moviePlayer.view];
-    }
-    return _moviePlayer;
-}
-
-/**
- *  添加通知监控媒体播放控制器状态
- */
--(void)addNotification{
-    NSNotificationCenter *notificationCenter=[NSNotificationCenter defaultCenter];
-    [notificationCenter addObserver:self selector:@selector(mediaPlayerPlaybackStateChange:) name:MPMoviePlayerPlaybackStateDidChangeNotification object:self.moviePlayer];
-    [notificationCenter addObserver:self selector:@selector(mediaPlayerPlaybackFinished:) name:MPMoviePlayerPlaybackDidFinishNotification object:self.moviePlayer];
-    
-}
-
-/**
- *  播放状态改变，注意播放完成时的状态是暂停
- *
- *  @param notification 通知对象
- */
--(void)mediaPlayerPlaybackStateChange:(NSNotification *)notification{
-    switch (self.moviePlayer.playbackState) {
-        case MPMoviePlaybackStatePlaying:
-            NSLog(@"正在播放...");
-            break;
-        case MPMoviePlaybackStatePaused:
-            NSLog(@"暂停播放.");
-            break;
-        case MPMoviePlaybackStateStopped:
-            NSLog(@"停止播放.");
-            break;
-        default:
-            NSLog(@"播放状态:%li",self.moviePlayer.playbackState);
-            break;
-    }
-}
-
-/**
- *  播放完成
- *
- *  @param notification 通知对象
- */
--(void)mediaPlayerPlaybackFinished:(NSNotification *)notification{
-    NSLog(@"播放完成.%li",self.moviePlayer.playbackState);
-}
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
