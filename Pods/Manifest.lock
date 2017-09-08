@@ -23,6 +23,7 @@ PODS:
     - AMapFoundation-NO-IDFA (~> 1.2)
   - BaiduMapKit (3.4.0)
   - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
   - RDVTabBarController (1.1.9)
   - RNCryptor-objc (3.0.5)
   - SDWebImage (4.1.0):
@@ -37,6 +38,7 @@ DEPENDENCIES:
   - AMapSearch-NO-IDFA
   - BaiduMapKit
   - MBProgressHUD
+  - MJRefresh
   - RDVTabBarController
   - RNCryptor-objc
   - SDWebImage
@@ -50,11 +52,12 @@ SPEC CHECKSUMS:
   AMapSearch-NO-IDFA: eb0f9b424e6c3cdcb0e8c656e9622e8d0ee54238
   BaiduMapKit: 0a5e5e0b1e3fd8dc5aceb40ab9b89e52e1d13df9
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   RNCryptor-objc: a65b15493de05dda4af0f392c70372b7a5625aab
   SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 06f8ae536d8a12af223e7f339efcf5a702ec60b7
+PODFILE CHECKSUM: f284d2d68b36ff92493f951c53d6ad32086ad59e
 
 COCOAPODS: 1.3.1
