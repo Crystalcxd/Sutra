@@ -14,8 +14,6 @@
 #import "YueViewController.h"
 #import "TuViewController.h"
 
-#import <BaiduMapAPI_Base/BMKBaseComponent.h>
-#import <BaiduMapAPI_Map/BMKMapComponent.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
 
 #import <AVFoundation/AVFoundation.h>
@@ -23,9 +21,9 @@
 #define kBMKAPPKey @"xde7bFTdIXPU5iAkDhtrgnysry15uDkv"
 #define kAMapAPPKey @"e83fa7fa9c5b733986185cac1b3a2354"
 
-@interface AppDelegate ()<BMKGeneralDelegate>
+@interface AppDelegate ()
 {
-    BMKMapManager* _mapManager;
+
 }
 
 @end
@@ -38,7 +36,6 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-//    [self installBaiduMapServe];
     [self installAMapServe];
     [self mainView];
     return YES;
@@ -80,16 +77,6 @@
 - (void)installAMapServe {
     [[AMapServices sharedServices] setEnableHTTPS:YES];
     [AMapServices sharedServices].apiKey = kAMapAPPKey;
-}
-
-- (void)installBaiduMapServe {
-    // 要使用百度地图，请先启动BaiduMapManager
-    _mapManager = [[BMKMapManager alloc]init];
-    // 如果要关注网络及授权验证事件，请设定     generalDelegate参数
-    BOOL ret = [_mapManager start:kBMKAPPKey  generalDelegate:self];
-    if (!ret) {
-        NSLog(@"manager start failed!");
-    }
 }
 
 - (void)mainView {

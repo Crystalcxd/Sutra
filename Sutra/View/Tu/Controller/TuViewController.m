@@ -11,17 +11,13 @@
 
 #import "CustomAnnotationView.h"
 
-
-#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
-
 #import <MAMapKit/MAMapKit.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
 
-@interface TuViewController ()<BMKMapViewDelegate,MAMapViewDelegate>{
+@interface TuViewController ()<MAMapViewDelegate>{
     NSArray *_TuData;
 }
 
-//@property (nonatomic , strong) BMKMapView *mapView;
 @property (nonatomic , strong) MAMapView *maMapView;
 @property (nonatomic , weak) IBOutlet UIView *contentView;
 
