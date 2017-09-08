@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C11C1C4DC61AE969FAE03915705F0524"
+               BlueprintIdentifier = "163DCED67954854E0FABCAEF862C4DFE"
                BuildableName = "RNCryptor_objc.framework"
                BlueprintName = "RNCryptor-objc"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C11C1C4DC61AE969FAE03915705F0524"
+            BlueprintIdentifier = "163DCED67954854E0FABCAEF862C4DFE"
             BuildableName = "RNCryptor_objc.framework"
             BlueprintName = "RNCryptor-objc"
             ReferencedContainer = "container:Pods.xcodeproj">
