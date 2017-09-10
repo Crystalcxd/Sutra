@@ -49,12 +49,9 @@
                 if (result) {
                     YueMedia *videoInfo = [[YueMedia alloc] init];
                     videoInfo.image = [UIImage imageWithCGImage:result.thumbnail];
-                    //                    videoInfo.videoURL = [result valueForProperty:ALAssetPropertyAssetURL];
                     videoInfo.assetUrl = result.defaultRepresentation.url;
-//                    videoInfo.duration = [result valueForProperty:ALAssetPropertyDuration];
                     videoInfo.mediaName = [self getFormatedDateStringOfDate:[result valueForProperty:ALAssetPropertyDate]];
-//                    videoInfo.size = result.defaultRepresentation.size; //Bytes
-//                    videoInfo.format = [result.defaultRepresentation.filename pathExtension];
+                    
                     [self.libraryVideoList addObject:videoInfo];
                 }
             }];
