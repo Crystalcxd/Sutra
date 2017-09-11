@@ -80,24 +80,20 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    
     [self drawInContext:UIGraphicsGetCurrentContext()];
     
     self.layer.shadowColor = [[UIColor blackColor] CGColor];
     self.layer.shadowOpacity = 1.0;
     self.layer.shadowOffset = CGSizeMake(0.0f, 0.0f);
-    
 }
 
 - (void)drawInContext:(CGContextRef)context
 {
-    
     CGContextSetLineWidth(context, 2.0);
     CGContextSetFillColorWithColor(context, [UIColor colorWithRed:0.3 green:0.3 blue:0.3 alpha:0.8].CGColor);
     
     [self getDrawPath:context];
     CGContextFillPath(context);
-    
 }
 
 - (void)getDrawPath:(CGContextRef)context

@@ -44,19 +44,6 @@ enum LogInType{
     LogInTypeEmail = 3
 };
 
-//NS_ENUM(NSInteger, ShareWayType)
-//{
-//    ShareWayTypeNone = 100,
-//    ShareWayTypeWeibo,  //新浪微博
-//    ShareWayTypeWeixin , //微信好友
-//    ShareWayWeixinTimeline, //微信朋友圈
-//    ShareWayTypeQQWeibo, //腾讯微博
-//    ShareWayTypeSMS,//短信s
-//    ShareWayTypeEmail, //邮箱
-//    ShareWayTypeQQ, //QQ好友
-//    ShareWayTypeQzone, //Qzone
-//};
-
 enum ContectType{
     ContectTypeNormal = 1,//普通内页
     ContectTypeUserTopic = 2//贴子内页
@@ -112,7 +99,6 @@ enum HomeObjectType{
     OBJECT_TYPE_WALLPAPER = 35,
     OBJECT_TYPE_RINGTONE = 36,
     OBJECT_TYPE_ALBUMS = 39
-
 };
 
 enum HomeOPType{
@@ -160,11 +146,5 @@ NSUInteger DeviceSystemMajorVersion(void);
 +(UIColor *)colorWith:(NSString *)star;
 //UILabel行间距
 +(int)getRightIndex:(NSString*)resource forWidth:(float)width withFont:(UIFont*)font;
-//省流量
-+(void)updateLessFlowModelImageOn:(UIImageView *)imageview withUrl:(NSString *)str defaultImage:(NSString *)imageStr;
-
-//+(UserTopic *)novelDownloadStateWith:(NSInteger)nid;
-
-//+(NSData *)responseDataRequest:(ASIHTTPRequest *)request Data:(NSData *)data;
 
 @end

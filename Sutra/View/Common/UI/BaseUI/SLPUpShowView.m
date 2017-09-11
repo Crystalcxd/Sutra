@@ -28,7 +28,6 @@
     
     UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
     [self.maskView addGestureRecognizer:recognizer];
-//    [self.contentView setBackgroundColor:[UIColor clearColor]];
 }
 
 - (void)showInView:(UIView *)view animated:(BOOL)animated
