@@ -11,6 +11,8 @@
 
 #import "CustomAnnotationView.h"
 
+#import "LocationConverter.h"
+
 #import <MAMapKit/MAMapKit.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
 
@@ -54,15 +56,17 @@
 
 - (void)addPointAnnotation {
     for (NSDictionary *dict in _TuData) {
-        NSString *location = dict[@"location"];
-        NSArray *array = [location componentsSeparatedByString:@","];
+        NSString *locationStr = dict[@"location"];
+        NSArray *array = [locationStr componentsSeparatedByString:@","];
         double latitude = [[array lastObject] doubleValue];
         double longitude = [[array firstObject] doubleValue];
         
+        CLLocationCoordinate2D location = CLLocationCoordinate2DMake(latitude, longitude);
         NSString *name = dict[@"name"];
         
         MAPointAnnotation *pointAnnotation = [[MAPointAnnotation alloc] init];
-        pointAnnotation.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+        //百度地图坐标转高德地图坐标
+        pointAnnotation.coordinate = [LocationConverter bd09ToGcj02:location];
         pointAnnotation.title = name;
         pointAnnotation.subtitle = dict[@"url"];
         
