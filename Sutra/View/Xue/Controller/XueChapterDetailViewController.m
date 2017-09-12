@@ -1,41 +1,40 @@
 //
-//  XueViewController.m
+//  XueChapterDetailViewController.m
 //  Sutra
 //
-//  Created by Michael on 2017/6/15.
+//  Created by medica_mac on 2017/9/12.
 //  Copyright © 2017年 com.medica. All rights reserved.
 //
-
-#import "XueViewController.h"
 
 #import "XueChapterDetailViewController.h"
 #import "JingDetailCtrl.h"
 
 #import "XueTitleCell.h"
 
-@interface XueViewController (){
-    
-    NSArray *_XueData;
-    NSArray *_XueSections;
-    
-}
+@interface XueChapterDetailViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic , strong) NSString *titleStr;
+@property (nonatomic , strong) NSArray *array;
 
 @end
 
-@implementation XueViewController
+@implementation XueChapterDetailViewController
 
-- (void)createXueData{
-    _XueSections=[DataPrepare installXueSectionData];
-    _XueData=[DataPrepare installXueData];
+- (instancetype)initWithTitle:(NSString *)title Array:(NSArray *)array
+{
+    self = [super initWithNibName:nil bundle:nil];
+    if (self) {
+        self.titleStr = title;
+        self.array = array;
+    }
+    
+    return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    self.navigationItem.title = @"佛学知识";//@"阿弥陀经";
-
-    [self createXueData];
+    self.navigationItem.title = self.titleStr;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,47 +44,20 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    // Return the number of sections.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    // Return the number of rows in the section.
-    return [_XueSections count];
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.array.count;
 }
-
-//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-//{
-//    return 40;
-//}
-//
-//- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
-//{
-//    return 0;
-//}
-//
-//- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-//{
-//    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 40)];
-//    view.backgroundColor = [UIColor lightTextColor];
-//    
-//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, SCREENWIDTH - 15, 40)];
-//    label.font = [UIFont systemFontOfSize:14.0];
-//    label.text = _XueSections[section];
-//    [view addSubview:label];
-//    
-//    return view;
-//}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *articlIdentifier = @"article";
     static NSString *xueIdentifier = @"xue";
     
-    if (indexPath.section >= [_XueData count] || indexPath.row >= [_XueData[indexPath.section] count]) {
+    if (indexPath.row >= [self.array count]) {
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:articlIdentifier];
         if (cell == nil) {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:articlIdentifier];
@@ -94,27 +66,29 @@
         return cell;
     }
     
-//    NSDictionary *xueDic = _XueData[indexPath.section][indexPath.row];
-
+    NSDictionary *jingDic = [self.array objectAtIndex:indexPath.row];
+    
     XueTitleCell *cell = [tableView dequeueReusableCellWithIdentifier:xueIdentifier];
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"XueTitleCell" owner:self options:nil] lastObject];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     
-    [cell configureWith:_XueSections[indexPath.row]];
+    [cell configureWith:[NSString stringWithFormat:@"%ld.%@",indexPath.row + 1,jingDic[@"name"]]];
     
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 50;
+    return 60;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    XueChapterDetailViewController *vc = [[XueChapterDetailViewController alloc] initWithTitle:_XueSections[indexPath.row] Array:_XueData[indexPath.row]];
+    JingDetailCtrl *vc = [[JingDetailCtrl alloc] init];
+    vc.detailItem = self.array[indexPath.row];
+    
     [self.navigationController pushViewController:vc animated:YES];
 }
 
