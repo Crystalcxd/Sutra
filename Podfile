@@ -13,5 +13,9 @@ pod 'AMap2DMap-NO-IDFA' #2D地图SDK (2D和3D不能同时使用)
 pod 'AMapSearch-NO-IDFA' #搜索功能
 pod 'YYModel'
 pod 'MJRefresh'
+pod 'TTTAttributedLabel'
+pod 'HMSegmentedControl'
+pod 'DACircularProgress'
+pod 'UMengAnalytics-NO-IDFA' # 友盟 SDK（无 IDFA）
 
 end

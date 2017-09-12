@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BFB7CCF682F215415935BED5D5E7509E"
+               BlueprintIdentifier = "69F8A0352FDD8BD53A10B89A38D7F9EA"
                BuildableName = "YYModel.framework"
                BlueprintName = "YYModel"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFB7CCF682F215415935BED5D5E7509E"
+            BlueprintIdentifier = "69F8A0352FDD8BD53A10B89A38D7F9EA"
             BuildableName = "YYModel.framework"
             BlueprintName = "YYModel"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFB7CCF682F215415935BED5D5E7509E"
-            BuildableName = "YYModel.framework"
-            BlueprintName = "YYModel"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
