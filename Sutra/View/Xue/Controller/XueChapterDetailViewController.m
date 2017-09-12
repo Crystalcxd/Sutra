@@ -11,6 +11,8 @@
 
 #import "XueTitleCell.h"
 
+#import "AppDelegate.h"
+
 @interface XueChapterDetailViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic , strong) NSString *titleStr;
@@ -35,6 +37,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = self.titleStr;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    RDVTabBarController *vc = (RDVTabBarController *)appDelegate.window.rootViewController;
+    [vc setTabBarHidden:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    RDVTabBarController *vc = (RDVTabBarController *)appDelegate.window.rootViewController;
+    [vc setTabBarHidden:NO];
 }
 
 - (void)didReceiveMemoryWarning {
