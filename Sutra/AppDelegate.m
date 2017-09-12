@@ -120,11 +120,9 @@
     
     NSArray *tabBarItemSelected = @[@"jing", @"ke",@"xue",@"yue",@"tu"];
     NSArray *tabBarItemNormal = @[@"jing_default", @"ke_default",@"xue_default",@"yue_default",@"tu_default"];
-    NSArray *tabBarItemTitle = @[@"Jing", @"Ke",@"Xue",@"Yue",@"Tu"];
     
     NSInteger index = 0;
     for (RDVTabBarItem *item in tabBar.items) {
-//        [item setBackgroundSelectedImage:finishedImageTofu withUnselectedImage:unfinishedImageTofu];
         UIImage *selectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@", [tabBarItemSelected objectAtIndex:index]]];
         UIImage *unselectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@", [tabBarItemNormal objectAtIndex:index]]];
         [item setFinishedSelectedImage:selectedimage withFinishedUnselectedImage:unselectedimage];
@@ -136,7 +134,6 @@
                                              NSFontAttributeName: [UIFont systemFontOfSize:12],
                                              NSForegroundColorAttributeName: [UIColor lightGrayColor],
                                              }];
-        [item setTitle:[tabBarItemTitle objectAtIndex:index]];
         index++;
     }
 }

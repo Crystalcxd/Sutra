@@ -1,6 +1,0 @@
-framework module SKCalendarView {
-  umbrella header "SKCalendarView-umbrella.h"
-
-  export *
-  module * { export * }
-}
