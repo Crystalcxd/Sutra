@@ -31,7 +31,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    self.navigationItem.title = @"法像";//@"阿弥陀经";
+    self.navigationItem.title = @"国内寺庙";//@"阿弥陀经";
     [self createTuData];
     [self setUI];
 }
