@@ -8,45 +8,81 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>DACircularProgress.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>HMSegmentedControl.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-Sutra.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>RDVTabBarController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>RNCryptor-objc.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>TTTAttributedLabel.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>YYModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0A02CD1AC607FBE2C26CAB76BAB3F0A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0BB8D99596BC5369664A788031E07766</key>
 		<dict>
 			<key>primary</key>
@@ -57,12 +93,47 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>17CEAD1B3EC4E80098DF5F8AA00BE966</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3783CF39C9E8A461F4947B275F53C79E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4D8FDF23B2B6D2AD6DC92845F2BCDE8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5F025EA1DD85924DC67782445D940B66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69F8A0352FDD8BD53A10B89A38D7F9EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7125B21BC1D8C3BFFEE40B71291FC5E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7891E2B724C54EF58FB1692B34F1455C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>823DCC53A67BC34C25BD7CA9FEBD5E23</key>
 		<dict>
 			<key>primary</key>
 			<true/>
