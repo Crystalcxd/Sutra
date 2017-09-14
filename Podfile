@@ -17,5 +17,14 @@ pod 'TTTAttributedLabel'
 pod 'HMSegmentedControl'
 pod 'DACircularProgress'
 pod 'UMengAnalytics-NO-IDFA' # 友盟 SDK（无 IDFA）
+pod 'Qiniu' # 七牛
+pod 'JPush'
+pod 'MiPushSDK'
+pod 'RegexKitLite' #正则
+pod 'Masonry'   #代码布局
+pod 'WebViewJavascriptBridge'
+pod 'DateTools' # 日期时间工具
+pod 'GBDeviceInfo' # 设备信息
+pod 'GVUserDefaults'
 
 end

@@ -23,16 +23,32 @@ PODS:
     - AMapFoundation-NO-IDFA (~> 1.2)
   - BaiduMapKit (3.4.0)
   - DACircularProgress (2.3.1)
+  - DateTools (2.0.0)
+  - GBDeviceInfo (4.3.0):
+    - GBDeviceInfo/Core (= 4.3.0)
+  - GBDeviceInfo/Core (4.3.0)
+  - GVUserDefaults (1.0.2)
+  - HappyDNS (0.3.12)
   - HMSegmentedControl (1.5.4)
+  - JCore (1.1.5)
+  - JPush (3.0.6):
+    - JCore (~> 1.1.1)
+  - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
+  - MiPushSDK (2.2.4)
   - MJRefresh (3.1.12)
+  - Qiniu (7.1.7):
+    - AFNetworking (~> 3)
+    - HappyDNS (~> 0.3)
   - RDVTabBarController (1.1.9)
+  - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.5)
   - SDWebImage (4.1.0):
     - SDWebImage/Core (= 4.1.0)
   - SDWebImage/Core (4.1.0)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
+  - WebViewJavascriptBridge (6.0.2)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -42,14 +58,23 @@ DEPENDENCIES:
   - AMapSearch-NO-IDFA
   - BaiduMapKit
   - DACircularProgress
+  - DateTools
+  - GBDeviceInfo
+  - GVUserDefaults
   - HMSegmentedControl
+  - JPush
+  - Masonry
   - MBProgressHUD
+  - MiPushSDK
   - MJRefresh
+  - Qiniu
   - RDVTabBarController
+  - RegexKitLite
   - RNCryptor-objc
   - SDWebImage
   - TTTAttributedLabel
   - UMengAnalytics-NO-IDFA
+  - WebViewJavascriptBridge
   - YYModel
 
 SPEC CHECKSUMS:
@@ -60,16 +85,27 @@ SPEC CHECKSUMS:
   AMapSearch-NO-IDFA: eb0f9b424e6c3cdcb0e8c656e9622e8d0ee54238
   BaiduMapKit: 0a5e5e0b1e3fd8dc5aceb40ab9b89e52e1d13df9
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  GBDeviceInfo: caae36532afcc209b51ac62bba547aadab9e88f2
+  GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
+  HappyDNS: 691a3041128055d09866f86e6e9ca90f24da1f18
   HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
+  JCore: 9bd9c770c877c583d98b90a68792b8361974c231
+  JPush: c41be50eb1a574a66aeb68d237f00a4ec6ec3a82
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MiPushSDK: a00fd49376456a961991b947bc95ef714f7e9534
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Qiniu: 56ea8b9d785326e45e3a6fdd45bdbc84f78d0eff
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: a65b15493de05dda4af0f392c70372b7a5625aab
   SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  WebViewJavascriptBridge: 791ee0e26d1bf15efe5fb7fb9666a71a19b89d77
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 3d4186c23b42190dcd964c798e474a61ef549366
+PODFILE CHECKSUM: 4cdee94cf385498acfa41a70aea67ff07d282fa5
 
 COCOAPODS: 1.3.1
