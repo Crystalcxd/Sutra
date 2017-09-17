@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "823DCC53A67BC34C25BD7CA9FEBD5E23"
+               BlueprintIdentifier = "D77D095786730543A9D31B8DB5D9DE7A"
                BuildableName = "RDVTabBarController.framework"
                BlueprintName = "RDVTabBarController"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "823DCC53A67BC34C25BD7CA9FEBD5E23"
+            BlueprintIdentifier = "D77D095786730543A9D31B8DB5D9DE7A"
             BuildableName = "RDVTabBarController.framework"
             BlueprintName = "RDVTabBarController"
             ReferencedContainer = "container:Pods.xcodeproj">

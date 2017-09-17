@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "103980E13FF4238DA57E12E8BCEA8F36"
-               BuildableName = "TTTAttributedLabel.framework"
-               BlueprintName = "TTTAttributedLabel"
+               BlueprintIdentifier = "D52144DE9D7255DE912490FF5A806573"
+               BuildableName = "Masonry.framework"
+               BlueprintName = "Masonry"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "103980E13FF4238DA57E12E8BCEA8F36"
-            BuildableName = "TTTAttributedLabel.framework"
-            BlueprintName = "TTTAttributedLabel"
+            BlueprintIdentifier = "D52144DE9D7255DE912490FF5A806573"
+            BuildableName = "Masonry.framework"
+            BlueprintName = "Masonry"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

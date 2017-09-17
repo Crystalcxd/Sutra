@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "103980E13FF4238DA57E12E8BCEA8F36"
-               BuildableName = "TTTAttributedLabel.framework"
-               BlueprintName = "TTTAttributedLabel"
+               BlueprintIdentifier = "EC4005DE89E54BDE126AC739C1B81AE4"
+               BuildableName = "WebViewJavascriptBridge.framework"
+               BlueprintName = "WebViewJavascriptBridge"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "103980E13FF4238DA57E12E8BCEA8F36"
-            BuildableName = "TTTAttributedLabel.framework"
-            BlueprintName = "TTTAttributedLabel"
+            BlueprintIdentifier = "EC4005DE89E54BDE126AC739C1B81AE4"
+            BuildableName = "WebViewJavascriptBridge.framework"
+            BlueprintName = "WebViewJavascriptBridge"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

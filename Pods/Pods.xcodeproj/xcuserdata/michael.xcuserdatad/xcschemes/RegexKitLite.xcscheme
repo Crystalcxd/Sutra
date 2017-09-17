@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "103980E13FF4238DA57E12E8BCEA8F36"
-               BuildableName = "TTTAttributedLabel.framework"
-               BlueprintName = "TTTAttributedLabel"
+               BlueprintIdentifier = "48217FCBB855E495983B6BC5A14F75AD"
+               BuildableName = "RegexKitLite.framework"
+               BlueprintName = "RegexKitLite"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "103980E13FF4238DA57E12E8BCEA8F36"
-            BuildableName = "TTTAttributedLabel.framework"
-            BlueprintName = "TTTAttributedLabel"
+            BlueprintIdentifier = "48217FCBB855E495983B6BC5A14F75AD"
+            BuildableName = "RegexKitLite.framework"
+            BlueprintName = "RegexKitLite"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
