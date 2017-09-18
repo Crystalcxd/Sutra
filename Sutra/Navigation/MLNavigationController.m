@@ -286,7 +286,7 @@
 }
 
 
-- (NSUInteger)supportedInterfaceOrientations
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
     UIViewController * vc = [self currentViewController];
     if (vc) {
