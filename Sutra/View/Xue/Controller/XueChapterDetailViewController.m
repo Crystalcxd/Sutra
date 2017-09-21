@@ -94,7 +94,7 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     
-    [cell configureWith:[NSString stringWithFormat:@"%ld.%@",indexPath.row + 1,jingDic[@"name"]]];
+    [cell configureWith:[NSString stringWithFormat:@"%d.%@",indexPath.row + 1,jingDic[@"name"]]];
     
     return cell;
 }
