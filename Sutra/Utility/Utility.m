@@ -239,53 +239,7 @@ NSUInteger DeviceSystemMajorVersion(){
 
 +(void)updateLessFlowModelImageOn:(UIImageView *)imageview withUrl:(NSString *)str defaultImage:(NSString *)imageStr
 {
-//    if ([WMUserDefault BoolValueForKey:@"safeFlowModel"]) {
-//        Reachability *r = [Reachability reachabilityWithHostName:@"www.apple.com"];
-//        if ([r currentReachabilityStatus] != ReachableViaWiFi) {
-//            if ([[SDWebImageManager sharedManager].imageCache imageFromDiskCacheForKey:str]) {
-//                imageview.image = [[SDWebImageManager sharedManager].imageCache imageFromDiskCacheForKey:str];
-//            }else{
-//                imageview.image = [UIImage imageNamed:imageStr];
-//            }
-//        }else{
-//            [imageview sd_setImageWithURL:[NSURL URLWithString:str] placeholderImage:[UIImage imageNamed:imageStr]];
-//        }
-//    }else{
-//        [imageview sd_setImageWithURL:[NSURL URLWithString:str] placeholderImage:[UIImage imageNamed:imageStr]];
-//    }
+    
 }
-
-//+ (UserTopic *)novelDownloadStateWith:(NSInteger)nid
-//{
-//    if (![WMUserDefault arrayForKey:[NSString stringWithFormat:@"offLineNovel_%ld",[WMUserDefault longValueForKey:@"uid"]]]) {
-//        return nil;
-//    }else{
-//        NSArray *array = [WMUserDefault arrayForKey:[NSString stringWithFormat:@"offLineNovel_%ld",[WMUserDefault longValueForKey:@"uid"]]];
-//        if (array.count == 0) {
-//            return nil;
-//        }
-//        NSInteger count = array.count;
-//        
-//        for (int i = 0; i < count; i++) {
-//            UserTopic *topic = [array objectAtIndex:i];
-//            if (topic.topic.topicId == nid) {
-//                return topic;
-//            }
-//        }
-//        return nil;
-//    }
-//}
-
-//+(NSData *)responseDataRequest:(ASIHTTPRequest *)request Data:(NSData *)data
-//{
-//    NSData *currentData;
-//    if ([request isResponseCompressed]) {// 响应是否被gzip压缩过？
-//        currentData = [request responseData]; // 解压缩后的数据
-//    }else{
-//        currentData = data;
-//    }
-//    
-//    return currentData;
-//}
 
 @end

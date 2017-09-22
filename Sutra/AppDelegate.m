@@ -115,8 +115,6 @@
 
 - (void)configurationTabBar:(RDVTabBar *)tabBar {
     //设置  三个分类的  tabbaritem 选中和没选中下地背景图片 和  底图
-//    UIImage *finishedImageTofu = [UIImage imageNamed:@"bottom_selected"];
-//    UIImage *unfinishedImageTofu = [UIImage imageNamed:@"bottom"];
     
     NSArray *tabBarItemSelected = @[@"jing", @"ke",@"xue",@"yue",@"tu"];
     NSArray *tabBarItemNormal = @[@"jing_default", @"ke_default",@"xue_default",@"yue_default",@"tu_default"];

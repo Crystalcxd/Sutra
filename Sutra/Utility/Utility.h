@@ -163,8 +163,4 @@ NSUInteger DeviceSystemMajorVersion(void);
 //省流量
 +(void)updateLessFlowModelImageOn:(UIImageView *)imageview withUrl:(NSString *)str defaultImage:(NSString *)imageStr;
 
-//+(UserTopic *)novelDownloadStateWith:(NSInteger)nid;
-
-//+(NSData *)responseDataRequest:(ASIHTTPRequest *)request Data:(NSData *)data;
-
 @end
