@@ -19,8 +19,8 @@ PODS:
   - AMapFoundation-NO-IDFA (1.4.2)
   - AMapLocation-NO-IDFA (2.4.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapSearch-NO-IDFA (5.3.0):
-    - AMapFoundation-NO-IDFA (~> 1.2)
+  - AMapSearch-NO-IDFA (5.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
   - BaiduMapKit (3.4.0)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
@@ -36,7 +36,7 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.0.0)
   - MiPushSDK (2.2.4)
-  - MJRefresh (3.1.12)
+  - MJRefresh (3.1.13)
   - Qiniu (7.1.8):
     - AFNetworking (~> 3)
     - HappyDNS (~> 0.3)
@@ -82,7 +82,7 @@ SPEC CHECKSUMS:
   AMap2DMap-NO-IDFA: 01c80e7e93568617b1b1b452cfec71f974f5bc8a
   AMapFoundation-NO-IDFA: 3b9ce87abc6a37c718cc320687469d0b74d5c953
   AMapLocation-NO-IDFA: 9493012d3241a7d551942c7c1e1069b51f295083
-  AMapSearch-NO-IDFA: eb0f9b424e6c3cdcb0e8c656e9622e8d0ee54238
+  AMapSearch-NO-IDFA: efddeaa3f62f6adb8f0170ebff3d799bcf637ade
   BaiduMapKit: 0a5e5e0b1e3fd8dc5aceb40ab9b89e52e1d13df9
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
@@ -95,7 +95,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MiPushSDK: a00fd49376456a961991b947bc95ef714f7e9534
-  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MJRefresh: 56a28aa628c9895e97a518dabaecf70b18f92f32
   Qiniu: 2f1b9d13904b6a7608a66a2d02c5b7b24575622a
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
