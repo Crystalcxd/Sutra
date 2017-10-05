@@ -15,6 +15,8 @@
 		4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A451EF2D35B0026A609 /* XueViewController.xib */; };
 		4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */; };
 		4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */; };
+		4CF4EFEE1F815B910006168C /* c001.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4EFED1F8157B50006168C /* c001.htm */; };
+		4CF4EFF01F815C270006168C /* c002.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4EFEF1F815C1F0006168C /* c002.html */; };
 		A41D12E01F5D33F500321F21 /* DataPrepare.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D12DF1F5D33F500321F21 /* DataPrepare.m */; };
 		A41D94AB1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */; };
 		A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */; };
@@ -433,6 +435,8 @@
 		4CAD5A481EF2D5A20026A609 /* XueTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueTitleCell.h; sourceTree = "<group>"; };
 		4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueTitleCell.m; sourceTree = "<group>"; };
 		4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XueTitleCell.xib; sourceTree = "<group>"; };
+		4CF4EFED1F8157B50006168C /* c001.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = c001.htm; sourceTree = "<group>"; };
+		4CF4EFEF1F815C1F0006168C /* c002.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = c002.html; sourceTree = "<group>"; };
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
 		7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sutra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1386,7 +1390,9 @@
 		A4B9CE6B1F4D824F005F078C /* One */ = {
 			isa = PBXGroup;
 			children = (
+				4CF4EFED1F8157B50006168C /* c001.htm */,
 				A4B9CE6C1F4D824F005F078C /* c001.sutra */,
+				4CF4EFEF1F815C1F0006168C /* c002.html */,
 				A4B9CE6D1F4D824F005F078C /* c002.sutra */,
 				A4B9CE6E1F4D824F005F078C /* c003.sutra */,
 				A4B9CE6F1F4D824F005F078C /* c004.sutra */,
@@ -1948,6 +1954,7 @@
 				A4240C991F063273007A25A7 /* b06xj.sutra in Resources */,
 				A4240CA41F063273007A25A7 /* b17gwsh.sutra in Resources */,
 				A4B9CEED1F4D824F005F078C /* c091.sutra in Resources */,
+				4CF4EFEE1F815B910006168C /* c001.htm in Resources */,
 				A4240CA11F063273007A25A7 /* b14dchw.sutra in Resources */,
 				A4B9CF001F4D8250005F078C /* c015.sutra in Resources */,
 				A4B9CEEE1F4D824F005F078C /* c092.sutra in Resources */,
@@ -1980,6 +1987,7 @@
 				A4240C6B1F062E15007A25A7 /* b26nsh.sutra in Resources */,
 				A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */,
 				A4DC08941F5E99AC0027450F /* e46.sutra in Resources */,
+				4CF4EFF01F815C270006168C /* c002.html in Resources */,
 				A476A5CE1F5FC846008835A7 /* e64.files in Resources */,
 				A4240C761F062E15007A25A7 /* b38dszpszy.sutra in Resources */,
 				A4DC08DA1F5E99AC0027450F /* e66.sutra in Resources */,
