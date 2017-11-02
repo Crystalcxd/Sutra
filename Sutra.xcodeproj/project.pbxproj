@@ -15,8 +15,6 @@
 		4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A451EF2D35B0026A609 /* XueViewController.xib */; };
 		4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */; };
 		4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */; };
-		4CF4EFEE1F815B910006168C /* c001.htm in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4EFED1F8157B50006168C /* c001.htm */; };
-		4CF4EFF01F815C270006168C /* c002.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4EFEF1F815C1F0006168C /* c002.html */; };
 		A41D12E01F5D33F500321F21 /* DataPrepare.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D12DF1F5D33F500321F21 /* DataPrepare.m */; };
 		A41D94AB1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */; };
 		A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */; };
@@ -82,6 +80,99 @@
 		A4240CA61F063273007A25A7 /* b19qlz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C911F063273007A25A7 /* b19qlz.sutra */; };
 		A4240CA71F063273007A25A7 /* b20jzj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C921F063273007A25A7 /* b20jzj.sutra */; };
 		A4240CA81F063273007A25A7 /* b21wtz.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4240C931F063273007A25A7 /* b21wtz.sutra */; };
+		A42A9B2A1FAB05F5009C7E1A /* c001.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AC91FAB05F4009C7E1A /* c001.sutra */; };
+		A42A9B2B1FAB05F5009C7E1A /* c002.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ACA1FAB05F4009C7E1A /* c002.sutra */; };
+		A42A9B2C1FAB05F5009C7E1A /* c003.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ACB1FAB05F4009C7E1A /* c003.sutra */; };
+		A42A9B2D1FAB05F5009C7E1A /* c004.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ACC1FAB05F4009C7E1A /* c004.sutra */; };
+		A42A9B2E1FAB05F5009C7E1A /* c005.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ACD1FAB05F4009C7E1A /* c005.sutra */; };
+		A42A9B2F1FAB05F5009C7E1A /* c006.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ACE1FAB05F4009C7E1A /* c006.sutra */; };
+		A42A9B301FAB05F5009C7E1A /* c007.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ACF1FAB05F4009C7E1A /* c007.sutra */; };
+		A42A9B311FAB05F5009C7E1A /* c008.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD01FAB05F4009C7E1A /* c008.sutra */; };
+		A42A9B321FAB05F5009C7E1A /* c009.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD11FAB05F4009C7E1A /* c009.sutra */; };
+		A42A9B331FAB05F5009C7E1A /* c010.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD21FAB05F4009C7E1A /* c010.sutra */; };
+		A42A9B341FAB05F5009C7E1A /* c011.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD31FAB05F4009C7E1A /* c011.sutra */; };
+		A42A9B351FAB05F5009C7E1A /* c012.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD41FAB05F4009C7E1A /* c012.sutra */; };
+		A42A9B361FAB05F5009C7E1A /* c013.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD51FAB05F4009C7E1A /* c013.sutra */; };
+		A42A9B371FAB05F5009C7E1A /* c080.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD71FAB05F4009C7E1A /* c080.sutra */; };
+		A42A9B381FAB05F5009C7E1A /* c081.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD81FAB05F4009C7E1A /* c081.sutra */; };
+		A42A9B391FAB05F5009C7E1A /* c082.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AD91FAB05F4009C7E1A /* c082.sutra */; };
+		A42A9B3A1FAB05F5009C7E1A /* c083.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ADA1FAB05F4009C7E1A /* c083.sutra */; };
+		A42A9B3B1FAB05F5009C7E1A /* c084.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ADB1FAB05F4009C7E1A /* c084.sutra */; };
+		A42A9B3C1FAB05F5009C7E1A /* c085.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ADC1FAB05F4009C7E1A /* c085.sutra */; };
+		A42A9B3D1FAB05F5009C7E1A /* c086.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ADD1FAB05F4009C7E1A /* c086.sutra */; };
+		A42A9B3E1FAB05F5009C7E1A /* c087.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ADE1FAB05F4009C7E1A /* c087.sutra */; };
+		A42A9B3F1FAB05F5009C7E1A /* c088.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9ADF1FAB05F4009C7E1A /* c088.sutra */; };
+		A42A9B401FAB05F5009C7E1A /* c089.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE01FAB05F4009C7E1A /* c089.sutra */; };
+		A42A9B411FAB05F5009C7E1A /* c090.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE11FAB05F4009C7E1A /* c090.sutra */; };
+		A42A9B421FAB05F5009C7E1A /* c091.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE21FAB05F4009C7E1A /* c091.sutra */; };
+		A42A9B431FAB05F5009C7E1A /* c092.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE31FAB05F4009C7E1A /* c092.sutra */; };
+		A42A9B441FAB05F5009C7E1A /* c093.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE41FAB05F4009C7E1A /* c093.sutra */; };
+		A42A9B451FAB05F5009C7E1A /* c014.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE61FAB05F4009C7E1A /* c014.sutra */; };
+		A42A9B461FAB05F5009C7E1A /* c015.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE71FAB05F4009C7E1A /* c015.sutra */; };
+		A42A9B471FAB05F5009C7E1A /* c016.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE81FAB05F4009C7E1A /* c016.sutra */; };
+		A42A9B481FAB05F5009C7E1A /* c017.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AE91FAB05F4009C7E1A /* c017.sutra */; };
+		A42A9B491FAB05F5009C7E1A /* c018.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AEA1FAB05F4009C7E1A /* c018.sutra */; };
+		A42A9B4A1FAB05F5009C7E1A /* c019.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AEB1FAB05F4009C7E1A /* c019.sutra */; };
+		A42A9B4B1FAB05F5009C7E1A /* c020.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AEC1FAB05F4009C7E1A /* c020.sutra */; };
+		A42A9B4C1FAB05F5009C7E1A /* c021.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AED1FAB05F4009C7E1A /* c021.sutra */; };
+		A42A9B4D1FAB05F5009C7E1A /* c022.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AEE1FAB05F4009C7E1A /* c022.sutra */; };
+		A42A9B4E1FAB05F5009C7E1A /* c023.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AEF1FAB05F4009C7E1A /* c023.sutra */; };
+		A42A9B4F1FAB05F5009C7E1A /* c024.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF01FAB05F4009C7E1A /* c024.sutra */; };
+		A42A9B501FAB05F5009C7E1A /* c025.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF11FAB05F4009C7E1A /* c025.sutra */; };
+		A42A9B511FAB05F5009C7E1A /* c026.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF21FAB05F4009C7E1A /* c026.sutra */; };
+		A42A9B521FAB05F5009C7E1A /* c027.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF31FAB05F4009C7E1A /* c027.sutra */; };
+		A42A9B531FAB05F5009C7E1A /* c028.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF41FAB05F4009C7E1A /* c028.sutra */; };
+		A42A9B541FAB05F5009C7E1A /* c048.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF61FAB05F4009C7E1A /* c048.sutra */; };
+		A42A9B551FAB05F5009C7E1A /* c049.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF71FAB05F4009C7E1A /* c049.sutra */; };
+		A42A9B561FAB05F5009C7E1A /* c050.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF81FAB05F4009C7E1A /* c050.sutra */; };
+		A42A9B571FAB05F5009C7E1A /* c051.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AF91FAB05F4009C7E1A /* c051.sutra */; };
+		A42A9B581FAB05F5009C7E1A /* c052.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AFA1FAB05F4009C7E1A /* c052.sutra */; };
+		A42A9B591FAB05F5009C7E1A /* c053.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AFB1FAB05F4009C7E1A /* c053.sutra */; };
+		A42A9B5A1FAB05F5009C7E1A /* c054.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AFC1FAB05F4009C7E1A /* c054.sutra */; };
+		A42A9B5B1FAB05F5009C7E1A /* c055.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AFD1FAB05F4009C7E1A /* c055.sutra */; };
+		A42A9B5C1FAB05F5009C7E1A /* c056.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AFE1FAB05F4009C7E1A /* c056.sutra */; };
+		A42A9B5D1FAB05F5009C7E1A /* c057.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9AFF1FAB05F4009C7E1A /* c057.sutra */; };
+		A42A9B5E1FAB05F5009C7E1A /* c058.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B001FAB05F4009C7E1A /* c058.sutra */; };
+		A42A9B5F1FAB05F5009C7E1A /* c059.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B011FAB05F4009C7E1A /* c059.sutra */; };
+		A42A9B601FAB05F5009C7E1A /* c060.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B021FAB05F4009C7E1A /* c060.sutra */; };
+		A42A9B611FAB05F5009C7E1A /* c061.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B031FAB05F4009C7E1A /* c061.sutra */; };
+		A42A9B621FAB05F5009C7E1A /* c062.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B041FAB05F4009C7E1A /* c062.sutra */; };
+		A42A9B631FAB05F5009C7E1A /* c063.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B051FAB05F4009C7E1A /* c063.sutra */; };
+		A42A9B641FAB05F5009C7E1A /* c064.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B061FAB05F4009C7E1A /* c064.sutra */; };
+		A42A9B651FAB05F5009C7E1A /* c065.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B071FAB05F4009C7E1A /* c065.sutra */; };
+		A42A9B661FAB05F5009C7E1A /* c066.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B081FAB05F4009C7E1A /* c066.sutra */; };
+		A42A9B671FAB05F5009C7E1A /* c067.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B091FAB05F4009C7E1A /* c067.sutra */; };
+		A42A9B681FAB05F5009C7E1A /* c068.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B0A1FAB05F4009C7E1A /* c068.sutra */; };
+		A42A9B691FAB05F5009C7E1A /* c069.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B0B1FAB05F4009C7E1A /* c069.sutra */; };
+		A42A9B6A1FAB05F5009C7E1A /* c070.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B0C1FAB05F4009C7E1A /* c070.sutra */; };
+		A42A9B6B1FAB05F5009C7E1A /* c071.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B0D1FAB05F4009C7E1A /* c071.sutra */; };
+		A42A9B6C1FAB05F5009C7E1A /* c072.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B0E1FAB05F4009C7E1A /* c072.sutra */; };
+		A42A9B6D1FAB05F5009C7E1A /* c073.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B0F1FAB05F4009C7E1A /* c073.sutra */; };
+		A42A9B6E1FAB05F5009C7E1A /* c074.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B101FAB05F4009C7E1A /* c074.sutra */; };
+		A42A9B6F1FAB05F5009C7E1A /* c075.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B111FAB05F4009C7E1A /* c075.sutra */; };
+		A42A9B701FAB05F5009C7E1A /* c076.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B121FAB05F4009C7E1A /* c076.sutra */; };
+		A42A9B711FAB05F5009C7E1A /* c077.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B131FAB05F4009C7E1A /* c077.sutra */; };
+		A42A9B721FAB05F5009C7E1A /* c078.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B141FAB05F4009C7E1A /* c078.sutra */; };
+		A42A9B731FAB05F5009C7E1A /* c079.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B151FAB05F4009C7E1A /* c079.sutra */; };
+		A42A9B741FAB05F5009C7E1A /* c029.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B171FAB05F4009C7E1A /* c029.sutra */; };
+		A42A9B751FAB05F5009C7E1A /* c030.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B181FAB05F4009C7E1A /* c030.sutra */; };
+		A42A9B761FAB05F5009C7E1A /* c031.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B191FAB05F4009C7E1A /* c031.sutra */; };
+		A42A9B771FAB05F5009C7E1A /* c032.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B1A1FAB05F4009C7E1A /* c032.sutra */; };
+		A42A9B781FAB05F5009C7E1A /* c033.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B1B1FAB05F4009C7E1A /* c033.sutra */; };
+		A42A9B791FAB05F5009C7E1A /* c034.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B1C1FAB05F4009C7E1A /* c034.sutra */; };
+		A42A9B7A1FAB05F5009C7E1A /* c035.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B1D1FAB05F4009C7E1A /* c035.sutra */; };
+		A42A9B7B1FAB05F5009C7E1A /* c036.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B1E1FAB05F4009C7E1A /* c036.sutra */; };
+		A42A9B7C1FAB05F5009C7E1A /* c037.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B1F1FAB05F4009C7E1A /* c037.sutra */; };
+		A42A9B7D1FAB05F5009C7E1A /* c038.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B201FAB05F4009C7E1A /* c038.sutra */; };
+		A42A9B7E1FAB05F5009C7E1A /* c039.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B211FAB05F4009C7E1A /* c039.sutra */; };
+		A42A9B7F1FAB05F5009C7E1A /* c040.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B221FAB05F4009C7E1A /* c040.sutra */; };
+		A42A9B801FAB05F5009C7E1A /* c041.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B231FAB05F4009C7E1A /* c041.sutra */; };
+		A42A9B811FAB05F5009C7E1A /* c042.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B241FAB05F4009C7E1A /* c042.sutra */; };
+		A42A9B821FAB05F5009C7E1A /* c043.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B251FAB05F4009C7E1A /* c043.sutra */; };
+		A42A9B831FAB05F5009C7E1A /* c044.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B261FAB05F4009C7E1A /* c044.sutra */; };
+		A42A9B841FAB05F5009C7E1A /* c045.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B271FAB05F4009C7E1A /* c045.sutra */; };
+		A42A9B851FAB05F5009C7E1A /* c046.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B281FAB05F4009C7E1A /* c046.sutra */; };
+		A42A9B861FAB05F5009C7E1A /* c047.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A42A9B291FAB05F4009C7E1A /* c047.sutra */; };
 		A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440847D1F03A9E8006A0F97 /* KeViewController.m */; };
 		A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A440847E1F03A9E8006A0F97 /* KeViewController.xib */; };
 		A44084831F03AA44006A0F97 /* KeAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = A44084821F03AA44006A0F97 /* KeAlbum.m */; };
@@ -188,138 +279,6 @@
 		A4A4948D1EF0D97300B8435A /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A4948C1EF0D97300B8435A /* MLNavigationController.m */; };
 		A4A494D21EF1113D00B8435A /* JingDetailCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A494D01EF1113D00B8435A /* JingDetailCtrl.m */; };
 		A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */; };
-		A4B9CEAB1F4D824F005F078C /* c096.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE231F4D824F005F078C /* c096.sutra */; };
-		A4B9CEAC1F4D824F005F078C /* c097.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE241F4D824F005F078C /* c097.sutra */; };
-		A4B9CEAD1F4D824F005F078C /* c098.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE251F4D824F005F078C /* c098.sutra */; };
-		A4B9CEAE1F4D824F005F078C /* c099.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE261F4D824F005F078C /* c099.sutra */; };
-		A4B9CEAF1F4D824F005F078C /* c100.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE271F4D824F005F078C /* c100.sutra */; };
-		A4B9CEB01F4D824F005F078C /* c101.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE281F4D824F005F078C /* c101.sutra */; };
-		A4B9CEB11F4D824F005F078C /* c102.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE291F4D824F005F078C /* c102.sutra */; };
-		A4B9CEB21F4D824F005F078C /* c103.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE2A1F4D824F005F078C /* c103.sutra */; };
-		A4B9CEB31F4D824F005F078C /* c104.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE2B1F4D824F005F078C /* c104.sutra */; };
-		A4B9CEB41F4D824F005F078C /* c105.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE2C1F4D824F005F078C /* c105.sutra */; };
-		A4B9CEB51F4D824F005F078C /* c106.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE2D1F4D824F005F078C /* c106.sutra */; };
-		A4B9CEB61F4D824F005F078C /* c107.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE2E1F4D824F005F078C /* c107.sutra */; };
-		A4B9CEB71F4D824F005F078C /* c108.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE2F1F4D824F005F078C /* c108.sutra */; };
-		A4B9CEB81F4D824F005F078C /* c109.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE301F4D824F005F078C /* c109.sutra */; };
-		A4B9CEB91F4D824F005F078C /* c110.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE311F4D824F005F078C /* c110.sutra */; };
-		A4B9CEBA1F4D824F005F078C /* c111.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE321F4D824F005F078C /* c111.sutra */; };
-		A4B9CEBB1F4D824F005F078C /* c112.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE331F4D824F005F078C /* c112.sutra */; };
-		A4B9CEBC1F4D824F005F078C /* c113.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE341F4D824F005F078C /* c113.sutra */; };
-		A4B9CEBD1F4D824F005F078C /* c114.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE351F4D824F005F078C /* c114.sutra */; };
-		A4B9CEBE1F4D824F005F078C /* c115.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE361F4D824F005F078C /* c115.sutra */; };
-		A4B9CEBF1F4D824F005F078C /* c116.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE371F4D824F005F078C /* c116.sutra */; };
-		A4B9CEC01F4D824F005F078C /* c117.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE381F4D824F005F078C /* c117.sutra */; };
-		A4B9CEC11F4D824F005F078C /* c118.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE391F4D824F005F078C /* c118.sutra */; };
-		A4B9CEC21F4D824F005F078C /* c119.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE3A1F4D824F005F078C /* c119.sutra */; };
-		A4B9CEC31F4D824F005F078C /* c120.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE3B1F4D824F005F078C /* c120.sutra */; };
-		A4B9CEC41F4D824F005F078C /* c121.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE3C1F4D824F005F078C /* c121.sutra */; };
-		A4B9CEC51F4D824F005F078C /* c122.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE3D1F4D824F005F078C /* c122.sutra */; };
-		A4B9CEC61F4D824F005F078C /* c123.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE3E1F4D824F005F078C /* c123.sutra */; };
-		A4B9CEC71F4D824F005F078C /* c124.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE3F1F4D824F005F078C /* c124.sutra */; };
-		A4B9CEC81F4D824F005F078C /* c125.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE401F4D824F005F078C /* c125.sutra */; };
-		A4B9CEC91F4D824F005F078C /* c126.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE411F4D824F005F078C /* c126.sutra */; };
-		A4B9CECA1F4D824F005F078C /* c127.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE421F4D824F005F078C /* c127.sutra */; };
-		A4B9CECB1F4D824F005F078C /* c128.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE431F4D824F005F078C /* c128.sutra */; };
-		A4B9CECC1F4D824F005F078C /* c129.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE441F4D824F005F078C /* c129.sutra */; };
-		A4B9CECD1F4D824F005F078C /* c130.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE451F4D824F005F078C /* c130.sutra */; };
-		A4B9CECE1F4D824F005F078C /* c131.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE461F4D824F005F078C /* c131.sutra */; };
-		A4B9CECF1F4D824F005F078C /* c132.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE471F4D824F005F078C /* c132.sutra */; };
-		A4B9CED01F4D824F005F078C /* c062.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE491F4D824F005F078C /* c062.sutra */; };
-		A4B9CED11F4D824F005F078C /* c063.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE4A1F4D824F005F078C /* c063.sutra */; };
-		A4B9CED21F4D824F005F078C /* c064.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE4B1F4D824F005F078C /* c064.sutra */; };
-		A4B9CED31F4D824F005F078C /* c065.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE4C1F4D824F005F078C /* c065.sutra */; };
-		A4B9CED41F4D824F005F078C /* c066.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE4D1F4D824F005F078C /* c066.sutra */; };
-		A4B9CED51F4D824F005F078C /* c067.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE4E1F4D824F005F078C /* c067.sutra */; };
-		A4B9CED61F4D824F005F078C /* c068.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE4F1F4D824F005F078C /* c068.sutra */; };
-		A4B9CED71F4D824F005F078C /* c069.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE501F4D824F005F078C /* c069.sutra */; };
-		A4B9CED81F4D824F005F078C /* c070.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE511F4D824F005F078C /* c070.sutra */; };
-		A4B9CED91F4D824F005F078C /* c071.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE521F4D824F005F078C /* c071.sutra */; };
-		A4B9CEDA1F4D824F005F078C /* c072.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE531F4D824F005F078C /* c072.sutra */; };
-		A4B9CEDB1F4D824F005F078C /* c073.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE541F4D824F005F078C /* c073.sutra */; };
-		A4B9CEDC1F4D824F005F078C /* c074.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE551F4D824F005F078C /* c074.sutra */; };
-		A4B9CEDD1F4D824F005F078C /* c075.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE561F4D824F005F078C /* c075.sutra */; };
-		A4B9CEDE1F4D824F005F078C /* c076.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE571F4D824F005F078C /* c076.sutra */; };
-		A4B9CEDF1F4D824F005F078C /* c077.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE581F4D824F005F078C /* c077.sutra */; };
-		A4B9CEE01F4D824F005F078C /* c078.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE591F4D824F005F078C /* c078.sutra */; };
-		A4B9CEE11F4D824F005F078C /* c079.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE5A1F4D824F005F078C /* c079.sutra */; };
-		A4B9CEE21F4D824F005F078C /* c080.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE5B1F4D824F005F078C /* c080.sutra */; };
-		A4B9CEE31F4D824F005F078C /* c081.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE5C1F4D824F005F078C /* c081.sutra */; };
-		A4B9CEE41F4D824F005F078C /* c082.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE5D1F4D824F005F078C /* c082.sutra */; };
-		A4B9CEE51F4D824F005F078C /* c083.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE5E1F4D824F005F078C /* c083.sutra */; };
-		A4B9CEE61F4D824F005F078C /* c084.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE5F1F4D824F005F078C /* c084.sutra */; };
-		A4B9CEE71F4D824F005F078C /* c085.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE601F4D824F005F078C /* c085.sutra */; };
-		A4B9CEE81F4D824F005F078C /* c086.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE611F4D824F005F078C /* c086.sutra */; };
-		A4B9CEE91F4D824F005F078C /* c087.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE621F4D824F005F078C /* c087.sutra */; };
-		A4B9CEEA1F4D824F005F078C /* c088.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE631F4D824F005F078C /* c088.sutra */; };
-		A4B9CEEB1F4D824F005F078C /* c089.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE641F4D824F005F078C /* c089.sutra */; };
-		A4B9CEEC1F4D824F005F078C /* c090.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE651F4D824F005F078C /* c090.sutra */; };
-		A4B9CEED1F4D824F005F078C /* c091.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE661F4D824F005F078C /* c091.sutra */; };
-		A4B9CEEE1F4D824F005F078C /* c092.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE671F4D824F005F078C /* c092.sutra */; };
-		A4B9CEEF1F4D824F005F078C /* c093.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE681F4D824F005F078C /* c093.sutra */; };
-		A4B9CEF01F4D8250005F078C /* c094.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE691F4D824F005F078C /* c094.sutra */; };
-		A4B9CEF11F4D8250005F078C /* c095.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE6A1F4D824F005F078C /* c095.sutra */; };
-		A4B9CEF21F4D8250005F078C /* c001.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE6C1F4D824F005F078C /* c001.sutra */; };
-		A4B9CEF31F4D8250005F078C /* c002.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE6D1F4D824F005F078C /* c002.sutra */; };
-		A4B9CEF41F4D8250005F078C /* c003.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE6E1F4D824F005F078C /* c003.sutra */; };
-		A4B9CEF51F4D8250005F078C /* c004.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE6F1F4D824F005F078C /* c004.sutra */; };
-		A4B9CEF61F4D8250005F078C /* c005.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE701F4D824F005F078C /* c005.sutra */; };
-		A4B9CEF71F4D8250005F078C /* c006.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE711F4D824F005F078C /* c006.sutra */; };
-		A4B9CEF81F4D8250005F078C /* c007.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE721F4D824F005F078C /* c007.sutra */; };
-		A4B9CEF91F4D8250005F078C /* c008.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE731F4D824F005F078C /* c008.sutra */; };
-		A4B9CEFA1F4D8250005F078C /* c009.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE741F4D824F005F078C /* c009.sutra */; };
-		A4B9CEFB1F4D8250005F078C /* c010.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE751F4D824F005F078C /* c010.sutra */; };
-		A4B9CEFC1F4D8250005F078C /* c011.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE761F4D824F005F078C /* c011.sutra */; };
-		A4B9CEFD1F4D8250005F078C /* c012.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE771F4D824F005F078C /* c012.sutra */; };
-		A4B9CEFE1F4D8250005F078C /* c013.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE781F4D824F005F078C /* c013.sutra */; };
-		A4B9CEFF1F4D8250005F078C /* c014.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE791F4D824F005F078C /* c014.sutra */; };
-		A4B9CF001F4D8250005F078C /* c015.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE7A1F4D824F005F078C /* c015.sutra */; };
-		A4B9CF011F4D8250005F078C /* c016.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE7B1F4D824F005F078C /* c016.sutra */; };
-		A4B9CF021F4D8250005F078C /* c017.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE7C1F4D824F005F078C /* c017.sutra */; };
-		A4B9CF031F4D8250005F078C /* c018.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE7D1F4D824F005F078C /* c018.sutra */; };
-		A4B9CF041F4D8250005F078C /* c019.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE7E1F4D824F005F078C /* c019.sutra */; };
-		A4B9CF051F4D8250005F078C /* c020.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE7F1F4D824F005F078C /* c020.sutra */; };
-		A4B9CF061F4D8250005F078C /* c047.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE811F4D824F005F078C /* c047.sutra */; };
-		A4B9CF071F4D8250005F078C /* c048.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE821F4D824F005F078C /* c048.sutra */; };
-		A4B9CF081F4D8250005F078C /* c049.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE831F4D824F005F078C /* c049.sutra */; };
-		A4B9CF091F4D8250005F078C /* c050.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE841F4D824F005F078C /* c050.sutra */; };
-		A4B9CF0A1F4D8250005F078C /* c051.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE851F4D824F005F078C /* c051.sutra */; };
-		A4B9CF0B1F4D8250005F078C /* c052.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE861F4D824F005F078C /* c052.sutra */; };
-		A4B9CF0C1F4D8250005F078C /* c053.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE871F4D824F005F078C /* c053.sutra */; };
-		A4B9CF0D1F4D8250005F078C /* c054.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE881F4D824F005F078C /* c054.sutra */; };
-		A4B9CF0E1F4D8250005F078C /* c055.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE891F4D824F005F078C /* c055.sutra */; };
-		A4B9CF0F1F4D8250005F078C /* c056.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE8A1F4D824F005F078C /* c056.sutra */; };
-		A4B9CF101F4D8250005F078C /* c057.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE8B1F4D824F005F078C /* c057.sutra */; };
-		A4B9CF111F4D8250005F078C /* c058.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE8C1F4D824F005F078C /* c058.sutra */; };
-		A4B9CF121F4D8250005F078C /* c059.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE8D1F4D824F005F078C /* c059.sutra */; };
-		A4B9CF131F4D8250005F078C /* c060.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE8E1F4D824F005F078C /* c060.sutra */; };
-		A4B9CF141F4D8250005F078C /* c061.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE8F1F4D824F005F078C /* c061.sutra */; };
-		A4B9CF151F4D8250005F078C /* c021.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE911F4D824F005F078C /* c021.sutra */; };
-		A4B9CF161F4D8250005F078C /* c022.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE921F4D824F005F078C /* c022.sutra */; };
-		A4B9CF171F4D8250005F078C /* c023.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE931F4D824F005F078C /* c023.sutra */; };
-		A4B9CF181F4D8250005F078C /* c024.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE941F4D824F005F078C /* c024.sutra */; };
-		A4B9CF191F4D8250005F078C /* c025.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE951F4D824F005F078C /* c025.sutra */; };
-		A4B9CF1A1F4D8250005F078C /* c026.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE961F4D824F005F078C /* c026.sutra */; };
-		A4B9CF1B1F4D8250005F078C /* c027.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE971F4D824F005F078C /* c027.sutra */; };
-		A4B9CF1C1F4D8250005F078C /* c028.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE981F4D824F005F078C /* c028.sutra */; };
-		A4B9CF1D1F4D8250005F078C /* c029.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE991F4D824F005F078C /* c029.sutra */; };
-		A4B9CF1E1F4D8250005F078C /* c030.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE9A1F4D824F005F078C /* c030.sutra */; };
-		A4B9CF1F1F4D8250005F078C /* c031.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE9B1F4D824F005F078C /* c031.sutra */; };
-		A4B9CF201F4D8250005F078C /* c032.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE9C1F4D824F005F078C /* c032.sutra */; };
-		A4B9CF211F4D8250005F078C /* c033.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE9D1F4D824F005F078C /* c033.sutra */; };
-		A4B9CF221F4D8250005F078C /* c034.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE9E1F4D824F005F078C /* c034.sutra */; };
-		A4B9CF231F4D8250005F078C /* c035.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CE9F1F4D824F005F078C /* c035.sutra */; };
-		A4B9CF241F4D8250005F078C /* c036.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA01F4D824F005F078C /* c036.sutra */; };
-		A4B9CF251F4D8250005F078C /* c037.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA11F4D824F005F078C /* c037.sutra */; };
-		A4B9CF261F4D8250005F078C /* c038.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA21F4D824F005F078C /* c038.sutra */; };
-		A4B9CF271F4D8250005F078C /* c039.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA31F4D824F005F078C /* c039.sutra */; };
-		A4B9CF281F4D8250005F078C /* c040.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA41F4D824F005F078C /* c040.sutra */; };
-		A4B9CF291F4D8250005F078C /* c041.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA51F4D824F005F078C /* c041.sutra */; };
-		A4B9CF2A1F4D8250005F078C /* c042.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA61F4D824F005F078C /* c042.sutra */; };
-		A4B9CF2B1F4D8250005F078C /* c043.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA71F4D824F005F078C /* c043.sutra */; };
-		A4B9CF2C1F4D8250005F078C /* c044.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA81F4D824F005F078C /* c044.sutra */; };
-		A4B9CF2D1F4D8250005F078C /* c045.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEA91F4D824F005F078C /* c045.sutra */; };
-		A4B9CF2E1F4D8250005F078C /* c046.sutra in Resources */ = {isa = PBXBuildFile; fileRef = A4B9CEAA1F4D824F005F078C /* c046.sutra */; };
 		A4C4094A1EF0CFDF0041F285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C409491EF0CFDF0041F285 /* main.m */; };
 		A4C4094D1EF0CFDF0041F285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4094C1EF0CFDF0041F285 /* AppDelegate.m */; };
 		A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C409541EF0CFDF0041F285 /* Assets.xcassets */; };
@@ -435,8 +394,6 @@
 		4CAD5A481EF2D5A20026A609 /* XueTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueTitleCell.h; sourceTree = "<group>"; };
 		4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueTitleCell.m; sourceTree = "<group>"; };
 		4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XueTitleCell.xib; sourceTree = "<group>"; };
-		4CF4EFED1F8157B50006168C /* c001.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = c001.htm; sourceTree = "<group>"; };
-		4CF4EFEF1F815C1F0006168C /* c002.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = c002.html; sourceTree = "<group>"; };
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
 		7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sutra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -506,6 +463,99 @@
 		A4240C911F063273007A25A7 /* b19qlz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b19qlz.sutra; sourceTree = "<group>"; };
 		A4240C921F063273007A25A7 /* b20jzj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b20jzj.sutra; sourceTree = "<group>"; };
 		A4240C931F063273007A25A7 /* b21wtz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b21wtz.sutra; sourceTree = "<group>"; };
+		A42A9AC91FAB05F4009C7E1A /* c001.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c001.sutra; sourceTree = "<group>"; };
+		A42A9ACA1FAB05F4009C7E1A /* c002.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c002.sutra; sourceTree = "<group>"; };
+		A42A9ACB1FAB05F4009C7E1A /* c003.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c003.sutra; sourceTree = "<group>"; };
+		A42A9ACC1FAB05F4009C7E1A /* c004.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c004.sutra; sourceTree = "<group>"; };
+		A42A9ACD1FAB05F4009C7E1A /* c005.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c005.sutra; sourceTree = "<group>"; };
+		A42A9ACE1FAB05F4009C7E1A /* c006.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c006.sutra; sourceTree = "<group>"; };
+		A42A9ACF1FAB05F4009C7E1A /* c007.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c007.sutra; sourceTree = "<group>"; };
+		A42A9AD01FAB05F4009C7E1A /* c008.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c008.sutra; sourceTree = "<group>"; };
+		A42A9AD11FAB05F4009C7E1A /* c009.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c009.sutra; sourceTree = "<group>"; };
+		A42A9AD21FAB05F4009C7E1A /* c010.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c010.sutra; sourceTree = "<group>"; };
+		A42A9AD31FAB05F4009C7E1A /* c011.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c011.sutra; sourceTree = "<group>"; };
+		A42A9AD41FAB05F4009C7E1A /* c012.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c012.sutra; sourceTree = "<group>"; };
+		A42A9AD51FAB05F4009C7E1A /* c013.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c013.sutra; sourceTree = "<group>"; };
+		A42A9AD71FAB05F4009C7E1A /* c080.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c080.sutra; sourceTree = "<group>"; };
+		A42A9AD81FAB05F4009C7E1A /* c081.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c081.sutra; sourceTree = "<group>"; };
+		A42A9AD91FAB05F4009C7E1A /* c082.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c082.sutra; sourceTree = "<group>"; };
+		A42A9ADA1FAB05F4009C7E1A /* c083.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c083.sutra; sourceTree = "<group>"; };
+		A42A9ADB1FAB05F4009C7E1A /* c084.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c084.sutra; sourceTree = "<group>"; };
+		A42A9ADC1FAB05F4009C7E1A /* c085.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c085.sutra; sourceTree = "<group>"; };
+		A42A9ADD1FAB05F4009C7E1A /* c086.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c086.sutra; sourceTree = "<group>"; };
+		A42A9ADE1FAB05F4009C7E1A /* c087.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c087.sutra; sourceTree = "<group>"; };
+		A42A9ADF1FAB05F4009C7E1A /* c088.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c088.sutra; sourceTree = "<group>"; };
+		A42A9AE01FAB05F4009C7E1A /* c089.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c089.sutra; sourceTree = "<group>"; };
+		A42A9AE11FAB05F4009C7E1A /* c090.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c090.sutra; sourceTree = "<group>"; };
+		A42A9AE21FAB05F4009C7E1A /* c091.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c091.sutra; sourceTree = "<group>"; };
+		A42A9AE31FAB05F4009C7E1A /* c092.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c092.sutra; sourceTree = "<group>"; };
+		A42A9AE41FAB05F4009C7E1A /* c093.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c093.sutra; sourceTree = "<group>"; };
+		A42A9AE61FAB05F4009C7E1A /* c014.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c014.sutra; sourceTree = "<group>"; };
+		A42A9AE71FAB05F4009C7E1A /* c015.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c015.sutra; sourceTree = "<group>"; };
+		A42A9AE81FAB05F4009C7E1A /* c016.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c016.sutra; sourceTree = "<group>"; };
+		A42A9AE91FAB05F4009C7E1A /* c017.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c017.sutra; sourceTree = "<group>"; };
+		A42A9AEA1FAB05F4009C7E1A /* c018.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c018.sutra; sourceTree = "<group>"; };
+		A42A9AEB1FAB05F4009C7E1A /* c019.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c019.sutra; sourceTree = "<group>"; };
+		A42A9AEC1FAB05F4009C7E1A /* c020.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c020.sutra; sourceTree = "<group>"; };
+		A42A9AED1FAB05F4009C7E1A /* c021.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c021.sutra; sourceTree = "<group>"; };
+		A42A9AEE1FAB05F4009C7E1A /* c022.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c022.sutra; sourceTree = "<group>"; };
+		A42A9AEF1FAB05F4009C7E1A /* c023.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c023.sutra; sourceTree = "<group>"; };
+		A42A9AF01FAB05F4009C7E1A /* c024.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c024.sutra; sourceTree = "<group>"; };
+		A42A9AF11FAB05F4009C7E1A /* c025.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c025.sutra; sourceTree = "<group>"; };
+		A42A9AF21FAB05F4009C7E1A /* c026.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c026.sutra; sourceTree = "<group>"; };
+		A42A9AF31FAB05F4009C7E1A /* c027.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c027.sutra; sourceTree = "<group>"; };
+		A42A9AF41FAB05F4009C7E1A /* c028.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c028.sutra; sourceTree = "<group>"; };
+		A42A9AF61FAB05F4009C7E1A /* c048.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c048.sutra; sourceTree = "<group>"; };
+		A42A9AF71FAB05F4009C7E1A /* c049.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c049.sutra; sourceTree = "<group>"; };
+		A42A9AF81FAB05F4009C7E1A /* c050.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c050.sutra; sourceTree = "<group>"; };
+		A42A9AF91FAB05F4009C7E1A /* c051.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c051.sutra; sourceTree = "<group>"; };
+		A42A9AFA1FAB05F4009C7E1A /* c052.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c052.sutra; sourceTree = "<group>"; };
+		A42A9AFB1FAB05F4009C7E1A /* c053.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c053.sutra; sourceTree = "<group>"; };
+		A42A9AFC1FAB05F4009C7E1A /* c054.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c054.sutra; sourceTree = "<group>"; };
+		A42A9AFD1FAB05F4009C7E1A /* c055.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c055.sutra; sourceTree = "<group>"; };
+		A42A9AFE1FAB05F4009C7E1A /* c056.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c056.sutra; sourceTree = "<group>"; };
+		A42A9AFF1FAB05F4009C7E1A /* c057.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c057.sutra; sourceTree = "<group>"; };
+		A42A9B001FAB05F4009C7E1A /* c058.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c058.sutra; sourceTree = "<group>"; };
+		A42A9B011FAB05F4009C7E1A /* c059.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c059.sutra; sourceTree = "<group>"; };
+		A42A9B021FAB05F4009C7E1A /* c060.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c060.sutra; sourceTree = "<group>"; };
+		A42A9B031FAB05F4009C7E1A /* c061.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c061.sutra; sourceTree = "<group>"; };
+		A42A9B041FAB05F4009C7E1A /* c062.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c062.sutra; sourceTree = "<group>"; };
+		A42A9B051FAB05F4009C7E1A /* c063.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c063.sutra; sourceTree = "<group>"; };
+		A42A9B061FAB05F4009C7E1A /* c064.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c064.sutra; sourceTree = "<group>"; };
+		A42A9B071FAB05F4009C7E1A /* c065.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c065.sutra; sourceTree = "<group>"; };
+		A42A9B081FAB05F4009C7E1A /* c066.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c066.sutra; sourceTree = "<group>"; };
+		A42A9B091FAB05F4009C7E1A /* c067.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c067.sutra; sourceTree = "<group>"; };
+		A42A9B0A1FAB05F4009C7E1A /* c068.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c068.sutra; sourceTree = "<group>"; };
+		A42A9B0B1FAB05F4009C7E1A /* c069.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c069.sutra; sourceTree = "<group>"; };
+		A42A9B0C1FAB05F4009C7E1A /* c070.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c070.sutra; sourceTree = "<group>"; };
+		A42A9B0D1FAB05F4009C7E1A /* c071.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c071.sutra; sourceTree = "<group>"; };
+		A42A9B0E1FAB05F4009C7E1A /* c072.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c072.sutra; sourceTree = "<group>"; };
+		A42A9B0F1FAB05F4009C7E1A /* c073.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c073.sutra; sourceTree = "<group>"; };
+		A42A9B101FAB05F4009C7E1A /* c074.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c074.sutra; sourceTree = "<group>"; };
+		A42A9B111FAB05F4009C7E1A /* c075.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c075.sutra; sourceTree = "<group>"; };
+		A42A9B121FAB05F4009C7E1A /* c076.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c076.sutra; sourceTree = "<group>"; };
+		A42A9B131FAB05F4009C7E1A /* c077.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c077.sutra; sourceTree = "<group>"; };
+		A42A9B141FAB05F4009C7E1A /* c078.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c078.sutra; sourceTree = "<group>"; };
+		A42A9B151FAB05F4009C7E1A /* c079.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c079.sutra; sourceTree = "<group>"; };
+		A42A9B171FAB05F4009C7E1A /* c029.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c029.sutra; sourceTree = "<group>"; };
+		A42A9B181FAB05F4009C7E1A /* c030.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c030.sutra; sourceTree = "<group>"; };
+		A42A9B191FAB05F4009C7E1A /* c031.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c031.sutra; sourceTree = "<group>"; };
+		A42A9B1A1FAB05F4009C7E1A /* c032.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c032.sutra; sourceTree = "<group>"; };
+		A42A9B1B1FAB05F4009C7E1A /* c033.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c033.sutra; sourceTree = "<group>"; };
+		A42A9B1C1FAB05F4009C7E1A /* c034.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c034.sutra; sourceTree = "<group>"; };
+		A42A9B1D1FAB05F4009C7E1A /* c035.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c035.sutra; sourceTree = "<group>"; };
+		A42A9B1E1FAB05F4009C7E1A /* c036.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c036.sutra; sourceTree = "<group>"; };
+		A42A9B1F1FAB05F4009C7E1A /* c037.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c037.sutra; sourceTree = "<group>"; };
+		A42A9B201FAB05F4009C7E1A /* c038.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c038.sutra; sourceTree = "<group>"; };
+		A42A9B211FAB05F4009C7E1A /* c039.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c039.sutra; sourceTree = "<group>"; };
+		A42A9B221FAB05F4009C7E1A /* c040.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c040.sutra; sourceTree = "<group>"; };
+		A42A9B231FAB05F4009C7E1A /* c041.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c041.sutra; sourceTree = "<group>"; };
+		A42A9B241FAB05F4009C7E1A /* c042.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c042.sutra; sourceTree = "<group>"; };
+		A42A9B251FAB05F4009C7E1A /* c043.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c043.sutra; sourceTree = "<group>"; };
+		A42A9B261FAB05F4009C7E1A /* c044.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c044.sutra; sourceTree = "<group>"; };
+		A42A9B271FAB05F4009C7E1A /* c045.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c045.sutra; sourceTree = "<group>"; };
+		A42A9B281FAB05F4009C7E1A /* c046.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c046.sutra; sourceTree = "<group>"; };
+		A42A9B291FAB05F4009C7E1A /* c047.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c047.sutra; sourceTree = "<group>"; };
 		A440847C1F03A9E8006A0F97 /* KeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeViewController.h; sourceTree = "<group>"; };
 		A440847D1F03A9E8006A0F97 /* KeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeViewController.m; sourceTree = "<group>"; };
 		A440847E1F03A9E8006A0F97 /* KeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeViewController.xib; sourceTree = "<group>"; };
@@ -629,138 +679,6 @@
 		A4A494CF1EF1113D00B8435A /* JingDetailCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingDetailCtrl.h; sourceTree = "<group>"; };
 		A4A494D01EF1113D00B8435A /* JingDetailCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingDetailCtrl.m; sourceTree = "<group>"; };
 		A4A494D11EF1113D00B8435A /* JingDetailCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingDetailCtrl.xib; sourceTree = "<group>"; };
-		A4B9CE231F4D824F005F078C /* c096.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c096.sutra; sourceTree = "<group>"; };
-		A4B9CE241F4D824F005F078C /* c097.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c097.sutra; sourceTree = "<group>"; };
-		A4B9CE251F4D824F005F078C /* c098.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c098.sutra; sourceTree = "<group>"; };
-		A4B9CE261F4D824F005F078C /* c099.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c099.sutra; sourceTree = "<group>"; };
-		A4B9CE271F4D824F005F078C /* c100.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c100.sutra; sourceTree = "<group>"; };
-		A4B9CE281F4D824F005F078C /* c101.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c101.sutra; sourceTree = "<group>"; };
-		A4B9CE291F4D824F005F078C /* c102.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c102.sutra; sourceTree = "<group>"; };
-		A4B9CE2A1F4D824F005F078C /* c103.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c103.sutra; sourceTree = "<group>"; };
-		A4B9CE2B1F4D824F005F078C /* c104.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c104.sutra; sourceTree = "<group>"; };
-		A4B9CE2C1F4D824F005F078C /* c105.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c105.sutra; sourceTree = "<group>"; };
-		A4B9CE2D1F4D824F005F078C /* c106.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c106.sutra; sourceTree = "<group>"; };
-		A4B9CE2E1F4D824F005F078C /* c107.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c107.sutra; sourceTree = "<group>"; };
-		A4B9CE2F1F4D824F005F078C /* c108.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c108.sutra; sourceTree = "<group>"; };
-		A4B9CE301F4D824F005F078C /* c109.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c109.sutra; sourceTree = "<group>"; };
-		A4B9CE311F4D824F005F078C /* c110.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c110.sutra; sourceTree = "<group>"; };
-		A4B9CE321F4D824F005F078C /* c111.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c111.sutra; sourceTree = "<group>"; };
-		A4B9CE331F4D824F005F078C /* c112.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c112.sutra; sourceTree = "<group>"; };
-		A4B9CE341F4D824F005F078C /* c113.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c113.sutra; sourceTree = "<group>"; };
-		A4B9CE351F4D824F005F078C /* c114.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c114.sutra; sourceTree = "<group>"; };
-		A4B9CE361F4D824F005F078C /* c115.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c115.sutra; sourceTree = "<group>"; };
-		A4B9CE371F4D824F005F078C /* c116.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c116.sutra; sourceTree = "<group>"; };
-		A4B9CE381F4D824F005F078C /* c117.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c117.sutra; sourceTree = "<group>"; };
-		A4B9CE391F4D824F005F078C /* c118.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c118.sutra; sourceTree = "<group>"; };
-		A4B9CE3A1F4D824F005F078C /* c119.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c119.sutra; sourceTree = "<group>"; };
-		A4B9CE3B1F4D824F005F078C /* c120.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c120.sutra; sourceTree = "<group>"; };
-		A4B9CE3C1F4D824F005F078C /* c121.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c121.sutra; sourceTree = "<group>"; };
-		A4B9CE3D1F4D824F005F078C /* c122.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c122.sutra; sourceTree = "<group>"; };
-		A4B9CE3E1F4D824F005F078C /* c123.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c123.sutra; sourceTree = "<group>"; };
-		A4B9CE3F1F4D824F005F078C /* c124.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c124.sutra; sourceTree = "<group>"; };
-		A4B9CE401F4D824F005F078C /* c125.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c125.sutra; sourceTree = "<group>"; };
-		A4B9CE411F4D824F005F078C /* c126.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c126.sutra; sourceTree = "<group>"; };
-		A4B9CE421F4D824F005F078C /* c127.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c127.sutra; sourceTree = "<group>"; };
-		A4B9CE431F4D824F005F078C /* c128.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c128.sutra; sourceTree = "<group>"; };
-		A4B9CE441F4D824F005F078C /* c129.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c129.sutra; sourceTree = "<group>"; };
-		A4B9CE451F4D824F005F078C /* c130.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c130.sutra; sourceTree = "<group>"; };
-		A4B9CE461F4D824F005F078C /* c131.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c131.sutra; sourceTree = "<group>"; };
-		A4B9CE471F4D824F005F078C /* c132.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c132.sutra; sourceTree = "<group>"; };
-		A4B9CE491F4D824F005F078C /* c062.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c062.sutra; sourceTree = "<group>"; };
-		A4B9CE4A1F4D824F005F078C /* c063.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c063.sutra; sourceTree = "<group>"; };
-		A4B9CE4B1F4D824F005F078C /* c064.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c064.sutra; sourceTree = "<group>"; };
-		A4B9CE4C1F4D824F005F078C /* c065.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c065.sutra; sourceTree = "<group>"; };
-		A4B9CE4D1F4D824F005F078C /* c066.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c066.sutra; sourceTree = "<group>"; };
-		A4B9CE4E1F4D824F005F078C /* c067.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c067.sutra; sourceTree = "<group>"; };
-		A4B9CE4F1F4D824F005F078C /* c068.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c068.sutra; sourceTree = "<group>"; };
-		A4B9CE501F4D824F005F078C /* c069.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c069.sutra; sourceTree = "<group>"; };
-		A4B9CE511F4D824F005F078C /* c070.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c070.sutra; sourceTree = "<group>"; };
-		A4B9CE521F4D824F005F078C /* c071.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c071.sutra; sourceTree = "<group>"; };
-		A4B9CE531F4D824F005F078C /* c072.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c072.sutra; sourceTree = "<group>"; };
-		A4B9CE541F4D824F005F078C /* c073.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c073.sutra; sourceTree = "<group>"; };
-		A4B9CE551F4D824F005F078C /* c074.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c074.sutra; sourceTree = "<group>"; };
-		A4B9CE561F4D824F005F078C /* c075.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c075.sutra; sourceTree = "<group>"; };
-		A4B9CE571F4D824F005F078C /* c076.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c076.sutra; sourceTree = "<group>"; };
-		A4B9CE581F4D824F005F078C /* c077.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c077.sutra; sourceTree = "<group>"; };
-		A4B9CE591F4D824F005F078C /* c078.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c078.sutra; sourceTree = "<group>"; };
-		A4B9CE5A1F4D824F005F078C /* c079.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c079.sutra; sourceTree = "<group>"; };
-		A4B9CE5B1F4D824F005F078C /* c080.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c080.sutra; sourceTree = "<group>"; };
-		A4B9CE5C1F4D824F005F078C /* c081.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c081.sutra; sourceTree = "<group>"; };
-		A4B9CE5D1F4D824F005F078C /* c082.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c082.sutra; sourceTree = "<group>"; };
-		A4B9CE5E1F4D824F005F078C /* c083.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c083.sutra; sourceTree = "<group>"; };
-		A4B9CE5F1F4D824F005F078C /* c084.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c084.sutra; sourceTree = "<group>"; };
-		A4B9CE601F4D824F005F078C /* c085.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c085.sutra; sourceTree = "<group>"; };
-		A4B9CE611F4D824F005F078C /* c086.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c086.sutra; sourceTree = "<group>"; };
-		A4B9CE621F4D824F005F078C /* c087.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c087.sutra; sourceTree = "<group>"; };
-		A4B9CE631F4D824F005F078C /* c088.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c088.sutra; sourceTree = "<group>"; };
-		A4B9CE641F4D824F005F078C /* c089.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c089.sutra; sourceTree = "<group>"; };
-		A4B9CE651F4D824F005F078C /* c090.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c090.sutra; sourceTree = "<group>"; };
-		A4B9CE661F4D824F005F078C /* c091.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c091.sutra; sourceTree = "<group>"; };
-		A4B9CE671F4D824F005F078C /* c092.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c092.sutra; sourceTree = "<group>"; };
-		A4B9CE681F4D824F005F078C /* c093.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c093.sutra; sourceTree = "<group>"; };
-		A4B9CE691F4D824F005F078C /* c094.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c094.sutra; sourceTree = "<group>"; };
-		A4B9CE6A1F4D824F005F078C /* c095.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c095.sutra; sourceTree = "<group>"; };
-		A4B9CE6C1F4D824F005F078C /* c001.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c001.sutra; sourceTree = "<group>"; };
-		A4B9CE6D1F4D824F005F078C /* c002.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c002.sutra; sourceTree = "<group>"; };
-		A4B9CE6E1F4D824F005F078C /* c003.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c003.sutra; sourceTree = "<group>"; };
-		A4B9CE6F1F4D824F005F078C /* c004.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c004.sutra; sourceTree = "<group>"; };
-		A4B9CE701F4D824F005F078C /* c005.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c005.sutra; sourceTree = "<group>"; };
-		A4B9CE711F4D824F005F078C /* c006.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c006.sutra; sourceTree = "<group>"; };
-		A4B9CE721F4D824F005F078C /* c007.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c007.sutra; sourceTree = "<group>"; };
-		A4B9CE731F4D824F005F078C /* c008.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c008.sutra; sourceTree = "<group>"; };
-		A4B9CE741F4D824F005F078C /* c009.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c009.sutra; sourceTree = "<group>"; };
-		A4B9CE751F4D824F005F078C /* c010.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c010.sutra; sourceTree = "<group>"; };
-		A4B9CE761F4D824F005F078C /* c011.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c011.sutra; sourceTree = "<group>"; };
-		A4B9CE771F4D824F005F078C /* c012.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c012.sutra; sourceTree = "<group>"; };
-		A4B9CE781F4D824F005F078C /* c013.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c013.sutra; sourceTree = "<group>"; };
-		A4B9CE791F4D824F005F078C /* c014.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c014.sutra; sourceTree = "<group>"; };
-		A4B9CE7A1F4D824F005F078C /* c015.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c015.sutra; sourceTree = "<group>"; };
-		A4B9CE7B1F4D824F005F078C /* c016.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c016.sutra; sourceTree = "<group>"; };
-		A4B9CE7C1F4D824F005F078C /* c017.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c017.sutra; sourceTree = "<group>"; };
-		A4B9CE7D1F4D824F005F078C /* c018.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c018.sutra; sourceTree = "<group>"; };
-		A4B9CE7E1F4D824F005F078C /* c019.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c019.sutra; sourceTree = "<group>"; };
-		A4B9CE7F1F4D824F005F078C /* c020.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c020.sutra; sourceTree = "<group>"; };
-		A4B9CE811F4D824F005F078C /* c047.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c047.sutra; sourceTree = "<group>"; };
-		A4B9CE821F4D824F005F078C /* c048.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c048.sutra; sourceTree = "<group>"; };
-		A4B9CE831F4D824F005F078C /* c049.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c049.sutra; sourceTree = "<group>"; };
-		A4B9CE841F4D824F005F078C /* c050.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c050.sutra; sourceTree = "<group>"; };
-		A4B9CE851F4D824F005F078C /* c051.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c051.sutra; sourceTree = "<group>"; };
-		A4B9CE861F4D824F005F078C /* c052.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c052.sutra; sourceTree = "<group>"; };
-		A4B9CE871F4D824F005F078C /* c053.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c053.sutra; sourceTree = "<group>"; };
-		A4B9CE881F4D824F005F078C /* c054.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c054.sutra; sourceTree = "<group>"; };
-		A4B9CE891F4D824F005F078C /* c055.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c055.sutra; sourceTree = "<group>"; };
-		A4B9CE8A1F4D824F005F078C /* c056.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c056.sutra; sourceTree = "<group>"; };
-		A4B9CE8B1F4D824F005F078C /* c057.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c057.sutra; sourceTree = "<group>"; };
-		A4B9CE8C1F4D824F005F078C /* c058.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c058.sutra; sourceTree = "<group>"; };
-		A4B9CE8D1F4D824F005F078C /* c059.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c059.sutra; sourceTree = "<group>"; };
-		A4B9CE8E1F4D824F005F078C /* c060.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c060.sutra; sourceTree = "<group>"; };
-		A4B9CE8F1F4D824F005F078C /* c061.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c061.sutra; sourceTree = "<group>"; };
-		A4B9CE911F4D824F005F078C /* c021.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c021.sutra; sourceTree = "<group>"; };
-		A4B9CE921F4D824F005F078C /* c022.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c022.sutra; sourceTree = "<group>"; };
-		A4B9CE931F4D824F005F078C /* c023.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c023.sutra; sourceTree = "<group>"; };
-		A4B9CE941F4D824F005F078C /* c024.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c024.sutra; sourceTree = "<group>"; };
-		A4B9CE951F4D824F005F078C /* c025.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c025.sutra; sourceTree = "<group>"; };
-		A4B9CE961F4D824F005F078C /* c026.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c026.sutra; sourceTree = "<group>"; };
-		A4B9CE971F4D824F005F078C /* c027.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c027.sutra; sourceTree = "<group>"; };
-		A4B9CE981F4D824F005F078C /* c028.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c028.sutra; sourceTree = "<group>"; };
-		A4B9CE991F4D824F005F078C /* c029.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c029.sutra; sourceTree = "<group>"; };
-		A4B9CE9A1F4D824F005F078C /* c030.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c030.sutra; sourceTree = "<group>"; };
-		A4B9CE9B1F4D824F005F078C /* c031.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c031.sutra; sourceTree = "<group>"; };
-		A4B9CE9C1F4D824F005F078C /* c032.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c032.sutra; sourceTree = "<group>"; };
-		A4B9CE9D1F4D824F005F078C /* c033.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c033.sutra; sourceTree = "<group>"; };
-		A4B9CE9E1F4D824F005F078C /* c034.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c034.sutra; sourceTree = "<group>"; };
-		A4B9CE9F1F4D824F005F078C /* c035.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c035.sutra; sourceTree = "<group>"; };
-		A4B9CEA01F4D824F005F078C /* c036.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c036.sutra; sourceTree = "<group>"; };
-		A4B9CEA11F4D824F005F078C /* c037.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c037.sutra; sourceTree = "<group>"; };
-		A4B9CEA21F4D824F005F078C /* c038.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c038.sutra; sourceTree = "<group>"; };
-		A4B9CEA31F4D824F005F078C /* c039.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c039.sutra; sourceTree = "<group>"; };
-		A4B9CEA41F4D824F005F078C /* c040.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c040.sutra; sourceTree = "<group>"; };
-		A4B9CEA51F4D824F005F078C /* c041.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c041.sutra; sourceTree = "<group>"; };
-		A4B9CEA61F4D824F005F078C /* c042.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c042.sutra; sourceTree = "<group>"; };
-		A4B9CEA71F4D824F005F078C /* c043.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c043.sutra; sourceTree = "<group>"; };
-		A4B9CEA81F4D824F005F078C /* c044.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c044.sutra; sourceTree = "<group>"; };
-		A4B9CEA91F4D824F005F078C /* c045.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c045.sutra; sourceTree = "<group>"; };
-		A4B9CEAA1F4D824F005F078C /* c046.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = c046.sutra; sourceTree = "<group>"; };
 		A4C409451EF0CFDF0041F285 /* Sutra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sutra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C409491EF0CFDF0041F285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4C4094B1EF0CFDF0041F285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1068,6 +986,134 @@
 			path = BuddhistSong;
 			sourceTree = "<group>";
 		};
+		A42A9AC81FAB05F4009C7E1A /* One */ = {
+			isa = PBXGroup;
+			children = (
+				A42A9AC91FAB05F4009C7E1A /* c001.sutra */,
+				A42A9ACA1FAB05F4009C7E1A /* c002.sutra */,
+				A42A9ACB1FAB05F4009C7E1A /* c003.sutra */,
+				A42A9ACC1FAB05F4009C7E1A /* c004.sutra */,
+				A42A9ACD1FAB05F4009C7E1A /* c005.sutra */,
+				A42A9ACE1FAB05F4009C7E1A /* c006.sutra */,
+				A42A9ACF1FAB05F4009C7E1A /* c007.sutra */,
+				A42A9AD01FAB05F4009C7E1A /* c008.sutra */,
+				A42A9AD11FAB05F4009C7E1A /* c009.sutra */,
+				A42A9AD21FAB05F4009C7E1A /* c010.sutra */,
+				A42A9AD31FAB05F4009C7E1A /* c011.sutra */,
+				A42A9AD41FAB05F4009C7E1A /* c012.sutra */,
+				A42A9AD51FAB05F4009C7E1A /* c013.sutra */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		A42A9AD61FAB05F4009C7E1A /* Five */ = {
+			isa = PBXGroup;
+			children = (
+				A42A9AD71FAB05F4009C7E1A /* c080.sutra */,
+				A42A9AD81FAB05F4009C7E1A /* c081.sutra */,
+				A42A9AD91FAB05F4009C7E1A /* c082.sutra */,
+				A42A9ADA1FAB05F4009C7E1A /* c083.sutra */,
+				A42A9ADB1FAB05F4009C7E1A /* c084.sutra */,
+				A42A9ADC1FAB05F4009C7E1A /* c085.sutra */,
+				A42A9ADD1FAB05F4009C7E1A /* c086.sutra */,
+				A42A9ADE1FAB05F4009C7E1A /* c087.sutra */,
+				A42A9ADF1FAB05F4009C7E1A /* c088.sutra */,
+				A42A9AE01FAB05F4009C7E1A /* c089.sutra */,
+				A42A9AE11FAB05F4009C7E1A /* c090.sutra */,
+				A42A9AE21FAB05F4009C7E1A /* c091.sutra */,
+				A42A9AE31FAB05F4009C7E1A /* c092.sutra */,
+				A42A9AE41FAB05F4009C7E1A /* c093.sutra */,
+			);
+			path = Five;
+			sourceTree = "<group>";
+		};
+		A42A9AE51FAB05F4009C7E1A /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				A42A9AE61FAB05F4009C7E1A /* c014.sutra */,
+				A42A9AE71FAB05F4009C7E1A /* c015.sutra */,
+				A42A9AE81FAB05F4009C7E1A /* c016.sutra */,
+				A42A9AE91FAB05F4009C7E1A /* c017.sutra */,
+				A42A9AEA1FAB05F4009C7E1A /* c018.sutra */,
+				A42A9AEB1FAB05F4009C7E1A /* c019.sutra */,
+				A42A9AEC1FAB05F4009C7E1A /* c020.sutra */,
+				A42A9AED1FAB05F4009C7E1A /* c021.sutra */,
+				A42A9AEE1FAB05F4009C7E1A /* c022.sutra */,
+				A42A9AEF1FAB05F4009C7E1A /* c023.sutra */,
+				A42A9AF01FAB05F4009C7E1A /* c024.sutra */,
+				A42A9AF11FAB05F4009C7E1A /* c025.sutra */,
+				A42A9AF21FAB05F4009C7E1A /* c026.sutra */,
+				A42A9AF31FAB05F4009C7E1A /* c027.sutra */,
+				A42A9AF41FAB05F4009C7E1A /* c028.sutra */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		A42A9AF51FAB05F4009C7E1A /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				A42A9AF61FAB05F4009C7E1A /* c048.sutra */,
+				A42A9AF71FAB05F4009C7E1A /* c049.sutra */,
+				A42A9AF81FAB05F4009C7E1A /* c050.sutra */,
+				A42A9AF91FAB05F4009C7E1A /* c051.sutra */,
+				A42A9AFA1FAB05F4009C7E1A /* c052.sutra */,
+				A42A9AFB1FAB05F4009C7E1A /* c053.sutra */,
+				A42A9AFC1FAB05F4009C7E1A /* c054.sutra */,
+				A42A9AFD1FAB05F4009C7E1A /* c055.sutra */,
+				A42A9AFE1FAB05F4009C7E1A /* c056.sutra */,
+				A42A9AFF1FAB05F4009C7E1A /* c057.sutra */,
+				A42A9B001FAB05F4009C7E1A /* c058.sutra */,
+				A42A9B011FAB05F4009C7E1A /* c059.sutra */,
+				A42A9B021FAB05F4009C7E1A /* c060.sutra */,
+				A42A9B031FAB05F4009C7E1A /* c061.sutra */,
+				A42A9B041FAB05F4009C7E1A /* c062.sutra */,
+				A42A9B051FAB05F4009C7E1A /* c063.sutra */,
+				A42A9B061FAB05F4009C7E1A /* c064.sutra */,
+				A42A9B071FAB05F4009C7E1A /* c065.sutra */,
+				A42A9B081FAB05F4009C7E1A /* c066.sutra */,
+				A42A9B091FAB05F4009C7E1A /* c067.sutra */,
+				A42A9B0A1FAB05F4009C7E1A /* c068.sutra */,
+				A42A9B0B1FAB05F4009C7E1A /* c069.sutra */,
+				A42A9B0C1FAB05F4009C7E1A /* c070.sutra */,
+				A42A9B0D1FAB05F4009C7E1A /* c071.sutra */,
+				A42A9B0E1FAB05F4009C7E1A /* c072.sutra */,
+				A42A9B0F1FAB05F4009C7E1A /* c073.sutra */,
+				A42A9B101FAB05F4009C7E1A /* c074.sutra */,
+				A42A9B111FAB05F4009C7E1A /* c075.sutra */,
+				A42A9B121FAB05F4009C7E1A /* c076.sutra */,
+				A42A9B131FAB05F4009C7E1A /* c077.sutra */,
+				A42A9B141FAB05F4009C7E1A /* c078.sutra */,
+				A42A9B151FAB05F4009C7E1A /* c079.sutra */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
+		A42A9B161FAB05F4009C7E1A /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				A42A9B171FAB05F4009C7E1A /* c029.sutra */,
+				A42A9B181FAB05F4009C7E1A /* c030.sutra */,
+				A42A9B191FAB05F4009C7E1A /* c031.sutra */,
+				A42A9B1A1FAB05F4009C7E1A /* c032.sutra */,
+				A42A9B1B1FAB05F4009C7E1A /* c033.sutra */,
+				A42A9B1C1FAB05F4009C7E1A /* c034.sutra */,
+				A42A9B1D1FAB05F4009C7E1A /* c035.sutra */,
+				A42A9B1E1FAB05F4009C7E1A /* c036.sutra */,
+				A42A9B1F1FAB05F4009C7E1A /* c037.sutra */,
+				A42A9B201FAB05F4009C7E1A /* c038.sutra */,
+				A42A9B211FAB05F4009C7E1A /* c039.sutra */,
+				A42A9B221FAB05F4009C7E1A /* c040.sutra */,
+				A42A9B231FAB05F4009C7E1A /* c041.sutra */,
+				A42A9B241FAB05F4009C7E1A /* c042.sutra */,
+				A42A9B251FAB05F4009C7E1A /* c043.sutra */,
+				A42A9B261FAB05F4009C7E1A /* c044.sutra */,
+				A42A9B271FAB05F4009C7E1A /* c045.sutra */,
+				A42A9B281FAB05F4009C7E1A /* c046.sutra */,
+				A42A9B291FAB05F4009C7E1A /* c047.sutra */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
 		A44084781F03A9C1006A0F97 /* Ke */ = {
 			isa = PBXGroup;
 			children = (
@@ -1293,182 +1339,13 @@
 		A4B9CE211F4D824F005F078C /* Xue */ = {
 			isa = PBXGroup;
 			children = (
-				A4B9CE6B1F4D824F005F078C /* One */,
-				A4B9CE901F4D824F005F078C /* Two */,
-				A4B9CE801F4D824F005F078C /* Three */,
-				A4B9CE481F4D824F005F078C /* Four */,
-				A4B9CE221F4D824F005F078C /* Five */,
+				A42A9AC81FAB05F4009C7E1A /* One */,
+				A42A9AE51FAB05F4009C7E1A /* Two */,
+				A42A9B161FAB05F4009C7E1A /* Three */,
+				A42A9AF51FAB05F4009C7E1A /* Four */,
+				A42A9AD61FAB05F4009C7E1A /* Five */,
 			);
 			path = Xue;
-			sourceTree = "<group>";
-		};
-		A4B9CE221F4D824F005F078C /* Five */ = {
-			isa = PBXGroup;
-			children = (
-				A4B9CE231F4D824F005F078C /* c096.sutra */,
-				A4B9CE241F4D824F005F078C /* c097.sutra */,
-				A4B9CE251F4D824F005F078C /* c098.sutra */,
-				A4B9CE261F4D824F005F078C /* c099.sutra */,
-				A4B9CE271F4D824F005F078C /* c100.sutra */,
-				A4B9CE281F4D824F005F078C /* c101.sutra */,
-				A4B9CE291F4D824F005F078C /* c102.sutra */,
-				A4B9CE2A1F4D824F005F078C /* c103.sutra */,
-				A4B9CE2B1F4D824F005F078C /* c104.sutra */,
-				A4B9CE2C1F4D824F005F078C /* c105.sutra */,
-				A4B9CE2D1F4D824F005F078C /* c106.sutra */,
-				A4B9CE2E1F4D824F005F078C /* c107.sutra */,
-				A4B9CE2F1F4D824F005F078C /* c108.sutra */,
-				A4B9CE301F4D824F005F078C /* c109.sutra */,
-				A4B9CE311F4D824F005F078C /* c110.sutra */,
-				A4B9CE321F4D824F005F078C /* c111.sutra */,
-				A4B9CE331F4D824F005F078C /* c112.sutra */,
-				A4B9CE341F4D824F005F078C /* c113.sutra */,
-				A4B9CE351F4D824F005F078C /* c114.sutra */,
-				A4B9CE361F4D824F005F078C /* c115.sutra */,
-				A4B9CE371F4D824F005F078C /* c116.sutra */,
-				A4B9CE381F4D824F005F078C /* c117.sutra */,
-				A4B9CE391F4D824F005F078C /* c118.sutra */,
-				A4B9CE3A1F4D824F005F078C /* c119.sutra */,
-				A4B9CE3B1F4D824F005F078C /* c120.sutra */,
-				A4B9CE3C1F4D824F005F078C /* c121.sutra */,
-				A4B9CE3D1F4D824F005F078C /* c122.sutra */,
-				A4B9CE3E1F4D824F005F078C /* c123.sutra */,
-				A4B9CE3F1F4D824F005F078C /* c124.sutra */,
-				A4B9CE401F4D824F005F078C /* c125.sutra */,
-				A4B9CE411F4D824F005F078C /* c126.sutra */,
-				A4B9CE421F4D824F005F078C /* c127.sutra */,
-				A4B9CE431F4D824F005F078C /* c128.sutra */,
-				A4B9CE441F4D824F005F078C /* c129.sutra */,
-				A4B9CE451F4D824F005F078C /* c130.sutra */,
-				A4B9CE461F4D824F005F078C /* c131.sutra */,
-				A4B9CE471F4D824F005F078C /* c132.sutra */,
-			);
-			path = Five;
-			sourceTree = "<group>";
-		};
-		A4B9CE481F4D824F005F078C /* Four */ = {
-			isa = PBXGroup;
-			children = (
-				A4B9CE491F4D824F005F078C /* c062.sutra */,
-				A4B9CE4A1F4D824F005F078C /* c063.sutra */,
-				A4B9CE4B1F4D824F005F078C /* c064.sutra */,
-				A4B9CE4C1F4D824F005F078C /* c065.sutra */,
-				A4B9CE4D1F4D824F005F078C /* c066.sutra */,
-				A4B9CE4E1F4D824F005F078C /* c067.sutra */,
-				A4B9CE4F1F4D824F005F078C /* c068.sutra */,
-				A4B9CE501F4D824F005F078C /* c069.sutra */,
-				A4B9CE511F4D824F005F078C /* c070.sutra */,
-				A4B9CE521F4D824F005F078C /* c071.sutra */,
-				A4B9CE531F4D824F005F078C /* c072.sutra */,
-				A4B9CE541F4D824F005F078C /* c073.sutra */,
-				A4B9CE551F4D824F005F078C /* c074.sutra */,
-				A4B9CE561F4D824F005F078C /* c075.sutra */,
-				A4B9CE571F4D824F005F078C /* c076.sutra */,
-				A4B9CE581F4D824F005F078C /* c077.sutra */,
-				A4B9CE591F4D824F005F078C /* c078.sutra */,
-				A4B9CE5A1F4D824F005F078C /* c079.sutra */,
-				A4B9CE5B1F4D824F005F078C /* c080.sutra */,
-				A4B9CE5C1F4D824F005F078C /* c081.sutra */,
-				A4B9CE5D1F4D824F005F078C /* c082.sutra */,
-				A4B9CE5E1F4D824F005F078C /* c083.sutra */,
-				A4B9CE5F1F4D824F005F078C /* c084.sutra */,
-				A4B9CE601F4D824F005F078C /* c085.sutra */,
-				A4B9CE611F4D824F005F078C /* c086.sutra */,
-				A4B9CE621F4D824F005F078C /* c087.sutra */,
-				A4B9CE631F4D824F005F078C /* c088.sutra */,
-				A4B9CE641F4D824F005F078C /* c089.sutra */,
-				A4B9CE651F4D824F005F078C /* c090.sutra */,
-				A4B9CE661F4D824F005F078C /* c091.sutra */,
-				A4B9CE671F4D824F005F078C /* c092.sutra */,
-				A4B9CE681F4D824F005F078C /* c093.sutra */,
-				A4B9CE691F4D824F005F078C /* c094.sutra */,
-				A4B9CE6A1F4D824F005F078C /* c095.sutra */,
-			);
-			path = Four;
-			sourceTree = "<group>";
-		};
-		A4B9CE6B1F4D824F005F078C /* One */ = {
-			isa = PBXGroup;
-			children = (
-				4CF4EFED1F8157B50006168C /* c001.htm */,
-				A4B9CE6C1F4D824F005F078C /* c001.sutra */,
-				4CF4EFEF1F815C1F0006168C /* c002.html */,
-				A4B9CE6D1F4D824F005F078C /* c002.sutra */,
-				A4B9CE6E1F4D824F005F078C /* c003.sutra */,
-				A4B9CE6F1F4D824F005F078C /* c004.sutra */,
-				A4B9CE701F4D824F005F078C /* c005.sutra */,
-				A4B9CE711F4D824F005F078C /* c006.sutra */,
-				A4B9CE721F4D824F005F078C /* c007.sutra */,
-				A4B9CE731F4D824F005F078C /* c008.sutra */,
-				A4B9CE741F4D824F005F078C /* c009.sutra */,
-				A4B9CE751F4D824F005F078C /* c010.sutra */,
-				A4B9CE761F4D824F005F078C /* c011.sutra */,
-				A4B9CE771F4D824F005F078C /* c012.sutra */,
-				A4B9CE781F4D824F005F078C /* c013.sutra */,
-				A4B9CE791F4D824F005F078C /* c014.sutra */,
-				A4B9CE7A1F4D824F005F078C /* c015.sutra */,
-				A4B9CE7B1F4D824F005F078C /* c016.sutra */,
-				A4B9CE7C1F4D824F005F078C /* c017.sutra */,
-				A4B9CE7D1F4D824F005F078C /* c018.sutra */,
-				A4B9CE7E1F4D824F005F078C /* c019.sutra */,
-				A4B9CE7F1F4D824F005F078C /* c020.sutra */,
-			);
-			path = One;
-			sourceTree = "<group>";
-		};
-		A4B9CE801F4D824F005F078C /* Three */ = {
-			isa = PBXGroup;
-			children = (
-				A4B9CE811F4D824F005F078C /* c047.sutra */,
-				A4B9CE821F4D824F005F078C /* c048.sutra */,
-				A4B9CE831F4D824F005F078C /* c049.sutra */,
-				A4B9CE841F4D824F005F078C /* c050.sutra */,
-				A4B9CE851F4D824F005F078C /* c051.sutra */,
-				A4B9CE861F4D824F005F078C /* c052.sutra */,
-				A4B9CE871F4D824F005F078C /* c053.sutra */,
-				A4B9CE881F4D824F005F078C /* c054.sutra */,
-				A4B9CE891F4D824F005F078C /* c055.sutra */,
-				A4B9CE8A1F4D824F005F078C /* c056.sutra */,
-				A4B9CE8B1F4D824F005F078C /* c057.sutra */,
-				A4B9CE8C1F4D824F005F078C /* c058.sutra */,
-				A4B9CE8D1F4D824F005F078C /* c059.sutra */,
-				A4B9CE8E1F4D824F005F078C /* c060.sutra */,
-				A4B9CE8F1F4D824F005F078C /* c061.sutra */,
-			);
-			path = Three;
-			sourceTree = "<group>";
-		};
-		A4B9CE901F4D824F005F078C /* Two */ = {
-			isa = PBXGroup;
-			children = (
-				A4B9CE911F4D824F005F078C /* c021.sutra */,
-				A4B9CE921F4D824F005F078C /* c022.sutra */,
-				A4B9CE931F4D824F005F078C /* c023.sutra */,
-				A4B9CE941F4D824F005F078C /* c024.sutra */,
-				A4B9CE951F4D824F005F078C /* c025.sutra */,
-				A4B9CE961F4D824F005F078C /* c026.sutra */,
-				A4B9CE971F4D824F005F078C /* c027.sutra */,
-				A4B9CE981F4D824F005F078C /* c028.sutra */,
-				A4B9CE991F4D824F005F078C /* c029.sutra */,
-				A4B9CE9A1F4D824F005F078C /* c030.sutra */,
-				A4B9CE9B1F4D824F005F078C /* c031.sutra */,
-				A4B9CE9C1F4D824F005F078C /* c032.sutra */,
-				A4B9CE9D1F4D824F005F078C /* c033.sutra */,
-				A4B9CE9E1F4D824F005F078C /* c034.sutra */,
-				A4B9CE9F1F4D824F005F078C /* c035.sutra */,
-				A4B9CEA01F4D824F005F078C /* c036.sutra */,
-				A4B9CEA11F4D824F005F078C /* c037.sutra */,
-				A4B9CEA21F4D824F005F078C /* c038.sutra */,
-				A4B9CEA31F4D824F005F078C /* c039.sutra */,
-				A4B9CEA41F4D824F005F078C /* c040.sutra */,
-				A4B9CEA51F4D824F005F078C /* c041.sutra */,
-				A4B9CEA61F4D824F005F078C /* c042.sutra */,
-				A4B9CEA71F4D824F005F078C /* c043.sutra */,
-				A4B9CEA81F4D824F005F078C /* c044.sutra */,
-				A4B9CEA91F4D824F005F078C /* c045.sutra */,
-				A4B9CEAA1F4D824F005F078C /* c046.sutra */,
-			);
-			path = Two;
 			sourceTree = "<group>";
 		};
 		A4C4093C1EF0CFDF0041F285 = {
@@ -1851,205 +1728,167 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B9CEFA1F4D8250005F078C /* c009.sutra in Resources */,
-				A4B9CF1B1F4D8250005F078C /* c027.sutra in Resources */,
-				A4B9CF191F4D8250005F078C /* c025.sutra in Resources */,
-				A4B9CEDA1F4D824F005F078C /* c072.sutra in Resources */,
-				A4B9CF251F4D8250005F078C /* c037.sutra in Resources */,
 				A4DC08121F5E99AC0027450F /* e06.sutra in Resources */,
 				A476A5C31F5FC846008835A7 /* e53.files in Resources */,
-				A4B9CED31F4D824F005F078C /* c065.sutra in Resources */,
 				A4DC08011F5E99AC0027450F /* e01.sutra in Resources */,
-				A4B9CEB51F4D824F005F078C /* c106.sutra in Resources */,
 				A476A5BA1F5FC846008835A7 /* e44.files in Resources */,
-				A4B9CF0E1F4D8250005F078C /* c055.sutra in Resources */,
-				A4B9CF241F4D8250005F078C /* c036.sutra in Resources */,
+				A42A9B561FAB05F5009C7E1A /* c050.sutra in Resources */,
 				A41D94BA1F5406E100FB2E0F /* device_btn_add_nor@2x.png in Resources */,
-				A4B9CECA1F4D824F005F078C /* c127.sutra in Resources */,
 				A476A5B31F5FC846008835A7 /* e37.files in Resources */,
 				A4240C9E1F063273007A25A7 /* b11sgy.sutra in Resources */,
 				A4DC081F1F5E99AC0027450F /* e10.sutra in Resources */,
+				A42A9B6E1FAB05F5009C7E1A /* c074.sutra in Resources */,
 				A4DC08041F5E99AC0027450F /* e02.sutra in Resources */,
-				A4B9CEB91F4D824F005F078C /* c110.sutra in Resources */,
-				A4B9CF031F4D8250005F078C /* c018.sutra in Resources */,
 				A4DC08291F5E99AC0027450F /* e13.sutra in Resources */,
-				A4B9CEB31F4D824F005F078C /* c104.sutra in Resources */,
 				A476A5CC1F5FC846008835A7 /* e62.files in Resources */,
 				A4240C771F062E15007A25A7 /* b39dzpszy.sutra in Resources */,
-				A4B9CEE81F4D824F005F078C /* c086.sutra in Resources */,
 				A476A58F1F5FC846008835A7 /* e01.files in Resources */,
 				A4DC08E11F5E99AC0027450F /* e68.sutra in Resources */,
-				A4B9CEC61F4D824F005F078C /* c123.sutra in Resources */,
-				A4B9CEB21F4D824F005F078C /* c103.sutra in Resources */,
 				A4240CA51F063273007A25A7 /* b18fywj.sutra in Resources */,
-				A4B9CEC01F4D824F005F078C /* c117.sutra in Resources */,
 				A476A5AD1F5FC846008835A7 /* e31.files in Resources */,
 				A476A5951F5FC846008835A7 /* e07.files in Resources */,
 				A476A5A61F5FC846008835A7 /* e24.files in Resources */,
 				A476A5991F5FC846008835A7 /* e11.files in Resources */,
 				A4DC08661F5E99AC0027450F /* e32.sutra in Resources */,
+				A42A9B651FAB05F5009C7E1A /* c065.sutra in Resources */,
+				A42A9B371FAB05F5009C7E1A /* c080.sutra in Resources */,
 				A476A5BE1F5FC846008835A7 /* e48.files in Resources */,
-				A4B9CEEC1F4D824F005F078C /* c090.sutra in Resources */,
 				A476A5D01F5FC846008835A7 /* e66.files in Resources */,
+				A42A9B471FAB05F5009C7E1A /* c016.sutra in Resources */,
 				A4DC08181F5E99AC0027450F /* e08.sutra in Resources */,
 				A4DC083F1F5E99AC0027450F /* e20.sutra in Resources */,
 				A4DC08D71F5E99AC0027450F /* e65.sutra in Resources */,
-				A4B9CF0D1F4D8250005F078C /* c054.sutra in Resources */,
+				A42A9B671FAB05F5009C7E1A /* c067.sutra in Resources */,
 				A4240CA61F063273007A25A7 /* b19qlz.sutra in Resources */,
 				A41D94B41F5406AA00FB2E0F /* xue_default@2x.png in Resources */,
+				A42A9B381FAB05F5009C7E1A /* c081.sutra in Resources */,
 				A4DC08701F5E99AC0027450F /* e35.sutra in Resources */,
 				A4DC08E41F5E99AC0027450F /* e69.sutra in Resources */,
 				A476A5CD1F5FC846008835A7 /* e63.files in Resources */,
 				A4240C1F1F05F059007A25A7 /* a06hyj1.sutra in Resources */,
+				A42A9B4E1FAB05F5009C7E1A /* c023.sutra in Resources */,
 				A41D94AD1F5406AA00FB2E0F /* jing@2x.png in Resources */,
 				A4DC08841F5E99AC0027450F /* e41.sutra in Resources */,
-				A4B9CEF41F4D8250005F078C /* c003.sutra in Resources */,
 				A4DC08431F5E99AC0027450F /* e21.sutra in Resources */,
-				A4B9CEE71F4D824F005F078C /* c085.sutra in Resources */,
-				A4B9CEC21F4D824F005F078C /* c119.sutra in Resources */,
 				A4DC08741F5E99AC0027450F /* e36.sutra in Resources */,
 				A4240C6D1F062E15007A25A7 /* b29dhx.sutra in Resources */,
 				A4DC08761F5E99AC0027450F /* e37.sutra in Resources */,
+				A42A9B6D1FAB05F5009C7E1A /* c073.sutra in Resources */,
+				A42A9B6C1FAB05F5009C7E1A /* c072.sutra in Resources */,
 				A4240C231F05F059007A25A7 /* a02jgj.sutra in Resources */,
 				A4240C691F062E15007A25A7 /* b24yzjsz.sutra in Resources */,
-				A4B9CEC11F4D824F005F078C /* c118.sutra in Resources */,
-				A4B9CF2E1F4D8250005F078C /* c046.sutra in Resources */,
-				A4B9CF2D1F4D8250005F078C /* c045.sutra in Resources */,
+				A42A9B361FAB05F5009C7E1A /* c013.sutra in Resources */,
+				A42A9B4F1FAB05F5009C7E1A /* c024.sutra in Resources */,
 				A476A5AF1F5FC846008835A7 /* e33.files in Resources */,
+				A42A9B421FAB05F5009C7E1A /* c091.sutra in Resources */,
+				A42A9B751FAB05F5009C7E1A /* c030.sutra in Resources */,
 				A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */,
+				A42A9B401FAB05F5009C7E1A /* c089.sutra in Resources */,
+				A42A9B3D1FAB05F5009C7E1A /* c086.sutra in Resources */,
 				A4240C6F1F062E15007A25A7 /* b31sjmnzy.sutra in Resources */,
 				A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */,
-				A4B9CF111F4D8250005F078C /* c058.sutra in Resources */,
+				A42A9B321FAB05F5009C7E1A /* c009.sutra in Resources */,
 				A4DC08691F5E99AC0027450F /* e33.sutra in Resources */,
 				4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */,
 				A4DC085F1F5E99AC0027450F /* e30.sutra in Resources */,
 				A476A5451F5FC6C4008835A7 /* e73.sutra in Resources */,
-				A4B9CF1E1F4D8250005F078C /* c030.sutra in Resources */,
 				A476A59E1F5FC846008835A7 /* e16.files in Resources */,
 				A4DC08521F5E99AC0027450F /* e26.sutra in Resources */,
 				A4240C701F062E15007A25A7 /* b32ysfzy.sutra in Resources */,
-				A4B9CEBA1F4D824F005F078C /* c111.sutra in Resources */,
 				A476A5BC1F5FC846008835A7 /* e46.files in Resources */,
-				A4B9CF261F4D8250005F078C /* c038.sutra in Resources */,
 				A476A5BF1F5FC846008835A7 /* e49.files in Resources */,
-				A4B9CEEF1F4D824F005F078C /* c093.sutra in Resources */,
+				A42A9B451FAB05F5009C7E1A /* c014.sutra in Resources */,
 				A46D4EE61F50184500046F9A /* SLPJumpAlbumView.xib in Resources */,
-				A4B9CF291F4D8250005F078C /* c041.sutra in Resources */,
-				A4B9CEDC1F4D824F005F078C /* c074.sutra in Resources */,
 				A4DC08B51F5E99AC0027450F /* e55.sutra in Resources */,
-				A4B9CEFC1F4D8250005F078C /* c011.sutra in Resources */,
-				A4B9CF0A1F4D8250005F078C /* c051.sutra in Resources */,
 				A4240C7A1F062E15007A25A7 /* b42hxj.sutra in Resources */,
-				A4B9CEAF1F4D824F005F078C /* c100.sutra in Resources */,
+				A42A9B661FAB05F5009C7E1A /* c066.sutra in Resources */,
+				A42A9B511FAB05F5009C7E1A /* c026.sutra in Resources */,
 				A4DC08251F5E99AC0027450F /* e12.sutra in Resources */,
 				A476A5B01F5FC846008835A7 /* e34.files in Resources */,
+				A42A9B5F1FAB05F5009C7E1A /* c059.sutra in Resources */,
 				A4DC088B1F5E99AC0027450F /* e43.sutra in Resources */,
 				A41D94AF1F5406AA00FB2E0F /* ke@2x.png in Resources */,
+				A42A9B721FAB05F5009C7E1A /* c078.sutra in Resources */,
 				A476A5AC1F5FC846008835A7 /* e30.files in Resources */,
 				A4240C671F062E15007A25A7 /* b22zz.sutra in Resources */,
 				A476A5B11F5FC846008835A7 /* e35.files in Resources */,
-				A4B9CEE61F4D824F005F078C /* c084.sutra in Resources */,
-				A4B9CEC31F4D824F005F078C /* c120.sutra in Resources */,
 				A46D4ED51F5002AC00046F9A /* KeAlbumDetailCtrl.xib in Resources */,
 				A4240C991F063273007A25A7 /* b06xj.sutra in Resources */,
+				A42A9B2A1FAB05F5009C7E1A /* c001.sutra in Resources */,
 				A4240CA41F063273007A25A7 /* b17gwsh.sutra in Resources */,
-				A4B9CEED1F4D824F005F078C /* c091.sutra in Resources */,
-				4CF4EFEE1F815B910006168C /* c001.htm in Resources */,
 				A4240CA11F063273007A25A7 /* b14dchw.sutra in Resources */,
-				A4B9CF001F4D8250005F078C /* c015.sutra in Resources */,
-				A4B9CEEE1F4D824F005F078C /* c092.sutra in Resources */,
 				A4DC080F1F5E99AC0027450F /* e05.sutra in Resources */,
 				A4DC08CF1F5E99AC0027450F /* e63.sutra in Resources */,
 				A4240C9D1F063273007A25A7 /* b10fyws.sutra in Resources */,
 				A4240CA01F063273007A25A7 /* b13amtj.sutra in Resources */,
-				A4B9CF231F4D8250005F078C /* c035.sutra in Resources */,
-				A4B9CF171F4D8250005F078C /* c023.sutra in Resources */,
 				A476A5D71F5FC846008835A7 /* e73.files in Resources */,
 				A41D94AE1F5406AA00FB2E0F /* jing_default@2x.png in Resources */,
-				A4B9CEFD1F4D8250005F078C /* c012.sutra in Resources */,
-				A4B9CF131F4D8250005F078C /* c060.sutra in Resources */,
 				A4DC082C1F5E99AC0027450F /* e14.sutra in Resources */,
-				A4B9CF151F4D8250005F078C /* c021.sutra in Resources */,
-				A4B9CECF1F4D824F005F078C /* c132.sutra in Resources */,
-				A4B9CEDB1F4D824F005F078C /* c073.sutra in Resources */,
 				A4240C221F05F059007A25A7 /* a05fhj.sutra in Resources */,
 				A41D94AB1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png in Resources */,
 				A476A5AB1F5FC846008835A7 /* e29.files in Resources */,
+				A42A9B741FAB05F5009C7E1A /* c029.sutra in Resources */,
 				A4DC08BE1F5E99AC0027450F /* e58.sutra in Resources */,
-				A4B9CED61F4D824F005F078C /* c068.sutra in Resources */,
-				A4B9CEAC1F4D824F005F078C /* c097.sutra in Resources */,
 				A4240C941F063273007A25A7 /* b01xz.sutra in Resources */,
 				A4DC08491F5E99AC0027450F /* e23.sutra in Resources */,
-				A4B9CED01F4D824F005F078C /* c062.sutra in Resources */,
 				A4DC08B81F5E99AC0027450F /* e56.sutra in Resources */,
 				A4DC08901F5E99AC0027450F /* e45.sutra in Resources */,
 				A476A5A91F5FC846008835A7 /* e27.files in Resources */,
 				A4240C6B1F062E15007A25A7 /* b26nsh.sutra in Resources */,
+				A42A9B711FAB05F5009C7E1A /* c077.sutra in Resources */,
 				A49F0DD91EF2618700D96CBD /* Default-568h@2x.png in Resources */,
 				A4DC08941F5E99AC0027450F /* e46.sutra in Resources */,
-				4CF4EFF01F815C270006168C /* c002.html in Resources */,
 				A476A5CE1F5FC846008835A7 /* e64.files in Resources */,
 				A4240C761F062E15007A25A7 /* b38dszpszy.sutra in Resources */,
 				A4DC08DA1F5E99AC0027450F /* e66.sutra in Resources */,
-				A4B9CEEA1F4D824F005F078C /* c088.sutra in Resources */,
-				A4B9CF271F4D8250005F078C /* c039.sutra in Resources */,
+				A42A9B791FAB05F5009C7E1A /* c034.sutra in Resources */,
 				A476A5AE1F5FC846008835A7 /* e32.files in Resources */,
-				A4B9CF2A1F4D8250005F078C /* c042.sutra in Resources */,
 				A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */,
-				A4B9CF071F4D8250005F078C /* c048.sutra in Resources */,
+				A42A9B5E1FAB05F5009C7E1A /* c058.sutra in Resources */,
+				A42A9B501FAB05F5009C7E1A /* c025.sutra in Resources */,
 				A4240C241F05F059007A25A7 /* a01amtj.sutra in Resources */,
 				A44084881F03ACAF006A0F97 /* KeTitleCell.xib in Resources */,
-				A4B9CEE91F4D824F005F078C /* c087.sutra in Resources */,
-				A4B9CEFB1F4D8250005F078C /* c010.sutra in Resources */,
-				A4B9CF181F4D8250005F078C /* c024.sutra in Resources */,
+				A42A9B411FAB05F5009C7E1A /* c090.sutra in Resources */,
 				A44267521EF3D0380012BC7F /* YueViewController.xib in Resources */,
 				A4DC08DD1F5E99AC0027450F /* e67.sutra in Resources */,
 				A46D4EEB1F50186B00046F9A /* SLPCenterTitleCell.xib in Resources */,
 				A4522CEB1F554F34008222F8 /* YueTitleCell.xib in Resources */,
+				A42A9B341FAB05F5009C7E1A /* c011.sutra in Resources */,
 				A476A5C81F5FC846008835A7 /* e58.files in Resources */,
+				A42A9B2E1FAB05F5009C7E1A /* c005.sutra in Resources */,
 				A4DC08EF1F5E99AC0027450F /* e72.sutra in Resources */,
-				A4B9CF061F4D8250005F078C /* c047.sutra in Resources */,
 				A4DC08CC1F5E99AC0027450F /* e62.sutra in Resources */,
 				A476A5901F5FC846008835A7 /* e02.files in Resources */,
 				A476A5A21F5FC846008835A7 /* e20.files in Resources */,
 				A476A5C01F5FC846008835A7 /* e50.files in Resources */,
 				A476A59F1F5FC846008835A7 /* e17.files in Resources */,
+				A42A9B2C1FAB05F5009C7E1A /* c003.sutra in Resources */,
+				A42A9B801FAB05F5009C7E1A /* c041.sutra in Resources */,
 				A476A5D61F5FC846008835A7 /* e72.files in Resources */,
 				A476A5A41F5FC846008835A7 /* e22.files in Resources */,
 				A476A59B1F5FC846008835A7 /* e13.files in Resources */,
-				A4B9CF1A1F4D8250005F078C /* c026.sutra in Resources */,
-				A4B9CF1C1F4D8250005F078C /* c028.sutra in Resources */,
-				A4B9CF141F4D8250005F078C /* c061.sutra in Resources */,
 				A4240C9F1F063273007A25A7 /* b12zgyw.sutra in Resources */,
-				A4B9CEF11F4D8250005F078C /* c095.sutra in Resources */,
-				A4B9CF221F4D8250005F078C /* c034.sutra in Resources */,
-				A4B9CEF51F4D8250005F078C /* c004.sutra in Resources */,
 				A4DC05041F5E8D330027450F /* temple@2x.png in Resources */,
-				A4B9CEFF1F4D8250005F078C /* c014.sutra in Resources */,
+				A42A9B771FAB05F5009C7E1A /* c032.sutra in Resources */,
 				A476A5D51F5FC846008835A7 /* e71.files in Resources */,
+				A42A9B761FAB05F5009C7E1A /* c031.sutra in Resources */,
 				A4409DB41F6787010098D5D6 /* XueChapterDetailViewController.xib in Resources */,
-				A4B9CEB11F4D824F005F078C /* c102.sutra in Resources */,
-				A4B9CEFE1F4D8250005F078C /* c013.sutra in Resources */,
-				A4B9CEF71F4D8250005F078C /* c006.sutra in Resources */,
-				A4B9CEE41F4D824F005F078C /* c082.sutra in Resources */,
-				A4B9CEE51F4D824F005F078C /* c083.sutra in Resources */,
 				A4DC08581F5E99AC0027450F /* e28.sutra in Resources */,
+				A42A9B3A1FAB05F5009C7E1A /* c083.sutra in Resources */,
 				A4F578C31F5937E700EDE8A9 /* LibraryVideoViewController.xib in Resources */,
 				A4DC08AD1F5E99AC0027450F /* e53.sutra in Resources */,
 				A476A5971F5FC846008835A7 /* e09.files in Resources */,
-				A4B9CF0C1F4D8250005F078C /* c053.sutra in Resources */,
+				A42A9B3E1FAB05F5009C7E1A /* c087.sutra in Resources */,
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
+				A42A9B851FAB05F5009C7E1A /* c046.sutra in Resources */,
 				A4DC08D31F5E99AC0027450F /* e64.sutra in Resources */,
-				A4B9CF051F4D8250005F078C /* c020.sutra in Resources */,
 				A41D94B01F5406AA00FB2E0F /* ke_default@2x.png in Resources */,
-				A4B9CEE01F4D824F005F078C /* c078.sutra in Resources */,
 				A476A5B21F5FC846008835A7 /* e36.files in Resources */,
 				A4240C6A1F062E15007A25A7 /* b25hxz.sutra in Resources */,
 				A4240C7C1F062E15007A25A7 /* b44bszy.sutra in Resources */,
 				A4DC08A31F5E99AC0027450F /* e50.sutra in Resources */,
 				A4DC08C81F5E99AC0027450F /* e61.sutra in Resources */,
 				4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */,
-				A4B9CED51F4D824F005F078C /* c067.sutra in Resources */,
 				A476A5A71F5FC846008835A7 /* e25.files in Resources */,
 				A4240CA81F063273007A25A7 /* b21wtz.sutra in Resources */,
 				A41D94B11F5406AA00FB2E0F /* tu@2x.png in Resources */,
@@ -2060,163 +1899,160 @@
 				A4DC086C1F5E99AC0027450F /* e34.sutra in Resources */,
 				A476A5C61F5FC846008835A7 /* e56.files in Resources */,
 				A476A59A1F5FC846008835A7 /* e12.files in Resources */,
+				A42A9B591FAB05F5009C7E1A /* c053.sutra in Resources */,
 				A476A5B91F5FC846008835A7 /* e43.files in Resources */,
+				A42A9B4D1FAB05F5009C7E1A /* c022.sutra in Resources */,
 				A4240C781F062E15007A25A7 /* b40gydsz.sutra in Resources */,
+				A42A9B7B1FAB05F5009C7E1A /* c036.sutra in Resources */,
 				A476A5981F5FC846008835A7 /* e10.files in Resources */,
-				A4B9CEBF1F4D824F005F078C /* c116.sutra in Resources */,
+				A42A9B701FAB05F5009C7E1A /* c076.sutra in Resources */,
+				A42A9B611FAB05F5009C7E1A /* c061.sutra in Resources */,
 				A4DC08A61F5E99AC0027450F /* e51.sutra in Resources */,
 				A4DC087A1F5E99AC0027450F /* e38.sutra in Resources */,
-				A4B9CF0B1F4D8250005F078C /* c052.sutra in Resources */,
+				A42A9B831FAB05F5009C7E1A /* c044.sutra in Resources */,
+				A42A9B7C1FAB05F5009C7E1A /* c037.sutra in Resources */,
+				A42A9B5C1FAB05F5009C7E1A /* c056.sutra in Resources */,
+				A42A9B5D1FAB05F5009C7E1A /* c057.sutra in Resources */,
 				A4DC08B11F5E99AC0027450F /* e54.sutra in Resources */,
+				A42A9B3F1FAB05F5009C7E1A /* c088.sutra in Resources */,
 				A476A5C91F5FC846008835A7 /* e59.files in Resources */,
+				A42A9B631FAB05F5009C7E1A /* c063.sutra in Resources */,
+				A42A9B6F1FAB05F5009C7E1A /* c075.sutra in Resources */,
 				A4240C6E1F062E15007A25A7 /* b30lsdl.sutra in Resources */,
-				A4B9CF091F4D8250005F078C /* c050.sutra in Resources */,
-				A4B9CEF81F4D8250005F078C /* c007.sutra in Resources */,
-				A4B9CF101F4D8250005F078C /* c057.sutra in Resources */,
-				A4B9CF1D1F4D8250005F078C /* c029.sutra in Resources */,
+				A42A9B3C1FAB05F5009C7E1A /* c085.sutra in Resources */,
 				A4240C741F062E15007A25A7 /* b36pxpszy.sutra in Resources */,
-				A4B9CED91F4D824F005F078C /* c071.sutra in Resources */,
 				A476A5D21F5FC846008835A7 /* e68.files in Resources */,
 				A4240C721F062E15007A25A7 /* b34mlfzy.sutra in Resources */,
+				A42A9B351FAB05F5009C7E1A /* c012.sutra in Resources */,
+				A42A9B6A1FAB05F5009C7E1A /* c070.sutra in Resources */,
 				A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */,
 				A476A5CB1F5FC846008835A7 /* e61.files in Resources */,
 				A4240C711F062E15007A25A7 /* b33amtfzy.sutra in Resources */,
+				A42A9B621FAB05F5009C7E1A /* c062.sutra in Resources */,
 				A49F0DDD1EF2625D00D96CBD /* Default-2208.png in Resources */,
-				A4B9CED71F4D824F005F078C /* c069.sutra in Resources */,
+				A42A9B5A1FAB05F5009C7E1A /* c054.sutra in Resources */,
 				A476A5931F5FC846008835A7 /* e05.files in Resources */,
 				A4DC085C1F5E99AC0027450F /* e29.sutra in Resources */,
-				A4B9CECE1F4D824F005F078C /* c131.sutra in Resources */,
-				A4B9CF041F4D8250005F078C /* c019.sutra in Resources */,
-				A4B9CEC81F4D824F005F078C /* c125.sutra in Resources */,
 				A49F0DDA1EF2618700D96CBD /* Default.png in Resources */,
-				A4B9CEC91F4D824F005F078C /* c126.sutra in Resources */,
 				A4240C201F05F059007A25A7 /* a03xj.sutra in Resources */,
+				A42A9B461FAB05F5009C7E1A /* c015.sutra in Resources */,
 				A4DC08981F5E99AC0027450F /* e47.sutra in Resources */,
 				A476A5B41F5FC846008835A7 /* e38.files in Resources */,
-				A4B9CF0F1F4D8250005F078C /* c056.sutra in Resources */,
 				A476A5A11F5FC846008835A7 /* e19.files in Resources */,
 				A41D94BB1F5406E100FB2E0F /* device_btn_add_nor@3x.png in Resources */,
-				A4B9CEC41F4D824F005F078C /* c121.sutra in Resources */,
-				A4B9CF211F4D8250005F078C /* c033.sutra in Resources */,
+				A42A9B301FAB05F5009C7E1A /* c007.sutra in Resources */,
 				A476A5B71F5FC846008835A7 /* e41.files in Resources */,
 				4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */,
-				A4B9CEE11F4D824F005F078C /* c079.sutra in Resources */,
 				A476A5A81F5FC846008835A7 /* e26.files in Resources */,
+				A42A9B4B1FAB05F5009C7E1A /* c020.sutra in Resources */,
 				A4240C9B1F063273007A25A7 /* b08zfj.sutra in Resources */,
 				A4DC08C41F5E99AC0027450F /* e60.sutra in Resources */,
-				A4B9CEDF1F4D824F005F078C /* c077.sutra in Resources */,
-				A4B9CF021F4D8250005F078C /* c017.sutra in Resources */,
-				A4B9CEB61F4D824F005F078C /* c107.sutra in Resources */,
-				A4B9CEF31F4D8250005F078C /* c002.sutra in Resources */,
+				A42A9B841FAB05F5009C7E1A /* c045.sutra in Resources */,
 				A4DC08301F5E99AC0027450F /* e15.sutra in Resources */,
-				A4B9CF081F4D8250005F078C /* c049.sutra in Resources */,
 				A476A5CA1F5FC846008835A7 /* e60.files in Resources */,
-				A4B9CEEB1F4D824F005F078C /* c089.sutra in Resources */,
+				A42A9B641FAB05F5009C7E1A /* c064.sutra in Resources */,
 				A4240C6C1F062E15007A25A7 /* b28wswqhx.sutra in Resources */,
-				A4B9CEB71F4D824F005F078C /* c108.sutra in Resources */,
 				A4DC08801F5E99AC0027450F /* e40.sutra in Resources */,
-				A4B9CED21F4D824F005F078C /* c064.sutra in Resources */,
+				A42A9B781FAB05F5009C7E1A /* c033.sutra in Resources */,
 				A4240C731F062E15007A25A7 /* b35gypszy.sutra in Resources */,
+				A42A9B811FAB05F5009C7E1A /* c042.sutra in Resources */,
+				A42A9B571FAB05F5009C7E1A /* c051.sutra in Resources */,
 				A4240C9C1F063273007A25A7 /* b09nsh.sutra in Resources */,
 				A4DC084F1F5E99AC0027450F /* e25.sutra in Resources */,
 				A476A5D41F5FC846008835A7 /* e70.files in Resources */,
 				A4240C751F062E15007A25A7 /* b37wspszy.sutra in Resources */,
 				4C1FB79D1F166BDA002212EF /* Default-1334.png in Resources */,
 				A476A5CF1F5FC846008835A7 /* e65.files in Resources */,
-				A4B9CEBD1F4D824F005F078C /* c114.sutra in Resources */,
-				A4B9CEC51F4D824F005F078C /* c122.sutra in Resources */,
+				A42A9B331FAB05F5009C7E1A /* c010.sutra in Resources */,
+				A42A9B431FAB05F5009C7E1A /* c092.sutra in Resources */,
 				A476A59C1F5FC846008835A7 /* e14.files in Resources */,
 				A4DC08151F5E99AC0027450F /* e07.sutra in Resources */,
 				A41D94B51F5406AA00FB2E0F /* yue@2x.png in Resources */,
 				A4DC089C1F5E99AC0027450F /* e48.sutra in Resources */,
-				A4B9CEF91F4D8250005F078C /* c008.sutra in Resources */,
 				A476A5B81F5FC846008835A7 /* e42.files in Resources */,
+				A42A9B391FAB05F5009C7E1A /* c082.sutra in Resources */,
 				A476A5C51F5FC846008835A7 /* e55.files in Resources */,
-				A4B9CF161F4D8250005F078C /* c022.sutra in Resources */,
-				A4B9CEE21F4D824F005F078C /* c080.sutra in Resources */,
 				A4DC08381F5E99AC0027450F /* e18.sutra in Resources */,
-				A4B9CECB1F4D824F005F078C /* c128.sutra in Resources */,
 				A476A5921F5FC846008835A7 /* e04.files in Resources */,
+				A42A9B691FAB05F5009C7E1A /* c069.sutra in Resources */,
 				A476A5A51F5FC846008835A7 /* e23.files in Resources */,
-				A4B9CECC1F4D824F005F078C /* c129.sutra in Resources */,
 				A4240CA71F063273007A25A7 /* b20jzj.sutra in Resources */,
-				A4B9CEAD1F4D824F005F078C /* c098.sutra in Resources */,
+				A42A9B531FAB05F5009C7E1A /* c028.sutra in Resources */,
 				A4DC08AA1F5E99AC0027450F /* e52.sutra in Resources */,
+				A42A9B821FAB05F5009C7E1A /* c043.sutra in Resources */,
 				A4240C7B1F062E15007A25A7 /* b43zfpsdate.sutra in Resources */,
 				A4DC080B1F5E99AC0027450F /* e04.sutra in Resources */,
-				A4B9CEF61F4D8250005F078C /* c005.sutra in Resources */,
+				A42A9B521FAB05F5009C7E1A /* c027.sutra in Resources */,
+				A42A9B601FAB05F5009C7E1A /* c060.sutra in Resources */,
+				A42A9B7A1FAB05F5009C7E1A /* c035.sutra in Resources */,
 				A4240C9A1F063273007A25A7 /* b07hxj.sutra in Resources */,
+				A42A9B7E1FAB05F5009C7E1A /* c039.sutra in Resources */,
 				A4DC08551F5E99AC0027450F /* e27.sutra in Resources */,
-				A4B9CF2B1F4D8250005F078C /* c043.sutra in Resources */,
+				A42A9B541FAB05F5009C7E1A /* c048.sutra in Resources */,
 				A4DC084C1F5E99AC0027450F /* e24.sutra in Resources */,
 				A4DC08A01F5E99AC0027450F /* e49.sutra in Resources */,
+				A42A9B2F1FAB05F5009C7E1A /* c006.sutra in Resources */,
+				A42A9B311FAB05F5009C7E1A /* c008.sutra in Resources */,
 				A4DC08351F5E99AC0027450F /* e17.sutra in Resources */,
 				A4DC08871F5E99AC0027450F /* e42.sutra in Resources */,
+				A42A9B5B1FAB05F5009C7E1A /* c055.sutra in Resources */,
 				A476A5941F5FC846008835A7 /* e06.files in Resources */,
+				A42A9B861FAB05F5009C7E1A /* c047.sutra in Resources */,
+				A42A9B551FAB05F5009C7E1A /* c049.sutra in Resources */,
 				A4240C1E1F05F059007A25A7 /* a04lztj.sutra in Resources */,
-				A4B9CEF21F4D8250005F078C /* c001.sutra in Resources */,
-				A4B9CEB41F4D824F005F078C /* c105.sutra in Resources */,
-				A4B9CEDE1F4D824F005F078C /* c076.sutra in Resources */,
 				A4240C971F063273007A25A7 /* b04dbz.sutra in Resources */,
 				A476A5A01F5FC846008835A7 /* e18.files in Resources */,
+				A42A9B581FAB05F5009C7E1A /* c052.sutra in Resources */,
 				A4DC08081F5E99AC0027450F /* e03.sutra in Resources */,
+				A42A9B2D1FAB05F5009C7E1A /* c004.sutra in Resources */,
+				A42A9B731FAB05F5009C7E1A /* c079.sutra in Resources */,
 				A476A5B51F5FC846008835A7 /* e39.files in Resources */,
+				A42A9B6B1FAB05F5009C7E1A /* c071.sutra in Resources */,
 				A4240C211F05F059007A25A7 /* a07wlsj.sutra in Resources */,
 				A4DC081B1F5E99AC0027450F /* e09.sutra in Resources */,
 				A4240C681F062E15007A25A7 /* b23wz.sutra in Resources */,
 				A4240C981F063273007A25A7 /* b05sxz.sutra in Resources */,
-				A4B9CECD1F4D824F005F078C /* c130.sutra in Resources */,
 				A41D94B31F5406AA00FB2E0F /* xue@2x.png in Resources */,
+				A42A9B7F1FAB05F5009C7E1A /* c040.sutra in Resources */,
 				A476A5961F5FC846008835A7 /* e08.files in Resources */,
-				A4B9CEC71F4D824F005F078C /* c124.sutra in Resources */,
 				A476A5D11F5FC846008835A7 /* e67.files in Resources */,
 				A4C409551EF0CFDF0041F285 /* Assets.xcassets in Resources */,
-				A4B9CEB01F4D824F005F078C /* c101.sutra in Resources */,
-				A4B9CF281F4D8250005F078C /* c040.sutra in Resources */,
-				A4B9CEBB1F4D824F005F078C /* c112.sutra in Resources */,
-				A4B9CF121F4D8250005F078C /* c059.sutra in Resources */,
+				A42A9B2B1FAB05F5009C7E1A /* c002.sutra in Resources */,
 				A476A5AA1F5FC846008835A7 /* e28.files in Resources */,
-				A4B9CEBC1F4D824F005F078C /* c113.sutra in Resources */,
 				A41D94B61F5406AA00FB2E0F /* yue_default@2x.png in Resources */,
+				A42A9B4C1FAB05F5009C7E1A /* c021.sutra in Resources */,
 				A4DC08321F5E99AC0027450F /* e16.sutra in Resources */,
+				A42A9B7D1FAB05F5009C7E1A /* c038.sutra in Resources */,
 				A4DC08621F5E99AC0027450F /* e31.sutra in Resources */,
 				A476A5911F5FC846008835A7 /* e03.files in Resources */,
 				A4DC08EB1F5E99AC0027450F /* e71.sutra in Resources */,
-				A4B9CF1F1F4D8250005F078C /* c031.sutra in Resources */,
 				A476A5C71F5FC846008835A7 /* e57.files in Resources */,
+				A42A9B681FAB05F5009C7E1A /* c068.sutra in Resources */,
 				A476A5D31F5FC846008835A7 /* e69.files in Resources */,
 				A44084801F03A9E8006A0F97 /* KeViewController.xib in Resources */,
 				A476A5BD1F5FC846008835A7 /* e47.files in Resources */,
 				A476A5BB1F5FC846008835A7 /* e45.files in Resources */,
+				A42A9B4A1FAB05F5009C7E1A /* c019.sutra in Resources */,
+				A42A9B441FAB05F5009C7E1A /* c093.sutra in Resources */,
 				A4240CA21F063273007A25A7 /* b15msss.sutra in Resources */,
-				A4B9CEB81F4D824F005F078C /* c109.sutra in Resources */,
+				A42A9B481FAB05F5009C7E1A /* c017.sutra in Resources */,
 				A476A5A31F5FC846008835A7 /* e21.files in Resources */,
-				A4B9CF2C1F4D8250005F078C /* c044.sutra in Resources */,
 				A476A5B61F5FC846008835A7 /* e40.files in Resources */,
 				A4240C961F063273007A25A7 /* b03lyz.sutra in Resources */,
 				A476A5C11F5FC846008835A7 /* e51.files in Resources */,
-				A4B9CEDD1F4D824F005F078C /* c075.sutra in Resources */,
+				A42A9B491FAB05F5009C7E1A /* c018.sutra in Resources */,
 				A4240C791F062E15007A25A7 /* b41bqzy.sutra in Resources */,
-				A4B9CEF01F4D8250005F078C /* c094.sutra in Resources */,
 				A4240C951F063273007A25A7 /* b02bdz.sutra in Resources */,
 				A4DC08BA1F5E99AC0027450F /* e57.sutra in Resources */,
 				A4DC087E1F5E99AC0027450F /* e39.sutra in Resources */,
 				A476A5C41F5FC846008835A7 /* e54.files in Resources */,
-				A4B9CED81F4D824F005F078C /* c070.sutra in Resources */,
-				A4B9CEE31F4D824F005F078C /* c081.sutra in Resources */,
 				A4DC08221F5E99AC0027450F /* e11.sutra in Resources */,
-				A4B9CED41F4D824F005F078C /* c066.sutra in Resources */,
+				A42A9B3B1FAB05F5009C7E1A /* c084.sutra in Resources */,
 				A4DC083C1F5E99AC0027450F /* e19.sutra in Resources */,
 				A4240CA31F063273007A25A7 /* b16wsz.sutra in Resources */,
-				A4B9CEBE1F4D824F005F078C /* c115.sutra in Resources */,
 				A476A59D1F5FC846008835A7 /* e15.files in Resources */,
-				A4B9CEAB1F4D824F005F078C /* c096.sutra in Resources */,
-				A4B9CF201F4D8250005F078C /* c032.sutra in Resources */,
-				A4B9CF011F4D8250005F078C /* c016.sutra in Resources */,
-				A4B9CEAE1F4D824F005F078C /* c099.sutra in Resources */,
 				A4DC08C11F5E99AC0027450F /* e59.sutra in Resources */,
 				A4DC08E81F5E99AC0027450F /* e70.sutra in Resources */,
-				A4B9CED11F4D824F005F078C /* c063.sutra in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
