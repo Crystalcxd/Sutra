@@ -20,7 +20,16 @@
     [_Jing addObject:@{@"name":@"法华经",@"url":@"a05fhj.sutra"}];
     [_Jing addObject:@{@"name":@"华严经卷一",@"url":@"a06hyj1.sutra"}];
     [_Jing addObject:@{@"name":@"无量寿经",@"url":@"a07wlsj.sutra"}];
-    
+    [_Jing addObject:@{@"name":@"地藏菩萨本愿经",@"url":@"a08dzpsbyj.sutra"}];
+    [_Jing addObject:@{@"name":@"楞严经",@"url":@"a09lyj.sutra"}];
+    [_Jing addObject:@{@"name":@"梵网经",@"url":@"a10fwj.sutra"}];
+    [_Jing addObject:@{@"name":@"金光明经",@"url":@"a11jgmj.sutra"}];
+    [_Jing addObject:@{@"name":@"解深密经",@"url":@"a12jsmj.sutra"}];
+    [_Jing addObject:@{@"name":@"楞伽经",@"url":@"a13ljj.sutra"}];
+    [_Jing addObject:@{@"name":@"四十二章经",@"url":@"a14ssezj.sutra"}];
+    [_Jing addObject:@{@"name":@"维摩诘经",@"url":@"a15wmjj.sutra"}];
+    [_Jing addObject:@{@"name":@"圆觉经",@"url":@"a16yjj.sutra"}];
+
     return _Jing;
 }
 
@@ -29,16 +38,16 @@
     NSMutableArray *_KeAlbum= [[NSMutableArray alloc] init];
     
     [_KeAlbum addObject:@{@"name":@"香赞",@"url":@"b01xz.sutra"}];
-    [_KeAlbum addObject:@{@"name":@"宝鼎赞",@"url":@"b02bdz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"宝鼎赞（音）",@"url":@"b02bdz.sutra"}];
     [_KeAlbum addObject:@{@"name":@"楞严咒",@"url":@"b03lyz.sutra"}];
-    [_KeAlbum addObject:@{@"name":@"大悲咒",@"url":@"b04dbz.sutra"}];
-    [_KeAlbum addObject:@{@"name":@"十小咒",@"url":@"b05sxz.sutra"}];
-    [_KeAlbum addObject:@{@"name":@"心经",@"url":@"b06xj.sutra"}];
-    [_KeAlbum addObject:@{@"name":@"回向偈",@"url":@"b07hxj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"大悲咒（音）",@"url":@"b04dbz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"十小咒（音）",@"url":@"b05sxz.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"心经（音）",@"url":@"b06xj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"回向偈（音）",@"url":@"b07hxj.sutra"}];
     [_KeAlbum addObject:@{@"name":@"赞佛偈",@"url":@"b08zfj.sutra"}];
     [_KeAlbum addObject:@{@"name":@"念圣号",@"url":@"b09nsh.sutra"}];
     [_KeAlbum addObject:@{@"name":@"发愿文普贤十大愿王",@"url":@"b10fyws.sutra"}];
-    [_KeAlbum addObject:@{@"name":@"三皈依",@"url":@"b11sgy.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"三皈依（音）",@"url":@"b11sgy.sutra"}];
     [_KeAlbum addObject:@{@"name":@"赞观音文",@"url":@"b12zgyw.sutra"}];
     [_KeAlbum addObject:@{@"name":@"阿弥陀经",@"url":@"b13amtj.sutra"}];
     [_KeAlbum addObject:@{@"name":@"礼佛大忏悔文",@"url":@"b14dchw.sutra"}];
@@ -184,78 +193,53 @@
                ,@{@"name":@"中国名寺之大悲禅院",@"url":@"c046.sutra"}
                ,@{@"name":@"中国名寺之大昭寺",@"url":@"c047.sutra"}];
     
-    jiaoyi  = @[@{@"name":@"佛教教义-缘起",@"url":@"c062.sutra"}
-                ,@{@"name":@"关于缘起的创奇故事",@"url":@"c063.sutra"}
-                ,@{@"name":@"佛教教义-法印	",@"url":@"c064.sutra"}
-                ,@{@"name":@"关于法印的创奇故事",@"url":@"c065.sutra"}
-                ,@{@"name":@"佛教教义-四谛	",@"url":@"c066.sutra"}
-                ,@{@"name":@"关于四谛的创奇故事",@"url":@"c067.sutra"}
-                ,@{@"name":@"佛教教义-八正道",@"url":@"c068.sutra"}
-                ,@{@"name":@"关于八正道的创奇故事",@"url":@"c069.sutra"}
-                ,@{@"name":@"佛教教义-十二因缘",@"url":@"c070.sutra"}
-                ,@{@"name":@"佛教教义-因果业报",@"url":@"c071.sutra"}
-                ,@{@"name":@"关于因果业报的创奇故事",@"url":@"c072.sutra"}
-                ,@{@"name":@"佛教教义-三界六道",@"url":@"c073.sutra"}
-                ,@{@"name":@"佛教教义-三十七道品",@"url":@"c074.sutra"}
-                ,@{@"name":@"佛教教义-涅盘",@"url":@"c075.sutra"}
-                ,@{@"name":@"关于涅盘的创奇故事",@"url":@"c076.sutra"}
-                ,@{@"name":@"经律论三藏基本分类",@"url":@"c077.sutra"}
-                ,@{@"name":@"经律论三藏的形成过程",@"url":@"c078.sutra"}
-                ,@{@"name":@"香严智闲禅师的传奇故事",@"url":@"c079.sutra"}
-                ,@{@"name":@"汉文佛经的翻译的概述",@"url":@"c080.sutra"}
-                ,@{@"name":@"汉文佛经在东汉初创翻译时期",@"url":@"c081.sutra"}
-                ,@{@"name":@"汉文佛经在东晋、隋代官方翻译时期",@"url":@"c082.sutra"}
-                ,@{@"name":@"汉文佛经在唐代全盛翻译时期",@"url":@"c083.sutra"}
-                ,@{@"name":@"汉文佛经在宋代以后刻本翻译时期",@"url":@"c084.sutra"}
-                ,@{@"name":@"经典佛经之《般若波罗蜜多心经》",@"url":@"c085.sutra"}
-                ,@{@"name":@"经典佛经之《金刚般若波罗蜜经》、《楞严经》、《妙法莲华经》",@"url":@"c086.sutra"}
-                ,@{@"name":@"经典佛经之《大方广佛华严经》",@"url":@"c087.sutra"}
-                ,@{@"name":@"经典佛经之《阿弥陀经》、《无量寿经》、《观无量寿经》",@"url":@"c088.sutra"}
-                ,@{@"name":@"经典佛经之《长阿含经》",@"url":@"c089.sutra"}
-                ,@{@"name":@"经典佛经之《地藏菩萨本愿经》",@"url":@"c090.sutra"}
-                ,@{@"name":@"五大译经师之鸠摩罗什",@"url":@"c091.sutra"}
-                ,@{@"name":@"五大译经师之真谛三藏法师",@"url":@"c092.sutra"}
-                ,@{@"name":@"五大译经师之玄奘三藏法师",@"url":@"c093.sutra"}
-                ,@{@"name":@"五大译经师之义净三藏法师",@"url":@"c094.sutra"}
-                ,@{@"name":@"五大译经师之不空三藏法师",@"url":@"c095.sutra"}];
+    jiaoyi  = @[@{@"name":@"佛教教义-缘起",@"url":@"c048.sutra"}
+                ,@{@"name":@"佛教教义——三法印、三皈依、三学",@"url":@"c049.sutra"}
+                ,@{@"name":@"佛教教义——四谛",@"url":@"c050.sutra"}
+                ,@{@"name":@"佛教教义——四谛二重因果、四大皆空",@"url":@"c051.sutra"}
+                ,@{@"name":@"佛教教义-八正道",@"url":@"c052.sutra"}
+                ,@{@"name":@"佛教教义-十二因缘",@"url":@"c053.sutra"}
+                ,@{@"name":@"佛教教义-十二因缘",@"url":@"c054.sutra"}
+                ,@{@"name":@"佛教教义-三界六道、三十七道品",@"url":@"c055.sutra"}
+                ,@{@"name":@"佛教教义-涅盘",@"url":@"c056.sutra"}
+                ,@{@"name":@"什么是佛经",@"url":@"c057.sutra"}
+                ,@{@"name":@"佛经的形成过程",@"url":@"c058.sutra"}
+                ,@{@"name":@"佛经在中国的传播",@"url":@"c059.sutra"}
+                ,@{@"name":@"佛经的基本结构",@"url":@"c060.sutra"}
+                ,@{@"name":@"三分科经",@"url":@"c061.sutra"}
+                ,@{@"name":@"佛经的因缘",@"url":@"c062.sutra"}
+                ,@{@"name":@"佛经的正文",@"url":@"c063.sutra"}
+                ,@{@"name":@"佛经的结语",@"url":@"c064.sutra"}
+                ,@{@"name":@"中国历代刻印本大藏经简介",@"url":@"c065.sutra"}
+                ,@{@"name":@"研读佛经的基础工具书",@"url":@"c066.sutra"}
+                ,@{@"name":@"经典佛经之《般若波罗蜜多心经》",@"url":@"c067.sutra"}
+                ,@{@"name":@"经典佛经之《金刚般若波罗蜜经》",@"url":@"c068.sutra"}
+                ,@{@"name":@"经典佛经之《楞严经》",@"url":@"c069.sutra"}
+                ,@{@"name":@"经典佛经之《妙法莲华经》",@"url":@"c070.sutra"}
+                ,@{@"name":@"经典佛经之《大方广佛华严经》",@"url":@"c071.sutra"}
+                ,@{@"name":@"经典佛经之阿弥陀经 无量寿经 观无量寿经",@"url":@"c072.sutra"}
+                ,@{@"name":@"经典佛经之《长阿含经》",@"url":@"c073.sutra"}
+                ,@{@"name":@"经典佛经之《地藏菩萨本愿经》",@"url":@"c074.sutra"}
+                ,@{@"name":@"五大译经师之鸠摩罗什",@"url":@"c075.sutra"}
+                ,@{@"name":@"五大译经师之真谛三藏法师",@"url":@"c076.sutra"}
+                ,@{@"name":@"五大译经师之玄奘三藏法师",@"url":@"c077.sutra"}
+                ,@{@"name":@"五大译经师之义净三藏法师",@"url":@"c078.sutra"}
+                ,@{@"name":@"五大译经师之不空三藏法师",@"url":@"c079.sutra"}];
     
-    yigui = @[@{@"name":@"佛教礼仪之四威仪",@"url":@"c096.sutra"}
-              ,@{@"name":@"佛教礼仪之参观礼仪",@"url":@"c097.sutra"}
-              ,@{@"name":@"佛教礼仪之佛殿礼仪",@"url":@"c098.sutra"}
-              ,@{@"name":@"佛教礼仪之礼拜礼仪",@"url":@"c099.sutra"}
-              ,@{@"name":@"佛教礼仪之礼佛礼仪",@"url":@"c100.sutra"}
-              ,@{@"name":@"佛教礼仪之请求法师开示礼仪",@"url":@"c101.sutra"}
-              ,@{@"name":@"佛教礼仪之斋堂礼仪",@"url":@"c102.sutra"}
-              ,@{@"name":@"佛教礼仪之上香礼仪",@"url":@"c103.sutra"}
-              ,@{@"name":@"敬佛",@"url":@"c104.sutra"}
-              ,@{@"name":@"敬法",@"url":@"c105.sutra"}
-              ,@{@"name":@"敬僧",@"url":@"c106.sutra"}
-              ,@{@"name":@"佛教徒名称的正式称呼",@"url":@"c107.sutra"}
-              ,@{@"name":@"佛教徒名称的别称",@"url":@"c108.sutra"}
-              ,@{@"name":@"僧人生活概述",@"url":@"c109.sutra"}
-              ,@{@"name":@"僧人生活之朝暮课诵",@"url":@"c110.sutra"}
-              ,@{@"name":@"僧人生活之布萨诵戒",@"url":@"c111.sutra"}
-              ,@{@"name":@"僧人生活之过堂",@"url":@"c112.sutra"}
-              ,@{@"name":@"修佛戒律之不杀生",@"url":@"c113.sutra"}
-              ,@{@"name":@"修佛戒律之不偷盗",@"url":@"c114.sutra"}
-              ,@{@"name":@"修佛戒律之不邪淫",@"url":@"c115.sutra"}
-              ,@{@"name":@"修佛戒律之不妄语",@"url":@"c116.sutra"}
-              ,@{@"name":@"修佛戒律之不饮酒",@"url":@"c117.sutra"}
-              ,@{@"name":@"佛教出家人的衣着",@"url":@"c118.sutra"}
-              ,@{@"name":@"“袈裟”的形状",@"url":@"c119.sutra"}
-              ,@{@"name":@"袈裟的形成",@"url":@"c120.sutra"}
-              ,@{@"name":@"“五衣”的形状",@"url":@"c121.sutra"}
-              ,@{@"name":@"“缦衣”的形状",@"url":@"c122.sutra"}
-              ,@{@"name":@"“传衣”的含义",@"url":@"c123.sutra"}
-              ,@{@"name":@"“海青”的形状",@"url":@"c124.sutra"}
-              ,@{@"name":@"“大褂”的形状",@"url":@"c125.sutra"}
-              ,@{@"name":@"佛教节日概述",@"url":@"c126.sutra"}
-              ,@{@"name":@"佛诞节",@"url":@"c127.sutra"}
-              ,@{@"name":@"观音会",@"url":@"c128.sutra"}
-              ,@{@"name":@"地藏会",@"url":@"c129.sutra"}
-              ,@{@"name":@"弥陀诞日",@"url":@"c130.sutra"}
-              ,@{@"name":@"盂兰盆会",@"url":@"c131.sutra"}
-              ,@{@"name":@"佛教二十道法会",@"url":@"c132.sutra"}];
+    yigui = @[@{@"name":@"出家五众、在家二众",@"url":@"c080.sutra"}
+              ,@{@"name":@"佛教徒名称的由来",@"url":@"c081.sutra"}
+              ,@{@"name":@"僧人的日常生活规范",@"url":@"c082.sutra"}
+              ,@{@"name":@"修佛戒律",@"url":@"c083.sutra"}
+              ,@{@"name":@"佛教出家人的衣着",@"url":@"c084.sutra"}
+              ,@{@"name":@"佛教节日概述",@"url":@"c085.sutra"}
+              ,@{@"name":@"佛教二十道法会",@"url":@"c086.sutra"}
+              ,@{@"name":@"寺院布局",@"url":@"c087.sutra"}
+              ,@{@"name":@"游客进入寺院应遵循的礼仪",@"url":@"c088.sutra"}
+              ,@{@"name":@"佛教的法器",@"url":@"c089.sutra"}
+              ,@{@"name":@"什么是三宝？如何皈依三宝",@"url":@"c090.sutra"}
+              ,@{@"name":@"在家居士如何持斋",@"url":@"c091.sutra"}
+              ,@{@"name":@"在家居士如何修行",@"url":@"c092.sutra"}
+              ,@{@"name":@"游客如何参访寺院",@"url":@"c093.sutra"}];
     
     return @[licheng,fazhan,paibie,jiaoyi,yigui];
 }
