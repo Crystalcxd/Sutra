@@ -14,6 +14,8 @@
 
 #import "AppDelegate.h"
 
+#import "AudioTask.h"
+
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <RNCryptor_objc/RNDecryptor.h>
 
@@ -144,6 +146,12 @@
         
         NSArray *array = [jingName componentsSeparatedByString:@"."];
         NSString *htmlFileName = [array firstObject];
+        
+        //音频文件路径
+        NSString *musicPath = [[NSBundle mainBundle] pathForResource:htmlFileName ofType:@"sutramusic"];
+        if (musicPath!=NULL) {
+            
+        }
         
         //获取文件路径
         NSString *path = [[NSBundle mainBundle] pathForResource:htmlFileName ofType:@"htm"];

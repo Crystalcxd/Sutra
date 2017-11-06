@@ -376,6 +376,7 @@
 		A4F4701B1F57DA3600D069EB /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF96C41F57BE4200C3CD53 /* Utility.m */; };
 		A4F578C21F5937E700EDE8A9 /* LibraryVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */; };
 		A4F578C31F5937E700EDE8A9 /* LibraryVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */; };
+		A4F91D881FB06B6F0011A0F1 /* AudioTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F91D871FB06B6E0011A0F1 /* AudioTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -449,7 +450,7 @@
 		A4240BEE1F05F059007A25A7 /* a01amtj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a01amtj.sutra; sourceTree = "<group>"; };
 		A4240C511F062E15007A25A7 /* b22zz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b22zz.sutra; sourceTree = "<group>"; };
 		A4240C521F062E15007A25A7 /* b23wz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b23wz.sutra; sourceTree = "<group>"; };
-		A4240C531F062E15007A25A7 /* b24yzjsz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b24yzjsz.sutra; sourceTree = "<group>"; };
+		A4240C531F062E15007A25A7 /* b24yzjsz.sutra */ = {isa = PBXFileReference; lastKnownFileType = text; path = b24yzjsz.sutra; sourceTree = "<group>"; };
 		A4240C541F062E15007A25A7 /* b25hxz.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b25hxz.sutra; sourceTree = "<group>"; };
 		A4240C551F062E15007A25A7 /* b26nsh.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b26nsh.sutra; sourceTree = "<group>"; };
 		A4240C561F062E15007A25A7 /* b28wswqhx.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = b28wswqhx.sutra; sourceTree = "<group>"; };
@@ -797,6 +798,8 @@
 		A4F578BF1F5937E700EDE8A9 /* LibraryVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryVideoViewController.h; sourceTree = "<group>"; };
 		A4F578C01F5937E700EDE8A9 /* LibraryVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryVideoViewController.m; sourceTree = "<group>"; };
 		A4F578C11F5937E700EDE8A9 /* LibraryVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryVideoViewController.xib; sourceTree = "<group>"; };
+		A4F91D861FB06B6E0011A0F1 /* AudioTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTask.h; sourceTree = "<group>"; };
+		A4F91D871FB06B6E0011A0F1 /* AudioTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTask.m; sourceTree = "<group>"; };
 		A4FF96C31F57BE4200C3CD53 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		A4FF96C41F57BE4200C3CD53 /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		A4FF96C51F57BE4200C3CD53 /* WMMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMacro.h; sourceTree = "<group>"; };
@@ -843,11 +846,11 @@
 		4CA74F221FAD7E600016325D /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				4CA74F231FAD7E600016325D /* b04dbz.sutramusic */,
-				4CA74F241FAD7E600016325D /* b06xj.sutramusic */,
-				4CA74F251FAD7E600016325D /* b05sxz.sutramusic */,
-				4CA74F261FAD7E600016325D /* b11sgy.sutramusic */,
 				4CA74F271FAD7E600016325D /* b02bdz.sutramusic */,
+				4CA74F231FAD7E600016325D /* b04dbz.sutramusic */,
+				4CA74F251FAD7E600016325D /* b05sxz.sutramusic */,
+				4CA74F241FAD7E600016325D /* b06xj.sutramusic */,
+				4CA74F261FAD7E600016325D /* b11sgy.sutramusic */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -1642,9 +1645,19 @@
 			path = Icon;
 			sourceTree = "<group>";
 		};
+		A4F91D851FB06B6E0011A0F1 /* MusicHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A4F91D861FB06B6E0011A0F1 /* AudioTask.h */,
+				A4F91D871FB06B6E0011A0F1 /* AudioTask.m */,
+			);
+			path = MusicHelper;
+			sourceTree = "<group>";
+		};
 		A4FF96C21F57BE4200C3CD53 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				A4F91D851FB06B6E0011A0F1 /* MusicHelper */,
 				A4FF96C31F57BE4200C3CD53 /* Utility.h */,
 				A4FF96C41F57BE4200C3CD53 /* Utility.m */,
 				A4FF96C51F57BE4200C3CD53 /* WMMacro.h */,
@@ -2256,6 +2269,7 @@
 				A4409DB31F6787010098D5D6 /* XueChapterDetailViewController.m in Sources */,
 				A440847F1F03A9E8006A0F97 /* KeViewController.m in Sources */,
 				A44084871F03ACAF006A0F97 /* KeTitleCell.m in Sources */,
+				A4F91D881FB06B6F0011A0F1 /* AudioTask.m in Sources */,
 				A4522CEA1F554F34008222F8 /* YueTitleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
