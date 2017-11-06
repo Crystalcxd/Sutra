@@ -59,6 +59,8 @@
     
     RDVTabBarController *vc = (RDVTabBarController *)appDelegate.window.rootViewController;
     [vc setTabBarHidden:NO];
+    
+    [[AudioTask shareAudioTask] stopTaskWithType:backgroundTask];
 }
 
 - (void)setDetailItem:(id)newDetailItem
@@ -150,7 +152,11 @@
         //音频文件路径
         NSString *musicPath = [[NSBundle mainBundle] pathForResource:htmlFileName ofType:@"sutramusic"];
         if (musicPath!=NULL) {
+            //1.音频文件的url路径
+            NSString *urlStr=[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+            urlStr=[urlStr stringByAppendingPathComponent:musicPath];
             
+            [self audioPlayWithPath:[[NSURL alloc] initFileURLWithPath:urlStr]];
         }
         
         //获取文件路径
@@ -201,6 +207,20 @@
     }
 }
 
+-(void)audioPlayWithPath:(NSURL *)url
+{
+    [[AudioTask shareAudioTask] setUrl:url];
+    [[AudioTask shareAudioTask] startTaskWithTyep:backgroundTask];
+    
+    //    //设置锁屏仍能继续播放
+    //    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionMixWithOthers error:nil];
+    //    [[AVAudioSession sharedInstance] setActive: YES error: nil];
+    //
+    //    player=[[AVAudioPlayer alloc] initWithContentsOfURL:url error:Nil];
+    //    player.numberOfLoops = -1;
+    //    [player prepareToPlay];
+    //    [player play];
+}
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
