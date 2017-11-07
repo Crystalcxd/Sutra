@@ -26,6 +26,7 @@
 @interface KeAlbumDetailCtrl ()<UIWebViewDelegate>{
     KeAlbum *morningSong;
     KeAlbum *eveningSong;
+    AVAudioPlayer *_avAudioPlayer; // 播放器palyer
 }
 
 @end
@@ -149,15 +150,6 @@
         NSArray *array = [jingName componentsSeparatedByString:@"."];
         NSString *htmlFileName = [array firstObject];
         
-        //音频文件路径
-        NSString *musicPath = [[NSBundle mainBundle] pathForResource:htmlFileName ofType:@"sutramusic"];
-        if (musicPath!=NULL) {
-            //1.音频文件的url路径
-            NSString *urlStr=[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-            urlStr=[urlStr stringByAppendingPathComponent:musicPath];
-            
-            [self audioPlayWithPath:[[NSURL alloc] initFileURLWithPath:urlStr]];
-        }
         
         //获取文件路径
         NSString *path = [[NSBundle mainBundle] pathForResource:htmlFileName ofType:@"htm"];
@@ -191,6 +183,8 @@
                 
                 [MBProgressHUD showHUDAddedTo:self.view animated:YES];
                 
+                __weak typeof(self) weakSelf = self;
+                
                 dispatch_async(dispatch_get_main_queue(), ^{
                     NSError *error;
                     NSData *decryptedData = [RNDecryptor decryptData:encryptedData
@@ -198,12 +192,40 @@
                                                                error:&error];
                     if (!error) {
                         [_webView loadData:decryptedData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
+                        [weakSelf playMusicWIthName:htmlFileName];
                     }else{
-                        [MBProgressHUD hideHUDForView:self.view animated:YES];
+                        [MBProgressHUD hideHUDForView:weakSelf.view animated:YES];
                     }
                 });
             }
         }
+    }
+}
+
+-(void)playMusicWIthName:(NSString *)htmlFileName
+{
+    //音频文件路径
+    NSString *musicPath = [[NSBundle mainBundle] pathForResource:htmlFileName ofType:@"mp3"];
+    if (musicPath!=NULL) {
+        // 2.播放本地音频文件
+        // (1)从boudle路径下读取音频文件 陈小春 - 独家记忆文件名，mp3文件格式
+        NSString *path = [[NSBundle mainBundle] pathForResource:htmlFileName ofType:@"mp3"];
+        // (2)把音频文件转化成url格式
+        NSURL *url = [NSURL fileURLWithPath:path];
+        // (3)初始化音频类 并且添加播放文件
+        _avAudioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+        // (4) 设置代理
+        //            _avAudioPlayer.delegate = self;
+        // (5) 设置初始音量大小 默认1，取值范围 0~1
+        _avAudioPlayer.volume = 0.5;
+        // (6)设置音乐播放次数 负数为一直循环，直到stop，0为一次，1为2次，以此类推
+        _avAudioPlayer.numberOfLoops = -1;
+        // (5)准备播放
+        [_avAudioPlayer prepareToPlay];
+        
+        [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+        
+        [_avAudioPlayer play];
     }
 }
 

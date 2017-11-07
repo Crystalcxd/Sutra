@@ -43,7 +43,7 @@
     [_KeAlbum addObject:@{@"name":@"大悲咒（音）",@"url":@"b04dbz.sutra"}];
     [_KeAlbum addObject:@{@"name":@"十小咒（音）",@"url":@"b05sxz.sutra"}];
     [_KeAlbum addObject:@{@"name":@"心经（音）",@"url":@"b06xj.sutra"}];
-    [_KeAlbum addObject:@{@"name":@"回向偈（音）",@"url":@"b07hxj.sutra"}];
+    [_KeAlbum addObject:@{@"name":@"回向偈",@"url":@"b07hxj.sutra"}];
     [_KeAlbum addObject:@{@"name":@"赞佛偈",@"url":@"b08zfj.sutra"}];
     [_KeAlbum addObject:@{@"name":@"念圣号",@"url":@"b09nsh.sutra"}];
     [_KeAlbum addObject:@{@"name":@"发愿文普贤十大愿王",@"url":@"b10fyws.sutra"}];

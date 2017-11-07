@@ -20,15 +20,15 @@
 		4CA74F1F1FAD7A470016325D /* a15wmjj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F161FAD7A460016325D /* a15wmjj.sutra */; };
 		4CA74F201FAD7A470016325D /* a13ljj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F171FAD7A460016325D /* a13ljj.sutra */; };
 		4CA74F211FAD7A470016325D /* a16yjj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F181FAD7A470016325D /* a16yjj.sutra */; };
-		4CA74F281FAD7E600016325D /* b04dbz.sutramusic in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F231FAD7E600016325D /* b04dbz.sutramusic */; };
-		4CA74F291FAD7E600016325D /* b06xj.sutramusic in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F241FAD7E600016325D /* b06xj.sutramusic */; };
-		4CA74F2A1FAD7E600016325D /* b05sxz.sutramusic in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F251FAD7E600016325D /* b05sxz.sutramusic */; };
-		4CA74F2B1FAD7E600016325D /* b11sgy.sutramusic in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F261FAD7E600016325D /* b11sgy.sutramusic */; };
-		4CA74F2C1FAD7E600016325D /* b02bdz.sutramusic in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F271FAD7E600016325D /* b02bdz.sutramusic */; };
 		4CAD5A461EF2D35B0026A609 /* XueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A441EF2D35B0026A609 /* XueViewController.m */; };
 		4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A451EF2D35B0026A609 /* XueViewController.xib */; };
 		4CAD5A4B1EF2D5A20026A609 /* XueTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */; };
 		4CAD5A4C1EF2D5A20026A609 /* XueTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */; };
+		4CD70F841FB231E000D7B684 /* b11sgy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CD70F7F1FB231DE00D7B684 /* b11sgy.mp3 */; };
+		4CD70F851FB231E000D7B684 /* b06xj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CD70F801FB231DF00D7B684 /* b06xj.mp3 */; };
+		4CD70F861FB231E000D7B684 /* b04dbz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CD70F811FB231DF00D7B684 /* b04dbz.mp3 */; };
+		4CD70F871FB231E000D7B684 /* b02bdz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CD70F821FB231E000D7B684 /* b02bdz.mp3 */; };
+		4CD70F881FB231E000D7B684 /* b05sxz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CD70F831FB231E000D7B684 /* b05sxz.mp3 */; };
 		A41D12E01F5D33F500321F21 /* DataPrepare.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D12DF1F5D33F500321F21 /* DataPrepare.m */; };
 		A41D94AB1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949E1F5406AA00FB2E0F /* common_list_icon_leftarrow@2x.png */; };
 		A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41D949F1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png */; };
@@ -411,17 +411,17 @@
 		4CA74F161FAD7A460016325D /* a15wmjj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a15wmjj.sutra; sourceTree = "<group>"; };
 		4CA74F171FAD7A460016325D /* a13ljj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a13ljj.sutra; sourceTree = "<group>"; };
 		4CA74F181FAD7A470016325D /* a16yjj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a16yjj.sutra; sourceTree = "<group>"; };
-		4CA74F231FAD7E600016325D /* b04dbz.sutramusic */ = {isa = PBXFileReference; lastKnownFileType = file; path = b04dbz.sutramusic; sourceTree = "<group>"; };
-		4CA74F241FAD7E600016325D /* b06xj.sutramusic */ = {isa = PBXFileReference; lastKnownFileType = file; path = b06xj.sutramusic; sourceTree = "<group>"; };
-		4CA74F251FAD7E600016325D /* b05sxz.sutramusic */ = {isa = PBXFileReference; lastKnownFileType = file; path = b05sxz.sutramusic; sourceTree = "<group>"; };
-		4CA74F261FAD7E600016325D /* b11sgy.sutramusic */ = {isa = PBXFileReference; lastKnownFileType = file; path = b11sgy.sutramusic; sourceTree = "<group>"; };
-		4CA74F271FAD7E600016325D /* b02bdz.sutramusic */ = {isa = PBXFileReference; lastKnownFileType = file; path = b02bdz.sutramusic; sourceTree = "<group>"; };
 		4CAD5A431EF2D35B0026A609 /* XueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueViewController.h; sourceTree = "<group>"; };
 		4CAD5A441EF2D35B0026A609 /* XueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueViewController.m; sourceTree = "<group>"; };
 		4CAD5A451EF2D35B0026A609 /* XueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XueViewController.xib; sourceTree = "<group>"; };
 		4CAD5A481EF2D5A20026A609 /* XueTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueTitleCell.h; sourceTree = "<group>"; };
 		4CAD5A491EF2D5A20026A609 /* XueTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueTitleCell.m; sourceTree = "<group>"; };
 		4CAD5A4A1EF2D5A20026A609 /* XueTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XueTitleCell.xib; sourceTree = "<group>"; };
+		4CD70F7F1FB231DE00D7B684 /* b11sgy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b11sgy.mp3; sourceTree = "<group>"; };
+		4CD70F801FB231DF00D7B684 /* b06xj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b06xj.mp3; sourceTree = "<group>"; };
+		4CD70F811FB231DF00D7B684 /* b04dbz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b04dbz.mp3; sourceTree = "<group>"; };
+		4CD70F821FB231E000D7B684 /* b02bdz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b02bdz.mp3; sourceTree = "<group>"; };
+		4CD70F831FB231E000D7B684 /* b05sxz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b05sxz.mp3; sourceTree = "<group>"; };
 		67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sutra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sutra/Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
 		7C90CA0537C9674EE3A160C3 /* Pods_Sutra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sutra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -846,11 +846,11 @@
 		4CA74F221FAD7E600016325D /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				4CA74F271FAD7E600016325D /* b02bdz.sutramusic */,
-				4CA74F231FAD7E600016325D /* b04dbz.sutramusic */,
-				4CA74F251FAD7E600016325D /* b05sxz.sutramusic */,
-				4CA74F241FAD7E600016325D /* b06xj.sutramusic */,
-				4CA74F261FAD7E600016325D /* b11sgy.sutramusic */,
+				4CD70F821FB231E000D7B684 /* b02bdz.mp3 */,
+				4CD70F811FB231DF00D7B684 /* b04dbz.mp3 */,
+				4CD70F831FB231E000D7B684 /* b05sxz.mp3 */,
+				4CD70F801FB231DF00D7B684 /* b06xj.mp3 */,
+				4CD70F7F1FB231DE00D7B684 /* b11sgy.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -1797,6 +1797,7 @@
 				A476A5B31F5FC846008835A7 /* e37.files in Resources */,
 				A4240C9E1F063273007A25A7 /* b11sgy.sutra in Resources */,
 				A4DC081F1F5E99AC0027450F /* e10.sutra in Resources */,
+				4CD70F841FB231E000D7B684 /* b11sgy.mp3 in Resources */,
 				A42A9B6E1FAB05F5009C7E1A /* c074.sutra in Resources */,
 				A4DC08041F5E99AC0027450F /* e02.sutra in Resources */,
 				A4DC08291F5E99AC0027450F /* e13.sutra in Resources */,
@@ -1815,7 +1816,6 @@
 				A476A5BE1F5FC846008835A7 /* e48.files in Resources */,
 				A476A5D01F5FC846008835A7 /* e66.files in Resources */,
 				A42A9B471FAB05F5009C7E1A /* c016.sutra in Resources */,
-				4CA74F2A1FAD7E600016325D /* b05sxz.sutramusic in Resources */,
 				A4DC08181F5E99AC0027450F /* e08.sutra in Resources */,
 				A4DC083F1F5E99AC0027450F /* e20.sutra in Resources */,
 				A4DC08D71F5E99AC0027450F /* e65.sutra in Resources */,
@@ -1845,7 +1845,6 @@
 				A476A5AF1F5FC846008835A7 /* e33.files in Resources */,
 				A42A9B421FAB05F5009C7E1A /* c091.sutra in Resources */,
 				A42A9B751FAB05F5009C7E1A /* c030.sutra in Resources */,
-				4CA74F291FAD7E600016325D /* b06xj.sutramusic in Resources */,
 				A49F0DE21EF26B2400D96CBD /* JingListViewController.xib in Resources */,
 				A42A9B401FAB05F5009C7E1A /* c089.sutra in Resources */,
 				A42A9B3D1FAB05F5009C7E1A /* c086.sutra in Resources */,
@@ -1881,12 +1880,14 @@
 				A476A5B11F5FC846008835A7 /* e35.files in Resources */,
 				A46D4ED51F5002AC00046F9A /* KeAlbumDetailCtrl.xib in Resources */,
 				A4240C991F063273007A25A7 /* b06xj.sutra in Resources */,
+				4CD70F881FB231E000D7B684 /* b05sxz.mp3 in Resources */,
 				A42A9B2A1FAB05F5009C7E1A /* c001.sutra in Resources */,
 				A4240CA41F063273007A25A7 /* b17gwsh.sutra in Resources */,
 				A4240CA11F063273007A25A7 /* b14dchw.sutra in Resources */,
 				A4DC080F1F5E99AC0027450F /* e05.sutra in Resources */,
 				A4DC08CF1F5E99AC0027450F /* e63.sutra in Resources */,
 				A4240C9D1F063273007A25A7 /* b10fyws.sutra in Resources */,
+				4CD70F851FB231E000D7B684 /* b06xj.mp3 in Resources */,
 				A4240CA01F063273007A25A7 /* b13amtj.sutra in Resources */,
 				A476A5D71F5FC846008835A7 /* e73.files in Resources */,
 				A41D94AE1F5406AA00FB2E0F /* jing_default@2x.png in Resources */,
@@ -1948,13 +1949,11 @@
 				A4DC08AD1F5E99AC0027450F /* e53.sutra in Resources */,
 				A476A5971F5FC846008835A7 /* e09.files in Resources */,
 				A42A9B3E1FAB05F5009C7E1A /* c087.sutra in Resources */,
-				4CA74F2B1FAD7E600016325D /* b11sgy.sutramusic in Resources */,
 				A4A494D31EF1113D00B8435A /* JingDetailCtrl.xib in Resources */,
 				A42A9B851FAB05F5009C7E1A /* c046.sutra in Resources */,
 				A4DC08D31F5E99AC0027450F /* e64.sutra in Resources */,
 				A41D94B01F5406AA00FB2E0F /* ke_default@2x.png in Resources */,
 				A476A5B21F5FC846008835A7 /* e36.files in Resources */,
-				4CA74F281FAD7E600016325D /* b04dbz.sutramusic in Resources */,
 				A4240C6A1F062E15007A25A7 /* b25hxz.sutra in Resources */,
 				A4DC08A31F5E99AC0027450F /* e50.sutra in Resources */,
 				A4DC08C81F5E99AC0027450F /* e61.sutra in Resources */,
@@ -1996,6 +1995,7 @@
 				A42A9B351FAB05F5009C7E1A /* c012.sutra in Resources */,
 				A42A9B6A1FAB05F5009C7E1A /* c070.sutra in Resources */,
 				A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */,
+				4CD70F861FB231E000D7B684 /* b04dbz.mp3 in Resources */,
 				A476A5CB1F5FC846008835A7 /* e61.files in Resources */,
 				A4240C711F062E15007A25A7 /* b33amtfzy.sutra in Resources */,
 				A42A9B621FAB05F5009C7E1A /* c062.sutra in Resources */,
@@ -2011,7 +2011,6 @@
 				A476A5A11F5FC846008835A7 /* e19.files in Resources */,
 				A41D94BB1F5406E100FB2E0F /* device_btn_add_nor@3x.png in Resources */,
 				A42A9B301FAB05F5009C7E1A /* c007.sutra in Resources */,
-				4CA74F2C1FAD7E600016325D /* b02bdz.sutramusic in Resources */,
 				A476A5B71F5FC846008835A7 /* e41.files in Resources */,
 				4CAD5A471EF2D35B0026A609 /* XueViewController.xib in Resources */,
 				A476A5A81F5FC846008835A7 /* e26.files in Resources */,
@@ -2057,6 +2056,7 @@
 				A42A9B601FAB05F5009C7E1A /* c060.sutra in Resources */,
 				A42A9B7A1FAB05F5009C7E1A /* c035.sutra in Resources */,
 				A4240C9A1F063273007A25A7 /* b07hxj.sutra in Resources */,
+				4CD70F871FB231E000D7B684 /* b02bdz.mp3 in Resources */,
 				A42A9B7E1FAB05F5009C7E1A /* c039.sutra in Resources */,
 				A4DC08551F5E99AC0027450F /* e27.sutra in Resources */,
 				A42A9B541FAB05F5009C7E1A /* c048.sutra in Resources */,
@@ -2412,6 +2412,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67D696DD2913914B88A70510 /* Pods-Sutra.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 958NCYMT3F;
 				GCC_INPUT_FILETYPE = automatic;
@@ -2429,6 +2430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6CF3E837423B1993370890B5 /* Pods-Sutra.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 958NCYMT3F;
 				GCC_INPUT_FILETYPE = automatic;
