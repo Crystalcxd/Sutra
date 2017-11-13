@@ -21,6 +21,9 @@
     
 }
 
+@property (nonatomic , weak) IBOutlet UITableView *tableView;
+@property (nonatomic , weak) IBOutlet UIImageView *BG;
+
 @end
 
 @implementation KeViewController
@@ -40,6 +43,21 @@
 
 - (void)setUI {
     self.navigationItem.title = @"功课";//@"阿弥陀经";
+    
+    self.tableView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.3];
+    
+    UIImage *image = nil;
+    if (SCREENWIDTH == 320) {
+        image = [UIImage imageNamed:@"Ke640.jpg"];
+    }else if (SCREENWIDTH == 375) {
+        image = [UIImage imageNamed:@"Ke750.jpg"];
+    }else if (SCREENWIDTH == 414) {
+        image = [UIImage imageNamed:@"Ke1242.jpg"];
+    }
+    
+    if (image) {
+        self.BG.image = image;
+    }
 }
 
 - (void)didReceiveMemoryWarning {

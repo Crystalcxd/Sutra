@@ -21,6 +21,8 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     
+    [self setBackgroundColor:[UIColor clearColor]];
+
     // Initialization code
     [self.line setBackgroundColor:[UIColor colorWithWhite:0 alpha:0.05]];
     

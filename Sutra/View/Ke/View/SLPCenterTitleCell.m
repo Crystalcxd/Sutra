@@ -19,6 +19,8 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
+    
+    [self setBackgroundColor:[UIColor clearColor]];
 }
 
 - (void)configureWith:(NSString *)title

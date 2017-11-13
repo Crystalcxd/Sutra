@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17A360a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XueViewController">
             <connections>
+                <outlet property="BG" destination="nz0-NR-mJh" id="pHw-TM-4Be"/>
+                <outlet property="tableView" destination="yUi-eU-YeI" id="HV0-Zh-3Up"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,8 +21,11 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nz0-NR-mJh">
+                    <rect key="frame" x="0.0" y="64" width="375" height="543"/>
+                </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yUi-eU-YeI">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="607"/>
+                    <rect key="frame" x="0.0" y="64" width="375" height="543"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="jVz-9k-n5P"/>
@@ -30,10 +35,14 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="yUi-eU-YeI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="4oP-yG-f0C"/>
+                <constraint firstItem="yUi-eU-YeI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="4oP-yG-f0C"/>
+                <constraint firstItem="nz0-NR-mJh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7pb-8F-fzB"/>
                 <constraint firstItem="yUi-eU-YeI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8Dh-nA-QKB"/>
+                <constraint firstAttribute="bottom" secondItem="nz0-NR-mJh" secondAttribute="bottom" constant="60" id="DqZ-FT-qN0"/>
                 <constraint firstAttribute="bottom" secondItem="yUi-eU-YeI" secondAttribute="bottom" constant="60" id="PK5-J3-Bmb"/>
                 <constraint firstAttribute="trailing" secondItem="yUi-eU-YeI" secondAttribute="trailing" id="fo0-FW-agG"/>
+                <constraint firstAttribute="trailing" secondItem="nz0-NR-mJh" secondAttribute="trailing" id="hUc-Hp-54z"/>
+                <constraint firstItem="nz0-NR-mJh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="wsU-G1-nsd"/>
             </constraints>
         </view>
     </objects>

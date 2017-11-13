@@ -17,6 +17,9 @@
     
 }
 
+@property (nonatomic , weak) IBOutlet UITableView *tableView;
+@property (nonatomic , weak) IBOutlet UIImageView *BG;
+
 @end
 
 @implementation JingListViewController
@@ -25,7 +28,22 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"佛经";//@"阿弥陀经";
-
+    
+    self.tableView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.3];
+    
+    UIImage *image = nil;
+    if (SCREENWIDTH == 320) {
+        image = [UIImage imageNamed:@"Jing640.jpg"];
+    }else if (SCREENWIDTH == 375) {
+        image = [UIImage imageNamed:@"Jing750.jpg"];
+    }else if (SCREENWIDTH == 414) {
+        image = [UIImage imageNamed:@"Jing1242.jpg"];
+    }
+    
+    if (image) {
+        self.BG.image = image;
+    }
+    
     [self createJingData];
     
     // Uncomment the following line to preserve selection between presentations.

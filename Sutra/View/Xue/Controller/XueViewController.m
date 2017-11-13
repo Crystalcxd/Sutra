@@ -20,6 +20,9 @@
     
 }
 
+@property (nonatomic , weak) IBOutlet UITableView *tableView;
+@property (nonatomic , weak) IBOutlet UIImageView *BG;
+
 @end
 
 @implementation XueViewController
@@ -35,6 +38,21 @@
     
     self.navigationItem.title = @"佛学知识";//@"阿弥陀经";
 
+    self.tableView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.3];
+    
+    UIImage *image = nil;
+    if (SCREENWIDTH == 320) {
+        image = [UIImage imageNamed:@"Xue640.jpg"];
+    }else if (SCREENWIDTH == 375) {
+        image = [UIImage imageNamed:@"Xue750.jpg"];
+    }else if (SCREENWIDTH == 414) {
+        image = [UIImage imageNamed:@"Xue1242.jpg"];
+    }
+    
+    if (image) {
+        self.BG.image = image;
+    }
+    
     [self createXueData];
 }
 

@@ -22,6 +22,8 @@
     [super awakeFromNib];
     // Initialization code
     
+    [self setBackgroundColor:[UIColor clearColor]];
+    
     [self.line setBackgroundColor:[UIColor colorWithWhite:0 alpha:0.05]];
     
     [self.titleLabel setFont:[UIFont systemFontOfSize:16]];

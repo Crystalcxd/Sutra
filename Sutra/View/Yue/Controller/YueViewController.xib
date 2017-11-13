@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17A344b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YueViewController">
             <connections>
+                <outlet property="BG" destination="RCl-5S-K8D" id="rGd-V8-kkQ"/>
                 <outlet property="tableView" destination="9Pj-lO-uqc" id="Dky-SQ-KLt"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -20,8 +21,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RCl-5S-K8D">
+                    <rect key="frame" x="0.0" y="64" width="320" height="444"/>
+                </imageView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="9Pj-lO-uqc">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="508"/>
+                    <rect key="frame" x="0.0" y="64" width="320" height="444"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="KGb-2x-nnM"/>
@@ -32,9 +36,13 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="9Pj-lO-uqc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1RP-7o-G45"/>
+                <constraint firstItem="RCl-5S-K8D" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="3ii-Ej-9Nd"/>
+                <constraint firstItem="RCl-5S-K8D" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SDo-aR-KoT"/>
+                <constraint firstAttribute="bottom" secondItem="RCl-5S-K8D" secondAttribute="bottom" constant="60" id="Sf2-C6-JtQ"/>
                 <constraint firstAttribute="bottom" secondItem="9Pj-lO-uqc" secondAttribute="bottom" constant="60" id="UT0-Bw-1Hx"/>
                 <constraint firstAttribute="trailing" secondItem="9Pj-lO-uqc" secondAttribute="trailing" id="Vu0-1q-ePt"/>
-                <constraint firstItem="9Pj-lO-uqc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="osW-Pu-nsK"/>
+                <constraint firstAttribute="trailing" secondItem="RCl-5S-K8D" secondAttribute="trailing" id="ioz-rQ-NiK"/>
+                <constraint firstItem="9Pj-lO-uqc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="osW-Pu-nsK"/>
             </constraints>
         </view>
     </objects>

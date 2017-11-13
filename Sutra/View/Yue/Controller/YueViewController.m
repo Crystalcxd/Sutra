@@ -41,6 +41,8 @@
 
 @property (nonatomic , assign)MPMusicPlaybackState playState;
 
+@property (nonatomic , weak) IBOutlet UIImageView *BG;
+
 @end
 
 @implementation YueViewController
@@ -101,6 +103,21 @@
 
 - (void)setUI {
     self.navigationItem.title = @"佛乐于心";//@"阿弥陀经";
+    
+    self.tableView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.3];
+    
+    UIImage *image = nil;
+    if (SCREENWIDTH == 320) {
+        image = [UIImage imageNamed:@"Yue640.jpg"];
+    }else if (SCREENWIDTH == 375) {
+        image = [UIImage imageNamed:@"Yue750.jpg"];
+    }else if (SCREENWIDTH == 414) {
+        image = [UIImage imageNamed:@"Yue1242.jpg"];
+    }
+    
+    if (image) {
+        self.BG.image = image;
+    }
     
     UIButton *addBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [addBtn setFrame:CGRectMake(0, 0, 44, 44)];

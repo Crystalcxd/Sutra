@@ -11,18 +11,18 @@
 		4C1FB79D1F166BDA002212EF /* Default-1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FB79C1F166BDA002212EF /* Default-1334.png */; };
 		4C361E081EF164520041B5E3 /* JingTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C361E061EF164520041B5E3 /* JingTitleCell.m */; };
 		4C361E091EF164520041B5E3 /* JingTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C361E071EF164520041B5E3 /* JingTitleCell.xib */; };
-		4C3EB09B1FB9E7A3008AFEBF /* Ke640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB08C1FB9E7A2008AFEBF /* Ke640.jpg */; };
-		4C3EB09C1FB9E7A3008AFEBF /* Ke1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB08D1FB9E7A2008AFEBF /* Ke1080.jpg */; };
-		4C3EB09D1FB9E7A3008AFEBF /* Ke750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB08E1FB9E7A2008AFEBF /* Ke750.jpg */; };
-		4C3EB09E1FB9E7A3008AFEBF /* Xue640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB0901FB9E7A2008AFEBF /* Xue640.jpg */; };
-		4C3EB09F1FB9E7A3008AFEBF /* Xue1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB0911FB9E7A2008AFEBF /* Xue1080.jpg */; };
-		4C3EB0A01FB9E7A3008AFEBF /* Xue750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB0921FB9E7A2008AFEBF /* Xue750.jpg */; };
-		4C3EB0A11FB9E7A3008AFEBF /* Yue640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB0941FB9E7A2008AFEBF /* Yue640.jpg */; };
-		4C3EB0A21FB9E7A3008AFEBF /* Yue1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB0951FB9E7A2008AFEBF /* Yue1080.jpg */; };
-		4C3EB0A31FB9E7A3008AFEBF /* Yue750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB0961FB9E7A2008AFEBF /* Yue750.jpg */; };
-		4C3EB0A41FB9E7A3008AFEBF /* Jing640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB0981FB9E7A2008AFEBF /* Jing640.jpg */; };
-		4C3EB0A51FB9E7A3008AFEBF /* Jing1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB0991FB9E7A2008AFEBF /* Jing1080.jpg */; };
-		4C3EB0A61FB9E7A3008AFEBF /* Jing750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3EB09A1FB9E7A2008AFEBF /* Jing750.jpg */; };
+		4CA53FA31FB9EDB6003CBE39 /* Ke640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F941FB9EDB6003CBE39 /* Ke640.jpg */; };
+		4CA53FA41FB9EDB6003CBE39 /* Ke750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F951FB9EDB6003CBE39 /* Ke750.jpg */; };
+		4CA53FA51FB9EDB6003CBE39 /* Ke1242.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F961FB9EDB6003CBE39 /* Ke1242.jpg */; };
+		4CA53FA61FB9EDB6003CBE39 /* Xue640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F981FB9EDB6003CBE39 /* Xue640.jpg */; };
+		4CA53FA71FB9EDB6003CBE39 /* Xue1242.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F991FB9EDB6003CBE39 /* Xue1242.jpg */; };
+		4CA53FA81FB9EDB6003CBE39 /* Xue750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F9A1FB9EDB6003CBE39 /* Xue750.jpg */; };
+		4CA53FA91FB9EDB6003CBE39 /* Yue640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F9C1FB9EDB6003CBE39 /* Yue640.jpg */; };
+		4CA53FAA1FB9EDB6003CBE39 /* Yue1242.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F9D1FB9EDB6003CBE39 /* Yue1242.jpg */; };
+		4CA53FAB1FB9EDB6003CBE39 /* Yue750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53F9E1FB9EDB6003CBE39 /* Yue750.jpg */; };
+		4CA53FAC1FB9EDB6003CBE39 /* Jing640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53FA01FB9EDB6003CBE39 /* Jing640.jpg */; };
+		4CA53FAD1FB9EDB6003CBE39 /* Jing1242.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53FA11FB9EDB6003CBE39 /* Jing1242.jpg */; };
+		4CA53FAE1FB9EDB6003CBE39 /* Jing750.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CA53FA21FB9EDB6003CBE39 /* Jing750.jpg */; };
 		4CA74F191FAD7A470016325D /* a10fwj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F101FAD7A450016325D /* a10fwj.sutra */; };
 		4CA74F1A1FAD7A470016325D /* a09lyj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F111FAD7A450016325D /* a09lyj.sutra */; };
 		4CA74F1B1FAD7A470016325D /* a08dzpsbyj.sutra in Resources */ = {isa = PBXBuildFile; fileRef = 4CA74F121FAD7A460016325D /* a08dzpsbyj.sutra */; };
@@ -414,18 +414,18 @@
 		4C361E061EF164520041B5E3 /* JingTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingTitleCell.m; sourceTree = "<group>"; };
 		4C361E071EF164520041B5E3 /* JingTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingTitleCell.xib; sourceTree = "<group>"; };
 		4C3C4CBF1F5D79910085060C /* Sutra.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sutra.pch; sourceTree = "<group>"; };
-		4C3EB08C1FB9E7A2008AFEBF /* Ke640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ke640.jpg; sourceTree = "<group>"; };
-		4C3EB08D1FB9E7A2008AFEBF /* Ke1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ke1080.jpg; sourceTree = "<group>"; };
-		4C3EB08E1FB9E7A2008AFEBF /* Ke750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ke750.jpg; sourceTree = "<group>"; };
-		4C3EB0901FB9E7A2008AFEBF /* Xue640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xue640.jpg; sourceTree = "<group>"; };
-		4C3EB0911FB9E7A2008AFEBF /* Xue1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xue1080.jpg; sourceTree = "<group>"; };
-		4C3EB0921FB9E7A2008AFEBF /* Xue750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xue750.jpg; sourceTree = "<group>"; };
-		4C3EB0941FB9E7A2008AFEBF /* Yue640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yue640.jpg; sourceTree = "<group>"; };
-		4C3EB0951FB9E7A2008AFEBF /* Yue1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yue1080.jpg; sourceTree = "<group>"; };
-		4C3EB0961FB9E7A2008AFEBF /* Yue750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yue750.jpg; sourceTree = "<group>"; };
-		4C3EB0981FB9E7A2008AFEBF /* Jing640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jing640.jpg; sourceTree = "<group>"; };
-		4C3EB0991FB9E7A2008AFEBF /* Jing1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jing1080.jpg; sourceTree = "<group>"; };
-		4C3EB09A1FB9E7A2008AFEBF /* Jing750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jing750.jpg; sourceTree = "<group>"; };
+		4CA53F941FB9EDB6003CBE39 /* Ke640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ke640.jpg; sourceTree = "<group>"; };
+		4CA53F951FB9EDB6003CBE39 /* Ke750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ke750.jpg; sourceTree = "<group>"; };
+		4CA53F961FB9EDB6003CBE39 /* Ke1242.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ke1242.jpg; sourceTree = "<group>"; };
+		4CA53F981FB9EDB6003CBE39 /* Xue640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xue640.jpg; sourceTree = "<group>"; };
+		4CA53F991FB9EDB6003CBE39 /* Xue1242.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xue1242.jpg; sourceTree = "<group>"; };
+		4CA53F9A1FB9EDB6003CBE39 /* Xue750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xue750.jpg; sourceTree = "<group>"; };
+		4CA53F9C1FB9EDB6003CBE39 /* Yue640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yue640.jpg; sourceTree = "<group>"; };
+		4CA53F9D1FB9EDB6003CBE39 /* Yue1242.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yue1242.jpg; sourceTree = "<group>"; };
+		4CA53F9E1FB9EDB6003CBE39 /* Yue750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yue750.jpg; sourceTree = "<group>"; };
+		4CA53FA01FB9EDB6003CBE39 /* Jing640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jing640.jpg; sourceTree = "<group>"; };
+		4CA53FA11FB9EDB6003CBE39 /* Jing1242.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jing1242.jpg; sourceTree = "<group>"; };
+		4CA53FA21FB9EDB6003CBE39 /* Jing750.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jing750.jpg; sourceTree = "<group>"; };
 		4CA74F101FAD7A450016325D /* a10fwj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a10fwj.sutra; sourceTree = "<group>"; };
 		4CA74F111FAD7A450016325D /* a09lyj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a09lyj.sutra; sourceTree = "<group>"; };
 		4CA74F121FAD7A460016325D /* a08dzpsbyj.sutra */ = {isa = PBXFileReference; lastKnownFileType = file; path = a08dzpsbyj.sutra; sourceTree = "<group>"; };
@@ -867,53 +867,53 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		4C3EB08A1FB9E7A2008AFEBF /* Background */ = {
+		4CA53F921FB9EDB6003CBE39 /* Background */ = {
 			isa = PBXGroup;
 			children = (
-				4C3EB08B1FB9E7A2008AFEBF /* Ke */,
-				4C3EB08F1FB9E7A2008AFEBF /* Xue */,
-				4C3EB0931FB9E7A2008AFEBF /* Yue */,
-				4C3EB0971FB9E7A2008AFEBF /* Jing */,
+				4CA53F931FB9EDB6003CBE39 /* Ke */,
+				4CA53F971FB9EDB6003CBE39 /* Xue */,
+				4CA53F9B1FB9EDB6003CBE39 /* Yue */,
+				4CA53F9F1FB9EDB6003CBE39 /* Jing */,
 			);
 			path = Background;
 			sourceTree = "<group>";
 		};
-		4C3EB08B1FB9E7A2008AFEBF /* Ke */ = {
+		4CA53F931FB9EDB6003CBE39 /* Ke */ = {
 			isa = PBXGroup;
 			children = (
-				4C3EB08C1FB9E7A2008AFEBF /* Ke640.jpg */,
-				4C3EB08D1FB9E7A2008AFEBF /* Ke1080.jpg */,
-				4C3EB08E1FB9E7A2008AFEBF /* Ke750.jpg */,
+				4CA53F941FB9EDB6003CBE39 /* Ke640.jpg */,
+				4CA53F951FB9EDB6003CBE39 /* Ke750.jpg */,
+				4CA53F961FB9EDB6003CBE39 /* Ke1242.jpg */,
 			);
 			path = Ke;
 			sourceTree = "<group>";
 		};
-		4C3EB08F1FB9E7A2008AFEBF /* Xue */ = {
+		4CA53F971FB9EDB6003CBE39 /* Xue */ = {
 			isa = PBXGroup;
 			children = (
-				4C3EB0901FB9E7A2008AFEBF /* Xue640.jpg */,
-				4C3EB0911FB9E7A2008AFEBF /* Xue1080.jpg */,
-				4C3EB0921FB9E7A2008AFEBF /* Xue750.jpg */,
+				4CA53F981FB9EDB6003CBE39 /* Xue640.jpg */,
+				4CA53F991FB9EDB6003CBE39 /* Xue1242.jpg */,
+				4CA53F9A1FB9EDB6003CBE39 /* Xue750.jpg */,
 			);
 			path = Xue;
 			sourceTree = "<group>";
 		};
-		4C3EB0931FB9E7A2008AFEBF /* Yue */ = {
+		4CA53F9B1FB9EDB6003CBE39 /* Yue */ = {
 			isa = PBXGroup;
 			children = (
-				4C3EB0941FB9E7A2008AFEBF /* Yue640.jpg */,
-				4C3EB0951FB9E7A2008AFEBF /* Yue1080.jpg */,
-				4C3EB0961FB9E7A2008AFEBF /* Yue750.jpg */,
+				4CA53F9C1FB9EDB6003CBE39 /* Yue640.jpg */,
+				4CA53F9D1FB9EDB6003CBE39 /* Yue1242.jpg */,
+				4CA53F9E1FB9EDB6003CBE39 /* Yue750.jpg */,
 			);
 			path = Yue;
 			sourceTree = "<group>";
 		};
-		4C3EB0971FB9E7A2008AFEBF /* Jing */ = {
+		4CA53F9F1FB9EDB6003CBE39 /* Jing */ = {
 			isa = PBXGroup;
 			children = (
-				4C3EB0981FB9E7A2008AFEBF /* Jing640.jpg */,
-				4C3EB0991FB9E7A2008AFEBF /* Jing1080.jpg */,
-				4C3EB09A1FB9E7A2008AFEBF /* Jing750.jpg */,
+				4CA53FA01FB9EDB6003CBE39 /* Jing640.jpg */,
+				4CA53FA11FB9EDB6003CBE39 /* Jing1242.jpg */,
+				4CA53FA21FB9EDB6003CBE39 /* Jing750.jpg */,
 			);
 			path = Jing;
 			sourceTree = "<group>";
@@ -1712,7 +1712,7 @@
 		A4E4721E1EFD019900588339 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
-				4C3EB08A1FB9E7A2008AFEBF /* Background */,
+				4CA53F921FB9EDB6003CBE39 /* Background */,
 				A4DC05021F5E8D330027450F /* Tu */,
 				A41D94B71F5406CD00FB2E0F /* Yue */,
 				A41D949D1F5406AA00FB2E0F /* Common */,
@@ -1875,15 +1875,14 @@
 				A4DC081F1F5E99AC0027450F /* e10.sutra in Resources */,
 				4CD70F841FB231E000D7B684 /* b11sgy.mp3 in Resources */,
 				A42A9B6E1FAB05F5009C7E1A /* c074.sutra in Resources */,
-				4C3EB09B1FB9E7A3008AFEBF /* Ke640.jpg in Resources */,
+				4CA53FA31FB9EDB6003CBE39 /* Ke640.jpg in Resources */,
 				A4DC08041F5E99AC0027450F /* e02.sutra in Resources */,
 				A4DC08291F5E99AC0027450F /* e13.sutra in Resources */,
 				A476A5CC1F5FC846008835A7 /* e62.files in Resources */,
-				4C3EB09E1FB9E7A3008AFEBF /* Xue640.jpg in Resources */,
+				4CA53FA61FB9EDB6003CBE39 /* Xue640.jpg in Resources */,
 				A4240C771F062E15007A25A7 /* b39dzpszy.sutra in Resources */,
 				A476A58F1F5FC846008835A7 /* e01.files in Resources */,
 				A4DC08E11F5E99AC0027450F /* e68.sutra in Resources */,
-				4C3EB09C1FB9E7A3008AFEBF /* Ke1080.jpg in Resources */,
 				A4240CA51F063273007A25A7 /* b18fywj.sutra in Resources */,
 				A476A5AD1F5FC846008835A7 /* e31.files in Resources */,
 				A476A5951F5FC846008835A7 /* e07.files in Resources */,
@@ -1909,6 +1908,7 @@
 				A4240C1F1F05F059007A25A7 /* a06hyj1.sutra in Resources */,
 				A42A9B4E1FAB05F5009C7E1A /* c023.sutra in Resources */,
 				A41D94AD1F5406AA00FB2E0F /* jing@2x.png in Resources */,
+				4CA53FAA1FB9EDB6003CBE39 /* Yue1242.jpg in Resources */,
 				A4DC08841F5E99AC0027450F /* e41.sutra in Resources */,
 				A4DC08431F5E99AC0027450F /* e21.sutra in Resources */,
 				A4DC08741F5E99AC0027450F /* e36.sutra in Resources */,
@@ -1928,6 +1928,7 @@
 				A42A9B401FAB05F5009C7E1A /* c089.sutra in Resources */,
 				A42A9B3D1FAB05F5009C7E1A /* c086.sutra in Resources */,
 				A4240C6F1F062E15007A25A7 /* b31sjmnzy.sutra in Resources */,
+				4CA53FA71FB9EDB6003CBE39 /* Xue1242.jpg in Resources */,
 				A49F0DDB1EF2618700D96CBD /* Default@2x.png in Resources */,
 				A42A9B321FAB05F5009C7E1A /* c009.sutra in Resources */,
 				4CA74F191FAD7A470016325D /* a10fwj.sutra in Resources */,
@@ -1994,7 +1995,6 @@
 				A476A5AE1F5FC846008835A7 /* e32.files in Resources */,
 				A41D94AC1F5406AA00FB2E0F /* common_list_icon_leftarrow@3x.png in Resources */,
 				A42A9B5E1FAB05F5009C7E1A /* c058.sutra in Resources */,
-				4C3EB09D1FB9E7A3008AFEBF /* Ke750.jpg in Resources */,
 				A42A9B501FAB05F5009C7E1A /* c025.sutra in Resources */,
 				A4240C241F05F059007A25A7 /* a01amtj.sutra in Resources */,
 				A44084881F03ACAF006A0F97 /* KeTitleCell.xib in Resources */,
@@ -2076,7 +2076,6 @@
 				A42A9B6A1FAB05F5009C7E1A /* c070.sutra in Resources */,
 				A442674A1EF3CFFD0012BC7F /* TuViewController.xib in Resources */,
 				4CD70F861FB231E000D7B684 /* b04dbz.mp3 in Resources */,
-				4C3EB09F1FB9E7A3008AFEBF /* Xue1080.jpg in Resources */,
 				A476A5CB1F5FC846008835A7 /* e61.files in Resources */,
 				A4240C711F062E15007A25A7 /* b33amtfzy.sutra in Resources */,
 				A42A9B621FAB05F5009C7E1A /* c062.sutra in Resources */,
@@ -2084,12 +2083,12 @@
 				A42A9B5A1FAB05F5009C7E1A /* c054.sutra in Resources */,
 				A476A5931F5FC846008835A7 /* e05.files in Resources */,
 				A4DC085C1F5E99AC0027450F /* e29.sutra in Resources */,
-				4C3EB0A51FB9E7A3008AFEBF /* Jing1080.jpg in Resources */,
 				A49F0DDA1EF2618700D96CBD /* Default.png in Resources */,
 				A4240C201F05F059007A25A7 /* a03xj.sutra in Resources */,
 				A42A9B461FAB05F5009C7E1A /* c015.sutra in Resources */,
 				A4DC08981F5E99AC0027450F /* e47.sutra in Resources */,
 				A476A5B41F5FC846008835A7 /* e38.files in Resources */,
+				4CA53FA51FB9EDB6003CBE39 /* Ke1242.jpg in Resources */,
 				A476A5A11F5FC846008835A7 /* e19.files in Resources */,
 				A41D94BB1F5406E100FB2E0F /* device_btn_add_nor@3x.png in Resources */,
 				A42A9B301FAB05F5009C7E1A /* c007.sutra in Resources */,
@@ -2107,7 +2106,6 @@
 				A4DC08801F5E99AC0027450F /* e40.sutra in Resources */,
 				A42A9B781FAB05F5009C7E1A /* c033.sutra in Resources */,
 				A4240C731F062E15007A25A7 /* b35gypszy.sutra in Resources */,
-				4C3EB0A21FB9E7A3008AFEBF /* Yue1080.jpg in Resources */,
 				A42A9B811FAB05F5009C7E1A /* c042.sutra in Resources */,
 				A42A9B571FAB05F5009C7E1A /* c051.sutra in Resources */,
 				A4240C9C1F063273007A25A7 /* b09nsh.sutra in Resources */,
@@ -2145,8 +2143,8 @@
 				A42A9B541FAB05F5009C7E1A /* c048.sutra in Resources */,
 				A4DC084C1F5E99AC0027450F /* e24.sutra in Resources */,
 				A4DC08A01F5E99AC0027450F /* e49.sutra in Resources */,
-				4C3EB0A01FB9E7A3008AFEBF /* Xue750.jpg in Resources */,
 				A42A9B2F1FAB05F5009C7E1A /* c006.sutra in Resources */,
+				4CA53FA81FB9EDB6003CBE39 /* Xue750.jpg in Resources */,
 				A42A9B311FAB05F5009C7E1A /* c008.sutra in Resources */,
 				A4DC08351F5E99AC0027450F /* e17.sutra in Resources */,
 				A4DC08871F5E99AC0027450F /* e42.sutra in Resources */,
@@ -2160,17 +2158,19 @@
 				A42A9B581FAB05F5009C7E1A /* c052.sutra in Resources */,
 				A4DC08081F5E99AC0027450F /* e03.sutra in Resources */,
 				4CA74F1F1FAD7A470016325D /* a15wmjj.sutra in Resources */,
+				4CA53FAD1FB9EDB6003CBE39 /* Jing1242.jpg in Resources */,
 				A42A9B2D1FAB05F5009C7E1A /* c004.sutra in Resources */,
 				A42A9B731FAB05F5009C7E1A /* c079.sutra in Resources */,
 				A476A5B51F5FC846008835A7 /* e39.files in Resources */,
 				A42A9B6B1FAB05F5009C7E1A /* c071.sutra in Resources */,
 				A4240C211F05F059007A25A7 /* a07wlsj.sutra in Resources */,
-				4C3EB0A41FB9E7A3008AFEBF /* Jing640.jpg in Resources */,
 				A4DC081B1F5E99AC0027450F /* e09.sutra in Resources */,
+				4CA53FAC1FB9EDB6003CBE39 /* Jing640.jpg in Resources */,
 				A4240C681F062E15007A25A7 /* b23wz.sutra in Resources */,
+				4CA53FA41FB9EDB6003CBE39 /* Ke750.jpg in Resources */,
 				A4240C981F063273007A25A7 /* b05sxz.sutra in Resources */,
 				A41D94B31F5406AA00FB2E0F /* xue@2x.png in Resources */,
-				4C3EB0A31FB9E7A3008AFEBF /* Yue750.jpg in Resources */,
+				4CA53FAB1FB9EDB6003CBE39 /* Yue750.jpg in Resources */,
 				A42A9B7F1FAB05F5009C7E1A /* c040.sutra in Resources */,
 				A476A5961F5FC846008835A7 /* e08.files in Resources */,
 				A476A5D11F5FC846008835A7 /* e67.files in Resources */,
@@ -2198,7 +2198,7 @@
 				A476A5A31F5FC846008835A7 /* e21.files in Resources */,
 				A476A5B61F5FC846008835A7 /* e40.files in Resources */,
 				A4240C961F063273007A25A7 /* b03lyz.sutra in Resources */,
-				4C3EB0A61FB9E7A3008AFEBF /* Jing750.jpg in Resources */,
+				4CA53FAE1FB9EDB6003CBE39 /* Jing750.jpg in Resources */,
 				A476A5C11F5FC846008835A7 /* e51.files in Resources */,
 				A42A9B491FAB05F5009C7E1A /* c018.sutra in Resources */,
 				A4240C791F062E15007A25A7 /* b41bqzy.sutra in Resources */,
@@ -2208,7 +2208,7 @@
 				A476A5C41F5FC846008835A7 /* e54.files in Resources */,
 				A4DC08221F5E99AC0027450F /* e11.sutra in Resources */,
 				A42A9B3B1FAB05F5009C7E1A /* c084.sutra in Resources */,
-				4C3EB0A11FB9E7A3008AFEBF /* Yue640.jpg in Resources */,
+				4CA53FA91FB9EDB6003CBE39 /* Yue640.jpg in Resources */,
 				A4DC083C1F5E99AC0027450F /* e19.sutra in Resources */,
 				A4240CA31F063273007A25A7 /* b16wsz.sutra in Resources */,
 				A476A59D1F5FC846008835A7 /* e15.files in Resources */,
