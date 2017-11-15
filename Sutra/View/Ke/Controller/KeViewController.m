@@ -76,6 +76,33 @@
     return 30;
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 30)];
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(15, 0, SCREENWIDTH, 30)];
+    
+    switch (section) {
+        case KeSectionSingle:
+            label.text = @"其他";
+            break;
+        case KeSectionAlbum:
+            label.text = @"早晚课";
+            break;
+        default:
+            break;
+    }
+    
+    label.textColor = [UIColor blackColor];
+    label.font = [UIFont systemFontOfSize:12];
+    label.shadowColor = [UIColor whiteColor];
+    label.shadowOffset =  CGSizeMake(1, 1);
+    
+    [view addSubview:label];
+    
+    return view;
+}
+
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     switch (section) {

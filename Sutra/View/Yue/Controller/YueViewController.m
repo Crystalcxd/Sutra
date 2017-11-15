@@ -288,7 +288,7 @@
     [btn addTarget:self action:@selector(changeOrder) forControlEvents:UIControlEventTouchUpInside];
     [view addSubview:btn];
     
-    view.backgroundColor = [UIColor whiteColor];
+    view.backgroundColor = [UIColor clearColor];
     
     return view;
 }
