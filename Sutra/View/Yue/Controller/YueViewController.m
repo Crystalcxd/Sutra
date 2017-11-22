@@ -104,7 +104,7 @@
 - (void)setUI {
     self.navigationItem.title = @"佛乐于心";//@"阿弥陀经";
     
-    self.tableView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.3];
+    self.tableView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.8];
     
     UIImage *image = nil;
     if (SCREENWIDTH == 320) {

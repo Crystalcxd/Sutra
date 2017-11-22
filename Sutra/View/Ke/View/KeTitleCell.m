@@ -26,7 +26,7 @@
     // Initialization code
     [self.line setBackgroundColor:[UIColor colorWithWhite:0 alpha:0.05]];
     
-    [self.titleLabel setFont:[UIFont systemFontOfSize:16]];
+    [self.titleLabel setFont:[UIFont systemFontOfSize:28]];
     [self.titleLabel setTextColor:[UIColor blackColor]];
     
     self.arrowImageView.image = [UIImage imageNamed:@"common_list_icon_leftarrow"];
