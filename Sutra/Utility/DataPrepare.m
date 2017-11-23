@@ -30,6 +30,8 @@
     [_Jing addObject:@{@"name":@"维摩诘经",@"url":@"a15wmjj.sutra"}];
     [_Jing addObject:@{@"name":@"圆觉经",@"url":@"a16yjj.sutra"}];
 
+    NSLog(@"JingData ==== %@",[DataPrepare convertToJsonData:_Jing]);
+    
     return _Jing;
 }
 
@@ -59,6 +61,8 @@
     [_KeAlbum addObject:@{@"name":@"普贤菩萨警众偈",@"url":@"b20jzj.sutra"}];
     [_KeAlbum addObject:@{@"name":@"韦天赞",@"url":@"b21wtz.sutra"}];
     
+    NSLog(@"KeHomeAlbumData ==== %@",[DataPrepare convertToJsonData:_KeAlbum]);
+
     return _KeAlbum;
 }
 
@@ -88,6 +92,8 @@
     [_Ke addObject:@{@"name":@"回向偈",@"url":@"b42hxj.sutra"}];
     [_Ke addObject:@{@"name":@"诸佛菩萨圣诞日",@"url":@"b43zfpsdate.sutra"}];
 
+    NSLog(@"KeHomeSingleData ==== %@",[DataPrepare convertToJsonData:_Ke]);
+
     return _Ke;
 }
 
@@ -109,6 +115,8 @@
     [albumSutraList addObject:@{@"name":@"韦天赞",@"url":@"b21wtz.sutra"}];
     [albumSutraList addObject:@{@"name":@"赞观音文",@"url":@"b12zgyw.sutra"}];
     
+    NSLog(@"morningSong ==== %@",[DataPrepare convertToJsonData:albumSutraList]);
+
     return [[KeAlbum alloc] initWithName:@"早课" array:albumSutraList];
 }
 
@@ -127,11 +135,15 @@
     [albumSutraList addObject:@{@"name":@"大悲咒",@"url":@"b04dbz.sutra"}];
     [albumSutraList addObject:@{@"name":@"伽蓝赞",@"url":@"b19qlz.sutra"}];
     
+    NSLog(@"eveningSong ==== %@",[DataPrepare convertToJsonData:albumSutraList]);
+
     return  [[KeAlbum alloc] initWithName:@"晚课" array:albumSutraList];
 }
 
 + (NSArray *)installXueSectionData
 {
+    NSLog(@"XueSectionData ==== %@",[DataPrepare convertToJsonData:@[@"佛教的创立历程",@"佛教的发展与传播",@"佛教宗派派别",@"简述佛学教义与佛经",@"佛教仪轨入门知识"]]);
+
     return @[@"佛教的创立历程",@"佛教的发展与传播",@"佛教宗派派别",@"简述佛学教义与佛经",@"佛教仪轨入门知识"];
 }
 
@@ -156,7 +168,8 @@
                  ,@{@"name":@"印度佛教发展的密宗佛教时期",@"url":@"c011.sutra"}
                  ,@{@"name":@"阿育王对佛教的发展贡献",@"url":@"c012.sutra"}
                  ,@{@"name":@"佛教在印度的衰落",@"url":@"c013.sutra"}];
-    
+    NSLog(@"licheng ==== %@",[DataPrepare convertToJsonData:licheng]);
+
     fazhan  = @[@{@"name":@"佛法东来——汉（中华第一寺）",@"url":@"c014.sutra"}
                 ,@{@"name":@"佛法东来——三国（西行求法第一人）",@"url":@"c015.sutra"}
                 ,@{@"name":@"佛法东来——西晋（敦煌菩萨）",@"url":@"c016.sutra"}
@@ -172,7 +185,8 @@
                 ,@{@"name":@"居士佛教——近代复兴（居士佛教的兴起）",@"url":@"c026.sutra"}
                 ,@{@"name":@"雪域弘法——西藏佛教",@"url":@"c027.sutra"}
                 ,@{@"name":@"佛教在其他地区的分布",@"url":@"c028.sutra"}];
-    
+    NSLog(@"fazhan ==== %@",[DataPrepare convertToJsonData:fazhan]);
+
     paibie = @[@{@"name":@"中国佛教语系概述",@"url":@"c029.sutra"}
                ,@{@"name":@"中国佛教语系之汉语系佛教",@"url":@"c030.sutra"}
                ,@{@"name":@"中国佛教语系之藏语系佛教",@"url":@"c031.sutra"}
@@ -192,7 +206,8 @@
                ,@{@"name":@"中国名寺之相国寺",@"url":@"c045.sutra"}
                ,@{@"name":@"中国名寺之大悲禅院",@"url":@"c046.sutra"}
                ,@{@"name":@"中国名寺之大昭寺",@"url":@"c047.sutra"}];
-    
+    NSLog(@"paibie ==== %@",[DataPrepare convertToJsonData:paibie]);
+
     jiaoyi  = @[@{@"name":@"佛教教义-缘起",@"url":@"c048.sutra"}
                 ,@{@"name":@"佛教教义——三法印、三皈依、三学",@"url":@"c049.sutra"}
                 ,@{@"name":@"佛教教义——四谛",@"url":@"c050.sutra"}
@@ -225,7 +240,8 @@
                 ,@{@"name":@"五大译经师之玄奘三藏法师",@"url":@"c077.sutra"}
                 ,@{@"name":@"五大译经师之义净三藏法师",@"url":@"c078.sutra"}
                 ,@{@"name":@"五大译经师之不空三藏法师",@"url":@"c079.sutra"}];
-    
+    NSLog(@"jiaoyi ==== %@",[DataPrepare convertToJsonData:jiaoyi]);
+
     yigui = @[@{@"name":@"出家五众、在家二众",@"url":@"c080.sutra"}
               ,@{@"name":@"佛教徒名称的由来",@"url":@"c081.sutra"}
               ,@{@"name":@"僧人的日常生活规范",@"url":@"c082.sutra"}
@@ -240,7 +256,8 @@
               ,@{@"name":@"在家居士如何持斋",@"url":@"c091.sutra"}
               ,@{@"name":@"在家居士如何修行",@"url":@"c092.sutra"}
               ,@{@"name":@"游客如何参访寺院",@"url":@"c093.sutra"}];
-    
+    NSLog(@"yigui ==== %@",[DataPrepare convertToJsonData:yigui]);
+
     return @[licheng,fazhan,paibie,jiaoyi,yigui];
 }
 
@@ -319,8 +336,47 @@
                        ,@{@"name":@"云门寺",@"url":@"e71.sutra",@"location":@"113.321038,24.815506"}
                        ,@{@"name":@"洗石庵",@"url":@"e72.sutra",@"location":@"110.054596,23.404230"}
                        ,@{@"name":@"弘法寺",@"url":@"e73.sutra",@"location":@"114.188148,22.583463"}];
-    
+    NSLog(@"TuData ==== %@",[DataPrepare convertToJsonData:array]);
+
     return array;
+}
+
++ (NSString *)convertToJsonData:(id)dict
+
+{
+    
+    NSError *error;
+    
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:&error];
+    
+    NSString *jsonString;
+    
+    if (!jsonData) {
+        
+        NSLog(@"%@",error);
+        
+    }else{
+        
+        jsonString = [[NSString alloc]initWithData:jsonData encoding:NSUTF8StringEncoding];
+        
+    }
+    
+    NSMutableString *mutStr = [NSMutableString stringWithString:jsonString];
+    
+    NSRange range = {0,jsonString.length};
+    
+    //去掉字符串中的空格
+    
+    [mutStr replaceOccurrencesOfString:@" " withString:@"" options:NSLiteralSearch range:range];
+    
+    NSRange range2 = {0,mutStr.length};
+    
+    //去掉字符串中的换行符
+    
+    [mutStr replaceOccurrencesOfString:@"\n" withString:@"" options:NSLiteralSearch range:range2];
+    
+    return mutStr;
+    
 }
 
 @end
