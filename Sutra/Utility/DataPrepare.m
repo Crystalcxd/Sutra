@@ -102,16 +102,16 @@
     NSMutableArray *albumSutraList=  [[NSMutableArray alloc] init];
     
     [albumSutraList addObject:@{@"name":@"香赞",@"url":@"b01xz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"宝鼎赞",@"url":@"b02bdz.sutra"}];
+    [albumSutraList addObject:@{@"name":@"宝鼎赞（音）",@"url":@"b02bdz.sutra"}];
     [albumSutraList addObject:@{@"name":@"楞严咒",@"url":@"b03lyz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"大悲咒",@"url":@"b04dbz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"十小咒",@"url":@"b05sxz.sutra"}];
-    [albumSutraList addObject:@{@"name":@"心经",@"url":@"b06xj.sutra"}];
+    [albumSutraList addObject:@{@"name":@"大悲咒（音）",@"url":@"b04dbz.sutra"}];
+    [albumSutraList addObject:@{@"name":@"十小咒（音）",@"url":@"b05sxz.sutra"}];
+    [albumSutraList addObject:@{@"name":@"心经（音）",@"url":@"b06xj.sutra"}];
     [albumSutraList addObject:@{@"name":@"回向偈",@"url":@"b07hxj.sutra"}];
     [albumSutraList addObject:@{@"name":@"赞佛偈",@"url":@"b08zfj.sutra"}];
     [albumSutraList addObject:@{@"name":@"念圣号",@"url":@"b09nsh.sutra"}];
     [albumSutraList addObject:@{@"name":@"发愿文普贤十大愿王",@"url":@"b10fyws.sutra"}];
-    [albumSutraList addObject:@{@"name":@"三皈依",@"url":@"b11sgy.sutra"}];
+    [albumSutraList addObject:@{@"name":@"三皈依（音）",@"url":@"b11sgy.sutra"}];
     [albumSutraList addObject:@{@"name":@"韦天赞",@"url":@"b21wtz.sutra"}];
     [albumSutraList addObject:@{@"name":@"赞观音文",@"url":@"b12zgyw.sutra"}];
     
@@ -127,12 +127,12 @@
     [albumSutraList addObject:@{@"name":@"阿弥陀经",@"url":@"b13amtj.sutra"}];
     [albumSutraList addObject:@{@"name":@"礼佛大忏悔文",@"url":@"b14dchw.sutra"}];
     [albumSutraList addObject:@{@"name":@"蒙山施食",@"url":@"b15msss.sutra"}];
-    [albumSutraList addObject:@{@"name":@"心经",@"url":@"b06xj.sutra"}];
+    [albumSutraList addObject:@{@"name":@"心经（音）",@"url":@"b06xj.sutra"}];
     [albumSutraList addObject:@{@"name":@"往生咒",@"url":@"b16wsz.sutra"}];
     [albumSutraList addObject:@{@"name":@"赞佛偈",@"url":@"b08zfj.sutra"}];
     [albumSutraList addObject:@{@"name":@"发愿文慈云净土",@"url":@"b18fywj.sutra"}];
-    [albumSutraList addObject:@{@"name":@"三皈依",@"url":@"b11sgy.sutra"}];
-    [albumSutraList addObject:@{@"name":@"大悲咒",@"url":@"b04dbz.sutra"}];
+    [albumSutraList addObject:@{@"name":@"三皈依（音）",@"url":@"b11sgy.sutra"}];
+    [albumSutraList addObject:@{@"name":@"大悲咒（音）",@"url":@"b04dbz.sutra"}];
     [albumSutraList addObject:@{@"name":@"伽蓝赞",@"url":@"b19qlz.sutra"}];
     
     NSLog(@"eveningSong ==== %@",[DataPrepare convertToJsonData:albumSutraList]);
