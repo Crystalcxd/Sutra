@@ -61,7 +61,7 @@
     RDVTabBarController *vc = (RDVTabBarController *)appDelegate.window.rootViewController;
     [vc setTabBarHidden:NO];
     
-    [[AudioTask shareAudioTask] stopTaskWithType:backgroundTask];
+    [self stopMusic];
 }
 
 - (void)setDetailItem:(id)newDetailItem
@@ -229,19 +229,10 @@
     }
 }
 
--(void)audioPlayWithPath:(NSURL *)url
+- (void)stopMusic
 {
-    [[AudioTask shareAudioTask] setUrl:url];
-    [[AudioTask shareAudioTask] startTaskWithTyep:backgroundTask];
-    
-    //    //设置锁屏仍能继续播放
-    //    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionMixWithOthers error:nil];
-    //    [[AVAudioSession sharedInstance] setActive: YES error: nil];
-    //
-    //    player=[[AVAudioPlayer alloc] initWithContentsOfURL:url error:Nil];
-    //    player.numberOfLoops = -1;
-    //    [player prepareToPlay];
-    //    [player play];
+    [_avAudioPlayer stop];
+    _avAudioPlayer = nil;
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
@@ -260,6 +251,7 @@
     if (array.count == 1) {
         KeAlbum *album = [array firstObject];
         
+        [self stopMusic];
         [self updateViewWith:album];
     }else{
         SLPJumpAlbumView *jumpAlbumView = [[[NSBundle mainBundle] loadNibNamed:@"SLPJumpAlbumView" owner:self options:nil] firstObject];
@@ -267,6 +259,7 @@
         // 助眠设备多余一个的时候弹出底部视图
         __weak typeof(self) weakSelf = self;
         [jumpAlbumView showInView:self.view albumList:array jumpAlbumHandle:^(KeAlbum *album) {
+            [weakSelf stopMusic];
             [weakSelf updateViewWith:album];
         } animated:YES];
     }
