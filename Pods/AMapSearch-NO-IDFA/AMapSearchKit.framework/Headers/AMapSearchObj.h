@@ -55,7 +55,7 @@ typedef NS_ENUM(NSInteger, AMapNearbySearchType)
 @property (nonatomic, assign) NSInteger  offset;
 ///当前页数, 范围1-100, [default = 1]
 @property (nonatomic, assign) NSInteger  page;
-///建筑物POI编号，传入建筑物POI之后，则只在该建筑物之内进行搜索 since 4.5.0
+///建筑物POI编号，传入建筑物POI之后，则只在该建筑物之内进行搜索（since 4.5.0）
 @property (nonatomic, copy) NSString *building;
 ///是否返回扩展信息，默认为 NO。
 @property (nonatomic, assign) BOOL requireExtension;
@@ -74,7 +74,7 @@ typedef NS_ENUM(NSInteger, AMapNearbySearchType)
 ///查询关键字，多个关键字用“|”分割
 @property (nonatomic, copy)   NSString *keywords; 
 ///查询城市，可选值：cityname（中文或中文全拼）、citycode、adcode.(注：台湾地区一律设置为【台湾】，不具体到市。)
-@property (nonatomic, copy)   NSString *city; 
+@property (nonatomic, copy)   NSString *city;
 ///强制城市限制功能 默认NO，例如：在上海搜索天安门，如果citylimit为true，将不返回北京的天安门相关的POI
 @property (nonatomic, assign) BOOL cityLimit;
 ///设置后，如果sortrule==0，则返回结果会按照距离此点的远近来排序,since 5.2.1
@@ -89,7 +89,10 @@ typedef NS_ENUM(NSInteger, AMapNearbySearchType)
 ///中心点坐标
 @property (nonatomic, copy)   AMapGeoPoint *location; 
 ///查询半径，范围：0-50000，单位：米 [default = 3000]
-@property (nonatomic, assign) NSInteger     radius; 
+@property (nonatomic, assign) NSInteger     radius;
+///查询城市，可选值：cityname（中文或中文全拼）、citycode、adcode。注：当用户指定的经纬度和city出现冲突，若范围内有用户指定city的数据，则返回相关数据，否则返回为空。（since 5.7.0）
+@property (nonatomic, copy)   NSString     *city;
+
 @end
 
 ///POI多边形搜索
