@@ -42,9 +42,9 @@ PODS:
   - RDVTabBarController (1.1.9)
   - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.5)
-  - SDWebImage (4.3.0):
-    - SDWebImage/Core (= 4.3.0)
-  - SDWebImage/Core (4.3.0)
+  - SDWebImage (4.3.2):
+    - SDWebImage/Core (= 4.3.2)
+  - SDWebImage/Core (4.3.2)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -99,7 +99,7 @@ SPEC CHECKSUMS:
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: a65b15493de05dda4af0f392c70372b7a5625aab
-  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+  SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
