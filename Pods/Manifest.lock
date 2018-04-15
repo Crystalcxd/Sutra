@@ -19,7 +19,7 @@ PODS:
   - AMapFoundation-NO-IDFA (1.4.3)
   - AMapLocation-NO-IDFA (2.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapSearch-NO-IDFA (5.7.0):
+  - AMapSearch-NO-IDFA (6.1.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
   - BaiduMapKit (3.4.4)
   - DACircularProgress (2.3.1)
@@ -28,10 +28,10 @@ PODS:
     - GBDeviceInfo/Core (= 5.1.0)
   - GBDeviceInfo/Core (5.1.0)
   - GVUserDefaults (1.0.2)
-  - HappyDNS (0.3.12)
+  - HappyDNS (0.3.13)
   - HMSegmentedControl (1.5.4)
-  - JCore (1.1.7)
-  - JPush (3.0.8):
+  - JCore (1.1.9)
+  - JPush (3.0.9):
     - JCore (~> 1.1.7)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
@@ -42,9 +42,9 @@ PODS:
   - RDVTabBarController (1.1.9)
   - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.5)
-  - SDWebImage (4.3.2):
-    - SDWebImage/Core (= 4.3.2)
-  - SDWebImage/Core (4.3.2)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -76,21 +76,51 @@ DEPENDENCIES:
   - WebViewJavascriptBridge
   - YYModel
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - AMap2DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - BaiduMapKit
+    - DACircularProgress
+    - DateTools
+    - GBDeviceInfo
+    - GVUserDefaults
+    - HappyDNS
+    - HMSegmentedControl
+    - JCore
+    - JPush
+    - Masonry
+    - MBProgressHUD
+    - MiPushSDK
+    - MJRefresh
+    - Qiniu
+    - RDVTabBarController
+    - RegexKitLite
+    - RNCryptor-objc
+    - SDWebImage
+    - TTTAttributedLabel
+    - UMengAnalytics-NO-IDFA
+    - WebViewJavascriptBridge
+    - YYModel
+
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   AMap2DMap-NO-IDFA: 277965383679f1a4676df7e1a0439a1e14d0599a
   AMapFoundation-NO-IDFA: b6cbefab250ae8ab2e31aa9bb3dbbb98137cd76f
   AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
-  AMapSearch-NO-IDFA: 612a92f75ff20544f42d376dfcf3c034da4ad0b6
+  AMapSearch-NO-IDFA: a4511739719aa32ae9990b3189833a0bf82a986a
   BaiduMapKit: 4ac88f5a363500760392825b69709f4a0125f81e
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: 8e43440ae1264d9a79beea81800363cf192ce322
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
-  HappyDNS: 691a3041128055d09866f86e6e9ca90f24da1f18
+  HappyDNS: 17732b07a75bb9756bd6fe04452609e8da8c663e
   HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
-  JCore: f7459c81c135281a874a6beafdd321666adcc834
-  JPush: 9574d072cc37e93fa293ba69b43ce763c440943a
+  JCore: 27598485098d0db99d2812cba048003457d08cfb
+  JPush: 003d9eaef8ba2df76de32573d0c8aa62b92b3c82
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
@@ -99,7 +129,7 @@ SPEC CHECKSUMS:
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: a65b15493de05dda4af0f392c70372b7a5625aab
-  SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
@@ -107,4 +137,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 4cdee94cf385498acfa41a70aea67ff07d282fa5
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
