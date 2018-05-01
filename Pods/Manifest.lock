@@ -16,12 +16,12 @@ PODS:
     - AFNetworking/NSURLSession
   - AMap2DMap-NO-IDFA (5.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapFoundation-NO-IDFA (1.4.3)
+  - AMapFoundation-NO-IDFA (1.5.0)
   - AMapLocation-NO-IDFA (2.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
   - AMapSearch-NO-IDFA (6.1.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - BaiduMapKit (3.4.4)
+  - BaiduMapKit (4.0.0)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
   - GBDeviceInfo (5.1.0):
@@ -109,10 +109,10 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   AMap2DMap-NO-IDFA: 277965383679f1a4676df7e1a0439a1e14d0599a
-  AMapFoundation-NO-IDFA: b6cbefab250ae8ab2e31aa9bb3dbbb98137cd76f
+  AMapFoundation-NO-IDFA: c7a74e4f2e1633ffc310b5da1367d06198ab09d6
   AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
   AMapSearch-NO-IDFA: a4511739719aa32ae9990b3189833a0bf82a986a
-  BaiduMapKit: 4ac88f5a363500760392825b69709f4a0125f81e
+  BaiduMapKit: 8fa2eb2ca81b92b740b19d9ff3b59d751d3e92e1
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: 8e43440ae1264d9a79beea81800363cf192ce322
