@@ -16,10 +16,10 @@ PODS:
     - AFNetworking/NSURLSession
   - AMap2DMap-NO-IDFA (5.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapFoundation-NO-IDFA (1.5.0)
+  - AMapFoundation-NO-IDFA (1.5.1)
   - AMapLocation-NO-IDFA (2.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapSearch-NO-IDFA (6.1.0):
+  - AMapSearch-NO-IDFA (6.1.1):
     - AMapFoundation-NO-IDFA (~> 1.4)
   - BaiduMapKit (4.0.0)
   - DACircularProgress (2.3.1)
@@ -29,7 +29,7 @@ PODS:
   - GBDeviceInfo/Core (5.1.0)
   - GVUserDefaults (1.0.2)
   - HappyDNS (0.3.14)
-  - HMSegmentedControl (1.5.4)
+  - HMSegmentedControl (1.5.5)
   - JCore (1.1.9)
   - JPush (3.0.9):
     - JCore (~> 1.1.7)
@@ -109,16 +109,16 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AMap2DMap-NO-IDFA: 277965383679f1a4676df7e1a0439a1e14d0599a
-  AMapFoundation-NO-IDFA: c7a74e4f2e1633ffc310b5da1367d06198ab09d6
+  AMapFoundation-NO-IDFA: 4abe1d2a82b7c8c65ec1fe4a0eeea0bcae6282ad
   AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
-  AMapSearch-NO-IDFA: a4511739719aa32ae9990b3189833a0bf82a986a
+  AMapSearch-NO-IDFA: 848e148a31876217a1094e6be3448e95d1688b6a
   BaiduMapKit: 8fa2eb2ca81b92b740b19d9ff3b59d751d3e92e1
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: 8e43440ae1264d9a79beea81800363cf192ce322
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
-  HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
   JCore: 27598485098d0db99d2812cba048003457d08cfb
   JPush: 003d9eaef8ba2df76de32573d0c8aa62b92b3c82
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
