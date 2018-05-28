@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - AMap2DMap-NO-IDFA (5.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapFoundation-NO-IDFA (1.5.1)
+  - AMapFoundation-NO-IDFA (1.5.2)
   - AMapLocation-NO-IDFA (2.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
   - AMapSearch-NO-IDFA (6.1.1):
@@ -24,9 +24,9 @@ PODS:
   - BaiduMapKit (4.0.0)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
-  - GBDeviceInfo (5.1.0):
-    - GBDeviceInfo/Core (= 5.1.0)
-  - GBDeviceInfo/Core (5.1.0)
+  - GBDeviceInfo (5.2.0):
+    - GBDeviceInfo/Core (= 5.2.0)
+  - GBDeviceInfo/Core (5.2.0)
   - GVUserDefaults (1.0.2)
   - HappyDNS (0.3.14)
   - HMSegmentedControl (1.5.5)
@@ -41,7 +41,7 @@ PODS:
     - HappyDNS (~> 0.3)
   - RDVTabBarController (1.1.9)
   - RegexKitLite (4.0)
-  - RNCryptor-objc (3.0.5)
+  - RNCryptor-objc (3.0.6)
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
@@ -109,13 +109,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AMap2DMap-NO-IDFA: 277965383679f1a4676df7e1a0439a1e14d0599a
-  AMapFoundation-NO-IDFA: 4abe1d2a82b7c8c65ec1fe4a0eeea0bcae6282ad
+  AMapFoundation-NO-IDFA: 2310b4056a99fade257be804e68092fc3be554d8
   AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
   AMapSearch-NO-IDFA: 848e148a31876217a1094e6be3448e95d1688b6a
   BaiduMapKit: 8fa2eb2ca81b92b740b19d9ff3b59d751d3e92e1
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
-  GBDeviceInfo: 8e43440ae1264d9a79beea81800363cf192ce322
+  GBDeviceInfo: 2c65ceb9404f9079264d4c238f5b81916fdfc5e2
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
@@ -128,7 +128,7 @@ SPEC CHECKSUMS:
   Qiniu: 65384bca1cdb0480a68d9b9b8f54db53418c0355
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
-  RNCryptor-objc: a65b15493de05dda4af0f392c70372b7a5625aab
+  RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
