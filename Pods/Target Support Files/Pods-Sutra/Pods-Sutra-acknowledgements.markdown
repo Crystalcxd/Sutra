@@ -403,7 +403,7 @@ Copyright jpush.cn
 
 ## JPush
 
-Copyright jpush.cn
+Copyright jiguang.cn
 
 ## MBProgressHUD
 
