@@ -21,7 +21,7 @@ PODS:
     - AMapFoundation-NO-IDFA (~> 1.4)
   - AMapSearch-NO-IDFA (6.1.1):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - BaiduMapKit (4.1.0)
+  - BaiduMapKit (4.1.1)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
   - GBDeviceInfo (5.2.0):
@@ -42,9 +42,9 @@ PODS:
   - RDVTabBarController (1.1.9)
   - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.6)
-  - SDWebImage (4.4.0):
-    - SDWebImage/Core (= 4.4.0)
-  - SDWebImage/Core (4.4.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -77,7 +77,7 @@ DEPENDENCIES:
   - YYModel
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - AMap2DMap-NO-IDFA
     - AMapFoundation-NO-IDFA
@@ -112,7 +112,7 @@ SPEC CHECKSUMS:
   AMapFoundation-NO-IDFA: 2310b4056a99fade257be804e68092fc3be554d8
   AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
   AMapSearch-NO-IDFA: 848e148a31876217a1094e6be3448e95d1688b6a
-  BaiduMapKit: 20a152d071f0b7715110edc15aa4189f4c585b83
+  BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: 2c65ceb9404f9079264d4c238f5b81916fdfc5e2
@@ -129,7 +129,7 @@ SPEC CHECKSUMS:
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
-  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
@@ -137,4 +137,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 4cdee94cf385498acfa41a70aea67ff07d282fa5
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.0
