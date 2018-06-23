@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - AMap2DMap-NO-IDFA (5.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapFoundation-NO-IDFA (1.5.2)
+  - AMapFoundation-NO-IDFA (1.5.3)
   - AMapLocation-NO-IDFA (2.6.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
   - AMapSearch-NO-IDFA (6.1.1):
@@ -77,7 +77,7 @@ DEPENDENCIES:
   - YYModel
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - AMap2DMap-NO-IDFA
     - AMapFoundation-NO-IDFA
@@ -109,7 +109,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AMap2DMap-NO-IDFA: 277965383679f1a4676df7e1a0439a1e14d0599a
-  AMapFoundation-NO-IDFA: 2310b4056a99fade257be804e68092fc3be554d8
+  AMapFoundation-NO-IDFA: 128ccf9249abc9de1661b935f01d116700583691
   AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
   AMapSearch-NO-IDFA: 848e148a31876217a1094e6be3448e95d1688b6a
   BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
@@ -137,4 +137,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 4cdee94cf385498acfa41a70aea67ff07d282fa5
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
