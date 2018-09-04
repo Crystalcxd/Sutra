@@ -2242,7 +2242,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Sutra/Pods-Sutra-resources.sh",
 				"${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
-				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
