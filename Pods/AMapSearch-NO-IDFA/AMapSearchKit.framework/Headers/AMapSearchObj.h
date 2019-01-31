@@ -82,7 +82,7 @@ typedef NS_ENUM(NSInteger, AMapTruckSizeType)
 @interface AMapPOIKeywordsSearchRequest : AMapPOISearchBaseRequest
 ///查询关键字，多个关键字用“|”分割
 @property (nonatomic, copy)   NSString *keywords; 
-///查询城市，可选值：cityname（中文或中文全拼）、citycode、adcode.(注：台湾地区一律设置为【台湾】，不具体到市。)
+///查询城市，可选值：cityname（中文或中文全拼）、citycode、adcode.(注：台湾省的城市一律设置为【台湾】，不具体到市。)
 @property (nonatomic, copy)   NSString *city;
 ///强制城市限制功能 默认NO，例如：在上海搜索天安门，如果citylimit为true，将不返回北京的天安门相关的POI
 @property (nonatomic, assign) BOOL cityLimit;
