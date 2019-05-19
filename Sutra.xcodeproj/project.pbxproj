@@ -2240,7 +2240,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Sutra/Pods-Sutra-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Sutra/Pods-Sutra-resources.sh",
 				"${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle",
 			);
@@ -2251,7 +2251,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sutra/Pods-Sutra-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sutra/Pods-Sutra-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3318DBEA20E01ECED21FC5A9 /* [CP] Embed Pods Frameworks */ = {
@@ -2260,7 +2260,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Sutra/Pods-Sutra-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Sutra/Pods-Sutra-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
 				"${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework",
@@ -2303,7 +2303,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sutra/Pods-Sutra-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sutra/Pods-Sutra-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		64240C6E42F7375DE176A081 /* [CP] Check Pods Manifest.lock */ = {

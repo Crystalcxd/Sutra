@@ -4,7 +4,7 @@
 
 --------------------------------------------------------------------------------------
 
-iOS 地图 SDK v4.2.0是适用于iOS系统移动设备的矢量地图开发包
+iOS 地图 SDK v4.3.2是适用于iOS系统移动设备的矢量地图开发包
 
 --------------------------------------------------------------------------------------
 
@@ -45,26 +45,19 @@ LBS云检索：支持查询存储在LBS云内的自有数据；
  pod setup //更新CocoPods的本地库
  pod search BaiduMapKit  //查看最新地图SDK
  
+ 
+ 
+v4.3.2版本：
+【优化】
+1.优化瓦片图加载速度。
+【修复】
+1.修复自定义热力图外缘黑影问题。
+2.修复驾车路线规划多个途径点算路不精确问题。
+3.修复轻扫地图滑动时，regiondidchange回调时间的错误问题。
+4.修复polyline绘制飞线问题
+5.修复polygon特殊点崩溃问题
+6.修复云检索中字段中含有json串转码问题
+7.修复annotationview的paopao添加按钮无法响应的问题
+8.修复其他小bugs若干。
 
-V4.2.1版本：
-
-【新 增】
-1.BMKAnnotationView新增hidePaopaoWhenSingleTapOnMap、hidePaopaoWhenDrag、displayPriority等新字段，提供更灵活的控制annotationView和paopaoView显示层级的解决方案。
-2.BMKMapview新增 mapView:regionWillChangeAnimated:reason:和 mapView:regionDidChangeAnimated:reason: 两个回调，其中reason说明本次地图区域发生变化是由何种原因触发的。
-3.BMKMapview的方法selectAnnotation:animated:开始支持动画效果。
-4.支持长按paopaoView拖动annotationView。
-5.BMKLocationViewDisplayParam新增属性locationViewImage，支持由开发者提供定位图标的图片。
-
-【优 化】
-1.提升底图加载渲染速度。
-2.提升拖动地图时annotationView随地图移动的平滑度。
-
-【修 复】
-1.修复多页面多瓦片图切换时，瓦片图加载不出来的问题。
-2.修复断网后应用退到杀进程界面，从杀进程界面进入应用，进行重复多次会导致手机重启的问题。
-3.修复步行导航退出导航后，外部地图无法滑动的问题。
-4.修复地图比例尺可能会超出屏幕边界的问题。
-5.修复首次进入地图滑动地图没有mapView:regionWillChangeAnimated回调的问题。
-6.修复屏幕上添加固定标注后，showAnnotations方法显示不准确的问题。
-7.修复地图点击时，region没有发生变化，但是会触发regionchange回调的问题。
-8.修复用户按住某个annotation缩放或拖动过程中，会触发didSelectAnnotationView而不触发regionDidChangeAnimated的问题。
+------------------------------------------------------------------------------------------------
