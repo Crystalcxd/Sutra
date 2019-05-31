@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3167B854A0002B951224906B85BFDFAC"
+               BlueprintIdentifier = "0D48B4FF14650A09B701CC87BE6723C2"
+               BuildableName = "Pods-Sutra.framework"
                BlueprintName = "Pods-Sutra"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Pods-Sutra.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
