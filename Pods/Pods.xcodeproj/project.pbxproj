@@ -781,6 +781,7 @@
 		0112B9D0C5F25DEC7B7ACE256B3FFC5E /* QNUpToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNUpToken.m; path = QiniuSDK/Storage/QNUpToken.m; sourceTree = "<group>"; };
 		0140ADD289A1BC8F3718BD66C5DF2692 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		022C510CCEF3282868C26CD439423F10 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		02F674BF942B557565DDBBD1547E45E3 /* libjcore-ios-2.1.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.1.1.a"; sourceTree = "<group>"; };
 		032965AC71E2F39ED2CBC231F6DCD394 /* Qiniu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Qiniu.xcconfig; sourceTree = "<group>"; };
 		035B45C3A515BC9DAF69E3388CD08D03 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		036C3AA8A9BF05363683C286755711A8 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -1288,7 +1289,6 @@
 		D32FF9F6ED5E61ED4F8F1FD096A63E23 /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
 		D3313F641BE5ADF6A7E885DF73CEDE91 /* MACircleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircleRenderer.h; path = MAMapKit.framework/Headers/MACircleRenderer.h; sourceTree = "<group>"; };
 		D3514C9DCA087EDA43A5D99074E76A5B /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/SDDiskCache.h; sourceTree = "<group>"; };
-		D4636136F34BB735015EF45021FE1627 /* libjcore-ios-2.0.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.0.2.a"; sourceTree = "<group>"; };
 		D4E8F072C597151D25157E434B8E64C0 /* RDVTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBar.m; path = RDVTabBarController/RDVTabBar.m; sourceTree = "<group>"; };
 		D5189BBC0EA49E1055BE5CE95D18F3E5 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		D5AAAC7272816A8267489E16F63B0EFA /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
@@ -1584,14 +1584,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BaiduMapKit";
-			sourceTree = "<group>";
-		};
-		0891E9810E70901767A1A48373A15A4E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D4636136F34BB735015EF45021FE1627 /* libjcore-ios-2.0.2.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		13ADD6CC83ED800F2ED82E5E5D1916C1 /* Support Files */ = {
@@ -2078,7 +2070,7 @@
 		6706520A19D58F4D7BD139B9B60E795E /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				0891E9810E70901767A1A48373A15A4E /* Frameworks */,
+				74A3E6F192DA8A50F5957A95147AF886 /* Frameworks */,
 				398B2A259F5F123C54C07D2EB78790FE /* Support Files */,
 			);
 			name = JCore;
@@ -2126,6 +2118,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		74A3E6F192DA8A50F5957A95147AF886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F674BF942B557565DDBBD1547E45E3 /* libjcore-ios-2.1.1.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		768465A2E3052538F079062F49AEB83B /* Support Files */ = {
