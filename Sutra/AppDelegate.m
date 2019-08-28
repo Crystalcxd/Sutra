@@ -17,9 +17,11 @@
 #import <AMapFoundationKit/AMapFoundationKit.h>
 
 #import <AVFoundation/AVFoundation.h>
+#import "UMMobClick/MobClick.h"
 
 #define kBMKAPPKey @"xde7bFTdIXPU5iAkDhtrgnysry15uDkv"
 #define kAMapAPPKey @"e83fa7fa9c5b733986185cac1b3a2354"
+#define kUMmengAppKey @"5d661a723fc195d4a1001318"
 
 @interface AppDelegate ()
 {
@@ -38,6 +40,7 @@
     
     [self installAMapServe];
     [self mainView];
+    [self setUpUM];
     return YES;
 }
 
@@ -134,6 +137,15 @@
                                              }];
         index++;
     }
+}
+
+- (void)setUpUM{
+    ////友盟配置///
+    UMConfigInstance.appKey =kUMmengAppKey;
+    UMConfigInstance.channelId =@"App Store";
+    UMConfigInstance.eSType =E_UM_NORMAL;
+    
+    [MobClick startWithConfigure:UMConfigInstance];
 }
 
 #pragma mark -BMKGeneralDelegate
