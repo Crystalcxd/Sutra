@@ -19,7 +19,7 @@
 
 #if SD_MAC
 #import <CoreVideo/CoreVideo.h>
-static CVReturn renderCallback(CVDisplayLinkRef displayLink, const CVTimeStamp *inNow, const CVTimeStamp *inOutputTime, CVOptionFlags flagsIn, CVOptionFlags *flagsOut, void *displayLinkContext);
+static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTimeStamp *inNow, const CVTimeStamp *inOutputTime, CVOptionFlags flagsIn, CVOptionFlags *flagsOut, void *displayLinkContext);
 #endif
 
 static NSUInteger SDDeviceTotalMemory() {
@@ -314,7 +314,7 @@ static NSUInteger SDDeviceFreeMemory() {
         if (error) {
             return NULL;
         }
-        CVDisplayLinkSetOutputCallback(_displayLink, renderCallback, (__bridge void *)self);
+        CVDisplayLinkSetOutputCallback(_displayLink, DisplayLinkCallback, (__bridge void *)self);
     }
     return _displayLink;
 }
@@ -531,7 +531,7 @@ static NSUInteger SDDeviceFreeMemory() {
 - (void)updateShouldAnimate
 {
 #if SD_MAC
-    BOOL isVisible = self.window && self.superview && ![self isHidden] && self.alphaValue > 0.0 && self.animates;
+    BOOL isVisible = self.window && self.superview && ![self isHidden] && self.alphaValue > 0.0;
 #else
     BOOL isVisible = self.window && self.superview && ![self isHidden] && self.alpha > 0.0;
 #endif
@@ -590,9 +590,12 @@ static NSUInteger SDDeviceFreeMemory() {
     if (!self.shouldAnimate) {
         return;
     }
-    
+    // Calculate refresh duration
 #if SD_UIKIT
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
     NSTimeInterval duration = displayLink.duration * displayLink.frameInterval;
+#pragma clang diagnostic pop
 #endif
     NSUInteger totalFrameCount = self.totalFrameCount;
     NSUInteger currentFrameIndex = self.currentFrameIndex;
@@ -785,7 +788,7 @@ static NSUInteger SDDeviceFreeMemory() {
 @end
 
 #if SD_MAC
-static CVReturn renderCallback(CVDisplayLinkRef displayLink, const CVTimeStamp *inNow, const CVTimeStamp *inOutputTime, CVOptionFlags flagsIn, CVOptionFlags *flagsOut, void *displayLinkContext) {
+static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTimeStamp *inNow, const CVTimeStamp *inOutputTime, CVOptionFlags flagsIn, CVOptionFlags *flagsOut, void *displayLinkContext) {
     // Calculate refresh duration
     NSTimeInterval duration = (double)inOutputTime->videoRefreshPeriod / ((double)inOutputTime->videoTimeScale * inOutputTime->rateScalar);
     // CVDisplayLink callback is not on main queue

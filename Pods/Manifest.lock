@@ -24,25 +24,25 @@ PODS:
   - BaiduMapKit (5.0.0)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
-  - GBDeviceInfo (6.1.0):
-    - GBDeviceInfo/Core (= 6.1.0)
-  - GBDeviceInfo/Core (6.1.0)
+  - GBDeviceInfo (6.3.0):
+    - GBDeviceInfo/Core (= 6.3.0)
+  - GBDeviceInfo/Core (6.3.0)
   - GVUserDefaults (1.0.2)
   - HMSegmentedControl (1.5.5)
-  - JCore (2.1.2)
-  - JPush (3.2.4):
+  - JCore (2.1.4)
+  - JPush (3.2.6):
     - JCore (< 3.0.0, >= 2.0.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MiPushSDK (2.2.8)
   - MJRefresh (3.2.0)
   - Qiniu (7.2.6)
-  - RDVTabBarController (1.2.0)
+  - RDVTabBarController (1.3.0)
   - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.6)
-  - SDWebImage (5.2.1):
-    - SDWebImage/Core (= 5.2.1)
-  - SDWebImage/Core (5.2.1)
+  - SDWebImage (5.2.4):
+    - SDWebImage/Core (= 5.2.4)
+  - SDWebImage/Core (5.2.4)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -112,20 +112,20 @@ SPEC CHECKSUMS:
   BaiduMapKit: 3a875b001293a9ee6692febd549d8bf82108dbac
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
-  GBDeviceInfo: f085aa870c6e6761bdd76eb000a669612e64f867
+  GBDeviceInfo: a3f39dba1a04dcb630abff65d6f7e8fbf319eadd
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
-  JCore: 1a426120b510cdebfd67b82bfb9483238ee09413
-  JPush: 29466e5f30dbd703f640d70540e411e829cac1fa
+  JCore: d345c049141877eb61c33011455fdb5fcab1673f
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   Qiniu: 9d1f20dcc348919972b4ee1b1272f9b9d4a7e69e
-  RDVTabBarController: b6d63a7fc49b00568ba07255c6171edc737ad833
+  RDVTabBarController: 28a5c6546b9991cf2712d59947324c6b06603e14
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
-  SDWebImage: 336f6958a13d5e8347a317cd68a9f6ee9aaaaf03
+  SDWebImage: 7fe0c3cd87331d3d2ccf651d8c7079f36b18b265
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
@@ -133,4 +133,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 4cdee94cf385498acfa41a70aea67ff07d282fa5
 
-COCOAPODS: 1.8.1
+COCOAPODS: 1.8.4
