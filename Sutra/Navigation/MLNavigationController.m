@@ -215,7 +215,7 @@
                 frame.origin.x = 0;
                 TOP_VIEW.frame = frame;
                 
-                _isMoving = NO;
+                self.isMoving = NO;
                 self.backgroundView.hidden = YES;
 
             }];
@@ -225,7 +225,7 @@
             [UIView animateWithDuration:0.3 animations:^{
                 [self moveViewWithX:0];
             } completion:^(BOOL finished) {
-                _isMoving = NO;
+                self.isMoving = NO;
                 self.backgroundView.hidden = YES;
             }];
             
@@ -238,7 +238,7 @@
         [UIView animateWithDuration:0.3 animations:^{
             [self moveViewWithX:0];
         } completion:^(BOOL finished) {
-            _isMoving = NO;
+            self.isMoving = NO;
             self.backgroundView.hidden = YES;
         }];
 //        UIViewController *topViewController = [self.viewControllers lastObject];

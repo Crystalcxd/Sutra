@@ -61,9 +61,9 @@
 - (void)setUI {
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    _webView.backgroundColor = [UIColor whiteColor];
-    _webView.scrollView.pagingEnabled = YES;
-    _webView.delegate = self;
+    self.webView.backgroundColor = [UIColor whiteColor];
+    self.webView.scrollView.pagingEnabled = YES;
+    self.webView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -142,7 +142,7 @@
                                                         withPassword:@"boahankook0713"
                                                                error:&error];
                     if (!error) {
-                        [_webView loadData:decryptedData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
+                        [weakSelf.webView loadData:decryptedData MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
                         [weakSelf playMusicWIthName:htmlFileName];
                     }else{
                         [MBProgressHUD hideHUDForView:self.view animated:YES];
