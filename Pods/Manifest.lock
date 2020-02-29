@@ -21,7 +21,7 @@ PODS:
     - AMapFoundation-NO-IDFA (~> 1.6.1)
   - AMapSearch-NO-IDFA (7.1.0):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - BaiduMapKit (5.1.0)
+  - BaiduMapKit (5.2.0)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
   - GBDeviceInfo (6.3.0):
@@ -29,8 +29,8 @@ PODS:
   - GBDeviceInfo/Core (6.3.0)
   - GVUserDefaults (1.0.2)
   - HMSegmentedControl (1.5.5)
-  - JCore (2.2.0)
-  - JPush (3.2.8):
+  - JCore (2.2.2)
+  - JPush (3.3.0):
     - JCore (< 3.0.0, >= 2.0.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
@@ -109,14 +109,14 @@ SPEC CHECKSUMS:
   AMapFoundation-NO-IDFA: da09fea03bdb8213677369b58ebf4d143c5c0bf4
   AMapLocation-NO-IDFA: 9e1c2c0f5df43a77caf2f97bc599f4eea3cc6856
   AMapSearch-NO-IDFA: 439cf79b729210a33431cfa65995b59184d0f388
-  BaiduMapKit: be03d7c0d625e2106ba04691e4be45f71f8dee7f
+  BaiduMapKit: 075465cf7134d0ebf81796b93a59d504c350d9a4
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: a3f39dba1a04dcb630abff65d6f7e8fbf319eadd
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
-  JCore: dd8877f3adea559b60afdb0c77a8fa771c03b649
-  JPush: 8ce888d6dedfa417e90c8b6bc87405a16ce2e699
+  JCore: 2e6690b41b1b59c4a768e0a3187c311911c02ca8
+  JPush: 65cd9d8cb050b6d8c95736517d846fac2f53c134
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9

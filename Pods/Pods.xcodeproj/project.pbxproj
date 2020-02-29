@@ -856,6 +856,7 @@
 		300D67358EE6A454589859E50A5060BC /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		3091F9EDFE60C186EFBA360826E4F6E4 /* DateTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateTools.debug.xcconfig; sourceTree = "<group>"; };
 		30C32C27D31E8D8922C5F1797AED6579 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3153FB6CD7FE4402A318A096CBD45D02 /* libjpush-ios-3.3.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.3.0.a"; sourceTree = "<group>"; };
 		31A53C3C4EA2683E1D3F03D2F8E0A538 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		31DFEA5C755CF48698DBA6B65EB9ECC7 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		3232761E44B0FD0F84D8652102792FFD /* QNEtag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNEtag.h; path = QiniuSDK/Common/QNEtag.h; sourceTree = "<group>"; };
@@ -955,7 +956,6 @@
 		5E6183093A4E543C247A9A68A56222E7 /* RDVTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RDVTabBarController.release.xcconfig; sourceTree = "<group>"; };
 		5E6E887EE5E7583E1C098D50E15E6700 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = "umsdk_IOS_analyics_no-idfa_v4.2.5/UMMobClick.framework"; sourceTree = "<group>"; };
 		5EA540911D6E85F54BAADBA5A1019C16 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
-		5EC7F4CB5835A6BD68D7DE914E5BDA08 /* libjcore-ios-2.2.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.2.0.a"; sourceTree = "<group>"; };
 		5ED06C66584558F639E5675026BD5128 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		5F08D42F1A454BC56BADB41D74F1D186 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		5F36323E2062704EAFB324BEA1694C8C /* RDVTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarItem.m; path = RDVTabBarController/RDVTabBarItem.m; sourceTree = "<group>"; };
@@ -1200,7 +1200,6 @@
 		BDD8E9EC5DE6ACACA0FFCAD952CB0A0E /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodGroup.m; path = DateTools/DateTools/DTTimePeriodGroup.m; sourceTree = "<group>"; };
 		BE11022D057598D493646FF2C1BEA1A2 /* AMapSearchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchKit.h; path = AMapSearchKit.framework/Headers/AMapSearchKit.h; sourceTree = "<group>"; };
 		BE611DB84C3F45C0CEE3289BDD40EBEC /* QNUpToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNUpToken.m; path = QiniuSDK/Storage/QNUpToken.m; sourceTree = "<group>"; };
-		BE6B9334C94770CE2B5B43119D84D4A2 /* libjpush-ios-3.2.8.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.8.a"; sourceTree = "<group>"; };
 		BEB61EE57B5A2A4F70A4CC46330D7AD3 /* QNAsyncRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNAsyncRun.h; path = QiniuSDK/Common/QNAsyncRun.h; sourceTree = "<group>"; };
 		BEE97CD3751EE0371AAD1CA52271AB77 /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
 		BEFD906B898A476C3DD46F0705CA72B0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -1317,6 +1316,7 @@
 		EC61C33012FC4679E734F8F42284F5F2 /* QNUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNUserAgent.h; path = QiniuSDK/Http/QNUserAgent.h; sourceTree = "<group>"; };
 		EC7440581B1FF6BF61EAC527ECB6FCE5 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTAttributedLabel.h; path = TTTAttributedLabel/TTTAttributedLabel.h; sourceTree = "<group>"; };
 		ECDAC7666F19AC522B35ED3A9CF9F138 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
+		ED5720AE7E0C7F470033CC611B5EE812 /* libjcore-ios-2.2.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.2.2.a"; sourceTree = "<group>"; };
 		ED9AFB572F625E6D8E6D2ECC0699C433 /* RDVTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBar.m; path = RDVTabBarController/RDVTabBar.m; sourceTree = "<group>"; };
 		EE116C9546178C63723577B1FED30986 /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
 		EE672D88FDE09680E85D9F5558DE683E /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
@@ -1610,7 +1610,7 @@
 			isa = PBXGroup;
 			children = (
 				158518103F5AF59F0214028C88A9EE0C /* JPUSHService.h */,
-				186D8D16356698DD991D7966C001D44F /* Frameworks */,
+				2A929557701CDE2CA5DF84575EAD3108 /* Frameworks */,
 				7D2974FA931E4A387E7C5ED2767CF7D2 /* Support Files */,
 			);
 			name = JPush;
@@ -1706,14 +1706,6 @@
 			path = "../Target Support Files/MiPushSDK";
 			sourceTree = "<group>";
 		};
-		186D8D16356698DD991D7966C001D44F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BE6B9334C94770CE2B5B43119D84D4A2 /* libjpush-ios-3.2.8.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1FF3B667731FE9A9746B37B9A68DED88 /* WebViewJavascriptBridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -1752,6 +1744,22 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RegexKitLite";
+			sourceTree = "<group>";
+		};
+		2A929557701CDE2CA5DF84575EAD3108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3153FB6CD7FE4402A318A096CBD45D02 /* libjpush-ios-3.3.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BD25B0D22C391C769DDD29916940A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED5720AE7E0C7F470033CC611B5EE812 /* libjcore-ios-2.2.2.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		327CA8BD6E151F9DBBDF706DC6F2646D /* Support Files */ = {
@@ -2737,7 +2745,7 @@
 		E8CC8160FB92BF98CE41C895D0690DE1 /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				F8486263A32C72B971D86D8D7A8848B2 /* Frameworks */,
+				2BD25B0D22C391C769DDD29916940A64 /* Frameworks */,
 				12DC809CC5FD9436D95D7A699BB991CD /* Support Files */,
 			);
 			name = JCore;
@@ -2798,14 +2806,6 @@
 			);
 			name = RDVTabBarController;
 			path = RDVTabBarController;
-			sourceTree = "<group>";
-		};
-		F8486263A32C72B971D86D8D7A8848B2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5EC7F4CB5835A6BD68D7DE914E5BDA08 /* libjcore-ios-2.2.0.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FC77ED512A4509C5A551BB9AFFB85BD7 /* Reachability */ = {
