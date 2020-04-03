@@ -16,11 +16,11 @@ PODS:
     - AFNetworking/NSURLSession
   - AMap2DMap-NO-IDFA (5.6.1):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapFoundation-NO-IDFA (1.6.2)
-  - AMapLocation-NO-IDFA (2.6.4):
-    - AMapFoundation-NO-IDFA (~> 1.6.1)
-  - AMapSearch-NO-IDFA (7.1.0):
-    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.6.3)
+  - AMapLocation-NO-IDFA (2.6.5):
+    - AMapFoundation-NO-IDFA (~> 1.6.3)
+  - AMapSearch-NO-IDFA (7.3.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.3)
   - BaiduMapKit (5.2.0)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
@@ -29,8 +29,8 @@ PODS:
   - GBDeviceInfo/Core (6.3.0)
   - GVUserDefaults (1.0.2)
   - HMSegmentedControl (1.5.5)
-  - JCore (2.2.2)
-  - JPush (3.3.0):
+  - JCore (2.2.4)
+  - JPush (3.3.2):
     - JCore (< 3.0.0, >= 2.0.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
@@ -106,17 +106,17 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AMap2DMap-NO-IDFA: ccecb3e2a044c17e6badb9b91c950e709368be20
-  AMapFoundation-NO-IDFA: da09fea03bdb8213677369b58ebf4d143c5c0bf4
-  AMapLocation-NO-IDFA: 9e1c2c0f5df43a77caf2f97bc599f4eea3cc6856
-  AMapSearch-NO-IDFA: 439cf79b729210a33431cfa65995b59184d0f388
+  AMapFoundation-NO-IDFA: cf241b2f4832fe6c9e121af381e34791be49ad0d
+  AMapLocation-NO-IDFA: 681a55b09638a0a5838c7c260f8825a1dbc7d98d
+  AMapSearch-NO-IDFA: 85555dc9ba312949d39a259baa4ef4e0619fa944
   BaiduMapKit: 075465cf7134d0ebf81796b93a59d504c350d9a4
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: a3f39dba1a04dcb630abff65d6f7e8fbf319eadd
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
-  JCore: 2e6690b41b1b59c4a768e0a3187c311911c02ca8
-  JPush: 65cd9d8cb050b6d8c95736517d846fac2f53c134
+  JCore: b007693f7ac4d12d5c77861660a4184522454eb1
+  JPush: 9468c84a3809dc3ac2fc1c89c6d1d6c858a91bf5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
