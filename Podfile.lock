@@ -35,14 +35,14 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MiPushSDK (2.2.8)
-  - MJRefresh (3.3.1)
+  - MJRefresh (3.4.1)
   - Qiniu (7.3.2)
   - RDVTabBarController (1.3.0)
   - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.6)
-  - SDWebImage (5.6.1):
-    - SDWebImage/Core (= 5.6.1)
-  - SDWebImage/Core (5.6.1)
+  - SDWebImage (5.7.2):
+    - SDWebImage/Core (= 5.7.2)
+  - SDWebImage/Core (5.7.2)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -120,12 +120,12 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
-  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
   Qiniu: a248627a07bb8a39c6a11ae8059b7161c363539b
   RDVTabBarController: 28a5c6546b9991cf2712d59947324c6b06603e14
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
-  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
@@ -133,4 +133,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: bcaa363e506b8ecb06816ba3fce45edbe3628d31
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.9.1
