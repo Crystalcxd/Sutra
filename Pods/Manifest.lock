@@ -21,7 +21,7 @@ PODS:
     - AMapFoundation-NO-IDFA (~> 1.6.3)
   - AMapSearch-NO-IDFA (7.3.0):
     - AMapFoundation-NO-IDFA (~> 1.6.3)
-  - BaiduMapKit (5.2.0)
+  - BaiduMapKit (5.3.0)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
   - GBDeviceInfo (6.3.0):
@@ -29,7 +29,7 @@ PODS:
   - GBDeviceInfo/Core (6.3.0)
   - GVUserDefaults (1.0.2)
   - HMSegmentedControl (1.5.5)
-  - JCore (2.2.4)
+  - JCore (2.2.5)
   - JPush (3.3.2):
     - JCore (< 3.0.0, >= 2.0.0)
   - Masonry (1.1.0)
@@ -40,9 +40,9 @@ PODS:
   - RDVTabBarController (1.3.0)
   - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.6)
-  - SDWebImage (5.7.2):
-    - SDWebImage/Core (= 5.7.2)
-  - SDWebImage/Core (5.7.2)
+  - SDWebImage (5.7.3):
+    - SDWebImage/Core (= 5.7.3)
+  - SDWebImage/Core (5.7.3)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -109,13 +109,13 @@ SPEC CHECKSUMS:
   AMapFoundation-NO-IDFA: cf241b2f4832fe6c9e121af381e34791be49ad0d
   AMapLocation-NO-IDFA: 681a55b09638a0a5838c7c260f8825a1dbc7d98d
   AMapSearch-NO-IDFA: 85555dc9ba312949d39a259baa4ef4e0619fa944
-  BaiduMapKit: 075465cf7134d0ebf81796b93a59d504c350d9a4
+  BaiduMapKit: 4f27a2d4bf52ba79ee51908d14bdcb1c7cbecb7e
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: a3f39dba1a04dcb630abff65d6f7e8fbf319eadd
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
-  JCore: b007693f7ac4d12d5c77861660a4184522454eb1
+  JCore: d75c0306dc99875d323d23e5a063b3a3ef22335a
   JPush: 9468c84a3809dc3ac2fc1c89c6d1d6c858a91bf5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
@@ -125,7 +125,7 @@ SPEC CHECKSUMS:
   RDVTabBarController: 28a5c6546b9991cf2712d59947324c6b06603e14
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
-  SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
+  SDWebImage: 97351f6582ceca541ea294ba66a1fcb342a331c2
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29

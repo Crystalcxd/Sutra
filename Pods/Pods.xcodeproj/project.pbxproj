@@ -1034,6 +1034,7 @@
 		7A5A8D24F279648DFA86F65607A6424D /* DTConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTConstants.m; path = DateTools/DateTools/DTConstants.m; sourceTree = "<group>"; };
 		7C3280FD36406F01642CC04C5570303B /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
 		7C9C1D5B26C900373163141CCAE43F68 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		7CF84920C1B2847B54D0CB554883811A /* libjcore-ios-2.2.5.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.2.5.a"; sourceTree = "<group>"; };
 		7ECF8F37AFAEE7C2113499E49DCC3194 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		7FEAFA5B5449DBD1E5C23E39016203FA /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
 		802B8387C1441119C3526234BB9C35DC /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/Core/SDAnimatedImageRep.h; sourceTree = "<group>"; };
@@ -1068,7 +1069,6 @@
 		8DA16663DA9658697AA9EFA324F5A583 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
 		8DA1AD6320B07A34F0A84F122F8842AA /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
 		8DED3BC24D605EC70ACD4E141A0BA954 /* QNUploadOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNUploadOption.m; path = QiniuSDK/Storage/QNUploadOption.m; sourceTree = "<group>"; };
-		8E8745C24F9247D98911291C317316C5 /* libjcore-ios-2.2.4.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.2.4.a"; sourceTree = "<group>"; };
 		8EA47046F3F5D76B1BCFD786494B30D9 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewJavascriptBridge.framework; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECADE9FF2F31CCB10C4B327E22EBD3B /* Pods-Sutra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sutra.release.xcconfig"; sourceTree = "<group>"; };
@@ -1809,6 +1809,14 @@
 			path = MiPushSDK;
 			sourceTree = "<group>";
 		};
+		411C14AE15ED5C483937CEB13644F43F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF84920C1B2847B54D0CB554883811A /* libjcore-ios-2.2.5.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4128B1B80E6B6D692FF059B30221E629 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1845,14 +1853,6 @@
 				4A1F3FB7B0E7D257A8B720C82F0ED5E2 /* MJRefresh.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		62233808A38608CB717CC987E2C89EAB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8E8745C24F9247D98911291C317316C5 /* libjcore-ios-2.2.4.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		631EEE9F1EF824D01EA3D3B72E64CD23 /* Security */ = {
@@ -2745,7 +2745,7 @@
 		E8CC8160FB92BF98CE41C895D0690DE1 /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				62233808A38608CB717CC987E2C89EAB /* Frameworks */,
+				411C14AE15ED5C483937CEB13644F43F /* Frameworks */,
 				12DC809CC5FD9436D95D7A699BB991CD /* Support Files */,
 			);
 			name = JCore;
