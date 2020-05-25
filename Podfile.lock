@@ -28,21 +28,21 @@ PODS:
     - GBDeviceInfo/Core (= 6.3.0)
   - GBDeviceInfo/Core (6.3.0)
   - GVUserDefaults (1.0.2)
-  - HMSegmentedControl (1.5.5)
+  - HMSegmentedControl (1.5.6)
   - JCore (2.2.5)
-  - JPush (3.3.2):
+  - JPush (3.3.3):
     - JCore (< 3.0.0, >= 2.0.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MiPushSDK (2.2.8)
-  - MJRefresh (3.4.1)
-  - Qiniu (7.3.2)
+  - MJRefresh (3.4.3)
+  - Qiniu (7.3.4)
   - RDVTabBarController (1.3.0)
   - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.6)
-  - SDWebImage (5.7.3):
-    - SDWebImage/Core (= 5.7.3)
-  - SDWebImage/Core (5.7.3)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -114,18 +114,18 @@ SPEC CHECKSUMS:
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: a3f39dba1a04dcb630abff65d6f7e8fbf319eadd
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
-  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
+  HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   JCore: d75c0306dc99875d323d23e5a063b3a3ef22335a
-  JPush: 9468c84a3809dc3ac2fc1c89c6d1d6c858a91bf5
+  JPush: 61b3dc8c2bdefb7c48e7ca283f9fe42e71bfe063
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
-  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
-  Qiniu: a248627a07bb8a39c6a11ae8059b7161c363539b
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  Qiniu: 40e0b0313db1c2fa78377af7ad399b2b7551f7ba
   RDVTabBarController: 28a5c6546b9991cf2712d59947324c6b06603e14
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
-  SDWebImage: 97351f6582ceca541ea294ba66a1fcb342a331c2
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
