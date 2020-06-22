@@ -24,9 +24,9 @@ PODS:
   - BaiduMapKit (5.4.0)
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
-  - GBDeviceInfo (6.3.0):
-    - GBDeviceInfo/Core (= 6.3.0)
-  - GBDeviceInfo/Core (6.3.0)
+  - GBDeviceInfo (6.4.0):
+    - GBDeviceInfo/Core (= 6.4.0)
+  - GBDeviceInfo/Core (6.4.0)
   - GVUserDefaults (1.0.2)
   - HappyDNS (0.3.16)
   - HMSegmentedControl (1.5.6)
@@ -115,7 +115,7 @@ SPEC CHECKSUMS:
   BaiduMapKit: 81380395e5cc7e66f13e97de3a670b6f9ea31eb7
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
-  GBDeviceInfo: a3f39dba1a04dcb630abff65d6f7e8fbf319eadd
+  GBDeviceInfo: f29249891446a392e64b9c9bbef9554aad2a6beb
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HappyDNS: 158044ed01375cb27b28f272b198bca3901aced8
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
