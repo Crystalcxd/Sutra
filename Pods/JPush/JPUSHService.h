@@ -9,7 +9,7 @@
  * Copyright (c) 2011 ~ 2017 Shenzhen HXHG. All rights reserved.
  */
 
-#define JPUSH_VERSION_NUMBER 3.3.3
+#define JPUSH_VERSION_NUMBER 3.3.4
 
 #import <Foundation/Foundation.h>
 
@@ -22,6 +22,7 @@
 @class UNNotification;
 @protocol JPUSHRegisterDelegate;
 @protocol JPUSHGeofenceDelegate;
+@protocol JPushInMessageDelegate;
 
 typedef void (^JPUSHTagsOperationCompletion)(NSInteger iResCode, NSSet *iTags, NSInteger seq);
 typedef void (^JPUSHTagValidOperationCompletion)(NSInteger iResCode, NSSet *iTags, NSInteger seq, BOOL isBind);
@@ -641,6 +642,14 @@ typedef NS_ENUM(NSUInteger, JPAuthorizationStatus) {
  */
 + (void)setLocationEanable:(BOOL)isEanble;
 
+/*!
+* @abstract 设置应用内消息的代理
+*
+* @discussion 遵守JPushInMessageDelegate的代理对象
+*
+*/
++ (void)setInMessageDelegate:(id<JPushInMessageDelegate>)inMessageDelegate;
+
 ///----------------------------------------------------
 ///********************下列方法已过期********************
 ///**************请使用新版tag/alias操作接口**************
@@ -731,5 +740,25 @@ callbackSelector:(SEL)cbSelector
  @param error 错误信息
  */
 - (void)jpushGeofenceIdentifer:(NSString *)geofenceId didExitRegion:(NSDictionary *)userInfo error:(NSError *)error;
+
+@end
+
+@protocol JPushInMessageDelegate <NSObject>
+
+@optional
+/**
+ *是否允许应用内消息弹出,默认为允许
+*/
+- (BOOL)jPushInMessageIsAllowedInMessagePop;
+
+/**
+ *应用内消息已弹出
+*/
+- (void)jPushInMessageAlreadyPop;
+
+/**
+ *应用内消息已消失
+*/
+- (void)jPushInMessageAlreadyDisapperar;
 
 @end
