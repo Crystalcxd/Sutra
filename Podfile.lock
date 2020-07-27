@@ -19,7 +19,7 @@ PODS:
   - AMapFoundation-NO-IDFA (1.6.3)
   - AMapLocation-NO-IDFA (2.6.5):
     - AMapFoundation-NO-IDFA (~> 1.6.3)
-  - AMapSearch-NO-IDFA (7.3.0):
+  - AMapSearch-NO-IDFA (7.4.0):
     - AMapFoundation-NO-IDFA (~> 1.6.3)
   - BaiduMapKit (5.4.0)
   - DACircularProgress (2.3.1)
@@ -111,7 +111,7 @@ SPEC CHECKSUMS:
   AMap2DMap-NO-IDFA: ccecb3e2a044c17e6badb9b91c950e709368be20
   AMapFoundation-NO-IDFA: cf241b2f4832fe6c9e121af381e34791be49ad0d
   AMapLocation-NO-IDFA: 681a55b09638a0a5838c7c260f8825a1dbc7d98d
-  AMapSearch-NO-IDFA: 85555dc9ba312949d39a259baa4ef4e0619fa944
+  AMapSearch-NO-IDFA: 137adc8f7cd75d7b6a22922bcec84fb4f10a67ee
   BaiduMapKit: 81380395e5cc7e66f13e97de3a670b6f9ea31eb7
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
