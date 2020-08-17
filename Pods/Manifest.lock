@@ -36,7 +36,7 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MiPushSDK (2.2.8)
-  - MJRefresh (3.4.3)
+  - MJRefresh (3.5.0)
   - Qiniu (7.4.3):
     - HappyDNS (~> 0.3.17)
   - RDVTabBarController (1.3.0)
@@ -112,7 +112,7 @@ SPEC CHECKSUMS:
   AMapFoundation-NO-IDFA: cf241b2f4832fe6c9e121af381e34791be49ad0d
   AMapLocation-NO-IDFA: 681a55b09638a0a5838c7c260f8825a1dbc7d98d
   AMapSearch-NO-IDFA: 137adc8f7cd75d7b6a22922bcec84fb4f10a67ee
-  BaiduMapKit: 81380395e5cc7e66f13e97de3a670b6f9ea31eb7
+  BaiduMapKit: 40a4382633859bd569d40da9f9a2e98a277dd28b
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   GBDeviceInfo: f29249891446a392e64b9c9bbef9554aad2a6beb
@@ -124,7 +124,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
-  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   Qiniu: 81bbc90dc6c387ea32a244f9070bc7cf08638ab5
   RDVTabBarController: 28a5c6546b9991cf2712d59947324c6b06603e14
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
