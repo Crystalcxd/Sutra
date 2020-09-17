@@ -39,7 +39,6 @@ typedef enum {
     BMKWeatherDataTypeAll // 以上全部，高级字段获取对应权限后可返回
 } BMKWeatherDataType;
 
-
 /**
  坐标类型
 
@@ -113,8 +112,10 @@ typedef enum{
     BMK_SEARCH_INDOOR_ROUTE_NO_IN_SAME_BUILDING,///起终点不在同一个室内
     BMK_SEARCH_PARAMETER_ERROR,///参数错误
     BMK_SEARCH_SERVER_ERROR,//服务器错误
-    BMK_SEARCH_SERVER_DISTRICT_ID_ERROR,// 天气服务查询的区域编码与约定的编码不符
-    BMK_SEARCH_SERVER_NO_PERMISSIONS,// 用户需开通高级权限功能
+    BMK_SEARCH_SERVER_NO_PERMISSIONS,/// 需开通权限功能，用户在API控制台中创建或设置某APP的时候禁用了某项服务，若需开通权限，可进入API控制台为AK勾选对应服务
+    BMK_SEARCH_SERVER_NO_ADVANCED_PERMISSIONS,/// 用户需开通高级权限功能
+    BMK_SEARCH_SERVER_DISTRICT_NO_DATA,/// 所在地区无数据覆盖
+    BMK_SEARCH_SERVER_DISTRICT_ID_ERROR,/// 天气服务查询的区域编码与约定的编码不符
 }BMKSearchErrorCode;
 
 //调起百度地图结果状态码

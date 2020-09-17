@@ -14,7 +14,8 @@ enum BMKLineJoinType
 {
     kBMKLineJoinBevel = 0,   ///< 平角衔接
     kBMKLineJoinMiter,      ///< 尖角衔接(尖角过长(大于线宽)按平角处理)
-    kBMKLineJoinRound      ///< 圆⻆角衔接
+    kBMKLineJoinRound,      ///< 圆⻆角衔接
+    kBMKLineJoinBerzier    ///< 贝塞尔平滑衔接(仅支持多纹理和多颜色的polyline绘制) 此衔接不可以与kBMKLineCapRound配合使用
 };
 typedef enum BMKLineJoinType BMKLineJoinType;
 

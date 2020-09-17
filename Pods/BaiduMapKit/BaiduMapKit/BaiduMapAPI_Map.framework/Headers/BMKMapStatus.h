@@ -8,7 +8,11 @@
 
 #import <CoreLocation/CoreLocation.h>
 #import <UIKit/UIKit.h>
+#ifdef USE_NAVI
+#import <BaiduMapAPI_Base_Navi/BMKTypes.h>
+#else
 #import <BaiduMapAPI_Base/BMKTypes.h>
+#endif
 //#import <QuartzCore/QuartzCore.h>
 
 ///此类表示地图状态信息

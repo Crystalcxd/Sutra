@@ -19,7 +19,7 @@
  *@param polyline 指定的折线数据对象
  *@return 新生成的折线View
  */
-- (id)initWithPolyline:(BMKPolyline *)polyline;
+- (instancetype)initWithPolyline:(BMKPolyline *)polyline;
 
 /// 该View对应的折线数据对象
 @property (nonatomic, readonly) BMKPolyline *polyline;

@@ -61,6 +61,7 @@
 #import "QNALAssetFile.h"
 #import "QNAsyncRun.h"
 #import "QNCrc32.h"
+#import "QNDefine.h"
 #import "QNEtag.h"
 #import "QNFile.h"
 #import "QNFileDelegate.h"

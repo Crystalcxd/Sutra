@@ -55,7 +55,7 @@ static const BMKFeatureDisplayPriority BMKFeatureDisplayPriorityDefaultLow = 250
  *@param reuseIdentifier 如果要重用view,传入一个字符串,否则设为nil,建议重用view
  *@return 初始化成功则返回annotation view,否则返回nil
  */
-- (id)initWithAnnotation:(id <BMKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier;
+- (instancetype)initWithAnnotation:(id <BMKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier;
 
 ///复用标志
 @property (nonatomic, readonly) NSString *reuseIdentifier;

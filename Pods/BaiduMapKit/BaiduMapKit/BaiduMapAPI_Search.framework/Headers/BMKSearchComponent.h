@@ -45,3 +45,12 @@
 #import "BMKRouteSearchOption.h"
 #import "BMKRouteSearchResult.h"
 
+// 推荐上车点
+#import "BMKRecommendStopSearch.h"
+#import "BMKRecommendStopSearchOption.h"
+#import "BMKRecommendStopSearchResult.h"
+
+// 天气服务
+#import "BMKWeatherSearch.h"
+#import "BMKWeatherSearchOption.h"
+#import "BMKWeatherSearchResult.h"

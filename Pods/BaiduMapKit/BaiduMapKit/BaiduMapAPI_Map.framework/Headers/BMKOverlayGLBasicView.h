@@ -23,7 +23,7 @@
 @property (strong, nonatomic) UIColor *strokeColor;
 
 /// 画笔宽度，默认为0
-@property  (nonatomic,assign) CGFloat lineWidth;
+@property (nonatomic, assign) CGFloat lineWidth;
 
 /// path对象
 @property CGPathRef path;
@@ -38,11 +38,11 @@
 @property (assign, nonatomic) BOOL keepScale;
 
 /// LineJoinType,默认是kBMKLineJoinBevel（不支持虚线）
-@property(assign,nonatomic)BMKLineJoinType lineJoinType;
+@property (assign, nonatomic) BMKLineJoinType lineJoinType;
 
 /// LineCapType,默认是kBMKLineCapButt (不支持虚线)
-@property(assign,nonatomic)BMKLineCapType lineCapType;
+@property (assign, nonatomic) BMKLineCapType lineCapType;
 
-/// 虚线类型, since 5.0.0，默认kBMKLineDashTypeNone(仅支持颜色虚线)
-@property(assign,nonatomic)BMKLineDashType lineDashType;
+/// 虚线类型, since 5.0.0，默认kBMKLineDashTypeNone (仅支持颜色虚线)
+@property (assign, nonatomic) BMKLineDashType lineDashType;
 @end
