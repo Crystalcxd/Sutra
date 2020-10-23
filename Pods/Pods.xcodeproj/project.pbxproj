@@ -919,6 +919,7 @@
 		145FCAADA2945CD4DD30B04EBCFFB830 /* QNHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNHex.h; path = HappyDNS/Util/QNHex.h; sourceTree = "<group>"; };
 		147F30DD184D988A7E479249931B0654 /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
 		14B0D574F58B79FC5FC9CCA59260C708 /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
+		14CE7DF22FF8072FAA942CE6E3A17240 /* libjcore-ios-2.4.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.4.0.a"; sourceTree = "<group>"; };
 		14DE7DF90C4379BECEC34CFA847225DE /* HMSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 		14E5425E96928761BDD25520705878C2 /* QNReportConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNReportConfig.m; path = QiniuSDK/Collect/QNReportConfig.m; sourceTree = "<group>"; };
 		1511465ED032D4B6E86D4D47A0B2DFF5 /* Qiniu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Qiniu.modulemap; sourceTree = "<group>"; };
@@ -1110,7 +1111,6 @@
 		54ADDD5C40A212CFF3103D950271BAE0 /* DateTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTools-umbrella.h"; sourceTree = "<group>"; };
 		54B31BF5659A39F6142D5314EA576192 /* RNCryptor-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-prefix.pch"; sourceTree = "<group>"; };
 		54DB78A747891676D4299A8FB06B4EE9 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
-		54FB8C2EB415081281A82E3714A70281 /* libjcore-ios-2.3.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.3.6.a"; sourceTree = "<group>"; };
 		55D66076568385F7983EEB9D6A305B90 /* HappyDNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HappyDNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		564DC996F1381A720D2A76A3FA4A1C71 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		5660D859539464F684DA8C962ED1E086 /* MAGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlay.h; path = MAMapKit.framework/Headers/MAGroundOverlay.h; sourceTree = "<group>"; };
@@ -2167,14 +2167,6 @@
 			path = "../Target Support Files/UMengAnalytics-NO-IDFA";
 			sourceTree = "<group>";
 		};
-		44018DCA5948DBDDA7CF604BE45FC5B0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				54FB8C2EB415081281A82E3714A70281 /* libjcore-ios-2.3.6.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		441186138C886842A4B3CA44E4446FE3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -2568,7 +2560,7 @@
 		9E38C52D736851ED33F5BDB203A1A1D8 /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				44018DCA5948DBDDA7CF604BE45FC5B0 /* Frameworks */,
+				E3E0F7FB8CB68B15D464E4AB3B3246D0 /* Frameworks */,
 				164B8A7DB4DBDB4C051DC8739F505AA1 /* Support Files */,
 			);
 			name = JCore;
@@ -3160,6 +3152,14 @@
 			);
 			name = SDWebImage;
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		E3E0F7FB8CB68B15D464E4AB3B3246D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14CE7DF22FF8072FAA942CE6E3A17240 /* libjcore-ios-2.4.0.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EA64F68A5955F7BB9B67B36FB26C2CBC /* Support Files */ = {
