@@ -16,11 +16,11 @@ PODS:
     - AFNetworking/NSURLSession
   - AMap2DMap-NO-IDFA (5.6.1):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapFoundation-NO-IDFA (1.6.4)
+  - AMapFoundation-NO-IDFA (1.6.5)
   - AMapLocation-NO-IDFA (2.6.7):
     - AMapFoundation-NO-IDFA (~> 1.6.4)
-  - AMapSearch-NO-IDFA (7.6.0):
-    - AMapFoundation-NO-IDFA (~> 1.6.3)
+  - AMapSearch-NO-IDFA (7.7.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
   - BaiduMapKit (6.0.0):
     - BaiduMapKit/Base (= 6.0.0)
     - BaiduMapKit/Cloud (= 6.0.0)
@@ -38,9 +38,9 @@ PODS:
     - BaiduMapKit/Base
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
-  - GBDeviceInfo (6.4.0):
-    - GBDeviceInfo/Core (= 6.4.0)
-  - GBDeviceInfo/Core (6.4.0)
+  - GBDeviceInfo (6.5.0):
+    - GBDeviceInfo/Core (= 6.5.0)
+  - GBDeviceInfo/Core (6.5.0)
   - GVUserDefaults (1.0.2)
   - HappyDNS (0.3.17)
   - HMSegmentedControl (1.5.6)
@@ -51,7 +51,7 @@ PODS:
   - MBProgressHUD (1.2.0)
   - MiPushSDK (2.2.8)
   - MJRefresh (3.5.0)
-  - Qiniu (8.0.3):
+  - Qiniu (8.0.4):
     - HappyDNS (~> 0.3.17)
   - RDVTabBarController (1.3.0)
   - RegexKitLite (4.0)
@@ -123,13 +123,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   AMap2DMap-NO-IDFA: ccecb3e2a044c17e6badb9b91c950e709368be20
-  AMapFoundation-NO-IDFA: 68a24362b110b8e0a3677605d0fd36bdf521f2bb
+  AMapFoundation-NO-IDFA: c14cfe61a6d6d220d80c3c7c12362c75b8ef5d27
   AMapLocation-NO-IDFA: 2a3edfee336b38481b892e1ecc85df0f6b365851
-  AMapSearch-NO-IDFA: 46b0b98a38ce7c5821ac56b1711d4fc3980e719e
+  AMapSearch-NO-IDFA: 061479dd567486fb59bf3d01b1076c81d910f1b6
   BaiduMapKit: e21e4c72533f263aa3c73e3b0ea13b37e7038f62
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
-  GBDeviceInfo: f29249891446a392e64b9c9bbef9554aad2a6beb
+  GBDeviceInfo: 52d78eb816f9d644139785a6f912af5a6e716c29
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
@@ -139,7 +139,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
-  Qiniu: bc936fe7224188d74d4e93353bddc08936ea0780
+  Qiniu: 967efbfa2366d14c87899757013c0fd0ebb896e0
   RDVTabBarController: 28a5c6546b9991cf2712d59947324c6b06603e14
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e

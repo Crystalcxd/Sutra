@@ -17,6 +17,7 @@
 #import "QNUploadInfoReporter.h"
 #import "QNAutoZone.h"
 #import "QNConfig.h"
+#import "QNErrorCode.h"
 #import "QNFixedZone.h"
 #import "QNZone.h"
 #import "QNZoneInfo.h"
