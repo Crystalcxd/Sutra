@@ -16,31 +16,31 @@ PODS:
     - AFNetworking/NSURLSession
   - AMap2DMap-NO-IDFA (5.6.1):
     - AMapFoundation-NO-IDFA (~> 1.4)
-  - AMapFoundation-NO-IDFA (1.6.5)
+  - AMapFoundation-NO-IDFA (1.6.5.1)
   - AMapLocation-NO-IDFA (2.6.7):
     - AMapFoundation-NO-IDFA (~> 1.6.4)
   - AMapSearch-NO-IDFA (7.7.0):
     - AMapFoundation-NO-IDFA (~> 1.6.4)
-  - BaiduMapKit (6.0.0):
-    - BaiduMapKit/Base (= 6.0.0)
-    - BaiduMapKit/Cloud (= 6.0.0)
-    - BaiduMapKit/Map (= 6.0.0)
-    - BaiduMapKit/Search (= 6.0.0)
-    - BaiduMapKit/Utils (= 6.0.0)
-  - BaiduMapKit/Base (6.0.0)
-  - BaiduMapKit/Cloud (6.0.0):
+  - BaiduMapKit (6.1.0):
+    - BaiduMapKit/Base (= 6.1.0)
+    - BaiduMapKit/Cloud (= 6.1.0)
+    - BaiduMapKit/Map (= 6.1.0)
+    - BaiduMapKit/Search (= 6.1.0)
+    - BaiduMapKit/Utils (= 6.1.0)
+  - BaiduMapKit/Base (6.1.0)
+  - BaiduMapKit/Cloud (6.1.0):
     - BaiduMapKit/Base
-  - BaiduMapKit/Map (6.0.0):
+  - BaiduMapKit/Map (6.1.0):
     - BaiduMapKit/Base
-  - BaiduMapKit/Search (6.0.0):
+  - BaiduMapKit/Search (6.1.0):
     - BaiduMapKit/Base
-  - BaiduMapKit/Utils (6.0.0):
+  - BaiduMapKit/Utils (6.1.0):
     - BaiduMapKit/Base
   - DACircularProgress (2.3.1)
   - DateTools (2.0.0)
-  - GBDeviceInfo (6.5.0):
-    - GBDeviceInfo/Core (= 6.5.0)
-  - GBDeviceInfo/Core (6.5.0)
+  - GBDeviceInfo (6.5.1):
+    - GBDeviceInfo/Core (= 6.5.1)
+  - GBDeviceInfo/Core (6.5.1)
   - GVUserDefaults (1.0.2)
   - HappyDNS (0.3.17)
   - HMSegmentedControl (1.5.6)
@@ -56,9 +56,9 @@ PODS:
   - RDVTabBarController (1.3.0)
   - RegexKitLite (4.0)
   - RNCryptor-objc (3.0.6)
-  - SDWebImage (5.9.4):
-    - SDWebImage/Core (= 5.9.4)
-  - SDWebImage/Core (5.9.4)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
   - TTTAttributedLabel (2.0.0)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - WebViewJavascriptBridge (6.0.3)
@@ -123,13 +123,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   AMap2DMap-NO-IDFA: ccecb3e2a044c17e6badb9b91c950e709368be20
-  AMapFoundation-NO-IDFA: c14cfe61a6d6d220d80c3c7c12362c75b8ef5d27
+  AMapFoundation-NO-IDFA: 0cf5f6c6de2725bcd868ed5aa756d12bc1a8f463
   AMapLocation-NO-IDFA: 2a3edfee336b38481b892e1ecc85df0f6b365851
   AMapSearch-NO-IDFA: 061479dd567486fb59bf3d01b1076c81d910f1b6
-  BaiduMapKit: e21e4c72533f263aa3c73e3b0ea13b37e7038f62
+  BaiduMapKit: 223daf970a1a3e8d87014e5c7310b18b8bdf4114
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
-  GBDeviceInfo: 52d78eb816f9d644139785a6f912af5a6e716c29
+  GBDeviceInfo: 8c2fb32865a2f4793254a1f748a0ae2722e59ba6
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
@@ -143,7 +143,7 @@ SPEC CHECKSUMS:
   RDVTabBarController: 28a5c6546b9991cf2712d59947324c6b06603e14
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
-  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29

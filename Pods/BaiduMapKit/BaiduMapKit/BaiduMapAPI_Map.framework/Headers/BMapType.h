@@ -278,6 +278,7 @@ typedef enum : NSUInteger {
     bmkMapSceneUniversal,
     bmkMapSceneAINormal,
     bmkMapSceneAITraffic,
+    bmkMapSceneFeedMap,                     //FeedMap
 } BMMapScene;
 
 //图像服务推荐点的场景
@@ -308,102 +309,101 @@ typedef enum {
 //注意，因为最后一个None的定义要与-1等值，这个数据结构必须是32位的Unsigned Int
 typedef enum : unsigned int
 {
-    bmkMapNodeKindStart        = 1,    // 起点
-    bmkMapNodeKindEnd                                =2,                // 终点
-    bmkMapNodeKindPOI                                =3,                // 普通POI点
-    bmkMapNodeKindPOIBKG                        =4,            // 马点图
-    bmkMapNodeKindSearchCenter        =5,    // 周边搜索中心点
-    bmkMapNodeKindFavoritePOI            =6,        // 收藏的普通POI点
-    bmkMapNodeKindFavMark                    =7,            // 收藏夹地图点选POI
-    bmkMapNodeKindRouteNode            =8,        // 导航路线节点
-    bmkMapNodeKindBusStation                =9,        // 公交站点
-    bmkMapNodeKindTrainStation            =10,        // 地铁站点
-    bmkMapNodeKindBusLine                        =11,            // 公交线
-    bmkMapNodeKindTrainLine                    =12,        // 地铁线
+    bmkMapNodeKindStart                 = 1,            // 起点
+    bmkMapNodeKindEnd                   = 2,            // 终点
+    bmkMapNodeKindPOI                   = 3,            // 普通POI点
+    bmkMapNodeKindPOIBKG                = 4,            // 马点图
+    bmkMapNodeKindSearchCenter          = 5,            // 周边搜索中心点
+    bmkMapNodeKindFavoritePOI           = 6,            // 收藏的普通POI点
+    bmkMapNodeKindFavMark               = 7,            // 收藏夹地图点选POI
+    bmkMapNodeKindRouteNode             = 8,            // 导航路线节点
+    bmkMapNodeKindBusStation            = 9,            // 公交站点
+    bmkMapNodeKindTrainStation          = 10,           // 地铁站点
+    bmkMapNodeKindBusLine               = 11,           // 公交线
+    bmkMapNodeKindTrainLine             = 12,           // 地铁线
+ 
+    bmkMapNodeKindPOIAddr               = 13,
+ 
+    bmkMapNodeKindPOIRGC                = 14,           // 反向地理编码查询出的POI点
+ 
+    bmkMapNodeKindPOIRGCShow            = 15,           // 分享的反向地理编码POI点
+    bmkMapNodeKindPOIShow               = 16,           // 分享的反向地理编码POI点
+    bmkMapNodeKindBackgMark             = 17,           // 底图可点的背景POI
+    bmkMapNodeKindLocation              = 18,           // 定位点
+    bmkMapNodeKindCompass               = 19,           // 指南针图标
+    bmkMapNodeKindStreetPopup           = 20,           // 街景泡泡图标
 
-    bmkMapNodeKindPOIAddr                    =13,
+    bmkMapNodeKindRouteTipNode          = 21,           // 导航线路提醒节点
 
-    bmkMapNodeKindPOIRGC                        =14,            // 反向地理编码查询出的POI点
+    bmkMapNodeKindITSEvent              = 22,           // 路况事件点
+    bmkMapNodeKindBusLineStop           = 23,           //公交线路上的公交站点
 
-    bmkMapNodeKindPOIRGCShow            =15,        // 分享的反向地理编码POI点
-    bmkMapNodeKindPOIShow                    =16,            // 分享的反向地理编码POI点
-    bmkMapNodeKindBackgMark            =17,        // 底图可点的背景POI
-    bmkMapNodeKindLocation                    =18,            // 定位点
-    bmkMapNodeKindCompass                    =19,            // 指南针图标
-    bmkMapNodeKindStreetPopup            =20,        // 街景泡泡图标
-
-    bmkMapNodeKindRouteTipNode    =21,    // 导航线路提醒节点
-
-    bmkMapNodeKindITSEvent                    =22,        // 路况事件点
-    bmkMapNodeKindBusLineStop            =23,        //公交线路上的公交站点
-
-    bmkMapNodeKindSMShare                    =25,            //位置共享点
+    bmkMapNodeKindSMShare               = 25,           // 位置共享点
+     
+    bmkMapNodeKindParentSon             = 30,           // 父子点关系(未使用)
+    bmkMapNodeKindParentSonPoint        = 31,           // 父子点关系点对象
+    bmkMapNodeKindParentSonLine         = 32,           // 父子点关系线对象
+    bmkMapNodeKindParentSonArea         = 33,           // 父子点关系面对象
     
-    bmkMapNodeKindParentSon                =30,            //父子点关系(未使用)
-    bmkMapNodeKindParentSonPoint            =31,            //父子点关系点对象
-    bmkMapNodeKindParentSonLine            =32,            //父子点关系线对象
-    bmkMapNodeKindParentSonArea            =33,            //父子点关系面对象
-    
-    bmkMapNodeKindIDRMapMark                = 35,        // 新室内图POI点
+    bmkMapNodeKindIDRMapMark            = 35,           // 新室内图POI点
 
-    bmkMapNodeKindWalkNaviARC                = 60,        // 步行导航罗盘圆弧
-    bmkMapNodeKindWalkNaviGuideBoard        = 61,        // 步行导航路牌
+    bmkMapNodeKindWalkNaviARC           = 60,           // 步行导航罗盘圆弧
+    bmkMapNodeKindWalkNaviGuideBoard    = 61,           // 步行导航路牌
 
-    bmkMapNodeKindStreetPOI                = 1234,        //街景poi点
-    bmkMapNodeKindStreetArrow        = 1235,        //街景箭头
-    bmkMapNodeKindStreetInterPOI    = 1236,        //室内景POI点
+    bmkMapNodeKindStreetPOI             = 1234,         // 街景poi点
+    bmkMapNodeKindStreetArrow           = 1235,         // 街景箭头
+    bmkMapNodeKindStreetInterPOI        = 1236,         // 室内景POI点
+ 
+    bmkMapNodeKindRailwayStation        = 1237,
+    bmkMapNodeKindAIRPort               = 1238,
+    bmkMapNodeKindMCarLabel             = 1239,         // 驾车多路线标牌
+    bmkMapNodeKindMCarWayPOI            = 1240,         // 驾车多路线途经点
+ 
+    bmkMapNodeKindStreetPOIInnerButton  = 2000,         // 街景poi点
+    bmkMapNodeKindStreetPOICircle       = 2001,         // 点击街景poi圆圈
+    bmkMapNodeKindStreetClickJumpMove   = 2002,
+    bmkMapNodeKindStreetClickCustomMarker = 2003,
 
-    bmkMapNodeKindRailwayStation    =1237,
-    bmkMapNodeKindAIRPort                    =1238,
-    bmkMapNodeKindMCarLabel                =1239,        //驾车多路线标牌
-    bmkMapNodeKindMCarWayPOI            =1240,        //驾车多路线途经点
+    bmkMapNodeKindDisPopup              = 3000,         // 测距泡泡
+    bmkMapNodeKindSurfaceCircle         = 3100,         // 圆
+    bmkMapNodeKindSurfaceCover          = 3200,         // 蒙层
+    bmkMapNodeKindPOIMarkExt            = 4000,         // 校园与景点插入到地图的标注点，需要与底图标注碰撞
 
-    bmkMapNodeKindStreetPOIInnerButton               = 2000,        //街景poi点
-    bmkMapNodeKindStreetPOICircle                        = 2001,     //点击街景poi圆圈
-    bmkMapNodeKindStreetClickJumpMove               = 2002,
-    bmkMapNodeKindStreetClickCustomMarker                = 2003,
+    bmkMapNodeKindDynamicMap            = 5000,         // 动态底图
 
-    bmkMapNodeKindDisPopup                        =                3000,                    // 测距泡泡
-    bmkMapNodeKindSurfaceCircle           =                3100,                    //圆
-    bmkMapNodeKindSurfaceCover            =                3200,                    //蒙层
-    bmkMapNodeKindPOIMarkExt            =                4000,                    //校园与景点插入到地图的标注点，需要与底图标注碰撞
-
-    bmkMapNodeKindDynamicMap           =                5000,                    // 动态底图
-
-    bmkMapNodeKindOPPOI                =                6000,
-    bmkMapNodeKindTrafficUGC           =                6002,
-    
+    bmkMapNodeKindOPPOI                 = 6000,
+    bmkMapNodeKindTrafficUGC            = 6002,
     /* WangYSH Add Start */
-    bmkMapNodeKindPopup = 6003,            // 气泡
-    bmkMapNodeKindBaseMap = 6004,            // 底图图层
+    bmkMapNodeKindPopup                 = 6003,         // 气泡
+    bmkMapNodeKindBaseMap               = 6004,         // 底图图层
     /* WangYSH Add End */
     
-    bmkMapNodeKindMultiRoutePopup = 6005, // 多路线点击气泡
+    bmkMapNodeKindMultiRoutePopup       = 6005,         // 多路线点击气泡
     
-    bmkMapNodeKindCruiseCamera = 6006,    // 电子狗安全图标 1242
-    bmkMapNodeKindCruiseCar = 6007,       // 电子狗车标 1243
+    bmkMapNodeKindCruiseCamera          = 6006,         // 电子狗安全图标 1242
+    bmkMapNodeKindCruiseCar             = 6007,         // 电子狗车标 1243
     
-    bmkMapNodeKindTrackIsOverSpeed = 6008,// 是否超速
-    bmkMapNodeKindTrackIsRapidacc = 6009, // 是否急加速
-    bmkMapNodeKindTrackBrake = 6010,      // 是否急刹车
-    bmkMapNodeKindTrackCurve = 6011,      // 是否急转弯
-    bmkMapNodeKindTrackMaxSpeed = 6012,   // 是否最大速度
+    bmkMapNodeKindTrackIsOverSpeed      = 6008,         // 是否超速
+    bmkMapNodeKindTrackIsRapidacc       = 6009,         // 是否急加速
+    bmkMapNodeKindTrackBrake            = 6010,         // 是否急刹车
+    bmkMapNodeKindTrackCurve            = 6011,         // 是否急转弯
+    bmkMapNodeKindTrackMaxSpeed         = 6012,         // 是否最大速度
     
-    bmkMapNodeKindUGCPopup = 6013,        // 用户UGC点
-    bmkMapNodeKindUGCReroute = 6014,        // 是否UGC偏航点
-    bmkMapNodeKindUGCSelectLink = 6015,    // UGC选择link
+    bmkMapNodeKindUGCPopup              = 6013,         // 用户UGC点
+    bmkMapNodeKindUGCReroute            = 6014,         // 是否UGC偏航点
+    bmkMapNodeKindUGCSelectLink         = 6015,         // UGC选择link
     
-    bmkMapNodeKindMAPUGC = 6016,          // 底图UGC点
-    bmkMapNodeKindRouteOutSurrounding = 6017, // 路线周边元素
+    bmkMapNodeKindMAPUGC                = 6016,         // 底图UGC点
+    bmkMapNodeKindRouteOutSurrounding   = 6017,         // 路线周边元素
     
-    bmkMapNodeKindUniversalPOI = 6018, // 通用图层点元素
-    bmkMapNodeKindUniversalAggPOI = 6019,
-    bmkMapNodeKindNaviRCPred = 6020,   // 导航路况预测标签
-    bmkMapNodeKindNaviTruckUGC = 6021,    // 货车UGC
+    bmkMapNodeKindUniversalPOI          = 6018,         // 通用图层点元素
+    bmkMapNodeKindUniversalAggPOI       = 6019,
+    bmkMapNodeKindNaviRCPred            = 6020,         // 导航路况预测标签
+    bmkMapNodeKindNaviTruckUGC          = 6021,         // 货车UGC
     bmkMapNodeKindTopicPOI              = 6060,         // 泛检索 Topic poi
     bmkMapNodeKindParticleSys           = 7000,
     
-    bmkMapNodeKindNone                            = 0xFFFFFFFF,                // 无效值
+    bmkMapNodeKindNone                  = 0xFFFFFFFF,   // 无效值
 
 } BMMapNodeKind;
 

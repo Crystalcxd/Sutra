@@ -615,7 +615,7 @@ typedef enum {
  *向地图窗口添加一组Overlay，需要实现BMKMapViewDelegate的-mapView:viewForOverlay:函数来生成标注对应的View
  *@param overlays 要添加的overlay数组
  */
-- (void)addOverlays:(NSArray *)overlays;
+- (void)addOverlays:(NSArray<id <BMKOverlay>> *)overlays;
 
 /**
  *移除Overlay
@@ -627,7 +627,7 @@ typedef enum {
  *移除一组Overlay
  *@param overlays 要移除的overlay数组
  */
-- (void)removeOverlays:(NSArray *)overlays;
+- (void)removeOverlays:(NSArray<id <BMKOverlay>> *)overlays;
 
 /**
  *在指定的索引处添加一个Overlay
