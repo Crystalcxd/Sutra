@@ -51,7 +51,7 @@ PODS:
   - MBProgressHUD (1.2.0)
   - MiPushSDK (2.2.8)
   - MJRefresh (3.5.0)
-  - Qiniu (8.0.4):
+  - Qiniu (8.0.5):
     - HappyDNS (~> 0.3.17)
   - RDVTabBarController (1.3.0)
   - RegexKitLite (4.0)
@@ -139,7 +139,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MiPushSDK: cd22d6430f8928a0920c60ff98de89ed5da146d9
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
-  Qiniu: 967efbfa2366d14c87899757013c0fd0ebb896e0
+  Qiniu: 99b85defaf831bc788efdda01dc6f0406ece6964
   RDVTabBarController: 28a5c6546b9991cf2712d59947324c6b06603e14
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
