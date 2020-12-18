@@ -1128,7 +1128,6 @@
 		56D0FE98FD3945E98D7AA1957D7DA8AA /* BMKMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapStatus.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapStatus.h; sourceTree = "<group>"; };
 		56D6A92826D9DF5D3BCBFC0AA6162C39 /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
 		56E5919945436B88E04AF07C5E5340B7 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
-		56EB8397C695ABF0A7D254D9D413EED3 /* libjpush-ios-3.3.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.3.6.a"; sourceTree = "<group>"; };
 		56F7C4A73917975F074A9AFF983D6DD9 /* BMKCloudPOIList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudPOIList.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudPOIList.h; sourceTree = "<group>"; };
 		57278B4789749B945D58B5CC2B870831 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		577AC55D491FDAAACEA091CE365CF028 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
@@ -1537,6 +1536,7 @@
 		CD35451925F3F7F22521381175660911 /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
 		CD5332EC4972432E10CBC7578BFFE88D /* QNHttpSingleRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNHttpSingleRequest.h; path = QiniuSDK/Http/Request/QNHttpSingleRequest.h; sourceTree = "<group>"; };
 		CD5DE4FF66CF61CFB17BFAB0316B3071 /* DTTimePeriodChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodChain.m; path = DateTools/DateTools/DTTimePeriodChain.m; sourceTree = "<group>"; };
+		CD8ED6D0F2661AE0DC7A5AB83A000E00 /* libjpush-ios-3.4.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.4.0.a"; sourceTree = "<group>"; };
 		CEE8468FDB3E1252A76153C70BE87D6F /* QNUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNUserAgent.m; path = QiniuSDK/Http/QNUserAgent.m; sourceTree = "<group>"; };
 		CEF87B913DC4A49B8CC1117DA26F9822 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
 		CF3BB299219F8A20481864A847658F3F /* SDImageAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAssetManager.h; path = SDWebImage/Private/SDImageAssetManager.h; sourceTree = "<group>"; };
@@ -3182,7 +3182,7 @@
 			isa = PBXGroup;
 			children = (
 				249E573523C8992A125B859AA198268C /* JPUSHService.h */,
-				C7C98BE933B3CA34B853177FB1D87A78 /* Frameworks */,
+				D732165093F786D1A30E9A7FC7BD9F12 /* Frameworks */,
 				B3673448D39BE5B285698619C330E68A /* Support Files */,
 			);
 			name = JPush;
@@ -3235,14 +3235,6 @@
 				5DB51A30962F03869FC4676E73127D78 /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
-			sourceTree = "<group>";
-		};
-		C7C98BE933B3CA34B853177FB1D87A78 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				56EB8397C695ABF0A7D254D9D413EED3 /* libjpush-ios-3.3.6.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C80D7212932672A4559C4397BC9ABC86 /* Masonry */ = {
@@ -3369,6 +3361,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		D732165093F786D1A30E9A7FC7BD9F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8ED6D0F2661AE0DC7A5AB83A000E00 /* libjpush-ios-3.4.0.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D817030CC649BC6B4AE60A4503A1706A /* DateTools */ = {

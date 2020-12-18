@@ -9,7 +9,7 @@
  * Copyright (c) 2011 ~ 2017 Shenzhen HXHG. All rights reserved.
  */
 
-#define JPUSH_VERSION_NUMBER 3.3.6
+#define JPUSH_VERSION_NUMBER 3.4.0
 
 #import <Foundation/Foundation.h>
 
@@ -55,6 +55,11 @@ typedef NS_ENUM(NSUInteger, JPAuthorizationStatus) {
     JPAuthorizationStatusDenied,    // The application is not authorized to post user notifications.
     JPAuthorizationStatusAuthorized,    // The application is authorized to post user notifications.
     JPAuthorizationStatusProvisional NS_AVAILABLE_IOS(12.0),    // The application is authorized to post non-interruptive user notifications.
+};
+
+typedef NS_ENUM(NSInteger,JPushInMessageContentType){
+    JPushAdContentType = 1,         //广告类型的inMessage
+    JPushNotiContentType = 2,       //通知类型的inMessage
 };
 
 /*!
@@ -762,13 +767,32 @@ callbackSelector:(SEL)cbSelector
 - (BOOL)jPushInMessageIsAllowedInMessagePop;
 
 /**
- *应用内消息已弹出
+ *应用内消息展示的回调
 */
-- (void)jPushInMessageAlreadyPop;
+- (void)jPushInMessageAlreadyPop __attribute__((deprecated("JPush 3.4.0 版本已过期")));;
 
 /**
  *应用内消息已消失
 */
 - (void)jPushInMessageAlreadyDisappear;
+
+
+/**
+ inMessage展示的回调
+ 
+ @param messageType inMessage
+ @param content 下发的数据，广告类的返回数据为空时返回的信息
+
+ */
+- (void)jPushInMessageAlreadyPopInMessageType:(JPushInMessageContentType)messageType Content:(NSDictionary *)content;
+
+/**
+ inMessage点击的回调
+ 
+ @param messageType inMessage
+ @param content 下发的数据，广告类的返回数据为空时返回的信息
+
+ */
+- (void)jpushInMessagedidClickInMessageType:(JPushInMessageContentType)messageType Content:(NSDictionary *)content;
 
 @end
