@@ -14,6 +14,8 @@
 #import "QNUpToken.h"
 #import "QNResponseInfo.h"
 #import "QNFixedZone.h"
+#import "QNSingleFlight.h"
+
 
 @interface QNAutoZoneCache : NSObject
 @property(nonatomic, strong)NSMutableDictionary *cache;
@@ -34,10 +36,8 @@
     self.cache = [NSMutableDictionary dictionary];
 }
 
-- (void)cache:(NSDictionary *)zonesInfo
-     forToken:(QNUpToken *)token{
+- (void)cache:(NSDictionary *)zonesInfo forKey:(NSString *)cacheKey{
     
-    NSString *cacheKey = token.index;
     if (!cacheKey || [cacheKey isEqualToString:@""]) {
         return;
     }
@@ -51,9 +51,8 @@
     }
 }
 
-- (QNZonesInfo *)zonesInfoForToken:(QNUpToken *)token{
+- (QNZonesInfo *)zonesInfoForKey:(NSString *)cacheKey{
     
-    NSString *cacheKey = token.index;
     if (!cacheKey || [cacheKey isEqualToString:@""]) {
         return nil;
     }
@@ -67,17 +66,19 @@
         return nil;
     }
     
-    QNZonesInfo *zonesInfo = [QNZonesInfo infoWithDictionary:zonesInfoDic];
-    NSMutableArray *zonesInfoArray = [NSMutableArray array];
-    for (QNZoneInfo *zoneInfo in zonesInfo.zonesInfo) {
-        if ([zoneInfo isValid]) {
-            [zonesInfoArray addObject:zoneInfo];
-        }
-    }
-    zonesInfo.zonesInfo = [zonesInfoArray copy];
-    return zonesInfo;
+    return [QNZonesInfo infoWithDictionary:zonesInfoDic];
 }
 
+@end
+
+@interface QNUCQuerySingleFlightValue : NSObject
+
+@property(nonatomic, strong)QNResponseInfo *responseInfo;
+@property(nonatomic, strong)NSDictionary *response;
+@property(nonatomic, strong)QNUploadRegionRequestMetrics *metrics;
+
+@end
+@implementation QNUCQuerySingleFlightValue
 @end
 
 @interface QNAutoZone()
@@ -88,6 +89,15 @@
 
 @end
 @implementation QNAutoZone
+
++ (QNSingleFlight *)UCQuerySingleFlight {
+    static QNSingleFlight *singleFlight = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        singleFlight = [[QNSingleFlight alloc] init];
+    });
+    return singleFlight;
+}
 
 - (instancetype)init{
     if (self = [super init]) {
@@ -109,55 +119,77 @@
 - (void)preQuery:(QNUpToken *)token
               on:(QNPrequeryReturn)ret {
     
-    if (token == nil || token.index == nil) {
-        ret(-1, nil, nil);
+    if (token == nil || ![token isValid]) {
+        ret(-1, [QNResponseInfo responseInfoWithInvalidToken:@"invalid token"], nil);
         return;
     }
     
+    NSString *cacheKey = token.index;
+    
     [_lock lock];
-    QNZonesInfo *zonesInfo = [_cache objectForKey:[token index]];
+    QNZonesInfo *zonesInfo = [_cache objectForKey:cacheKey];
     [_lock unlock];
     
     if (zonesInfo == nil) {
-        zonesInfo = [[QNAutoZoneCache share] zonesInfoForToken:token];
-        [self.lock lock];
-        [self.cache setValue:zonesInfo forKey:[token index]];
-        [self.lock unlock];
+        zonesInfo = [[QNAutoZoneCache share] zonesInfoForKey:cacheKey];
+        if (zonesInfo && zonesInfo.isValid) {
+            [self.lock lock];
+            [self.cache setValue:zonesInfo forKey:cacheKey];
+            [self.lock unlock];
+        }
     }
     
-    if (zonesInfo != nil) {
-        ret(0, nil, nil);
+    if (zonesInfo != nil && zonesInfo.isValid) {
+        ret(0, [QNResponseInfo successResponse], nil);
         return;
     }
-
-    QNRequestTransaction *transaction = [self createUploadRequestTransaction:token];
     
     kQNWeakSelf;
-    kQNWeakObj(transaction);
-    [transaction queryUploadHosts:^(QNResponseInfo * _Nullable responseInfo, QNUploadRegionRequestMetrics * _Nullable metrics, NSDictionary * _Nullable response) {
+    QNSingleFlight *singleFlight = [QNAutoZone UCQuerySingleFlight];
+    [singleFlight perform:token.index action:^(QNSingleFlightComplete  _Nonnull complete) {
         kQNStrongSelf;
-        kQNStrongObj(transaction);
+        QNRequestTransaction *transaction = [self createUploadRequestTransaction:token];
         
-        if (responseInfo.isOK) {
+        kQNWeakSelf;
+        kQNWeakObj(transaction);
+        [transaction queryUploadHosts:^(QNResponseInfo * _Nullable responseInfo, QNUploadRegionRequestMetrics * _Nullable metrics, NSDictionary * _Nullable response) {
+            kQNStrongSelf;
+            kQNStrongObj(transaction);
+            
+            QNUCQuerySingleFlightValue *value = [[QNUCQuerySingleFlightValue alloc] init];
+            value.responseInfo = responseInfo;
+            value.response = response;
+            value.metrics = metrics;
+            complete(value, nil);
+
+            [self destroyUploadRequestTransaction:transaction];
+        }];
+        
+    } complete:^(id  _Nullable value, NSError * _Nullable error) {
+        kQNStrongSelf;
+        
+        QNResponseInfo *responseInfo = [(QNUCQuerySingleFlightValue *)value responseInfo];
+        NSDictionary *response = [(QNUCQuerySingleFlightValue *)value response];
+        QNUploadRegionRequestMetrics *metrics = [(QNUCQuerySingleFlightValue *)value metrics];
+
+        if (responseInfo && responseInfo.isOK) {
             QNZonesInfo *zonesInfo = [QNZonesInfo infoWithDictionary:response];
             [self.lock lock];
-            [self.cache setValue:zonesInfo forKey:[token index]];
+            [self.cache setValue:zonesInfo forKey:cacheKey];
             [self.lock unlock];
-            [[QNAutoZoneCache share] cache:response forToken:token];
+            [[QNAutoZoneCache share] cache:response forKey:cacheKey];
             ret(0, responseInfo, metrics);
         } else {
-            
             if (responseInfo.isConnectionBroken) {
                 ret(kQNNetworkError, responseInfo, metrics);
             } else {
                 QNZonesInfo *zonesInfo = [[QNFixedZone localsZoneInfo] getZonesInfoWithToken:token];
                 [self.lock lock];
-                [self.cache setValue:zonesInfo forKey:[token index]];
+                [self.cache setValue:zonesInfo forKey:cacheKey];
                 [self.lock unlock];
                 ret(0, responseInfo, metrics);
             }
         }
-        [self destroyUploadRequestTransaction:transaction];
     }];
 }
 

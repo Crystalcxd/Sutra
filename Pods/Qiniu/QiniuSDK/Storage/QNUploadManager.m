@@ -34,10 +34,11 @@
 #import "QNConfiguration.h"
 #import "QNCrc32.h"
 #import "QNFile.h"
+#import "QNUtils.h"
 #import "QNResponseInfo.h"
 
 #import "QNFormUpload.h"
-#import "QNResumeUpload.h"
+#import "QNPartsUpload.h"
 #import "QNConcurrentResumeUpload.h"
 
 #import "QNUpToken.h"
@@ -114,7 +115,7 @@
     }
 
     QNUpToken *t = [QNUpToken parse:token];
-    if (t == nil) {
+    if (t == nil || ![t isValid]) {
         QNResponseInfo *info = [QNResponseInfo responseInfoWithInvalidToken:@"invalid token"];
         [QNUploadManager complete:token
                               key:key
@@ -155,7 +156,7 @@
     
     @autoreleasepool {
         QNUpToken *t = [QNUpToken parse:token];
-        if (t == nil) {
+        if (t == nil || ![t isValid]) {
             QNResponseInfo *info = [QNResponseInfo responseInfoWithInvalidToken:@"invalid token"];
             [QNUploadManager complete:token
                                   key:key
@@ -223,15 +224,15 @@
                 [up run];
             });
         } else {
-            QNResumeUpload *up = [[QNResumeUpload alloc]
-                                  initWithFile:file
-                                  key:key
-                                  token:t
-                                  option:option
-                                  configuration:self.config
-                                  recorder:self.config.recorder
-                                  recorderKey:key
-                                  completionHandler:complete];
+            QNPartsUpload *up = [[QNPartsUpload alloc]
+                                 initWithFile:file
+                                 key:key
+                                 token:t
+                                 option:option
+                                 configuration:self.config
+                                 recorder:self.config.recorder
+                                 recorderKey:key
+                                 completionHandler:complete];
             QNAsyncRun(^{
                 [up run];
             });
@@ -423,6 +424,16 @@
     [item setReportValue:taskMetricsP.requestCount forKey:QNReportQualityKeyRequestsCount];
     [item setReportValue:taskMetricsP.regionCount forKey:QNReportQualityKeyRegionsCount];
     [item setReportValue:taskMetricsP.bytesSend forKey:QNReportQualityKeyBytesSent];
+    
+    [item setReportValue:[QNUtils systemName] forKey:QNReportQualityKeyOsName];
+    [item setReportValue:[QNUtils systemVersion] forKey:QNReportQualityKeyOsVersion];
+    [item setReportValue:[QNUtils sdkLanguage] forKey:QNReportQualityKeySDKName];
+    [item setReportValue:[QNUtils sdkVersion] forKey:QNReportQualityKeySDKVersion];
+    
+    [item setReportValue:responseInfo.requestReportErrorType forKey:QNReportQualityKeyErrorType];
+    NSString *errorDesc = responseInfo.requestReportErrorType ? responseInfo.message : nil;
+    [item setReportValue:errorDesc forKey:QNReportQualityKeyErrorDescription];
+    
     [kQNReporter reportItem:item token:token];
 }
 

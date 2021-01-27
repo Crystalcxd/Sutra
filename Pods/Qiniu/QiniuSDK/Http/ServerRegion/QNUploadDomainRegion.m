@@ -12,6 +12,7 @@
 #import "QNZoneInfo.h"
 #import "QNUploadServerFreezeManager.h"
 #import "QNDnsPrefetch.h"
+#import "QNLogUtil.h"
 #import "QNUtils.h"
 
 @interface QNUploadIpGroup : NSObject
@@ -125,8 +126,14 @@
             return;
         }
         
-        NSMutableDictionary *ipGroupInfos = [NSMutableDictionary dictionary];
+        // get address List of host
         NSArray *inetAddresses = [kQNDnsPrefetch getInetAddressByHost:self.host];
+        if (!inetAddresses || inetAddresses.count == 0) {
+            return;
+        }
+        
+        // address List to ipList of group & check ip network
+        NSMutableDictionary *ipGroupInfos = [NSMutableDictionary dictionary];
         for (id <QNIDnsNetworkAddress> inetAddress in inetAddresses) {
             NSString *ipValue = inetAddress.ipValue;
             NSString *groupType = [QNUtils getIpType:ipValue host:self.host];
@@ -137,12 +144,14 @@
             }
         }
         
+        // ipList of group to ipGroup List
         NSMutableArray *ipGroupList = [NSMutableArray array];
         for (NSString *groupType in ipGroupInfos.allKeys) {
             NSArray *ipList = ipGroupInfos[groupType];
             QNUploadIpGroup *ipGroup = [[QNUploadIpGroup alloc] initWithGroupType:groupType ipList:ipList];
             [ipGroupList addObject:ipGroup];
         }
+        
         self.ipGroupList = ipGroupList;
     }
 }
@@ -200,6 +209,9 @@
     }
     self.oldDomainHostList = oldDomainHostList;
     self.oldDomainDictionary = [self createDomainDictionary:serverGroups];
+    
+    QNLogInfo(@"region :%@",domainHostList);
+    QNLogInfo(@"region old:%@",oldDomainHostList);
 }
 - (NSDictionary *)createDomainDictionary:(NSArray <NSString *> *)hosts{
     NSMutableDictionary *domainDictionary = [NSMutableDictionary dictionary];
@@ -239,6 +251,8 @@
     if (server == nil) {
         self.isAllFrozen = YES;
     }
+    
+    QNLogInfo(@"get server host:%@ ip:%@", server.host, server.ip);
     return server;
 }
 
@@ -246,6 +260,7 @@
     if (freezeServer.serverId) {
         // 无法连接到Host || Host不可用， 局部冻结
         if (!responseInfo.canConnectToHost || responseInfo.isHostUnavailable) {
+            QNLogInfo(@"partial freeze server host:%@ ip:%@", freezeServer.host, freezeServer.ip);
             [_domainDictionary[freezeServer.serverId] freeze:freezeServer.ip
                                                freezeManager:self.partialFreezeManager
                                                   frozenTime:kQNGlobalConfiguration.partialHostFrozenTime];
@@ -256,6 +271,7 @@
         
         // Host不可用，全局冻结
         if (responseInfo.isHostUnavailable) {
+            QNLogInfo(@"global freeze server host:%@ ip:%@", freezeServer.host, freezeServer.ip);
             [_domainDictionary[freezeServer.serverId] freeze:freezeServer.ip
                                                freezeManager:kQNUploadServerFreezeManager
                                                   frozenTime:kQNGlobalConfiguration.globalHostFrozenTime];

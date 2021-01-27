@@ -10,6 +10,7 @@
 #import "QNAsyncRun.h"
 #import "QNVersion.h"
 #import "QNUtils.h"
+#import "QNLogUtil.h"
 #import "QNHttpSingleRequest.h"
 #import "QNConfiguration.h"
 #import "QNUploadOption.h"
@@ -17,6 +18,7 @@
 #import "QNResponseInfo.h"
 #import "QNRequestClient.h"
 
+#import "QNConnectChecker.h"
 #import "QNDnsPrefetch.h"
 
 #import "QNReportItem.h"
@@ -106,6 +108,8 @@
         }
         return isCancelled;
     };
+
+    QNLogInfo(@"key:%@ retry:%d url:%@", self.requestInfo.key, self.currentRetryTime, request.URL);
     
     [self.client request:request connectionProxy:self.config.proxy progress:^(long long totalBytesWritten, long long totalBytesExpectedToWrite) {
         kQNStrongSelf;
@@ -142,6 +146,12 @@
                                                                response:(NSHTTPURLResponse *)response
                                                                    body:responseData
                                                                   error:error];
+        if ([self shouldCheckConnect:responseInfo] && ![QNConnectChecker check]) {
+            NSString *message = [NSString stringWithFormat:@"check origin statusCode:%d error:%@", responseInfo.statusCode, responseInfo.error];
+            responseInfo = [QNResponseInfo errorResponseInfo:NSURLErrorNotConnectedToInternet errorDesc:message];
+        }
+        
+        QNLogInfo(@"key:%@ response:%@", self.requestInfo.key, responseInfo);
         if (shouldRetry(responseInfo, responseDic)
             && self.currentRetryTime < self.config.retryMax
             && responseInfo.couldHostRetry) {
@@ -154,6 +164,16 @@
         }
     }];
     
+}
+
+- (BOOL)shouldCheckConnect:(QNResponseInfo *)responseInfo {
+    return responseInfo.statusCode == kQNNetworkError ||
+    responseInfo.statusCode == -1001 /* NSURLErrorTimedOut */ ||
+    responseInfo.statusCode == -1003 /* NSURLErrorCannotFindHost */ ||
+    responseInfo.statusCode == -1004 /* NSURLErrorCannotConnectToHost */ ||
+    responseInfo.statusCode == -1005 /* NSURLErrorNetworkConnectionLost */ ||
+    responseInfo.statusCode == -1006 /* NSURLErrorDNSLookupFailed */ ||
+    responseInfo.statusCode == -1009 /* NSURLErrorNotConnectedToInternet */;
 }
 
 - (void)complete:(QNResponseInfo *)responseInfo

@@ -29,6 +29,11 @@ extern const UInt32 kQNDefaultDnsCacheTime;
  */
 typedef NSString * (^QNUrlConvert)(NSString *url);
 
+typedef NS_ENUM(NSInteger, QNResumeUploadVersion){
+    QNResumeUploadVersionV1, // 分片v1
+    QNResumeUploadVersionV2  // 分片v2
+};
+
 @class QNConfigurationBuilder;
 @class QNZone;
 @class QNReportConfig;
@@ -86,6 +91,11 @@ typedef void (^QNConfigurationBuilderBlock)(QNConfigurationBuilder *builder);
 @property (nonatomic, assign, readonly) BOOL useConcurrentResumeUpload;
 
 /**
+ *   分片上传版本
+ */
+@property (nonatomic, assign, readonly) QNResumeUploadVersion resumeUploadVersion;
+
+/**
  *   并发分片上传的并发任务个数，在concurrentResumeUpload为YES时有效，默认为3个
  */
 @property (nonatomic, assign, readonly) UInt32 concurrentTaskCount;
@@ -138,7 +148,7 @@ typedef void (^QNConfigurationBuilderBlock)(QNConfigurationBuilder *builder);
 @property(nonatomic, assign)BOOL isDnsOpen;
 
 /**
- *   dns 预取失败后 会进行重新预取  rePreHostNum为最多尝试次数
+ *   dns 预取失败后 会进行重新预取  dnsRepreHostNum为最多尝试次数
  */
 @property(nonatomic, assign)UInt32 dnsRepreHostNum;
 
@@ -168,6 +178,18 @@ typedef void (^QNConfigurationBuilderBlock)(QNConfigurationBuilder *builder);
  *   当某个Host的上传失败后并且短时间可能会恢复，会局部冻结该Host
  */
 @property(nonatomic, assign)UInt32 partialHostFrozenTime;
+
+/**
+ *  网络连接状态检测使用的connectCheckURLStrings，网络链接状态检测可能会影响重试机制，启动网络连接状态检测有助于提高上传可用性。
+ *  当请求的 Response 为网络异常时，并发对 connectCheckURLStrings 中 URLString 进行 HEAD 请求，以此检测当前网络状态的链接状态，其中任意一个 URLString 链接成功则认为当前网络状态链接良好；
+ *  当 connectCheckURLStrings 为 nil 或者 空数组时则弃用检测功能。
+ */
+@property(nonatomic, strong)NSArray <NSString *> *connectCheckURLStrings;
+
+/**
+ *  网络连接状态检测HEAD请求超时，默认：3s
+ */
+@property(nonatomic, assign)NSTimeInterval connectCheckTimeout;
 
 
 + (instancetype)shared;
@@ -221,6 +243,11 @@ typedef void (^QNConfigurationBuilderBlock)(QNConfigurationBuilder *builder);
  *   是否开启并发分片上传，默认为NO
  */
 @property (nonatomic, assign) BOOL useConcurrentResumeUpload;
+
+/**
+ *   分片上传版本
+ */
+@property (nonatomic, assign) QNResumeUploadVersion resumeUploadVersion;
 
 /**
  *   并发分片上传的并发任务个数，在concurrentResumeUpload为YES时有效，默认为3个
