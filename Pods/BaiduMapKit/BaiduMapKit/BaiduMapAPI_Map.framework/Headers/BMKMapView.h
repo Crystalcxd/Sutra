@@ -13,7 +13,6 @@
 #import "BMKAnnotation.h"
 #import "BMKAnnotationView.h"
 #import "BMKOverlayView.h"
-#import "UIKit/UIKit.h"
 #import "BMKMapStatus.h"
 #import "BMKLocationViewDisplayParam.h"
 #import "BMKHeatMap.h"

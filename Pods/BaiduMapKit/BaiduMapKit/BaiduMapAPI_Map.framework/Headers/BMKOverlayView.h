@@ -47,10 +47,6 @@
 ///关联的纹理对象ID
 @property (nonatomic, readonly) GLuint strokeTextureID;
 
-/// 使用分段颜色绘制时，必须设置（内容必须为UIColor）
-/// 注：请使用 - (UIColor *)initWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha; 初始化UIColor。使用[UIColor ***Color]初始化时，个别case转换成RGB后会有问题
-@property (nonatomic, strong) NSArray<UIColor *> *colors;
-
 /**
  *加载纹理图片
  @param textureImage 图片对象，opengl要求图片宽高必须是2的n次幂，如果图片对象为nil，则清空原有纹理

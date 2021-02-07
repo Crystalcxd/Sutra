@@ -15,6 +15,7 @@
 //地图模块枚举
 typedef enum {
     BMKMapModuleTile = 0,   //瓦片图模块
+    BMKMapModuleBasic   //基础地图模块
 } BMKMapModule;
 
 //天气服务类型枚举

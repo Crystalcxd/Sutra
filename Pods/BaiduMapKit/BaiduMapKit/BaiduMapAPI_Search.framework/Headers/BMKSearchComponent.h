@@ -5,6 +5,8 @@
 //  Created by baidu on 14-3-10.
 //  Copyright (c) 2014年 baidu. All rights reserved.
 //
+#ifndef BMKSearchComponent_h
+#define BMKSearchComponent_h
 
 #import "BMKSearchVersion.h"
 
@@ -54,3 +56,6 @@
 #import "BMKWeatherSearch.h"
 #import "BMKWeatherSearchOption.h"
 #import "BMKWeatherSearchResult.h"
+
+
+#endif /* BMKSearchComponent_h */

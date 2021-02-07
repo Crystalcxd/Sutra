@@ -362,6 +362,11 @@ typedef enum {
 @property (nonatomic, copy) NSString *exitInstruction;
 /// 获取该路段指示信息
 @property (nonatomic, copy) NSString *instruction;
+/// 路段名
+@property (nonatomic, copy) NSString *name;
+///  转弯类型
+@property (nonatomic, copy) NSString *turnType;
+
 @end
 
 

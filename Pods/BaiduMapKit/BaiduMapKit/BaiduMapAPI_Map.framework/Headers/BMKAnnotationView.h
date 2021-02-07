@@ -44,7 +44,6 @@ static const BMKFeatureDisplayPriority BMKFeatureDisplayPriorityDefaultLow = 250
 {
 @private
     BOOL _enabled3D;
-    CGPoint _originPt;
     CGPoint startPoint;
 }
 
@@ -57,7 +56,7 @@ static const BMKFeatureDisplayPriority BMKFeatureDisplayPriorityDefaultLow = 250
 - (instancetype)initWithAnnotation:(id <BMKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier;
 
 ///复用标志
-@property (nonatomic, copy) NSString *reuseIdentifier;
+@property (nonatomic, readonly) NSString *reuseIdentifier;
 ///paopaoView
 @property (nonatomic, strong) BMKActionPaopaoView *paopaoView;
 

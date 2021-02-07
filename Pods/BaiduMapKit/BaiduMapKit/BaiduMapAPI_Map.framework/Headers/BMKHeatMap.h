@@ -19,9 +19,9 @@
     CLLocationCoordinate2D _pt;
 }
 
-///点的强度权值
+///点的强度权值,默认值1，范围[>= 1]
 @property (nonatomic) double intensity;
-///点的位置坐标
+///点的位置坐标,经度：[72.508319 ~ 135.942198],纬度：[0.37532 ~ 54.562495]
 @property (nonatomic) CLLocationCoordinate2D pt;
 
 @end
@@ -37,14 +37,14 @@
     NSMutableArray*  _mData;
     
 }
-///设置热力图点半径，默认为12ps
+///设置热力图点半径，默认为12ps，范围[10~50]
 @property (nonatomic, assign) int mRadius;
 ///设置热力图渐变，有默认值 DEFAULT_GRADIENT
-@property (nonatomic, strong) BMKGradient* mGradient;
-///设置热力图层透明度，默认 0.6
+@property (nonatomic, strong) BMKGradient *mGradient;
+///设置热力图层透明度，默认 0.6,范围[0~1]
 @property (nonatomic, assign) double mOpacity;
 ///用户传入的热力图数据,数组,成员类型为BMKHeatMapNode
-@property (nonatomic, strong) NSMutableArray* mData;
+@property (nonatomic, strong) NSMutableArray <BMKHeatMapNode *> *mData;
 
 @end
 
