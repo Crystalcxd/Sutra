@@ -1,7 +1,7 @@
 platform :ios, '9.0'
 use_frameworks!
 target 'Sutra' do
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
  
 pod 'MBProgressHUD'
 pod 'SDWebImage'

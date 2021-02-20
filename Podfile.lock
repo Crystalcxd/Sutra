@@ -91,7 +91,7 @@ DEPENDENCIES:
   - YYModel
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AFNetworking
     - AMap2DMap-NO-IDFA
     - AMapFoundation-NO-IDFA
@@ -149,6 +149,6 @@ SPEC CHECKSUMS:
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 5e1fb0b87e0b2049354cdf278057f56ac8fba109
+PODFILE CHECKSUM: b930cebc7a4f27a45ff58d0a47dcef1f014cd41c
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1
