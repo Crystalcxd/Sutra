@@ -27,5 +27,9 @@ pod 'WebViewJavascriptBridge'
 pod 'DateTools' # 日期时间工具
 pod 'GBDeviceInfo' # 设备信息
 pod 'GVUserDefaults'
+pod 'Firebase/Crashlytics'
+
+# Recommended: Add the Firebase pod for Google Analytics
+pod 'Firebase/Analytics'
 
 end
