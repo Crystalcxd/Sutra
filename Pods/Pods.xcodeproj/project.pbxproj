@@ -2115,6 +2115,7 @@
 		45397BE0DB77B3D07A372F656AD36377 /* QNFileRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNFileRecorder.m; path = QiniuSDK/Recorder/QNFileRecorder.m; sourceTree = "<group>"; };
 		455E1ED51C50CDB6AD37146F6E866D4E /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
 		458C3DE62C97C8384FA44A3122B025EA /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		45D2086BB01273CFCB534A761792F228 /* libjcore-ios-2.6.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.6.0.a"; sourceTree = "<group>"; };
 		45E7B2D0372D90091F4481E49A720AD5 /* BMKUtilsComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKUtilsComponent.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKUtilsComponent.h; sourceTree = "<group>"; };
 		45E801B3C0312CB424D6442BB8D8D9E5 /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
 		460437844E0C9C02D78D0499232724B2 /* QNNetworkStatusManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNNetworkStatusManager.m; path = QiniuSDK/Http/NetworkStatus/QNNetworkStatusManager.m; sourceTree = "<group>"; };
@@ -2560,7 +2561,6 @@
 		9C7A1003AC57C78EA0C0B7AD9D8248D8 /* Pods-Sutra.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sutra.modulemap"; sourceTree = "<group>"; };
 		9CBA9C5F32C168562125A2BC5EFF8614 /* FIRInstallationsItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstallationsItem.m; path = FirebaseInstallations/Source/Library/FIRInstallationsItem.m; sourceTree = "<group>"; };
 		9D7E7B8C8EC51BF1A274CCA1AE3ACA69 /* FIRCoreDiagnosticsInterop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCoreDiagnosticsInterop.h; path = Interop/CoreDiagnostics/Public/FIRCoreDiagnosticsInterop.h; sourceTree = "<group>"; };
-		9D829D427C8E7DE4FDDC5CAAF69B388B /* libjcore-ios-2.4.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.4.0.a"; sourceTree = "<group>"; };
 		9D85BF6C6CB290E32FB54D3243E06875 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 		9D902C11A3AE80B179086D2CD5A14020 /* Qiniu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Qiniu.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -3551,6 +3551,14 @@
 			path = FirebaseCrashlytics;
 			sourceTree = "<group>";
 		};
+		0E1161C80A8289A113B235FE838B2196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45D2086BB01273CFCB534A761792F228 /* libjcore-ios-2.6.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		102B7582E00156D813F8AAC2241C0A46 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -4329,7 +4337,7 @@
 		6394DBD95895E5391D32341090B8F4C5 /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				65AA5FB3A3B647C697A06FD00DBC43B9 /* Frameworks */,
+				0E1161C80A8289A113B235FE838B2196 /* Frameworks */,
 				BC78D2024E07DACF53A24CE40FFE98B5 /* Support Files */,
 			);
 			name = JCore;
@@ -4361,14 +4369,6 @@
 				088EB236ABEF3161FB48F71BFBC4478E /* WebKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		65AA5FB3A3B647C697A06FD00DBC43B9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9D829D427C8E7DE4FDDC5CAAF69B388B /* libjcore-ios-2.4.0.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		687E13B9020C4F127B342FD7F3D08C16 /* RDVTabBarController */ = {
