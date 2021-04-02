@@ -356,9 +356,9 @@ typedef NS_ENUM(NSInteger, AMapDistanceSearchType)
     20，多备选，高速优先，躲避拥堵（考虑路况）
  */
 @property (nonatomic, assign) NSInteger strategy;
-///途经点 AMapGeoPoint 数组，最多支持16个途经点
+///途经点 AMapGeoPoint 数组，目前最多支持6个途经点
 @property (nonatomic, copy) NSArray<AMapGeoPoint *> *waypoints;
-///避让区域 AMapGeoPolygon 数组，最多支持100个避让区域，每个区域16个点
+///避让区域 AMapGeoPolygon 数组，目前最多支持100个避让区域，每个区域16个点
 @property (nonatomic, copy) NSArray<AMapGeoPolygon *> *avoidpolygons;
 ///避让道路名
 @property (nonatomic, copy) NSString *avoidroad;

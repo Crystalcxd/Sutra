@@ -2186,6 +2186,7 @@
 		53EA82BC3035F06D8817C3BB2AF0B6A8 /* FIRCLSExecutionIdentifierModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSExecutionIdentifierModel.h; path = Crashlytics/Crashlytics/Models/FIRCLSExecutionIdentifierModel.h; sourceTree = "<group>"; };
 		53ED8F22F9F413184474B1C3C5E70AA0 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		540449ED2977D0AF772EDDF13C91E492 /* FIRCLSSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSSettings.h; path = Crashlytics/Crashlytics/Models/FIRCLSSettings.h; sourceTree = "<group>"; };
+		54247B3FF15C5F7370340E98F717A8E3 /* libjcore-ios-2.6.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.6.2.a"; sourceTree = "<group>"; };
 		544D5299FE2C6CAAA12E0F0676AF33BD /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
 		5456B6A5BA0E3C7707A25F21478BF966 /* GBDeviceInfo_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_Common.h; path = GBDeviceInfo/GBDeviceInfo_Common.h; sourceTree = "<group>"; };
 		546EBD5EC62C81D708F3312C2D53F1AF /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
@@ -2290,7 +2291,6 @@
 		663AD321FF861B27504D4D6B5637BDE9 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		665E0E30A3BFD7EEB13C27ECB7F8FB43 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		665E1C80C8A5F7064CD34FDF49F22707 /* FIRDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRDependency.h; path = FirebaseCore/Sources/Private/FIRDependency.h; sourceTree = "<group>"; };
-		667DCF963714C95CE2F065621D3C2FAD /* libjpush-ios-3.4.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.4.0.a"; sourceTree = "<group>"; };
 		66D0E2A2D93DB343B60DF6A70D786CAC /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
 		6709E6D85F046967C99650C210B87B51 /* FIRCLSByteUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSByteUtility.m; path = Crashlytics/Shared/FIRCLSByteUtility.m; sourceTree = "<group>"; };
 		6725F1C2AAA6FD3BBD9ED77D12AC61F8 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
@@ -2401,6 +2401,7 @@
 		784FEF7B0C37D53615914BD2AC27C023 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
 		787112210B33677BDE03E4E25FA0B82C /* FIRInstallationsIDController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstallationsIDController.m; path = FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsIDController.m; sourceTree = "<group>"; };
 		78F08025AD842575B93209504314D025 /* FIRCLSDataCollectionToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSDataCollectionToken.h; path = Crashlytics/Crashlytics/DataCollection/FIRCLSDataCollectionToken.h; sourceTree = "<group>"; };
+		78F2DC8FE646C24A09DB4815AF5AD9DD /* libjpush-ios-3.5.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.5.2.a"; sourceTree = "<group>"; };
 		78F933E25E409A83FC08C1FCBB160500 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		791857226BCF003AB8F7156A281AB75E /* BMKRecommendStopSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRecommendStopSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRecommendStopSearchResult.h; sourceTree = "<group>"; };
 		79195860B3754FF3B58E33BDC81F97BC /* FIRCLSSymbolicationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSSymbolicationOperation.m; path = Crashlytics/Crashlytics/Operations/Symbolication/FIRCLSSymbolicationOperation.m; sourceTree = "<group>"; };
@@ -2762,7 +2763,6 @@
 		BDE0359A000AD0D290C0B0EB264E8C9C /* UIImage+ExtendedCacheData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ExtendedCacheData.m"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.m"; sourceTree = "<group>"; };
 		BE0BDDD57CFBACF488B27036C1B653F8 /* RegexKitLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		BE58A70FD50F179B36049A5C746526BC /* FIRComponentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponentType.m; path = FirebaseCore/Sources/FIRComponentType.m; sourceTree = "<group>"; };
-		BE895D2A92D46F2B337C4F8FDE3D8675 /* libjcore-ios-2.4.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.4.0.a"; sourceTree = "<group>"; };
 		BED3555610555CF1F7F06054BB4D6B80 /* SDImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoderHelper.m; path = SDWebImage/Core/SDImageCoderHelper.m; sourceTree = "<group>"; };
 		BEDD963D20474086B72D3381C6ECCF6E /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
 		BEF44752C07668457ABECDAA0D118CDF /* FIRInstallationsStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstallationsStatus.h; path = FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsStatus.h; sourceTree = "<group>"; };
@@ -3495,14 +3495,6 @@
 			name = Network;
 			sourceTree = "<group>";
 		};
-		16467DD426975BE60032BA255C542078 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BE895D2A92D46F2B337C4F8FDE3D8675 /* libjcore-ios-2.4.0.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		17A37C09826BBDFC31DA9B846C207031 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -4194,7 +4186,7 @@
 		7AF5DD6D2D02EC88D5429797002EAE28 /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				16467DD426975BE60032BA255C542078 /* Frameworks */,
+				FCB79EAC5A5C58907F8A05CFFB3729C7 /* Frameworks */,
 				FD6EAE33F68EBA1B6DDE2E41C18B4538 /* Support Files */,
 			);
 			name = JCore;
@@ -4962,6 +4954,14 @@
 			path = "../Target Support Files/JPush";
 			sourceTree = "<group>";
 		};
+		B882B8A7980BDCD2CF4DBF91DA3055B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78F2DC8FE646C24A09DB4815AF5AD9DD /* libjpush-ios-3.5.2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAC11310F4D65B20A4AA93A8A2750469 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -5406,14 +5406,6 @@
 			path = "../Target Support Files/GoogleUtilities";
 			sourceTree = "<group>";
 		};
-		D814DB1F1A5AB5F1B470380854222F07 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				667DCF963714C95CE2F065621D3C2FAD /* libjpush-ios-3.4.0.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D9059E673423F0638682B7DE18D45A29 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -5720,7 +5712,7 @@
 			isa = PBXGroup;
 			children = (
 				0AFA39A80DA61356E19EFD3C4254159C /* JPUSHService.h */,
-				D814DB1F1A5AB5F1B470380854222F07 /* Frameworks */,
+				B882B8A7980BDCD2CF4DBF91DA3055B5 /* Frameworks */,
 				B7C1C796CB9F7EA340AC47DA41B8522B /* Support Files */,
 			);
 			name = JPush;
@@ -5797,6 +5789,14 @@
 				883E3C55739D08206D2AF5F3FB998424 /* Frameworks */,
 			);
 			name = Cloud;
+			sourceTree = "<group>";
+		};
+		FCB79EAC5A5C58907F8A05CFFB3729C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54247B3FF15C5F7370340E98F717A8E3 /* libjcore-ios-2.6.2.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FD6EAE33F68EBA1B6DDE2E41C18B4538 /* Support Files */ = {
