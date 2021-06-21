@@ -2016,6 +2016,7 @@
 		39622169516F4904875D64360ABD6FFC /* SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMemoryCache.h; path = SDWebImage/Core/SDMemoryCache.h; sourceTree = "<group>"; };
 		39D3244CFFAA27F0CE1440E22FA9C246 /* QNConcurrentResumeUpload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNConcurrentResumeUpload.h; path = QiniuSDK/Storage/QNConcurrentResumeUpload.h; sourceTree = "<group>"; };
 		39DDA566612A6674DDC7437B903C2D97 /* FIRCLSDataCollectionToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSDataCollectionToken.m; path = Crashlytics/Crashlytics/DataCollection/FIRCLSDataCollectionToken.m; sourceTree = "<group>"; };
+		3A383839B383EDA99FE379BD9B2ED979 /* libjcore-ios-2.7.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.7.1.a"; sourceTree = "<group>"; };
 		3A54930A411076006174E22D1263343C /* QNPartsUploadPerformerV2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNPartsUploadPerformerV2.m; path = QiniuSDK/Storage/QNPartsUploadPerformerV2.m; sourceTree = "<group>"; };
 		3B22F64411B76FD74249DBAB53AF8066 /* SDImageAPNGCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAPNGCoder.m; path = SDWebImage/Core/SDImageAPNGCoder.m; sourceTree = "<group>"; };
 		3B8853EB1089936E69EC173B24BF4000 /* FIRCLSExistingReportManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCLSExistingReportManager.h; path = Crashlytics/Crashlytics/Controllers/FIRCLSExistingReportManager.h; sourceTree = "<group>"; };
@@ -2761,7 +2762,6 @@
 		D07A49C8D9055EB883FA3505DAE5035A /* QNIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNIP.m; path = HappyDNS/Util/QNIP.m; sourceTree = "<group>"; };
 		D0A08D172643424C857CEF1234F10373 /* QNRequestClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNRequestClient.h; path = QiniuSDK/Http/Request/QNRequestClient.h; sourceTree = "<group>"; };
 		D0F3EE8EF13D95A67EA5BD8A2466A49B /* FIRCLSContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCLSContext.m; path = Crashlytics/Crashlytics/Components/FIRCLSContext.m; sourceTree = "<group>"; };
-		D10CF06261CBC010C37C312C155C538B /* libjcore-ios-2.7.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.7.0.a"; sourceTree = "<group>"; };
 		D1185DE5148142E93F836EC7C267D28F /* QiniuSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QiniuSDK.h; path = QiniuSDK/QiniuSDK.h; sourceTree = "<group>"; };
 		D11DC0CC599F00DAC2AE9023BB8233DF /* GULReachabilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityChecker.h; path = GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h; sourceTree = "<group>"; };
 		D123FF3EC90263A781B49152C75C51BD /* GVUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVUserDefaults.h; path = GVUserDefaults/GVUserDefaults.h; sourceTree = "<group>"; };
@@ -3352,7 +3352,7 @@
 		16B444B4656BD7BB765A9DB7BC07C71A /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				7DD5707417806504DB2BBFF2D827D00F /* Frameworks */,
+				49B1310A2B6E8ABA27B2E5B75AB49ACF /* Frameworks */,
 				1618076180B2DA7CAEA6D4CEBEED242A /* Support Files */,
 			);
 			name = JCore;
@@ -3894,6 +3894,14 @@
 			path = "AMapFoundation-NO-IDFA";
 			sourceTree = "<group>";
 		};
+		49B1310A2B6E8ABA27B2E5B75AB49ACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A383839B383EDA99FE379BD9B2ED979 /* libjcore-ios-2.7.1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A6BEECC877EFD01612FC6D84B363BF1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -4395,14 +4403,6 @@
 				D8DC3D1D98BA63CBF48CD9143F0FCA1A /* Firebase.h */,
 			);
 			name = CoreOnly;
-			sourceTree = "<group>";
-		};
-		7DD5707417806504DB2BBFF2D827D00F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D10CF06261CBC010C37C312C155C538B /* libjcore-ios-2.7.0.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7EAF3ED441C7A82204E0A8B39DE9CFC3 /* HMSegmentedControl */ = {
