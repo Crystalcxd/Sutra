@@ -168,16 +168,12 @@ DEPENDENCIES:
   - YYModel
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - AMap2DMap-NO-IDFA
-    - AMapFoundation-NO-IDFA
-    - AMapSearch-NO-IDFA
-    - MBProgressHUD
-    - RDVTabBarController
-    - RNCryptor-objc
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AFNetworking
+    - AMap2DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
     - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
     - DACircularProgress
     - DateTools
     - Firebase
@@ -196,12 +192,15 @@ SPEC REPOS:
     - JCore
     - JPush
     - Masonry
+    - MBProgressHUD
     - MiPushSDK
     - MJRefresh
     - nanopb
     - PromisesObjC
     - Qiniu
+    - RDVTabBarController
     - RegexKitLite
+    - RNCryptor-objc
     - SDWebImage
     - TTTAttributedLabel
     - UMengAnalytics-NO-IDFA
